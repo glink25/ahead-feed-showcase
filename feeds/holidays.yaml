@@ -1,0 +1,148 @@
+oefVersion: "0.1"
+kind: event-feed
+id: ahead-global-holidays
+name:
+  zh-CN: 节日与假期
+  en: Holidays
+description:
+  zh-CN: 每年重复的节日与法定假期，含多日连休。
+  en: Recurring festivals and public holidays, including multi-day breaks.
+primaryLanguage: zh-CN
+tags:
+  - id: holiday
+    label:
+      zh-CN: 节假日
+      en: Holiday
+  - id: seasonal
+    label:
+      zh-CN: 节气
+      en: Seasonal
+events:
+  - id: mid-autumn-2026
+    title:
+      zh-CN: 2026 年中秋节
+      en: Mid-Autumn Festival 2026
+    summary:
+      zh-CN: 农历八月十五。
+      en: The fifteenth day of the eighth lunar month.
+    schedule:
+      - id: official-date
+        value:
+          kind: exact
+          date: "2026-09-25"
+        recordedAt: "2025-12-01T00:00:00Z"
+        confidence: confirmed
+    tags:
+      - holiday
+      - seasonal
+    evidence:
+      - kind: citation
+        value: "海报图片：HK Parkn Shop Chinese Mid-autumn Festival red Lanterns greeting Sept-2012，Pasvoebrc，CC BY-SA 3.0，via Wikimedia Commons"
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 中秋节高悬的成串红灯笼
+          en: Strings of red lanterns hung for the Mid-Autumn Festival
+    status: active
+
+  - id: national-day-holiday-cn
+    title:
+      zh-CN: 国庆假期
+      en: National Day Holiday
+    summary:
+      zh-CN: 每年十月一日起连休七天。
+      en: Seven consecutive days from October 1st each year.
+    schedule:
+      - id: statutory-start
+        value:
+          kind: exact
+          date: "2026-10-01"
+        recordedAt: "2026-01-01T00:00:00Z"
+        confidence: confirmed
+    duration:
+      amount: 7
+      unit: days
+    recurrence:
+      freq: yearly
+      byMonth:
+        - 10
+      byMonthDay:
+        - 1
+      timezone: Asia/Shanghai
+    tags:
+      - holiday
+    evidence:
+      - kind: citation
+        value: "海报图片：Flower basket at Tiananmen Square (20241001120425)，HoweyYuan，CC0，via Wikimedia Commons"
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Flower_basket_at_Tiananmen_Square_%2820241001120425%29.jpg/1280px-Flower_basket_at_Tiananmen_Square_%2820241001120425%29.jpg
+        kind: image
+        alt:
+          zh-CN: 国庆期间天安门广场的巨型花篮
+          en: The giant flower basket on Tiananmen Square during the National Day holiday
+    status: active
+
+  - id: christmas
+    title:
+      zh-CN: 圣诞节
+      en: Christmas
+    summary:
+      zh-CN: 每年十二月二十五日。
+      en: December 25th every year.
+    schedule:
+      - id: fixed-date
+        value:
+          kind: exact
+          date: "2026-12-25"
+        recordedAt: "2025-01-01T00:00:00Z"
+        confidence: confirmed
+    recurrence:
+      freq: yearly
+      byMonth:
+        - 12
+      byMonthDay:
+        - 25
+    tags:
+      - holiday
+    evidence:
+      - kind: citation
+        value: "海报图片：2025 Bristol Christmas Market - November 2025，Captain Galaxy，CC BY 4.0，via Wikimedia Commons"
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/2025_Bristol_Christmas_Market_-_November_2025.jpg/1280px-2025_Bristol_Christmas_Market_-_November_2025.jpg
+        kind: image
+        alt:
+          zh-CN: 夜色中亮着暖灯的圣诞市集
+          en: A Christmas market lit with warm lights at night
+    status: active
+
+  - id: spring-festival-2027
+    title:
+      zh-CN: 2027 年春节
+      en: Spring Festival 2027
+    summary:
+      zh-CN: 农历正月初一，连休八天。
+      en: The first day of the lunar year, with an eight-day break.
+    schedule:
+      - id: official-date
+        value:
+          kind: exact
+          date: "2027-02-06"
+        recordedAt: "2026-08-01T00:00:00Z"
+        confidence: likely
+        source: 农历推算
+    duration:
+      amount: 8
+      unit: days
+    tags:
+      - holiday
+    evidence:
+      - kind: citation
+        value: "海报图片：Shop selling lanterns and decorations for Chinese New Year in Hong Kong，Evancyk，CC BY-SA 4.0，via Wikimedia Commons"
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Shop_selling_lanterns_and_decorations_for_Chinese_New_Year_in_Hong_Kong.jpg/1280px-Shop_selling_lanterns_and_decorations_for_Chinese_New_Year_in_Hong_Kong.jpg
+        kind: image
+        alt:
+          zh-CN: 售卖春节灯笼与年饰的店铺
+          en: A shop selling lanterns and Chinese New Year decorations
+    status: active

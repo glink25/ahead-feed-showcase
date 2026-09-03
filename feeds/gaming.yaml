@@ -1,0 +1,175 @@
+oefVersion: "0.1"
+kind: event-feed
+id: ahead-gaming-major-releases
+name:
+  zh-CN: 值得等的游戏发售
+  en: Major Game Releases
+description:
+  zh-CN: 大作发售、延期与折扣季。日期以官方公告为准，未定档的条目不假精确。
+  en: Major releases, delays and sale seasons. Dates follow official announcements only.
+primaryLanguage: zh-CN
+tags:
+  - id: games
+    label:
+      zh-CN: 游戏
+      en: Games
+  - id: sale
+    label:
+      zh-CN: 折扣
+      en: Sale
+events:
+  - id: gta-vi
+    title:
+      zh-CN: 《侠盗猎车手 VI》正式发售
+      en: Grand Theft Auto VI Release
+    summary:
+      zh-CN: 系列正统续作，档期两度调整。
+      en: The next mainline entry, delayed twice.
+    description:
+      zh-CN: 从最初的 2025 年窗口一路推到 2026 年下半年，是观察「日期如何逐渐确定」的最佳样本。
+      en: Slipped from a 2025 window into late 2026 - a good sample of how dates firm up over time.
+    schedule:
+      - id: initial-window
+        value:
+          kind: year
+          year: 2025
+        recordedAt: "2024-05-17T00:00:00Z"
+        confidence: rumored
+        source: 发行商财报电话会议
+      - id: narrowed-to-q2
+        value:
+          kind: quarter
+          year: 2026
+          quarter: 2
+        recordedAt: "2025-05-02T00:00:00Z"
+        confidence: likely
+        source: 官方公告
+      - id: delayed-to-q4
+        value:
+          kind: quarter
+          year: 2026
+          quarter: 4
+        recordedAt: "2026-05-06T00:00:00Z"
+        confidence: likely
+        source: 官方公告
+        evidence:
+          - kind: url
+            value: https://www.rockstargames.com/newswire
+            label:
+              zh-CN: 官方 Newswire 延期说明
+              en: Official newswire delay note
+    tags:
+      - games
+    evidence:
+      - kind: url
+        value: https://www.rockstargames.com
+        label:
+          zh-CN: 官方网站
+          en: Official site
+      - kind: note
+        value: 档期仍可能变动，以官方 Newswire 为准。
+      - kind: citation
+        value: "海报图片：The Carlyle (neon sign), Miami Beach, east view up, 2018-08-21，Photograph: Radomianin，Public domain，via Wikimedia Commons"
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+        kind: image
+        alt:
+          zh-CN: 迈阿密海滩装饰艺术旅馆的霓虹招牌夜景
+          en: Neon sign of an art-deco hotel on Miami Beach at night
+    status: active
+
+  - id: elder-scrolls-vi
+    title:
+      zh-CN: 《上古卷轴 VI》发售
+      en: The Elder Scrolls VI Release
+    summary:
+      zh-CN: 只给出年份区间的长线期待。
+      en: A long wait with only a year-level estimate.
+    schedule:
+      - id: studio-estimate
+        value:
+          kind: year
+          year: 2027
+        recordedAt: "2026-06-11T00:00:00Z"
+        confidence: rumored
+        source: 工作室访谈
+    tags:
+      - games
+    evidence:
+      - kind: url
+        value: https://elderscrolls.bethesda.net
+        label:
+          zh-CN: 官方站点
+          en: Official site
+      - kind: citation
+        value: "海报图片：Neuschwanstein, Schwangau, Alemania, 2015-02-15, DD 17，Diego Delso，CC BY-SA 4.0，via Wikimedia Commons"
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG/1280px-Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG
+        kind: image
+        alt:
+          zh-CN: 阿尔卑斯山间的新天鹅堡，背后是雪峰
+          en: Neuschwanstein Castle in the Alps with snowy peaks behind
+    status: active
+
+  - id: silksong-expansion
+    title:
+      zh-CN: 《空洞骑士：丝之歌》资料片
+      en: Hollow Knight Silksong Expansion
+    summary:
+      zh-CN: 已确认在做，但没有任何档期。
+      en: Confirmed in development with no date at all.
+    schedule:
+      - id: no-date
+        value:
+          kind: unknown
+          note:
+            zh-CN: 官方仅确认开发中，未给出任何时间窗口。
+            en: Confirmed in development, no window announced.
+        recordedAt: "2026-08-20T00:00:00Z"
+        confidence: rumored
+    tags:
+      - games
+    evidence:
+      - kind: citation
+        value: "海报图片：Ogtong Cave Natural Pool, Santa Fe, Bantayan Island, Cebu，MikelleBandin，CC BY-SA 4.0，via Wikimedia Commons"
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Ogtong_Cave_Natural_Pool%2C_Santa_Fe%2C_Bantayan_Island%2C_Cebu.jpg/1280px-Ogtong_Cave_Natural_Pool%2C_Santa_Fe%2C_Bantayan_Island%2C_Cebu.jpg
+        kind: image
+        alt:
+          zh-CN: 幽蓝光线中的地下洞穴水池
+          en: An underground cave pool lit in deep blue light
+    status: active
+
+  - id: steam-autumn-sale-2026
+    title:
+      zh-CN: Steam 秋季特卖
+      en: Steam Autumn Sale
+    summary:
+      zh-CN: 为期一周的折扣窗口。
+      en: A week-long discount window.
+    schedule:
+      - id: announced-window
+        value:
+          kind: range
+          start:
+            kind: exact
+            date: "2026-11-24"
+          end:
+            kind: exact
+            date: "2026-12-01"
+        recordedAt: "2026-08-01T00:00:00Z"
+        confidence: likely
+        source: 平台活动日历
+    tags:
+      - games
+      - sale
+    evidence:
+      - kind: citation
+        value: "海报图片：Autumn forest with yellow maple leaves everywhere，Anton Vakulenko，CC BY-SA 2.0，via Wikimedia Commons"
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Autumn_forest_with_yellow_maple_leaves_everywhere.jpg/1280px-Autumn_forest_with_yellow_maple_leaves_everywhere.jpg
+        kind: image
+        alt:
+          zh-CN: 铺满金黄枫叶的秋日森林
+          en: An autumn forest carpeted in yellow maple leaves
+    status: active

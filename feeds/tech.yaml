@@ -1,0 +1,168 @@
+oefVersion: "0.1"
+kind: event-feed
+id: ahead-tech-events
+name:
+  zh-CN: 科技发布会
+  en: Tech Events
+description:
+  zh-CN: 硬件发布会与开发者大会。含精确到分钟的带时区场次。
+  en: Hardware keynotes and developer conferences, including minute-precise sessions with timezones.
+primaryLanguage: zh-CN
+tags:
+  - id: tech
+    label:
+      zh-CN: 科技
+      en: Tech
+  - id: keynote
+    label:
+      zh-CN: 发布会
+      en: Keynote
+events:
+  - id: apple-fall-event-2026
+    title:
+      zh-CN: 苹果秋季发布会
+      en: Apple Fall Event
+    summary:
+      zh-CN: 已确认到具体时刻，含时区。
+      en: Confirmed down to the minute, with timezone.
+    description:
+      zh-CN: 官方邀请函已发出，主题演讲将在库比蒂诺当地时间上午十点开始。
+      en: Invitations are out; the keynote starts at 10am local time in Cupertino.
+    schedule:
+      - id: rumored-window
+        value:
+          kind: month
+          year: 2026
+          month: 9
+        recordedAt: "2026-06-20T00:00:00Z"
+        confidence: rumored
+      - id: invitation-sent
+        value:
+          kind: datetime
+          dateTime: "2026-09-10T17:00:00Z"
+          timezone: America/Los_Angeles
+        recordedAt: "2026-08-26T00:00:00Z"
+        confidence: confirmed
+        source: 官方邀请函
+        evidence:
+          - kind: url
+            value: https://www.apple.com/apple-events/
+            label:
+              zh-CN: Apple Events 页面
+              en: Apple Events page
+    duration:
+      amount: 90
+      unit: minutes
+    tags:
+      - tech
+      - keynote
+    evidence:
+      - kind: url
+        value: https://www.apple.com/apple-events/
+        label:
+          zh-CN: 官方直播页
+          en: Official stream page
+      - kind: citation
+        value: "海报图片：Apple Park Steve Jobs Theater，Nicolapps，CC BY 4.0，via Wikimedia Commons"
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Apple_Park_Steve_Jobs_Theater.jpg/1280px-Apple_Park_Steve_Jobs_Theater.jpg
+        kind: image
+        alt:
+          zh-CN: Apple Park 内的乔布斯剧院圆形玻璃入口
+          en: The circular glass entrance of the Steve Jobs Theater at Apple Park
+    status: active
+
+  - id: wwdc-2027
+    title:
+      zh-CN: WWDC 2027
+      en: WWDC 2027
+    summary:
+      zh-CN: 惯例在六月，尚未公布具体日期。
+      en: Traditionally in June; exact dates not yet announced.
+    schedule:
+      - id: historical-pattern
+        value:
+          kind: month
+          year: 2027
+          month: 6
+        recordedAt: "2026-06-10T00:00:00Z"
+        confidence: likely
+        source: 历年规律
+    tags:
+      - tech
+      - keynote
+    evidence:
+      - kind: citation
+        value: "海报图片：Aerial view of Apple Park dllu，Daniel L. Lu (user:dllu)，CC BY-SA 4.0，via Wikimedia Commons"
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Aerial_view_of_Apple_Park_dllu.jpg/1280px-Aerial_view_of_Apple_Park_dllu.jpg
+        kind: image
+        alt:
+          zh-CN: Apple Park 环形总部的航拍俯视
+          en: Aerial view of the ring-shaped Apple Park campus
+    status: active
+
+  - id: ces-2027
+    title:
+      zh-CN: CES 2027 消费电子展
+      en: CES 2027
+    summary:
+      zh-CN: 拉斯维加斯，为期四天。
+      en: Four days in Las Vegas.
+    schedule:
+      - id: official-dates
+        value:
+          kind: exact
+          date: "2027-01-06"
+        recordedAt: "2026-03-01T00:00:00Z"
+        confidence: confirmed
+        source: 主办方官网
+    duration:
+      amount: 4
+      unit: days
+    tags:
+      - tech
+    evidence:
+      - kind: url
+        value: https://www.ces.tech
+        label:
+          zh-CN: 官方网站
+          en: Official site
+      - kind: citation
+        value: "海报图片：CES 2025 - LVCC 01，Xuthoria，CC BY-SA 4.0，via Wikimedia Commons"
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 拉斯维加斯会展中心的 CES 展馆现场
+          en: The CES exhibition floor at the Las Vegas Convention Center
+    status: active
+
+  - id: next-frontier-model
+    title:
+      zh-CN: 下一代前沿模型发布
+      en: Next Frontier Model Launch
+    summary:
+      zh-CN: 传闻不断，官方从未给出时间。
+      en: Persistent rumors, no official timing.
+    schedule:
+      - id: rumor-only
+        value:
+          kind: unknown
+          note:
+            zh-CN: 仅有传闻，官方未确认任何时间窗口。
+            en: Rumors only; no window has been confirmed.
+        recordedAt: "2026-08-15T00:00:00Z"
+        confidence: rumored
+    tags:
+      - tech
+    evidence:
+      - kind: citation
+        value: "海报图片：Data Center 2 (UNC)，Ana Las Heras，CC BY-SA 4.0，via Wikimedia Commons"
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Data_Center_2_%28UNC%29.jpg/1280px-Data_Center_2_%28UNC%29.jpg
+        kind: image
+        alt:
+          zh-CN: 数据中心机房内成排的服务器机柜
+          en: Rows of server racks inside a data center
+    status: active
