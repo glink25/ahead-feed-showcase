@@ -46,8 +46,8 @@ events:
       zh-CN: 世界各地歌剧机构共同庆祝。
       en: Opera organizations around the world celebrate together.
     description:
-      zh-CN: 找一段从未听过的咏叹调，或者关注当地开放活动。
-      en: Try an aria you have never heard or find a local open event.
+      zh-CN: 不用先懂歌剧史。找一段从没听过的咏叹调，把音量开大一点；也许三分钟后，你就多了一个会反复播放的片段。
+      en: You do not need an opera history lesson first. Pick an aria you have never heard, turn it up a little, and you may have a new replay favorite three minutes later.
     schedule:
       - id: published-date
         value:
@@ -97,8 +97,8 @@ events:
       zh-CN: 从金色大厅开始新一年。
       en: Begin the year with music from the Golden Hall.
     description:
-      zh-CN: 关注各地转播安排，在家也能加入。
-      en: Check local broadcasts and join from home.
+      zh-CN: 新年的第一天，金色大厅亮起来，圆舞曲一响，哪怕隔着屏幕也很有“这一年正式开始了”的仪式感。提前看看你所在地区的转播安排就好。
+      en: On the first day of the year, the Golden Hall lights up and the first waltz makes the new year feel properly underway, even through a screen. Check local broadcast details in advance.
     schedule:
       - id: published-date
         value:
@@ -126,19 +126,19 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/qUToqliACNA
+        value: https://commons.wikimedia.org/wiki/File:Musikverein_Goldener_Saal.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 220，Robin Röcker，via Lorem Picsum / Unsplash
+        value: 海报图片：Musikverein Goldener Saal，Clemens Pfeiffer，Wikimedia Commons，CC BY-SA 3.0
     media:
-      - path: https://picsum.photos/id/220/1280/720
+      - path: https://commons.wikimedia.org/wiki/Special:FilePath/Musikverein%20Goldener%20Saal.jpg?width=1600
         kind: image
         alt:
-          zh-CN: 维也纳新年音乐会的配图
-          en: Illustration for Vienna New Year’s Concert 2027
+          zh-CN: 维也纳音乐协会金色大厅内部
+          en: Interior of the Golden Hall at the Vienna Musikverein
     status: active
   - id: record-store-day-2027
     title:
@@ -148,8 +148,8 @@ events:
       zh-CN: 独立唱片店与限量发行的一天。
       en: A day for independent record shops and special releases.
     description:
-      zh-CN: 先等发行清单，再去熟悉或陌生的唱片店翻一翻。
-      en: Await the release list, then browse a familiar or new record shop.
+      zh-CN: 先等今年的特别发行清单，再给自己留一点时间慢慢翻架子。真正好玩的往往不是“买到计划里的那张”，而是顺手遇见一张没想到会带回家的唱片。
+      en: Wait for the special-release list, then leave yourself time to browse slowly. The fun is often not finding the record you planned to buy, but the one you never expected to take home.
     schedule:
       - id: published-date
         value:
@@ -199,8 +199,8 @@ events:
       zh-CN: 舞台、歌曲和计分悬念汇聚的一晚。
       en: A night of staging, songs, and suspenseful voting.
     description:
-      zh-CN: 具体日期尚待主办方最终确认，当前采用预期五月窗口中的日期。
-      en: The organizer has yet to confirm the exact date; this uses a likely May date.
+      zh-CN: 有人等歌，有人等舞台，有人只想看最后那张不断翻盘的计分板。具体日期尚待主办方最终确认，当前采用预期五月窗口中的日期。
+      en: Some come for the songs, some for the staging, and some mostly for the scoreboard drama at the end. The organizer has yet to confirm the exact date; this uses a likely May date.
     schedule:
       - id: published-date
         value:
@@ -250,8 +250,8 @@ events:
       zh-CN: 6 月 21 日，任何水平都可以发出声音。
       en: On June 21, music-makers of every level can make some noise.
     description:
-      zh-CN: 寻找附近免费演出，或者把自己的窗台变成小舞台。
-      en: Find a free performance nearby or turn your window into a tiny stage.
+      zh-CN: 这一天不太讲究“够不够专业”。去听一场街角免费演出，或者真的把窗台、客厅、楼下空地变成一个十分钟的小舞台。
+      en: This day is not very interested in whether you are professional enough. Catch a free street performance, or turn a windowsill, living room, or patch of pavement into a ten-minute stage of your own.
     schedule:
       - id: published-date
         value:
