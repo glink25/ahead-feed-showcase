@@ -164,7 +164,7 @@ events:
       en: Welcome spring with color.
     description:
       zh-CN: 这一天很难保持一身干净——彩粉会飞上头发、脸颊和衣服，也把春天闹得格外鲜艳。参加公共活动前记得先了解当地礼仪与安全提示。
-      en: Staying spotless is almost beside the point: color lands on hair, cheeks, and clothes as spring gets a very vivid welcome. Check local etiquette and safety guidance before joining public celebrations.
+      en: "Staying spotless is almost beside the point: color lands on hair, cheeks, and clothes as spring gets a very vivid welcome. Check local etiquette and safety guidance before joining public celebrations."
     schedule:
       - id: published-date
         value:
