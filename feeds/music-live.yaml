@@ -75,15 +75,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://worldoperaday.com/
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：活动或机构官网公开主视觉；版权与使用条件见来源页
     media:
-      - path: https://placehold.co/1280x720/a195a3/ffffff.jpg?text=World%20Opera%20Day%202026
+      - path: https://static1.squarespace.com/static/5d5a9313fddabe0001402180/t/5d5aa9b772f41b00012e1abb/1566222777186/wod+black+%2B+green.png?format=1500w
         kind: image
         alt:
           zh-CN: 世界歌剧日的配图
@@ -177,15 +177,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:VINYL_com_K.png
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/music%2Clive?lock=137
+      - path: https://upload.wikimedia.org/wikipedia/commons/c/ce/VINYL_com_K.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
         kind: image
         alt:
           zh-CN: 唱片店日的配图
@@ -228,15 +228,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:Eurovision_2024_stage_(stage_left).jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/7c3c10/ffffff.jpg?text=Eurovision%202027%20Final
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Eurovision_2024_stage_%28stage_left%29.jpg/1920px-Eurovision_2024_stage_%28stage_left%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 欧洲歌唱大赛决赛的配图
@@ -279,15 +279,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/7UzYfAXUgI8
+        value: https://makemusicday.org/
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 221，Todd Quackenbush，via Lorem Picsum / Unsplash
+        value: 海报图片：活动或机构官网公开主视觉；版权与使用条件见来源页
     media:
-      - path: https://picsum.photos/id/221/1280/720
+      - path: https://da7jxvkvc73ty.cloudfront.net/wp-content/uploads/2023/01/wiggle-orange-1.png
         kind: image
         alt:
           zh-CN: 世界音乐日的配图
