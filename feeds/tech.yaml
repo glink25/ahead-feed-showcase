@@ -1,4 +1,4 @@
-oefVersion: "0.1"
+oefVersion: '0.1'
 kind: event-feed
 id: ahead-tech-events
 name:
@@ -34,14 +34,14 @@ events:
           kind: month
           year: 2026
           month: 9
-        recordedAt: "2026-06-20T00:00:00Z"
+        recordedAt: '2026-06-20T00:00:00Z'
         confidence: rumored
       - id: invitation-sent
         value:
           kind: datetime
-          dateTime: "2026-09-10T17:00:00Z"
+          dateTime: '2026-09-10T17:00:00Z'
           timezone: America/Los_Angeles
-        recordedAt: "2026-08-26T00:00:00Z"
+        recordedAt: '2026-08-26T00:00:00Z'
         confidence: confirmed
         source: 官方邀请函
         evidence:
@@ -62,16 +62,21 @@ events:
         label:
           zh-CN: 官方直播页
           en: Official stream page
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: "海报图片：Apple Park Steve Jobs Theater，Nicolapps，CC BY 4.0，via Wikimedia Commons"
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Apple_Park_Steve_Jobs_Theater.jpg/1280px-Apple_Park_Steve_Jobs_Theater.jpg
+      - path: https://placehold.co/1280x720/2c15e5/ffffff.jpg?text=Apple%20Fall%20Event
         kind: image
         alt:
-          zh-CN: Apple Park 内的乔布斯剧院圆形玻璃入口
-          en: The circular glass entrance of the Steve Jobs Theater at Apple Park
+          zh-CN: 苹果秋季发布会的配图
+          en: Illustration for Apple Fall Event
     status: active
-
   - id: wwdc-2027
     title:
       zh-CN: WWDC 2027
@@ -85,23 +90,28 @@ events:
           kind: month
           year: 2027
           month: 6
-        recordedAt: "2026-06-10T00:00:00Z"
+        recordedAt: '2026-06-10T00:00:00Z'
         confidence: likely
         source: 历年规律
     tags:
       - tech
       - keynote
     evidence:
+      - kind: url
+        value: https://unsplash.com/photos/Qh6wsKk1HWg
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: "海报图片：Aerial view of Apple Park dllu，Daniel L. Lu (user:dllu)，CC BY-SA 4.0，via Wikimedia Commons"
+        value: 海报图片：Photo 232，Hide Obara，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Aerial_view_of_Apple_Park_dllu.jpg/1280px-Aerial_view_of_Apple_Park_dllu.jpg
+      - path: https://picsum.photos/id/232/1280/720
         kind: image
         alt:
-          zh-CN: Apple Park 环形总部的航拍俯视
-          en: Aerial view of the ring-shaped Apple Park campus
+          zh-CN: WWDC 2027的配图
+          en: Illustration for WWDC 2027
     status: active
-
   - id: ces-2027
     title:
       zh-CN: CES 2027 消费电子展
@@ -113,8 +123,8 @@ events:
       - id: official-dates
         value:
           kind: exact
-          date: "2027-01-06"
-        recordedAt: "2026-03-01T00:00:00Z"
+          date: '2027-01-06'
+        recordedAt: '2026-03-01T00:00:00Z'
         confidence: confirmed
         source: 主办方官网
     duration:
@@ -128,16 +138,21 @@ events:
         label:
           zh-CN: 官方网站
           en: Official site
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: "海报图片：CES 2025 - LVCC 01，Xuthoria，CC BY-SA 4.0，via Wikimedia Commons"
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://loremflickr.com/1280/720/tech?lock=167
         kind: image
         alt:
-          zh-CN: 拉斯维加斯会展中心的 CES 展馆现场
-          en: The CES exhibition floor at the Las Vegas Convention Center
+          zh-CN: CES 2027 消费电子展的配图
+          en: Illustration for CES 2027
     status: active
-
   - id: next-frontier-model
     title:
       zh-CN: 下一代前沿模型发布
@@ -152,17 +167,23 @@ events:
           note:
             zh-CN: 仅有传闻，官方未确认任何时间窗口。
             en: Rumors only; no window has been confirmed.
-        recordedAt: "2026-08-15T00:00:00Z"
+        recordedAt: '2026-08-15T00:00:00Z'
         confidence: rumored
     tags:
       - tech
     evidence:
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: "海报图片：Data Center 2 (UNC)，Ana Las Heras，CC BY-SA 4.0，via Wikimedia Commons"
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Data_Center_2_%28UNC%29.jpg/1280px-Data_Center_2_%28UNC%29.jpg
+      - path: https://placehold.co/1280x720/6bc530/ffffff.jpg?text=Next%20Frontier%20Model%20Launch
         kind: image
         alt:
-          zh-CN: 数据中心机房内成排的服务器机柜
-          en: Rows of server racks inside a data center
+          zh-CN: 下一代前沿模型发布的配图
+          en: Illustration for Next Frontier Model Launch
     status: active

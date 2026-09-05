@@ -86,14 +86,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+      - path: https://placehold.co/1280x720/bc092d/ffffff.jpg?text=Diwali%202026
         kind: image
         alt:
-          zh-CN: 节庆中的红灯笼
-          en: Red lanterns at a festival
+          zh-CN: 排灯节的配图
+          en: Illustration for Diwali 2026
     status: active
   - id: carnival-rio-2027
     title:
@@ -134,14 +140,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/TI-B-TNYJMU
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+        value: 海报图片：Photo 235，Paul E. Harrer，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+      - path: https://picsum.photos/id/235/1280/720
         kind: image
         alt:
-          zh-CN: 节庆中的红灯笼
-          en: Red lanterns at a festival
+          zh-CN: 里约狂欢节的配图
+          en: Illustration for Rio Carnival 2027
     status: active
   - id: holi-2027
     title:
@@ -179,14 +191,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+      - path: https://loremflickr.com/1280/720/world%2Cfestivals?lock=176
         kind: image
         alt:
-          zh-CN: 节庆中的红灯笼
-          en: Red lanterns at a festival
+          zh-CN: 洒红节的配图
+          en: Illustration for Holi 2027
     status: active
   - id: matariki-2027
     title:
@@ -224,14 +242,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+      - path: https://placehold.co/1280x720/96af9a/ffffff.jpg?text=Matariki%202027
         kind: image
         alt:
-          zh-CN: 节庆中的红灯笼
-          en: Red lanterns at a festival
+          zh-CN: 毛利新年 Matariki的配图
+          en: Illustration for Matariki 2027
     status: active
   - id: bastille-day-2027
     title:
@@ -269,12 +293,18 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/kzhbVDBDdlc
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+        value: 海报图片：Photo 236，Chris Adams，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+      - path: https://picsum.photos/id/236/1280/720
         kind: image
         alt:
-          zh-CN: 节庆中的红灯笼
-          en: Red lanterns at a festival
+          zh-CN: 法国国庆日的配图
+          en: Illustration for Bastille Day 2027
     status: active

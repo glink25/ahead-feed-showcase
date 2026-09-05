@@ -61,14 +61,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+      - path: https://placehold.co/1280x720/171560/ffffff.jpg?text=China%20New%20Year%20Holiday%202026
         kind: image
         alt:
-          zh-CN: 节庆中的红灯笼
-          en: Red lanterns at a festival
+          zh-CN: 2026 元旦假期的配图
+          en: Illustration for China New Year Holiday 2026
     status: active
   - id: spring-festival-cn-2026
     title:
@@ -109,14 +115,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/sX4lxBWV0-A
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+        value: 海报图片：Photo 210，Martin Wessely，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+      - path: https://picsum.photos/id/210/1280/720
         kind: image
         alt:
-          zh-CN: 节庆中的红灯笼
-          en: Red lanterns at a festival
+          zh-CN: 2026 春节假期的配图
+          en: Illustration for China Spring Festival Holiday 2026
     status: active
   - id: qingming-cn-2026
     title:
@@ -157,14 +169,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+      - path: https://loremflickr.com/1280/720/china%2Cholidays?lock=107
         kind: image
         alt:
-          zh-CN: 节庆中的红灯笼
-          en: Red lanterns at a festival
+          zh-CN: 2026 清明节假期的配图
+          en: Illustration for China Qingming Holiday 2026
     status: active
   - id: labour-day-cn-2026
     title:
@@ -205,14 +223,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+      - path: https://placehold.co/1280x720/f1bbcd/ffffff.jpg?text=China%20Labour%20Day%20Holiday%202026
         kind: image
         alt:
-          zh-CN: 节庆中的红灯笼
-          en: Red lanterns at a festival
+          zh-CN: 2026 劳动节假期的配图
+          en: Illustration for China Labour Day Holiday 2026
     status: active
   - id: dragon-boat-cn-2026
     title:
@@ -253,14 +277,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/GDvSktiPIQQ
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+        value: 海报图片：Photo 211，Martin Wessely，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+      - path: https://picsum.photos/id/211/1280/720
         kind: image
         alt:
-          zh-CN: 节庆中的红灯笼
-          en: Red lanterns at a festival
+          zh-CN: 2026 端午节假期的配图
+          en: Illustration for China Dragon Boat Holiday 2026
     status: active
   - id: mid-autumn-cn-2026
     title:
@@ -301,14 +331,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+      - path: https://loremflickr.com/1280/720/china%2Cholidays?lock=110
         kind: image
         alt:
-          zh-CN: 节庆中的红灯笼
-          en: Red lanterns at a festival
+          zh-CN: 2026 中秋节假期的配图
+          en: Illustration for China Mid-Autumn Holiday 2026
     status: active
   - id: national-day-cn-2026
     title:
@@ -349,12 +385,18 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+      - path: https://placehold.co/1280x720/cc623a/ffffff.jpg?text=China%20National%20Day%20Holiday%202026
         kind: image
         alt:
-          zh-CN: 节庆中的红灯笼
-          en: Red lanterns at a festival
+          zh-CN: 2026 国庆节假期的配图
+          en: Illustration for China National Day Holiday 2026
     status: active

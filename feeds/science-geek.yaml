@@ -58,14 +58,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/vwY2D2Wr4ME
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Data Center 2 (UNC), Ana Las Heras, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：Photo 223，Maria Carrasco，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Data_Center_2_%28UNC%29.jpg/1280px-Data_Center_2_%28UNC%29.jpg
+      - path: https://picsum.photos/id/223/1280/720
         kind: image
         alt:
-          zh-CN: 数据中心的服务器机柜
-          en: Server racks in a data center
+          zh-CN: 程序员节的配图
+          en: Illustration for Programmers’ Day 2026
     status: active
   - id: open-access-week-2026
     title:
@@ -106,14 +112,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Data Center 2 (UNC), Ana Las Heras, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Data_Center_2_%28UNC%29.jpg/1280px-Data_Center_2_%28UNC%29.jpg
+      - path: https://loremflickr.com/1280/720/science%2Cgeek?lock=146
         kind: image
         alt:
-          zh-CN: 数据中心的服务器机柜
-          en: Server racks in a data center
+          zh-CN: 国际开放获取周的配图
+          en: Illustration for International Open Access Week 2026
     status: active
   - id: darwin-day-2027
     title:
@@ -151,14 +163,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Data Center 2 (UNC), Ana Las Heras, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Data_Center_2_%28UNC%29.jpg/1280px-Data_Center_2_%28UNC%29.jpg
+      - path: https://placehold.co/1280x720/c2f577/ffffff.jpg?text=Darwin%20Day%202027
         kind: image
         alt:
-          zh-CN: 数据中心的服务器机柜
-          en: Server racks in a data center
+          zh-CN: 达尔文日的配图
+          en: Illustration for Darwin Day 2027
     status: active
   - id: pi-day-2027
     title:
@@ -196,14 +214,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/hGO27G5tZJ8
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Data Center 2 (UNC), Ana Las Heras, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：Photo 225，Vee O，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Data_Center_2_%28UNC%29.jpg/1280px-Data_Center_2_%28UNC%29.jpg
+      - path: https://picsum.photos/id/225/1280/720
         kind: image
         alt:
-          zh-CN: 数据中心的服务器机柜
-          en: Server racks in a data center
+          zh-CN: 圆周率日的配图
+          en: Illustration for Pi Day 2027
     status: active
   - id: software-freedom-day-2027
     title:
@@ -241,12 +265,18 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Data Center 2 (UNC), Ana Las Heras, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Data_Center_2_%28UNC%29.jpg/1280px-Data_Center_2_%28UNC%29.jpg
+      - path: https://loremflickr.com/1280/720/science%2Cgeek?lock=149
         kind: image
         alt:
-          zh-CN: 数据中心的服务器机柜
-          en: Server racks in a data center
+          zh-CN: 软件自由日的配图
+          en: Illustration for Software Freedom Day 2027
     status: active

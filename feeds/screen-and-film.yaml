@@ -69,14 +69,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://placehold.co/1280x720/e6d5c4/ffffff.jpg?text=Sundance%E2%80%99s%20First%20Boulder%20Edition
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 圣丹斯电影节首次落地博尔德的配图
+          en: Illustration for Sundance’s First Boulder Edition
     status: active
   - id: oscars-nominations-2027
     title:
@@ -114,14 +120,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/1iP1dozVO8I
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：Photo 227，Andrea Boldizsar，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://picsum.photos/id/227/1280/720
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 第 99 届奥斯卡提名公布的配图
+          en: Illustration for 99th Oscars Nominations
     status: active
   - id: oscars-2027
     title:
@@ -159,14 +171,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://loremflickr.com/1280/720/screen%2Cand%2Cfilm?lock=152
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 第 99 届奥斯卡颁奖礼的配图
+          en: Illustration for 99th Oscars
     status: active
   - id: cannes-2027
     title:
@@ -207,14 +225,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://placehold.co/1280x720/c17c31/ffffff.jpg?text=80th%20Cannes%20Film%20Festival
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 第 80 届戛纳电影节的配图
+          en: Illustration for 80th Cannes Film Festival
     status: active
   - id: annecy-2027
     title:
@@ -255,12 +279,18 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/0AbVUUorULU
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：Photo 228，Michal Kubicek，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://picsum.photos/id/228/1280/720
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 安纳西国际动画电影节的配图
+          en: Illustration for Annecy Animation Festival 2027
     status: active

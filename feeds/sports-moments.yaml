@@ -74,14 +74,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/rFKUFzjPYiQ
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：Photo 230，Wes Carr，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://picsum.photos/id/230/1280/720
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 第 61 届超级碗的配图
+          en: Illustration for Super Bowl LXI
     status: active
   - id: cricket-world-cup-2027
     title:
@@ -122,14 +128,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://loremflickr.com/1280/720/sports%2Cmoments?lock=161
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 男子板球世界杯的配图
+          en: Illustration for Men’s Cricket World Cup 2027
     status: active
   - id: womens-world-cup-2027
     title:
@@ -170,14 +182,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://placehold.co/1280x720/516f78/ffffff.jpg?text=FIFA%20Women%E2%80%99s%20World%20Cup%202027
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 女足世界杯的配图
+          en: Illustration for FIFA Women’s World Cup 2027
     status: active
   - id: tour-de-france-2027
     title:
@@ -218,14 +236,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/XeCvtUX-AE0
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：Photo 231，Aleksandra Boguslawska，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://picsum.photos/id/231/1280/720
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 环法自行车赛的配图
+          en: Illustration for Tour de France 2027
     status: active
   - id: rugby-world-cup-2027
     title:
@@ -266,12 +290,18 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://loremflickr.com/1280/720/sports%2Cmoments?lock=164
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 男子橄榄球世界杯的配图
+          en: Illustration for Men’s Rugby World Cup 2027
     status: active

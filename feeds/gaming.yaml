@@ -1,4 +1,4 @@
-oefVersion: "0.1"
+oefVersion: '0.1'
 kind: event-feed
 id: ahead-gaming-major-releases
 name:
@@ -33,7 +33,7 @@ events:
         value:
           kind: year
           year: 2025
-        recordedAt: "2024-05-17T00:00:00Z"
+        recordedAt: '2024-05-17T00:00:00Z'
         confidence: rumored
         source: 发行商财报电话会议
       - id: narrowed-to-q2
@@ -41,7 +41,7 @@ events:
           kind: quarter
           year: 2026
           quarter: 2
-        recordedAt: "2025-05-02T00:00:00Z"
+        recordedAt: '2025-05-02T00:00:00Z'
         confidence: likely
         source: 官方公告
       - id: delayed-to-q4
@@ -49,7 +49,7 @@ events:
           kind: quarter
           year: 2026
           quarter: 4
-        recordedAt: "2026-05-06T00:00:00Z"
+        recordedAt: '2026-05-06T00:00:00Z'
         confidence: likely
         source: 官方公告
         evidence:
@@ -68,16 +68,21 @@ events:
           en: Official site
       - kind: note
         value: 档期仍可能变动，以官方 Newswire 为准。
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: "海报图片：The Carlyle (neon sign), Miami Beach, east view up, 2018-08-21，Photograph: Radomianin，Public domain，via Wikimedia Commons"
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+      - path: https://loremflickr.com/1280/720/gaming?lock=122
         kind: image
         alt:
-          zh-CN: 迈阿密海滩装饰艺术旅馆的霓虹招牌夜景
-          en: Neon sign of an art-deco hotel on Miami Beach at night
+          zh-CN: 《侠盗猎车手 VI》正式发售的配图
+          en: Illustration for Grand Theft Auto VI Release
     status: active
-
   - id: elder-scrolls-vi
     title:
       zh-CN: 《上古卷轴 VI》发售
@@ -90,7 +95,7 @@ events:
         value:
           kind: year
           year: 2027
-        recordedAt: "2026-06-11T00:00:00Z"
+        recordedAt: '2026-06-11T00:00:00Z'
         confidence: rumored
         source: 工作室访谈
     tags:
@@ -101,16 +106,21 @@ events:
         label:
           zh-CN: 官方站点
           en: Official site
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: "海报图片：Neuschwanstein, Schwangau, Alemania, 2015-02-15, DD 17，Diego Delso，CC BY-SA 4.0，via Wikimedia Commons"
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG/1280px-Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG
+      - path: https://placehold.co/1280x720/36fbee/ffffff.jpg?text=The%20Elder%20Scrolls%20VI%20Release
         kind: image
         alt:
-          zh-CN: 阿尔卑斯山间的新天鹅堡，背后是雪峰
-          en: Neuschwanstein Castle in the Alps with snowy peaks behind
+          zh-CN: 《上古卷轴 VI》发售的配图
+          en: Illustration for The Elder Scrolls VI Release
     status: active
-
   - id: silksong-expansion
     title:
       zh-CN: 《空洞骑士：丝之歌》资料片
@@ -125,21 +135,26 @@ events:
           note:
             zh-CN: 官方仅确认开发中，未给出任何时间窗口。
             en: Confirmed in development, no window announced.
-        recordedAt: "2026-08-20T00:00:00Z"
+        recordedAt: '2026-08-20T00:00:00Z'
         confidence: rumored
     tags:
       - games
     evidence:
+      - kind: url
+        value: https://unsplash.com/photos/9702xTENR-M
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: "海报图片：Ogtong Cave Natural Pool, Santa Fe, Bantayan Island, Cebu，MikelleBandin，CC BY-SA 4.0，via Wikimedia Commons"
+        value: 海报图片：Photo 216，Paul Jarvis，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Ogtong_Cave_Natural_Pool%2C_Santa_Fe%2C_Bantayan_Island%2C_Cebu.jpg/1280px-Ogtong_Cave_Natural_Pool%2C_Santa_Fe%2C_Bantayan_Island%2C_Cebu.jpg
+      - path: https://picsum.photos/id/216/1280/720
         kind: image
         alt:
-          zh-CN: 幽蓝光线中的地下洞穴水池
-          en: An underground cave pool lit in deep blue light
+          zh-CN: 《空洞骑士：丝之歌》资料片的配图
+          en: Illustration for Hollow Knight Silksong Expansion
     status: active
-
   - id: steam-autumn-sale-2026
     title:
       zh-CN: Steam 秋季特卖
@@ -153,23 +168,29 @@ events:
           kind: range
           start:
             kind: exact
-            date: "2026-11-24"
+            date: '2026-11-24'
           end:
             kind: exact
-            date: "2026-12-01"
-        recordedAt: "2026-08-01T00:00:00Z"
+            date: '2026-12-01'
+        recordedAt: '2026-08-01T00:00:00Z'
         confidence: likely
         source: 平台活动日历
     tags:
       - games
       - sale
     evidence:
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: "海报图片：Autumn forest with yellow maple leaves everywhere，Anton Vakulenko，CC BY-SA 2.0，via Wikimedia Commons"
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Autumn_forest_with_yellow_maple_leaves_everywhere.jpg/1280px-Autumn_forest_with_yellow_maple_leaves_everywhere.jpg
+      - path: https://loremflickr.com/1280/720/gaming?lock=125
         kind: image
         alt:
-          zh-CN: 铺满金黄枫叶的秋日森林
-          en: An autumn forest carpeted in yellow maple leaves
+          zh-CN: Steam 秋季特卖的配图
+          en: Illustration for Steam Autumn Sale
     status: active

@@ -58,14 +58,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+      - path: https://loremflickr.com/1280/720/skywatching?lock=155
         kind: image
         alt:
-          zh-CN: 夜空般的霓虹光影
-          en: Neon lights against a night sky
+          zh-CN: 国际赏月夜的配图
+          en: Illustration for International Observe the Moon Night 2026
     status: active
   - id: orionids-2026
     title:
@@ -106,14 +112,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+      - path: https://placehold.co/1280x720/9c229e/ffffff.jpg?text=Orionids%20Peak%202026
         kind: image
         alt:
-          zh-CN: 夜空般的霓虹光影
-          en: Neon lights against a night sky
+          zh-CN: 猎户座流星雨极大夜的配图
+          en: Illustration for Orionids Peak 2026
     status: active
   - id: leonids-2026
     title:
@@ -154,14 +166,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/7FLh300YONc
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+        value: 海报图片：Photo 229，Orlova Maria，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+      - path: https://picsum.photos/id/229/1280/720
         kind: image
         alt:
-          zh-CN: 夜空般的霓虹光影
-          en: Neon lights against a night sky
+          zh-CN: 狮子座流星雨极大夜的配图
+          en: Illustration for Leonids Peak 2026
     status: active
   - id: geminids-2026
     title:
@@ -202,14 +220,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+      - path: https://loremflickr.com/1280/720/skywatching?lock=158
         kind: image
         alt:
-          zh-CN: 夜空般的霓虹光影
-          en: Neon lights against a night sky
+          zh-CN: 双子座流星雨极大夜的配图
+          en: Illustration for Geminids Peak 2026
     status: active
   - id: lyrids-2027
     title:
@@ -250,12 +274,18 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+      - path: https://placehold.co/1280x720/76c90b/ffffff.jpg?text=Lyrids%20Peak%202027
         kind: image
         alt:
-          zh-CN: 夜空般的霓虹光影
-          en: Neon lights against a night sky
+          zh-CN: 天琴座流星雨极大夜的配图
+          en: Illustration for Lyrids Peak 2027
     status: active

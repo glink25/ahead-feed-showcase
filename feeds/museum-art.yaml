@@ -62,14 +62,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/Nq8LdWC7HnM
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：Photo 218，Monika Majkowska，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://picsum.photos/id/218/1280/720
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 世界艺术日的配图
+          en: Illustration for World Art Day 2027
     status: active
   - id: international-museum-day-2027
     title:
@@ -107,14 +113,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://loremflickr.com/1280/720/museum%2Cart?lock=131
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 国际博物馆日的配图
+          en: Illustration for International Museum Day 2027
     status: active
   - id: long-night-museums-berlin-2027
     title:
@@ -152,14 +164,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://placehold.co/1280x720/c6ef36/ffffff.jpg?text=Long%20Night%20of%20Museums%20Berlin%202027
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 柏林博物馆长夜的配图
+          en: Illustration for Long Night of Museums Berlin 2027
     status: active
   - id: museum-night-amsterdam-2026
     title:
@@ -197,14 +215,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/7iB4OZDlRok
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：Photo 219，Martyn Seddon，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://picsum.photos/id/219/1280/720
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 阿姆斯特丹博物馆之夜的配图
+          en: Illustration for Museum Night Amsterdam 2026
     status: active
   - id: public-domain-day-2027
     title:
@@ -242,12 +266,18 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://loremflickr.com/1280/720/museum%2Cart?lock=134
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 公共领域日的配图
+          en: Illustration for Public Domain Day 2027
     status: active

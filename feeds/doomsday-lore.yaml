@@ -80,14 +80,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/eDDQRAYKo7k
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+        value: 海报图片：Photo 212，Sylwia Bartyzel，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+      - path: https://picsum.photos/id/212/1280/720
         kind: image
         alt:
-          zh-CN: 夜空般的霓虹光影
-          en: Neon lights against a night sky
+          zh-CN: “2026 小行星末日”预言核销日的配图
+          en: Illustration for Checking the “2026 Asteroid Apocalypse” Claim
     status: active
   - id: doomsday-clock-2027
     title:
@@ -125,14 +131,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+      - path: https://loremflickr.com/1280/720/doomsday%2Clore?lock=113
         kind: image
         alt:
-          zh-CN: 夜空般的霓虹光影
-          en: Neon lights against a night sky
+          zh-CN: 2027 末日钟公布窗口的配图
+          en: Illustration for Expected 2027 Doomsday Clock Update
     status: active
   - id: yr4-safe-passage-2032
     title:
@@ -170,14 +182,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+      - path: https://placehold.co/1280x720/a708a7/ffffff.jpg?text=Asteroid%202024%20YR4%20Safe-Passage%20Day
         kind: image
         alt:
-          zh-CN: 夜空般的霓虹光影
-          en: Neon lights against a night sky
+          zh-CN: 小行星 2024 YR4 安全掠过日的配图
+          en: Illustration for Asteroid 2024 YR4 Safe-Passage Day
     status: active
   - id: year-2038-problem
     title:
@@ -216,14 +234,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/X7dy114KWs4
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+        value: 海报图片：Photo 213，Kelly Sikkema，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+      - path: https://picsum.photos/id/213/1280/720
         kind: image
         alt:
-          zh-CN: 夜空般的霓虹光影
-          en: Neon lights against a night sky
+          zh-CN: 2038 年时间溢出时刻的配图
+          en: Illustration for Year 2038 Time Rollover
     status: active
   - id: newton-2060
     title:
@@ -261,12 +285,18 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+      - path: https://loremflickr.com/1280/720/doomsday%2Clore?lock=116
         kind: image
         alt:
-          zh-CN: 夜空般的霓虹光影
-          en: Neon lights against a night sky
+          zh-CN: 牛顿的“2060 之后”推算的配图
+          en: Illustration for Newton’s “After 2060” Calculation
     status: active

@@ -78,14 +78,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/NYxxuBSQzp4
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Neuschwanstein, Diego Delso, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：Photo 208，Martin Wessely，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG/1280px-Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG
+      - path: https://picsum.photos/id/208/1280/720
         kind: image
         alt:
-          zh-CN: 雪山之间的幻想城堡
-          en: A fantasy castle among snowy mountains
+          zh-CN: 霍比特日的配图
+          en: Illustration for Hobbit Day 2026
     status: active
   - id: read-tolkien-day-2027
     title:
@@ -123,14 +129,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Neuschwanstein, Diego Delso, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG/1280px-Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG
+      - path: https://loremflickr.com/1280/720/books%2Cfantasy?lock=101
         kind: image
         alt:
-          zh-CN: 雪山之间的幻想城堡
-          en: A fantasy castle among snowy mountains
+          zh-CN: 托尔金阅读日的配图
+          en: Illustration for Tolkien Reading Day 2027
     status: active
   - id: new-delhi-book-fair-2027
     title:
@@ -171,14 +183,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Neuschwanstein, Diego Delso, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG/1280px-Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG
+      - path: https://placehold.co/1280x720/3c6ef3/ffffff.jpg?text=New%20Delhi%20World%20Book%20Fair%202027
         kind: image
         alt:
-          zh-CN: 雪山之间的幻想城堡
-          en: A fantasy castle among snowy mountains
+          zh-CN: 新德里世界书展的配图
+          en: Illustration for New Delhi World Book Fair 2027
     status: active
   - id: world-book-day-2027
     title:
@@ -216,14 +234,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/-FgZlbzZ0R8
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Neuschwanstein, Diego Delso, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：Photo 209，Martin Wessely，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG/1280px-Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG
+      - path: https://picsum.photos/id/209/1280/720
         kind: image
         alt:
-          zh-CN: 雪山之间的幻想城堡
-          en: A fantasy castle among snowy mountains
+          zh-CN: 世界图书与版权日的配图
+          en: Illustration for World Book and Copyright Day 2027
     status: active
   - id: bloomsday-2027
     title:
@@ -261,12 +285,18 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Neuschwanstein, Diego Delso, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG/1280px-Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG
+      - path: https://loremflickr.com/1280/720/books%2Cfantasy?lock=104
         kind: image
         alt:
-          zh-CN: 雪山之间的幻想城堡
-          en: A fantasy castle among snowy mountains
+          zh-CN: 布鲁姆日的配图
+          en: Illustration for Bloomsday 2027
     status: active

@@ -74,14 +74,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://placehold.co/1280x720/a195a3/ffffff.jpg?text=World%20Opera%20Day%202026
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 世界歌剧日的配图
+          en: Illustration for World Opera Day 2026
     status: active
   - id: new-year-concert-2027
     title:
@@ -119,14 +125,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/qUToqliACNA
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：Photo 220，Robin Röcker，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://picsum.photos/id/220/1280/720
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 维也纳新年音乐会的配图
+          en: Illustration for Vienna New Year’s Concert 2027
     status: active
   - id: record-store-day-2027
     title:
@@ -164,14 +176,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://loremflickr.com/1280/720/music%2Clive?lock=137
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 唱片店日的配图
+          en: Illustration for Record Store Day 2027
     status: active
   - id: eurovision-final-2027
     title:
@@ -209,14 +227,20 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://placehold.co/1280x720/7c3c10/ffffff.jpg?text=Eurovision%202027%20Final
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 欧洲歌唱大赛决赛的配图
+          en: Illustration for Eurovision 2027 Final
     status: active
   - id: make-music-day-2027
     title:
@@ -254,12 +278,18 @@ events:
           zh-CN: 核查来源
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/7UzYfAXUgI8
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+        value: 海报图片：Photo 221，Todd Quackenbush，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+      - path: https://picsum.photos/id/221/1280/720
         kind: image
         alt:
-          zh-CN: 聚光灯下的活动现场
-          en: A live event under bright lights
+          zh-CN: 世界音乐日的配图
+          en: Illustration for Make Music Day 2027
     status: active

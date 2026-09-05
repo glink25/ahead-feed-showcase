@@ -1,4 +1,4 @@
-oefVersion: "0.1"
+oefVersion: '0.1'
 kind: event-feed
 id: ahead-global-holidays
 name:
@@ -29,23 +29,28 @@ events:
       - id: official-date
         value:
           kind: exact
-          date: "2026-09-25"
-        recordedAt: "2025-12-01T00:00:00Z"
+          date: '2026-09-25'
+        recordedAt: '2025-12-01T00:00:00Z'
         confidence: confirmed
     tags:
       - holiday
       - seasonal
     evidence:
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: "海报图片：HK Parkn Shop Chinese Mid-autumn Festival red Lanterns greeting Sept-2012，Pasvoebrc，CC BY-SA 3.0，via Wikimedia Commons"
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+      - path: https://placehold.co/1280x720/11a25b/ffffff.jpg?text=Mid-Autumn%20Festival%202026
         kind: image
         alt:
-          zh-CN: 中秋节高悬的成串红灯笼
-          en: Strings of red lanterns hung for the Mid-Autumn Festival
+          zh-CN: 2026 年中秋节的配图
+          en: Illustration for Mid-Autumn Festival 2026
     status: active
-
   - id: national-day-holiday-cn
     title:
       zh-CN: 国庆假期
@@ -57,8 +62,8 @@ events:
       - id: statutory-start
         value:
           kind: exact
-          date: "2026-10-01"
-        recordedAt: "2026-01-01T00:00:00Z"
+          date: '2026-10-01'
+        recordedAt: '2026-01-01T00:00:00Z'
         confidence: confirmed
     duration:
       amount: 7
@@ -71,17 +76,22 @@ events:
         label:
           zh-CN: 国务院办公厅 2026 年节假日通知
           en: State Council 2026 holiday notice
-        fetchedAt: "2026-09-05T00:00:00Z"
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
+        value: https://unsplash.com/photos/YOQDokJipFg
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: "海报图片：Flower basket at Tiananmen Square (20241001120425)，HoweyYuan，CC0，via Wikimedia Commons"
+        value: 海报图片：Photo 217，Tom Butler，via Lorem Picsum / Unsplash
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Flower_basket_at_Tiananmen_Square_%2820241001120425%29.jpg/1280px-Flower_basket_at_Tiananmen_Square_%2820241001120425%29.jpg
+      - path: https://picsum.photos/id/217/1280/720
         kind: image
         alt:
-          zh-CN: 国庆期间天安门广场的巨型花篮
-          en: The giant flower basket on Tiananmen Square during the National Day holiday
+          zh-CN: 国庆假期的配图
+          en: Illustration for National Day Holiday
     status: active
-
   - id: christmas
     title:
       zh-CN: 圣诞节
@@ -93,8 +103,8 @@ events:
       - id: fixed-date
         value:
           kind: exact
-          date: "2026-12-25"
-        recordedAt: "2025-01-01T00:00:00Z"
+          date: '2026-12-25'
+        recordedAt: '2025-01-01T00:00:00Z'
         confidence: confirmed
     recurrence:
       freq: yearly
@@ -105,16 +115,21 @@ events:
     tags:
       - holiday
     evidence:
+      - kind: url
+        value: https://loremflickr.com/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: "海报图片：2025 Bristol Christmas Market - November 2025，Captain Galaxy，CC BY 4.0，via Wikimedia Commons"
+        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/2025_Bristol_Christmas_Market_-_November_2025.jpg/1280px-2025_Bristol_Christmas_Market_-_November_2025.jpg
+      - path: https://loremflickr.com/1280/720/holidays?lock=128
         kind: image
         alt:
-          zh-CN: 夜色中亮着暖灯的圣诞市集
-          en: A Christmas market lit with warm lights at night
+          zh-CN: 圣诞节的配图
+          en: Illustration for Christmas
     status: active
-
   - id: spring-festival-2027
     title:
       zh-CN: 2027 年春节
@@ -126,19 +141,25 @@ events:
       - id: official-date
         value:
           kind: exact
-          date: "2027-02-06"
-        recordedAt: "2026-08-01T00:00:00Z"
+          date: '2027-02-06'
+        recordedAt: '2026-08-01T00:00:00Z'
         confidence: confirmed
         source: 公历与农历日期换算；不代表放假安排
     tags:
       - holiday
     evidence:
+      - kind: url
+        value: https://placehold.co/
+        label:
+          zh-CN: 海报图片来源
+          en: Poster image source
+        fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: "海报图片：Shop selling lanterns and decorations for Chinese New Year in Hong Kong，Evancyk，CC BY-SA 4.0，via Wikimedia Commons"
+        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
     media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Shop_selling_lanterns_and_decorations_for_Chinese_New_Year_in_Hong_Kong.jpg/1280px-Shop_selling_lanterns_and_decorations_for_Chinese_New_Year_in_Hong_Kong.jpg
+      - path: https://placehold.co/1280x720/ec48c9/ffffff.jpg?text=Spring%20Festival%202027
         kind: image
         alt:
-          zh-CN: 售卖春节灯笼与年饰的店铺
-          en: A shop selling lanterns and Chinese New Year decorations
+          zh-CN: 2027 年春节的配图
+          en: Illustration for Spring Festival 2027
     status: active
