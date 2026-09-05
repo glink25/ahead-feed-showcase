@@ -74,15 +74,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:Korea_Chuseok_Sketch_02_(14938374458).jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/81af14/ffffff.jpg?text=Korean%20Chuseok%202026
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Korea_Chuseok_Sketch_02_%2814938374458%29.jpg/1920px-Korea_Chuseok_Sketch_02_%2814938374458%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 韩国秋夕的配图
@@ -124,15 +124,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/Ereoqdv5s48
+        value: https://commons.wikimedia.org/wiki/File:Sejong_(Chinese_characters).svg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 214，Kelly Sikkema，via Lorem Picsum / Unsplash
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://picsum.photos/id/214/1280/720
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Sejong_%28Chinese_characters%29.svg/1920px-Sejong_%28Chinese_characters%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 韩文日的配图
@@ -225,15 +225,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:Portland_Japanese_Garden_Tanabata_tanzaku.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/5c5581/ffffff.jpg?text=Tanabata%202027
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Portland_Japanese_Garden_Tanabata_tanzaku.jpg/1920px-Portland_Japanese_Garden_Tanabata_tanzaku.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 七夕的配图
