@@ -1,0 +1,360 @@
+oefVersion: '0.1'
+kind: event-feed
+id: ahead-china-official-holidays
+name:
+  zh-CN: 中国官方假期
+  en: Official Holidays in China
+description:
+  zh-CN: 只收录国务院逐年公布的放假区间；调休日期人工核对。
+  en: Only annually announced State Council holiday periods; adjusted workdays are checked manually.
+primaryLanguage: zh-CN
+tags:
+  - id: holiday
+    label:
+      zh-CN: 节假日
+      en: Holiday
+  - id: china
+    label:
+      zh-CN: 中国
+      en: China
+  - id: family
+    label:
+      zh-CN: 家庭
+      en: Family
+events:
+  - id: new-year-cn-2026
+    title:
+      zh-CN: 2026 元旦假期
+      en: China New Year Holiday 2026
+    summary:
+      zh-CN: 放假三天，1 月 4 日补班。
+      en: Three days off; Jan 4 is an adjusted workday.
+    description:
+      zh-CN: 按国务院通知逐日核定，不延伸到其他年份。
+      en: Manually transcribed from the State Council notice; never projected to later years.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-01-01'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 国务院办公厅
+        evidence:
+          - kind: url
+            value: https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 3
+      unit: days
+    tags:
+      - holiday
+      - china
+      - family
+    evidence:
+      - kind: url
+        value: https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active
+  - id: spring-festival-cn-2026
+    title:
+      zh-CN: 2026 春节假期
+      en: China Spring Festival Holiday 2026
+    summary:
+      zh-CN: 九天假期；2 月 14 日、28 日补班。
+      en: Nine days off; Feb 14 and 28 are adjusted workdays.
+    description:
+      zh-CN: 从除夕前两天到正月初七的官方放假区间。
+      en: The officially announced period runs through the seventh lunar day.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-02-15'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 国务院办公厅
+        evidence:
+          - kind: url
+            value: https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 9
+      unit: days
+    tags:
+      - holiday
+      - china
+      - family
+    evidence:
+      - kind: url
+        value: https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active
+  - id: qingming-cn-2026
+    title:
+      zh-CN: 2026 清明节假期
+      en: China Qingming Holiday 2026
+    summary:
+      zh-CN: 连续三天，无另行调休。
+      en: Three days with no additional adjusted workday.
+    description:
+      zh-CN: 适合扫墓、踏青，也是一段初春小长假。
+      en: A spring break traditionally used for remembrance and outings.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-04-04'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 国务院办公厅
+        evidence:
+          - kind: url
+            value: https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 3
+      unit: days
+    tags:
+      - holiday
+      - china
+      - family
+    evidence:
+      - kind: url
+        value: https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active
+  - id: labour-day-cn-2026
+    title:
+      zh-CN: 2026 劳动节假期
+      en: China Labour Day Holiday 2026
+    summary:
+      zh-CN: 放假五天，5 月 9 日补班。
+      en: Five days off; May 9 is an adjusted workday.
+    description:
+      zh-CN: 官方五天放假区间。
+      en: The official five-day holiday period.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-05-01'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 国务院办公厅
+        evidence:
+          - kind: url
+            value: https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 5
+      unit: days
+    tags:
+      - holiday
+      - china
+      - family
+    evidence:
+      - kind: url
+        value: https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active
+  - id: dragon-boat-cn-2026
+    title:
+      zh-CN: 2026 端午节假期
+      en: China Dragon Boat Holiday 2026
+    summary:
+      zh-CN: 连续三天，无另行调休。
+      en: Three days with no additional adjusted workday.
+    description:
+      zh-CN: 吃粽子、看龙舟的一段初夏假期。
+      en: An early-summer break for zongzi and dragon-boat traditions.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-06-19'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 国务院办公厅
+        evidence:
+          - kind: url
+            value: https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 3
+      unit: days
+    tags:
+      - holiday
+      - china
+      - family
+    evidence:
+      - kind: url
+        value: https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active
+  - id: mid-autumn-cn-2026
+    title:
+      zh-CN: 2026 中秋节假期
+      en: China Mid-Autumn Holiday 2026
+    summary:
+      zh-CN: 9 月 25 日起连休三天。
+      en: Three days off from September 25.
+    description:
+      zh-CN: 赏月和团聚的官方假期。
+      en: The official holiday for moon viewing and family reunions.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-09-25'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 国务院办公厅
+        evidence:
+          - kind: url
+            value: https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 3
+      unit: days
+    tags:
+      - holiday
+      - china
+      - family
+    evidence:
+      - kind: url
+        value: https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active
+  - id: national-day-cn-2026
+    title:
+      zh-CN: 2026 国庆节假期
+      en: China National Day Holiday 2026
+    summary:
+      zh-CN: 七天假期；9 月 20 日、10 月 10 日补班。
+      en: Seven days off; Sep 20 and Oct 10 are adjusted workdays.
+    description:
+      zh-CN: 只代表 2026 年官方安排，不设置年度重复。
+      en: This represents only the official 2026 arrangement and does not recur.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-10-01'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 国务院办公厅
+        evidence:
+          - kind: url
+            value: https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 7
+      unit: days
+    tags:
+      - holiday
+      - china
+      - family
+    evidence:
+      - kind: url
+        value: https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active

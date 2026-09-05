@@ -51,8 +51,8 @@ events:
       zh-CN: 国庆假期
       en: National Day Holiday
     summary:
-      zh-CN: 每年十月一日起连休七天。
-      en: Seven consecutive days from October 1st each year.
+      zh-CN: 仅代表 2026 年十月一日起的七天官方假期；9 月 20 日、10 月 10 日补班。
+      en: The seven-day official 2026 break from October 1; September 20 and October 10 are adjusted workdays.
     schedule:
       - id: statutory-start
         value:
@@ -63,16 +63,15 @@ events:
     duration:
       amount: 7
       unit: days
-    recurrence:
-      freq: yearly
-      byMonth:
-        - 10
-      byMonthDay:
-        - 1
-      timezone: Asia/Shanghai
     tags:
       - holiday
     evidence:
+      - kind: url
+        value: https://www.beijing.gov.cn/cs/gncs/zcwj/202603/t20260327_4568275.html
+        label:
+          zh-CN: 国务院办公厅 2026 年节假日通知
+          en: State Council 2026 holiday notice
+        fetchedAt: "2026-09-05T00:00:00Z"
       - kind: citation
         value: "海报图片：Flower basket at Tiananmen Square (20241001120425)，HoweyYuan，CC0，via Wikimedia Commons"
     media:
@@ -121,19 +120,16 @@ events:
       zh-CN: 2027 年春节
       en: Spring Festival 2027
     summary:
-      zh-CN: 农历正月初一，连休八天。
-      en: The first day of the lunar year, with an eight-day break.
+      zh-CN: 农历正月初一；官方放假和调休安排尚未公布。
+      en: Lunar New Year's Day; official days off and adjusted workdays have not been announced.
     schedule:
       - id: official-date
         value:
           kind: exact
           date: "2027-02-06"
         recordedAt: "2026-08-01T00:00:00Z"
-        confidence: likely
-        source: 农历推算
-    duration:
-      amount: 8
-      unit: days
+        confidence: confirmed
+        source: 公历与农历日期换算；不代表放假安排
     tags:
       - holiday
     evidence:

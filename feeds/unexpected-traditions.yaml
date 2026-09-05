@@ -1,0 +1,265 @@
+oefVersion: '0.1'
+kind: event-feed
+id: ahead-unexpected-traditions
+name:
+  zh-CN: 居然还有这种节
+  en: Unexpected Traditions
+description:
+  zh-CN: 真实存在、有出处、让普通日子突然变得有趣的传统。
+  en: Documented traditions that make an ordinary day unexpectedly interesting.
+primaryLanguage: zh-CN
+tags:
+  - id: tradition
+    label:
+      zh-CN: 趣味传统
+      en: Tradition
+  - id: culture
+    label:
+      zh-CN: 文化
+      en: Culture
+  - id: global
+    label:
+      zh-CN: 全球
+      en: Global
+  - id: geek
+    label:
+      zh-CN: 极客
+      en: Geek
+  - id: online
+    label:
+      zh-CN: 线上可参与
+      en: Online
+  - id: fantasy
+    label:
+      zh-CN: 幻想
+      en: Fantasy
+  - id: literature
+    label:
+      zh-CN: 文学
+      en: Literature
+events:
+  - id: talk-like-pirate-2026
+    title:
+      zh-CN: 像海盗一样说话日
+      en: Talk Like a Pirate Day 2026
+    summary:
+      zh-CN: 一句 Arrr 就能低成本参与的民间趣味传统。
+      en: A playful tradition requiring little more than one “Arrr.”
+    description:
+      zh-CN: 它不是官方节日，适合给群聊增加一点荒唐。
+      en: It is not an official holiday; it is an excuse to make a group chat sillier.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-09-19'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 活动发起者网站
+        evidence:
+          - kind: url
+            value: https://talklikeapirate.com/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - tradition
+      - culture
+      - global
+    evidence:
+      - kind: url
+        value: https://talklikeapirate.com/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active
+  - id: world-postcard-day-2026
+    title:
+      zh-CN: 世界明信片日
+      en: World Postcard Day 2026
+    summary:
+      zh-CN: 在十月第一天寄出一张纸质问候。
+      en: Send a paper greeting on the first day of October.
+    description:
+      zh-CN: 提前挑一张卡，写给一个很久没联系的人。
+      en: Choose a card early and write to someone you have not contacted in a while.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-10-01'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: World Postcard Day
+        evidence:
+          - kind: url
+            value: https://worldpostcardday.com/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - tradition
+      - culture
+      - global
+    evidence:
+      - kind: url
+        value: https://worldpostcardday.com/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active
+  - id: world-wide-knit-public-2027
+    title:
+      zh-CN: 世界公众编织日
+      en: World Wide Knit in Public Day 2027
+    summary:
+      zh-CN: 把安静的手工带到公共空间。
+      en: Bring a quiet handcraft into public space.
+    description:
+      zh-CN: 带上正在织的那一小段，找找附近有没有共同活动。
+      en: Bring a small work in progress and look for a gathering nearby.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-06-12'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: WWKIP Day
+        evidence:
+          - kind: url
+            value: https://www.wwkipday.com/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - tradition
+      - culture
+      - global
+    evidence:
+      - kind: url
+        value: https://www.wwkipday.com/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active
+  - id: world-backup-day-2027
+    title:
+      zh-CN: 世界备份日
+      en: World Backup Day 2027
+    summary:
+      zh-CN: 在愚人节前，先认真备份一次。
+      en: Make one serious backup before April Fools’ Day.
+    description:
+      zh-CN: 照片、文档或密码库，挑一样完成可恢复的副本。
+      en: Choose photos, documents, or a password vault and make a recoverable copy.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-03-31'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: World Backup Day
+        evidence:
+          - kind: url
+            value: https://www.worldbackupday.com/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - tradition
+      - geek
+      - online
+    evidence:
+      - kind: url
+        value: https://www.worldbackupday.com/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active
+  - id: towel-day-2027
+    title:
+      zh-CN: 毛巾日
+      en: Towel Day 2027
+    summary:
+      zh-CN: 带一条毛巾纪念道格拉斯·亚当斯。
+      en: Carry a towel in memory of Douglas Adams.
+    description:
+      zh-CN: 这是读者社群传统；别忘了最重要的提示：不要恐慌。
+      en: 'This is a reader tradition; remember the essential advice: don’t panic.'
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-05-25'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: Towel Day
+        evidence:
+          - kind: url
+            value: https://towelday.org/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - tradition
+      - fantasy
+      - literature
+    evidence:
+      - kind: url
+        value: https://towelday.org/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active

@@ -1,0 +1,265 @@
+oefVersion: '0.1'
+kind: event-feed
+id: ahead-music-live
+name:
+  zh-CN: 一起听现场
+  en: Music in the Air
+description:
+  zh-CN: 从全球共同演奏到年度音乐盛会。
+  en: From a worldwide day of music-making to major annual gatherings.
+primaryLanguage: zh-CN
+tags:
+  - id: music
+    label:
+      zh-CN: 音乐
+      en: Music
+  - id: live
+    label:
+      zh-CN: 现场
+      en: Live
+  - id: global
+    label:
+      zh-CN: 全球
+      en: Global
+  - id: online
+    label:
+      zh-CN: 线上可参与
+      en: Online
+  - id: culture
+    label:
+      zh-CN: 文化
+      en: Culture
+  - id: outdoors
+    label:
+      zh-CN: 户外
+      en: Outdoors
+  - id: free
+    label:
+      zh-CN: 免费可参与
+      en: Free
+events:
+  - id: world-opera-day-2026
+    title:
+      zh-CN: 世界歌剧日
+      en: World Opera Day 2026
+    summary:
+      zh-CN: 世界各地歌剧机构共同庆祝。
+      en: Opera organizations around the world celebrate together.
+    description:
+      zh-CN: 找一段从未听过的咏叹调，或者关注当地开放活动。
+      en: Try an aria you have never heard or find a local open event.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-10-25'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: World Opera Day
+        evidence:
+          - kind: url
+            value: https://worldoperaday.com/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - music
+      - global
+      - online
+    evidence:
+      - kind: url
+        value: https://worldoperaday.com/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: new-year-concert-2027
+    title:
+      zh-CN: 维也纳新年音乐会
+      en: Vienna New Year’s Concert 2027
+    summary:
+      zh-CN: 从金色大厅开始新一年。
+      en: Begin the year with music from the Golden Hall.
+    description:
+      zh-CN: 关注各地转播安排，在家也能加入。
+      en: Check local broadcasts and join from home.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-01-01'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 维也纳爱乐乐团
+        evidence:
+          - kind: url
+            value: https://www.wienerphilharmoniker.at/en/newyearsconcert
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - music
+      - live
+      - online
+    evidence:
+      - kind: url
+        value: https://www.wienerphilharmoniker.at/en/newyearsconcert
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: record-store-day-2027
+    title:
+      zh-CN: 唱片店日
+      en: Record Store Day 2027
+    summary:
+      zh-CN: 独立唱片店与限量发行的一天。
+      en: A day for independent record shops and special releases.
+    description:
+      zh-CN: 先等发行清单，再去熟悉或陌生的唱片店翻一翻。
+      en: Await the release list, then browse a familiar or new record shop.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-04-17'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: Record Store Day
+        evidence:
+          - kind: url
+            value: https://recordstoreday.com/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - music
+      - culture
+      - outdoors
+    evidence:
+      - kind: url
+        value: https://recordstoreday.com/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: eurovision-final-2027
+    title:
+      zh-CN: 欧洲歌唱大赛决赛
+      en: Eurovision 2027 Final
+    summary:
+      zh-CN: 舞台、歌曲和计分悬念汇聚的一晚。
+      en: A night of staging, songs, and suspenseful voting.
+    description:
+      zh-CN: 具体日期尚待主办方最终确认，当前采用预期五月窗口中的日期。
+      en: The organizer has yet to confirm the exact date; this uses a likely May date.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-05-15'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: 欧洲广播联盟
+        evidence:
+          - kind: url
+            value: https://eurovision.tv/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - music
+      - live
+      - global
+    evidence:
+      - kind: url
+        value: https://eurovision.tv/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: make-music-day-2027
+    title:
+      zh-CN: 世界音乐日
+      en: Make Music Day 2027
+    summary:
+      zh-CN: 6 月 21 日，任何水平都可以发出声音。
+      en: On June 21, music-makers of every level can make some noise.
+    description:
+      zh-CN: 寻找附近免费演出，或者把自己的窗台变成小舞台。
+      en: Find a free performance nearby or turn your window into a tiny stage.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-06-21'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: Make Music Day
+        evidence:
+          - kind: url
+            value: https://makemusicday.org/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - music
+      - free
+      - outdoors
+    evidence:
+      - kind: url
+        value: https://makemusicday.org/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active

@@ -1,0 +1,265 @@
+oefVersion: '0.1'
+kind: event-feed
+id: ahead-doomsday-lore
+name:
+  zh-CN: 末日预言观察站
+  en: Doomsday Lore Watch
+description:
+  zh-CN: 把末日说法当作历史、媒体与科学素养案例；所有条目都明确风险事实。
+  en: Treats apocalypse claims as history, media, and science-literacy case studies; every entry states the factual risk.
+primaryLanguage: zh-CN
+tags:
+  - id: doomsday
+    label:
+      zh-CN: 末日考据
+      en: Doomsday Lore
+  - id: myth
+    label:
+      zh-CN: 传说
+      en: Myth
+  - id: unverified
+    label:
+      zh-CN: 未经证实
+      en: Unverified
+  - id: science
+    label:
+      zh-CN: 科学
+      en: Science
+  - id: global
+    label:
+      zh-CN: 全球
+      en: Global
+  - id: astronomy
+    label:
+      zh-CN: 天文
+      en: Astronomy
+  - id: geek
+    label:
+      zh-CN: 极客
+      en: Geek
+events:
+  - id: asteroid-prophecy-2026
+    title:
+      zh-CN: “2026 小行星末日”预言核销日
+      en: Checking the “2026 Asteroid Apocalypse” Claim
+    summary:
+      zh-CN: 宗教团体曾转述 2026 年小行星毁灭世界的说法，没有科学证据。
+      en: A religious group repeated a claim that an asteroid would end the world in 2026; there is no scientific evidence.
+    description:
+      zh-CN: 年底回来核销这条预言。现实中的近地天体风险应以 NASA、ESA 等监测机构为准。
+      en: Return at year-end to close out the claim. Use NASA and ESA monitoring for real near-Earth-object risks.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-12-31'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: NASA CNEOS 风险监测
+        evidence:
+          - kind: url
+            value: https://cneos.jpl.nasa.gov/sentry/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - doomsday
+      - myth
+      - unverified
+    evidence:
+      - kind: url
+        value: https://cneos.jpl.nasa.gov/sentry/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+        kind: image
+        alt:
+          zh-CN: 夜空般的霓虹光影
+          en: Neon lights against a night sky
+    status: active
+  - id: doomsday-clock-2027
+    title:
+      zh-CN: 2027 末日钟公布窗口
+      en: Expected 2027 Doomsday Clock Update
+    summary:
+      zh-CN: 末日钟是风险警示符号，并不是倒计时预言。
+      en: The Doomsday Clock is a risk-warning symbol, not a countdown prophecy.
+    description:
+      zh-CN: 等科学家公布新读数，也看看他们对核风险、气候与技术提出什么行动建议。
+      en: Await the new setting and the actions scientists recommend on nuclear, climate, and technology risks.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-01-26'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: 《原子科学家公报》
+        evidence:
+          - kind: url
+            value: https://thebulletin.org/doomsday-clock/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - doomsday
+      - science
+      - global
+    evidence:
+      - kind: url
+        value: https://thebulletin.org/doomsday-clock/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+        kind: image
+        alt:
+          zh-CN: 夜空般的霓虹光影
+          en: Neon lights against a night sky
+    status: active
+  - id: yr4-safe-passage-2032
+    title:
+      zh-CN: 小行星 2024 YR4 安全掠过日
+      en: Asteroid 2024 YR4 Safe-Passage Day
+    summary:
+      zh-CN: 它曾触发真实风险关注，但后续观测已排除 2032 年撞击地球。
+      en: It once triggered real concern, but later observations ruled out a 2032 Earth impact.
+    description:
+      zh-CN: 这一天值得期待的不是撞击，而是行星防御如何用更多数据消除恐慌。
+      en: What is worth awaiting is not impact, but how planetary defense uses better data to replace fear.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2032-12-22'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: NASA
+        evidence:
+          - kind: url
+            value: https://science.nasa.gov/solar-system/asteroids/2024-yr4-facts/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - doomsday
+      - astronomy
+      - science
+    evidence:
+      - kind: url
+        value: https://science.nasa.gov/solar-system/asteroids/2024-yr4-facts/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+        kind: image
+        alt:
+          zh-CN: 夜空般的霓虹光影
+          en: Neon lights against a night sky
+    status: active
+  - id: year-2038-problem
+    title:
+      zh-CN: 2038 年时间溢出时刻
+      en: Year 2038 Time Rollover
+    summary:
+      zh-CN: 部分旧式 32 位系统无法正确表示这一时刻之后的 Unix 时间。
+      en: Some legacy 32-bit systems cannot represent Unix time after this moment.
+    description:
+      zh-CN: 这是工程迁移期限，不是世界末日；现代系统应在此之前完成兼容处理。
+      en: This is an engineering migration deadline, not the end of the world; affected systems should be fixed beforehand.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2038-01-19'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 软件工程背景资料
+        evidence:
+          - kind: url
+            value: https://www.rfc-editor.org/rfc/rfc8536.html
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - doomsday
+      - geek
+      - science
+    evidence:
+      - kind: url
+        value: https://www.rfc-editor.org/rfc/rfc8536.html
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+        kind: image
+        alt:
+          zh-CN: 夜空般的霓虹光影
+          en: Neon lights against a night sky
+    status: active
+  - id: newton-2060
+    title:
+      zh-CN: 牛顿的“2060 之后”推算
+      en: Newton’s “After 2060” Calculation
+    summary:
+      zh-CN: 牛顿私人手稿中的宗教年代推算常被误传成精确末日预言。
+      en: A religious chronology in Newton’s private notes is often misreported as an exact doomsday prediction.
+    description:
+      zh-CN: 他写的是世界不会在 2060 年以前终结，而不是给出 2060 年某日的倒计时。
+      en: He argued the end would not come before 2060; he did not provide a countdown to a day in 2060.
+    schedule:
+      - id: published-date
+        value:
+          kind: year
+          year: 2060
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: The Newton Project
+        evidence:
+          - kind: url
+            value: https://isaac-newton.org/statement-on-the-date-2060/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - doomsday
+      - myth
+      - unverified
+    evidence:
+      - kind: url
+        value: https://isaac-newton.org/statement-on-the-date-2060/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+        kind: image
+        alt:
+          zh-CN: 夜空般的霓虹光影
+          en: Neon lights against a night sky
+    status: active

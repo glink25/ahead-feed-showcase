@@ -1,0 +1,252 @@
+oefVersion: '0.1'
+kind: event-feed
+id: ahead-science-geek
+name:
+  zh-CN: 科学家的节日
+  en: Science and Geek Days
+description:
+  zh-CN: 可以动手、计算、仰望或贡献代码的特别日子。
+  en: Special days for making, calculating, looking up, or contributing code.
+primaryLanguage: zh-CN
+tags:
+  - id: science
+    label:
+      zh-CN: 科学
+      en: Science
+  - id: geek
+    label:
+      zh-CN: 极客
+      en: Geek
+  - id: online
+    label:
+      zh-CN: 线上可参与
+      en: Online
+events:
+  - id: programmers-day-2026
+    title:
+      zh-CN: 程序员节
+      en: Programmers’ Day 2026
+    summary:
+      zh-CN: 一年的第 256 天。
+      en: The 256th day of the year.
+    description:
+      zh-CN: 找一个困扰很久的小问题修掉，或者感谢一位维护者。
+      en: Fix one small persistent bug or thank a maintainer.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-09-13'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 日期说明
+        evidence:
+          - kind: url
+            value: https://www.timeanddate.com/holidays/world/programmers-day
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - science
+      - geek
+      - online
+    evidence:
+      - kind: url
+        value: https://www.timeanddate.com/holidays/world/programmers-day
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Data Center 2 (UNC), Ana Las Heras, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Data_Center_2_%28UNC%29.jpg/1280px-Data_Center_2_%28UNC%29.jpg
+        kind: image
+        alt:
+          zh-CN: 数据中心的服务器机柜
+          en: Server racks in a data center
+    status: active
+  - id: open-access-week-2026
+    title:
+      zh-CN: 国际开放获取周
+      en: International Open Access Week 2026
+    summary:
+      zh-CN: 讨论如何让研究成果更容易被所有人使用。
+      en: A week about making research easier for everyone to access.
+    description:
+      zh-CN: 找一篇开放论文，看看它的数据或引用链。
+      en: Find an open paper and explore its data or citation trail.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-10-19'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: International Open Access Week
+        evidence:
+          - kind: url
+            value: https://www.openaccessweek.org/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 7
+      unit: days
+    tags:
+      - science
+      - geek
+      - online
+    evidence:
+      - kind: url
+        value: https://www.openaccessweek.org/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Data Center 2 (UNC), Ana Las Heras, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Data_Center_2_%28UNC%29.jpg/1280px-Data_Center_2_%28UNC%29.jpg
+        kind: image
+        alt:
+          zh-CN: 数据中心的服务器机柜
+          en: Server racks in a data center
+    status: active
+  - id: darwin-day-2027
+    title:
+      zh-CN: 达尔文日
+      en: Darwin Day 2027
+    summary:
+      zh-CN: 用生日纪念科学探索与好奇心。
+      en: Celebrate scientific inquiry and curiosity on Darwin’s birthday.
+    description:
+      zh-CN: 去自然博物馆，或者观察一个身边物种的适应特征。
+      en: Visit a natural history museum or notice an adaptation in a nearby species.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-02-12'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: Darwin Day
+        evidence:
+          - kind: url
+            value: https://darwinday.org/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - science
+      - geek
+      - online
+    evidence:
+      - kind: url
+        value: https://darwinday.org/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Data Center 2 (UNC), Ana Las Heras, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Data_Center_2_%28UNC%29.jpg/1280px-Data_Center_2_%28UNC%29.jpg
+        kind: image
+        alt:
+          zh-CN: 数据中心的服务器机柜
+          en: Server racks in a data center
+    status: active
+  - id: pi-day-2027
+    title:
+      zh-CN: 圆周率日
+      en: Pi Day 2027
+    summary:
+      zh-CN: 3.14：数学和派都能庆祝。
+      en: '3.14: celebrate both mathematics and pie.'
+    description:
+      zh-CN: 试着背几位圆周率，量一个圆，或者吃一块派。
+      en: Recite a few digits, measure a circle, or eat a slice of pie.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-03-14'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: Pi Day
+        evidence:
+          - kind: url
+            value: https://www.piday.org/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - science
+      - geek
+      - online
+    evidence:
+      - kind: url
+        value: https://www.piday.org/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Data Center 2 (UNC), Ana Las Heras, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Data_Center_2_%28UNC%29.jpg/1280px-Data_Center_2_%28UNC%29.jpg
+        kind: image
+        alt:
+          zh-CN: 数据中心的服务器机柜
+          en: Server racks in a data center
+    status: active
+  - id: software-freedom-day-2027
+    title:
+      zh-CN: 软件自由日
+      en: Software Freedom Day 2027
+    summary:
+      zh-CN: 全球社区介绍自由与开源软件。
+      en: Communities worldwide introduce free and open-source software.
+    description:
+      zh-CN: 安装一个开源工具、参加本地聚会或修一条文档。
+      en: Install an open tool, join a meetup, or improve one line of documentation.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-09-18'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: Digital Freedom Foundation
+        evidence:
+          - kind: url
+            value: https://digitalfreedoms.org/sfd/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - science
+      - geek
+      - online
+    evidence:
+      - kind: url
+        value: https://digitalfreedoms.org/sfd/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Data Center 2 (UNC), Ana Las Heras, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Data_Center_2_%28UNC%29.jpg/1280px-Data_Center_2_%28UNC%29.jpg
+        kind: image
+        alt:
+          zh-CN: 数据中心的服务器机柜
+          en: Server racks in a data center
+    status: active

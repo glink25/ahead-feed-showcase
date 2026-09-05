@@ -1,0 +1,272 @@
+oefVersion: '0.1'
+kind: event-feed
+id: ahead-books-fantasy
+name:
+  zh-CN: 书页里的节日
+  en: Books and Fantasy
+description:
+  zh-CN: 阅读社群、幻想世界和书展带来的真实约定。
+  en: Real appointments created by reading communities, fantasy worlds, and book fairs.
+primaryLanguage: zh-CN
+tags:
+  - id: literature
+    label:
+      zh-CN: 文学
+      en: Literature
+  - id: fantasy
+    label:
+      zh-CN: 幻想
+      en: Fantasy
+  - id: reading
+    label:
+      zh-CN: 阅读
+      en: Reading
+  - id: india
+    label:
+      zh-CN: 印度
+      en: India
+  - id: live
+    label:
+      zh-CN: 现场
+      en: Live
+  - id: global
+    label:
+      zh-CN: 全球
+      en: Global
+  - id: culture
+    label:
+      zh-CN: 文化
+      en: Culture
+  - id: outdoors
+    label:
+      zh-CN: 户外
+      en: Outdoors
+events:
+  - id: hobbit-day-2026
+    title:
+      zh-CN: 霍比特日
+      en: Hobbit Day 2026
+    summary:
+      zh-CN: 在比尔博与佛罗多共同生日这天回到中洲。
+      en: Return to Middle-earth on Bilbo and Frodo’s shared birthday.
+    description:
+      zh-CN: 读一章、做一顿丰盛早餐，或参加书迷活动。
+      en: Read a chapter, make a generous breakfast, or join a fan gathering.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-09-22'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 托尔金协会
+        evidence:
+          - kind: url
+            value: https://www.tolkiensociety.org/events/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - literature
+      - fantasy
+      - reading
+    evidence:
+      - kind: url
+        value: https://www.tolkiensociety.org/events/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Neuschwanstein, Diego Delso, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG/1280px-Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG
+        kind: image
+        alt:
+          zh-CN: 雪山之间的幻想城堡
+          en: A fantasy castle among snowy mountains
+    status: active
+  - id: read-tolkien-day-2027
+    title:
+      zh-CN: 托尔金阅读日
+      en: Tolkien Reading Day 2027
+    summary:
+      zh-CN: 3 月 25 日一起阅读托尔金。
+      en: Read Tolkien together on March 25.
+    description:
+      zh-CN: 每年主题另行公布，任何一本书、任何篇幅都可以参与。
+      en: The annual theme comes later; any book and any reading length count.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-03-25'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 托尔金协会
+        evidence:
+          - kind: url
+            value: https://www.tolkiensociety.org/society/events/reading-day/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - literature
+      - fantasy
+      - reading
+    evidence:
+      - kind: url
+        value: https://www.tolkiensociety.org/society/events/reading-day/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Neuschwanstein, Diego Delso, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG/1280px-Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG
+        kind: image
+        alt:
+          zh-CN: 雪山之间的幻想城堡
+          en: A fantasy castle among snowy mountains
+    status: active
+  - id: new-delhi-book-fair-2027
+    title:
+      zh-CN: 新德里世界书展
+      en: New Delhi World Book Fair 2027
+    summary:
+      zh-CN: 九天书展汇聚印度与国际出版。
+      en: A nine-day fair bringing together Indian and international publishing.
+    description:
+      zh-CN: 等作家对谈、童书馆和一张超长购书单。
+      en: Await author talks, the children’s pavilion, and a very long reading list.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-01-16'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 印度国家图书基金会
+        evidence:
+          - kind: url
+            value: https://www.nbtindia.gov.in/ndwbf2027/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 9
+      unit: days
+    tags:
+      - literature
+      - india
+      - live
+    evidence:
+      - kind: url
+        value: https://www.nbtindia.gov.in/ndwbf2027/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Neuschwanstein, Diego Delso, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG/1280px-Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG
+        kind: image
+        alt:
+          zh-CN: 雪山之间的幻想城堡
+          en: A fantasy castle among snowy mountains
+    status: active
+  - id: world-book-day-2027
+    title:
+      zh-CN: 世界图书与版权日
+      en: World Book and Copyright Day 2027
+    summary:
+      zh-CN: 世界各地在 4 月 23 日庆祝阅读。
+      en: Readers around the world celebrate books on April 23.
+    description:
+      zh-CN: 和朋友交换一本书，或者终于读那本搁置很久的书。
+      en: Swap a book with a friend or finally open the one waiting on your shelf.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-04-23'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: UNESCO
+        evidence:
+          - kind: url
+            value: https://www.unesco.org/en/days/world-book-and-copyright
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - literature
+      - global
+      - reading
+    evidence:
+      - kind: url
+        value: https://www.unesco.org/en/days/world-book-and-copyright
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Neuschwanstein, Diego Delso, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG/1280px-Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG
+        kind: image
+        alt:
+          zh-CN: 雪山之间的幻想城堡
+          en: A fantasy castle among snowy mountains
+    status: active
+  - id: bloomsday-2027
+    title:
+      zh-CN: 布鲁姆日
+      en: Bloomsday 2027
+    summary:
+      zh-CN: 在《尤利西斯》故事发生日重走都柏林。
+      en: Retrace Dublin on the day when Ulysses takes place.
+    description:
+      zh-CN: 不必读完全书；听一段朗读或找一处作品中的地点即可。
+      en: You need not finish the novel; hear a reading or find one place from it.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-06-16'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 都柏林旅游部门
+        evidence:
+          - kind: url
+            value: https://www.visitdublin.com/bloomsday-festival-2026
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - literature
+      - culture
+      - outdoors
+    evidence:
+      - kind: url
+        value: https://www.visitdublin.com/bloomsday-festival-2026
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Neuschwanstein, Diego Delso, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG/1280px-Neuschwanstein%2C_Schwangau%2C_Alemania%2C_2015-02-15%2C_DD_17.JPG
+        kind: image
+        alt:
+          zh-CN: 雪山之间的幻想城堡
+          en: A fantasy castle among snowy mountains
+    status: active

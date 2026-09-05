@@ -1,0 +1,277 @@
+oefVersion: '0.1'
+kind: event-feed
+id: ahead-sports-moments
+name:
+  zh-CN: 等一个赛点
+  en: Sporting Moments
+description:
+  zh-CN: 全球赛事与能让人准时守候的体育时刻。
+  en: Global competitions and sporting moments worth showing up for.
+primaryLanguage: zh-CN
+tags:
+  - id: sports
+    label:
+      zh-CN: 体育
+      en: Sports
+  - id: global
+    label:
+      zh-CN: 全球
+      en: Global
+  - id: live
+    label:
+      zh-CN: 现场
+      en: Live
+  - id: usa
+    label:
+      zh-CN: 美国
+      en: United States
+  - id: brazil
+    label:
+      zh-CN: 巴西
+      en: Brazil
+  - id: france
+    label:
+      zh-CN: 法国
+      en: France
+  - id: outdoors
+    label:
+      zh-CN: 户外
+      en: Outdoors
+events:
+  - id: super-bowl-2027
+    title:
+      zh-CN: 第 61 届超级碗
+      en: Super Bowl LXI
+    summary:
+      zh-CN: 美式橄榄球年度总决赛。
+      en: The annual championship game of American football.
+    description:
+      zh-CN: 比赛、广告和中场秀各有一群人在等。
+      en: The game, commercials, and halftime show each have their own audience.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-02-14'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: NFL
+        evidence:
+          - kind: url
+            value: https://www.nfl.com/super-bowl/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - sports
+      - usa
+      - live
+    evidence:
+      - kind: url
+        value: https://www.nfl.com/super-bowl/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: cricket-world-cup-2027
+    title:
+      zh-CN: 男子板球世界杯
+      en: Men’s Cricket World Cup 2027
+    summary:
+      zh-CN: 南非、津巴布韦与纳米比亚联合举办。
+      en: Hosted across South Africa, Zimbabwe, and Namibia.
+    description:
+      zh-CN: 当前采用已公布的赛事月份起点，赛程确认后更新。
+      en: This uses the announced tournament window and will be updated with the schedule.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-10-01'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: 国际板球理事会
+        evidence:
+          - kind: url
+            value: https://www.icc-cricket.com/tournaments/cricketworldcup
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 31
+      unit: days
+    tags:
+      - sports
+      - global
+      - live
+    evidence:
+      - kind: url
+        value: https://www.icc-cricket.com/tournaments/cricketworldcup
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: womens-world-cup-2027
+    title:
+      zh-CN: 女足世界杯
+      en: FIFA Women’s World Cup 2027
+    summary:
+      zh-CN: 32 支球队将在巴西角逐。
+      en: Thirty-two teams compete in Brazil.
+    description:
+      zh-CN: 从小组赛一路等到一个盛夏决赛。
+      en: Follow the tournament from the groups to a midsummer final.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-06-24'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 国际足联
+        evidence:
+          - kind: url
+            value: https://www.fifa.com/en/tournaments/womens/womensworldcup/brazil-2027
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 32
+      unit: days
+    tags:
+      - sports
+      - brazil
+      - live
+    evidence:
+      - kind: url
+        value: https://www.fifa.com/en/tournaments/womens/womensworldcup/brazil-2027
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: tour-de-france-2027
+    title:
+      zh-CN: 环法自行车赛
+      en: Tour de France 2027
+    summary:
+      zh-CN: 三周公路赛，也是一场移动风景片。
+      en: Three weeks of road racing and moving scenery.
+    description:
+      zh-CN: 路线和精确赛程公布后再更新，目前只标记常规七月窗口。
+      en: The route and exact schedule will be updated; this marks the expected July window.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-07-03'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: 环法自行车赛
+        evidence:
+          - kind: url
+            value: https://www.letour.fr/en/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 23
+      unit: days
+    tags:
+      - sports
+      - france
+      - outdoors
+    evidence:
+      - kind: url
+        value: https://www.letour.fr/en/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: rugby-world-cup-2027
+    title:
+      zh-CN: 男子橄榄球世界杯
+      en: Men’s Rugby World Cup 2027
+    summary:
+      zh-CN: 澳大利亚七座城市共同举办。
+      en: Seven Australian cities host the tournament.
+    description:
+      zh-CN: 六周赛程适合挑一支球队长期追踪。
+      en: A six-week tournament makes room to follow one team’s whole journey.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-10-01'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: World Rugby
+        evidence:
+          - kind: url
+            value: https://www.rugbyworldcup.com/2027/en
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 45
+      unit: days
+    tags:
+      - sports
+      - global
+      - live
+    evidence:
+      - kind: url
+        value: https://www.rugbyworldcup.com/2027/en
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active

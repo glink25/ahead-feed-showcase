@@ -1,0 +1,258 @@
+oefVersion: '0.1'
+kind: event-feed
+id: ahead-nature-watch
+name:
+  zh-CN: 等自然发生
+  en: Nature Watch
+description:
+  zh-CN: 只需一扇窗、一次散步就能参加的自然观察。
+  en: Nature events you can join with a window view or a walk.
+primaryLanguage: zh-CN
+tags:
+  - id: nature
+    label:
+      zh-CN: 自然
+      en: Nature
+  - id: outdoors
+    label:
+      zh-CN: 户外
+      en: Outdoors
+  - id: citizenscience
+    label:
+      zh-CN: 公众科学
+      en: Citizen Science
+events:
+  - id: october-big-day-2026
+    title:
+      zh-CN: 十月观鸟大日
+      en: October Big Day 2026
+    summary:
+      zh-CN: 用一天的观察共同绘制迁徙季鸟类地图。
+      en: Help map birds during migration with a day of observations.
+    description:
+      zh-CN: 观察一只也算；将清单提交到 eBird 即可贡献数据。
+      en: One bird counts; submit a checklist to eBird to contribute.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-10-10'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: Cornell Lab eBird
+        evidence:
+          - kind: url
+            value: https://ebird.org/news/october-ebirder-of-the-month-challenge
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - nature
+      - outdoors
+      - citizenscience
+    evidence:
+      - kind: url
+        value: https://ebird.org/news/october-ebirder-of-the-month-challenge
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Autumn forest with yellow maple leaves, Anton Vakulenko, CC BY-SA 2.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Autumn_forest_with_yellow_maple_leaves_everywhere.jpg/1280px-Autumn_forest_with_yellow_maple_leaves_everywhere.jpg
+        kind: image
+        alt:
+          zh-CN: 适合户外观察的秋日森林
+          en: An autumn forest ready for outdoor observation
+    status: active
+  - id: christmas-bird-count-2026
+    title:
+      zh-CN: 圣诞鸟类统计季
+      en: Christmas Bird Count 2026
+    summary:
+      zh-CN: 历史悠久的冬季公众科学项目。
+      en: A long-running winter citizen-science project.
+    description:
+      zh-CN: 需要跟随当地统计圈组织者参加。
+      en: Join through the organizer of a local count circle.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-12-14'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: National Audubon Society
+        evidence:
+          - kind: url
+            value: https://www.audubon.org/community-science/christmas-bird-count
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 22
+      unit: days
+    tags:
+      - nature
+      - outdoors
+      - citizenscience
+    evidence:
+      - kind: url
+        value: https://www.audubon.org/community-science/christmas-bird-count
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Autumn forest with yellow maple leaves, Anton Vakulenko, CC BY-SA 2.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Autumn_forest_with_yellow_maple_leaves_everywhere.jpg/1280px-Autumn_forest_with_yellow_maple_leaves_everywhere.jpg
+        kind: image
+        alt:
+          zh-CN: 适合户外观察的秋日森林
+          en: An autumn forest ready for outdoor observation
+    status: active
+  - id: backyard-bird-count-2027
+    title:
+      zh-CN: 全球庭院观鸟大赛
+      en: Great Backyard Bird Count 2027
+    summary:
+      zh-CN: 花十五分钟，数数窗外或公园里的鸟。
+      en: Spend fifteen minutes counting birds outside a window or in a park.
+    description:
+      zh-CN: 四天内任一天观察至少十五分钟并提交清单。
+      en: Observe for at least fifteen minutes on any of the four days and submit a list.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-02-12'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: GBBC
+        evidence:
+          - kind: url
+            value: https://www.birdcount.org/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 4
+      unit: days
+    tags:
+      - nature
+      - outdoors
+      - citizenscience
+    evidence:
+      - kind: url
+        value: https://www.birdcount.org/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Autumn forest with yellow maple leaves, Anton Vakulenko, CC BY-SA 2.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Autumn_forest_with_yellow_maple_leaves_everywhere.jpg/1280px-Autumn_forest_with_yellow_maple_leaves_everywhere.jpg
+        kind: image
+        alt:
+          zh-CN: 适合户外观察的秋日森林
+          en: An autumn forest ready for outdoor observation
+    status: active
+  - id: city-nature-challenge-2027
+    title:
+      zh-CN: 城市自然挑战赛
+      en: City Nature Challenge 2027
+    summary:
+      zh-CN: 让城市比一比谁记录到更多野生生命。
+      en: Cities compare how much urban wildlife they can document.
+    description:
+      zh-CN: 用手机拍下身边植物、昆虫或鸟类并上传观察。
+      en: Photograph a nearby plant, insect, or bird and upload the observation.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-04-30'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: City Nature Challenge
+        evidence:
+          - kind: url
+            value: https://www.citynaturechallenge.org/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 4
+      unit: days
+    tags:
+      - nature
+      - outdoors
+      - citizenscience
+    evidence:
+      - kind: url
+        value: https://www.citynaturechallenge.org/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Autumn forest with yellow maple leaves, Anton Vakulenko, CC BY-SA 2.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Autumn_forest_with_yellow_maple_leaves_everywhere.jpg/1280px-Autumn_forest_with_yellow_maple_leaves_everywhere.jpg
+        kind: image
+        alt:
+          zh-CN: 适合户外观察的秋日森林
+          en: An autumn forest ready for outdoor observation
+    status: active
+  - id: world-migratory-bird-day-2027
+    title:
+      zh-CN: 世界候鸟日
+      en: World Migratory Bird Day 2027
+    summary:
+      zh-CN: 沿着候鸟迁徙路线观察季节变化。
+      en: Observe seasonal change along migratory flyways.
+    description:
+      zh-CN: 关注本地自然机构的步行和讲解活动。
+      en: Watch local nature groups for walks and guided events.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-05-08'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: World Migratory Bird Day
+        evidence:
+          - kind: url
+            value: https://www.worldmigratorybirdday.org/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - nature
+      - outdoors
+      - citizenscience
+    evidence:
+      - kind: url
+        value: https://www.worldmigratorybirdday.org/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Autumn forest with yellow maple leaves, Anton Vakulenko, CC BY-SA 2.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Autumn_forest_with_yellow_maple_leaves_everywhere.jpg/1280px-Autumn_forest_with_yellow_maple_leaves_everywhere.jpg
+        kind: image
+        alt:
+          zh-CN: 适合户外观察的秋日森林
+          en: An autumn forest ready for outdoor observation
+    status: active

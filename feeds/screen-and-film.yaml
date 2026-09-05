@@ -1,0 +1,266 @@
+oefVersion: '0.1'
+kind: event-feed
+id: ahead-screen-film
+name:
+  zh-CN: 银幕与影展
+  en: Screen and Film
+description:
+  zh-CN: 可以一起等开幕、片单与颁奖结果的全球银幕事件。
+  en: Global screen events whose openings, lineups, and results are worth awaiting.
+primaryLanguage: zh-CN
+tags:
+  - id: film
+    label:
+      zh-CN: 影视
+      en: Film
+  - id: culture
+    label:
+      zh-CN: 文化
+      en: Culture
+  - id: global
+    label:
+      zh-CN: 全球
+      en: Global
+  - id: usa
+    label:
+      zh-CN: 美国
+      en: United States
+  - id: live
+    label:
+      zh-CN: 现场
+      en: Live
+events:
+  - id: sundance-2027
+    title:
+      zh-CN: 圣丹斯电影节首次落地博尔德
+      en: Sundance’s First Boulder Edition
+    summary:
+      zh-CN: 电影节首次从犹他州迁至科罗拉多州博尔德。
+      en: The festival opens its first edition in Boulder, Colorado.
+    description:
+      zh-CN: 先等片单，再等一批意外走红的独立电影。
+      en: First await the lineup, then the independent films that break out.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-01-21'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 圣丹斯电影节
+        evidence:
+          - kind: url
+            value: https://festival.sundance.org/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 11
+      unit: days
+    tags:
+      - film
+      - usa
+      - live
+    evidence:
+      - kind: url
+        value: https://festival.sundance.org/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: oscars-nominations-2027
+    title:
+      zh-CN: 第 99 届奥斯卡提名公布
+      en: 99th Oscars Nominations
+    summary:
+      zh-CN: 年度片单争论正式开始。
+      en: The annual lineup debate officially begins.
+    description:
+      zh-CN: 适合用来补一张未来两个月的观影片单。
+      en: Use the nominations to build a two-month watchlist.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-01-21'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 美国电影艺术与科学学院
+        evidence:
+          - kind: url
+            value: https://press.oscars.org/news/academy-and-abc-announce-show-dates-99th-and-100th-oscarsr
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - film
+      - culture
+      - global
+    evidence:
+      - kind: url
+        value: https://press.oscars.org/news/academy-and-abc-announce-show-dates-99th-and-100th-oscarsr
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: oscars-2027
+    title:
+      zh-CN: 第 99 届奥斯卡颁奖礼
+      en: 99th Oscars
+    summary:
+      zh-CN: 颁奖礼将在超过 200 个地区播出。
+      en: The ceremony is scheduled for broadcast in more than 200 territories.
+    description:
+      zh-CN: 等红毯、奖项，也等那些没有猜中的结果。
+      en: Await the red carpet, the awards, and the results no one predicted.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-03-14'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 美国电影艺术与科学学院
+        evidence:
+          - kind: url
+            value: https://press.oscars.org/news/academy-and-abc-announce-show-dates-99th-and-100th-oscarsr
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - film
+      - culture
+      - global
+    evidence:
+      - kind: url
+        value: https://press.oscars.org/news/academy-and-abc-announce-show-dates-99th-and-100th-oscarsr
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: cannes-2027
+    title:
+      zh-CN: 第 80 届戛纳电影节
+      en: 80th Cannes Film Festival
+    summary:
+      zh-CN: 具有纪念意义的第 80 届电影节。
+      en: The festival marks its milestone 80th edition.
+    description:
+      zh-CN: 从 5 月 11 日开始等首映、掌声时长和金棕榈。
+      en: From May 11, await premieres, ovations, and the Palme d’Or.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-05-11'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 戛纳电影节
+        evidence:
+          - kind: url
+            value: https://www.festival-cannes.com/presse/communiques/thierry-fremaux-livre-le-bilan-de-la-79e-edition-a-variety/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 12
+      unit: days
+    tags:
+      - film
+      - culture
+      - global
+    evidence:
+      - kind: url
+        value: https://www.festival-cannes.com/presse/communiques/thierry-fremaux-livre-le-bilan-de-la-79e-edition-a-variety/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: annecy-2027
+    title:
+      zh-CN: 安纳西国际动画电影节
+      en: Annecy Animation Festival 2027
+    summary:
+      zh-CN: 一周集中发现全球动画新作。
+      en: A week for discovering new animation from around the world.
+    description:
+      zh-CN: 适合等学生短片、实验动画和下一部大众热门。
+      en: Await student shorts, experiments, and the next mainstream favorite.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-06-13'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 安纳西国际动画电影节
+        evidence:
+          - kind: url
+            value: https://www.annecyfestival.com/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 7
+      unit: days
+    tags:
+      - film
+      - culture
+      - global
+    evidence:
+      - kind: url
+        value: https://www.annecyfestival.com/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active

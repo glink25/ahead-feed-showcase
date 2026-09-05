@@ -1,0 +1,280 @@
+oefVersion: '0.1'
+kind: event-feed
+id: ahead-world-festivals
+name:
+  zh-CN: 世界节庆
+  en: Festivals Around the World
+description:
+  zh-CN: 跨越南北半球、宗教与地方传统的节庆精选。
+  en: A selection spanning hemispheres, faiths, and local traditions.
+primaryLanguage: zh-CN
+tags:
+  - id: culture
+    label:
+      zh-CN: 文化
+      en: Culture
+  - id: global
+    label:
+      zh-CN: 全球
+      en: Global
+  - id: outdoors
+    label:
+      zh-CN: 户外
+      en: Outdoors
+  - id: india
+    label:
+      zh-CN: 印度
+      en: India
+  - id: family
+    label:
+      zh-CN: 家庭
+      en: Family
+  - id: brazil
+    label:
+      zh-CN: 巴西
+      en: Brazil
+  - id: live
+    label:
+      zh-CN: 现场
+      en: Live
+  - id: newzealand
+    label:
+      zh-CN: 新西兰
+      en: New Zealand
+  - id: astronomy
+    label:
+      zh-CN: 天文
+      en: Astronomy
+  - id: france
+    label:
+      zh-CN: 法国
+      en: France
+events:
+  - id: diwali-2026
+    title:
+      zh-CN: 排灯节
+      en: Diwali 2026
+    summary:
+      zh-CN: 点亮灯火迎接印度重要节日。
+      en: Light lamps for one of India’s major festivals.
+    description:
+      zh-CN: 日期采用印度政府年度假日日历；不同地区习俗各异。
+      en: The date follows India’s official annual calendar; customs vary by region.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-11-08'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 印度国家门户
+        evidence:
+          - kind: url
+            value: https://www.india.gov.in/calendar
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - culture
+      - india
+      - family
+    evidence:
+      - kind: url
+        value: https://www.india.gov.in/calendar
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active
+  - id: carnival-rio-2027
+    title:
+      zh-CN: 里约狂欢节
+      en: Rio Carnival 2027
+    summary:
+      zh-CN: 桑巴、花车与街头庆祝汇聚里约。
+      en: Samba, floats, and street celebrations converge in Rio.
+    description:
+      zh-CN: 即使不在现场，也可以等巡游影像和冠军揭晓。
+      en: Even from afar, anticipate parade footage and the champion reveal.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-02-05'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: 里约旅游局
+        evidence:
+          - kind: url
+            value: https://riotur.rio/en/welcome/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 5
+      unit: days
+    tags:
+      - culture
+      - brazil
+      - live
+    evidence:
+      - kind: url
+        value: https://riotur.rio/en/welcome/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active
+  - id: holi-2027
+    title:
+      zh-CN: 洒红节
+      en: Holi 2027
+    summary:
+      zh-CN: 以色彩迎接春天。
+      en: Welcome spring with color.
+    description:
+      zh-CN: 参与公共活动前先了解当地安全和文化礼仪。
+      en: Check local safety guidance and cultural etiquette before joining public events.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-03-22'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: 印度旅游部门
+        evidence:
+          - kind: url
+            value: https://www.incredibleindia.gov.in/en/festivals-and-events
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - culture
+      - india
+      - outdoors
+    evidence:
+      - kind: url
+        value: https://www.incredibleindia.gov.in/en/festivals-and-events
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active
+  - id: matariki-2027
+    title:
+      zh-CN: 毛利新年 Matariki
+      en: Matariki 2027
+    summary:
+      zh-CN: 在南半球冬季迎接昴星团归来。
+      en: Welcome the return of the Pleiades in the Southern Hemisphere winter.
+    description:
+      zh-CN: 回顾过去、分享食物，也向象征愿望的星星寄托期待。
+      en: Reflect, share food, and entrust a hope to the wishing star.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-06-25'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 新西兰政府
+        evidence:
+          - kind: url
+            value: https://www.govt.nz/browse/work/public-holidays-and-work/public-holidays-and-anniversary-dates/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - culture
+      - newzealand
+      - astronomy
+    evidence:
+      - kind: url
+        value: https://www.govt.nz/browse/work/public-holidays-and-work/public-holidays-and-anniversary-dates/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active
+  - id: bastille-day-2027
+    title:
+      zh-CN: 法国国庆日
+      en: Bastille Day 2027
+    summary:
+      zh-CN: 烟花、舞会与公共庆典。
+      en: Fireworks, dances, and public celebrations.
+    description:
+      zh-CN: 关注巴黎及法国各地公布的免费活动。
+      en: Watch for free programs announced across Paris and France.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-07-14'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 法国旅游发展署
+        evidence:
+          - kind: url
+            value: https://www.france.fr/en/event/bastille-day-14-july/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - culture
+      - france
+      - outdoors
+    evidence:
+      - kind: url
+        value: https://www.france.fr/en/event/bastille-day-14-july/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：Mid-autumn red lanterns, Pasvoebrc, CC BY-SA 3.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG/1280px-HK_Parkn_Shop_Chinese_Mid-autumn_Festival_red_Lanterns_greeting_Sept-2012.JPG
+        kind: image
+        alt:
+          zh-CN: 节庆中的红灯笼
+          en: Red lanterns at a festival
+    status: active

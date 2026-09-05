@@ -1,0 +1,253 @@
+oefVersion: '0.1'
+kind: event-feed
+id: ahead-museum-art
+name:
+  zh-CN: 博物馆开到很晚
+  en: Museums After Dark
+description:
+  zh-CN: 博物馆夜、公共艺术与全球共同庆祝日。
+  en: Museum nights, public art, and shared global celebrations.
+primaryLanguage: zh-CN
+tags:
+  - id: art
+    label:
+      zh-CN: 艺术
+      en: Art
+  - id: museum
+    label:
+      zh-CN: 博物馆
+      en: Museum
+  - id: culture
+    label:
+      zh-CN: 文化
+      en: Culture
+  - id: free
+    label:
+      zh-CN: 免费可参与
+      en: Free
+events:
+  - id: world-art-day-2027
+    title:
+      zh-CN: 世界艺术日
+      en: World Art Day 2027
+    summary:
+      zh-CN: 用一天关注艺术创造和观看。
+      en: A day devoted to making and experiencing art.
+    description:
+      zh-CN: 去看一件常被路过的公共艺术，或者画一张小画。
+      en: Notice a public artwork you usually pass, or make a small drawing.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-04-15'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: UNESCO
+        evidence:
+          - kind: url
+            value: https://www.unesco.org/en/days/world-art
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - art
+      - museum
+      - culture
+    evidence:
+      - kind: url
+        value: https://www.unesco.org/en/days/world-art
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: international-museum-day-2027
+    title:
+      zh-CN: 国际博物馆日
+      en: International Museum Day 2027
+    summary:
+      zh-CN: 世界各地博物馆围绕年度主题举办活动。
+      en: Museums worldwide organize programs around an annual theme.
+    description:
+      zh-CN: 等附近博物馆公布免费入场、延时开放或幕后活动。
+      en: Await free entry, late opening, or behind-the-scenes programs nearby.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-05-18'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: 国际博物馆协会
+        evidence:
+          - kind: url
+            value: https://imd.icom.museum/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - art
+      - museum
+      - culture
+    evidence:
+      - kind: url
+        value: https://imd.icom.museum/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: long-night-museums-berlin-2027
+    title:
+      zh-CN: 柏林博物馆长夜
+      en: Long Night of Museums Berlin 2027
+    summary:
+      zh-CN: 一张票串联夜间开放的城市博物馆。
+      en: One ticket connects museums open across the city at night.
+    description:
+      zh-CN: 精确日期待主办方公布，目前采用常见八月窗口。
+      en: The exact date awaits announcement; this marks the usual August window.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-08-28'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: Kulturprojekte Berlin
+        evidence:
+          - kind: url
+            value: https://www.lange-nacht-der-museen.de/en
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - art
+      - museum
+      - culture
+    evidence:
+      - kind: url
+        value: https://www.lange-nacht-der-museen.de/en
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: museum-night-amsterdam-2026
+    title:
+      zh-CN: 阿姆斯特丹博物馆之夜
+      en: Museum Night Amsterdam 2026
+    summary:
+      zh-CN: 年轻观众在夜里穿行城市博物馆。
+      en: Young audiences move among the city’s museums after dark.
+    description:
+      zh-CN: 关注演出、临时展和只在这一晚出现的项目。
+      en: Watch for performances, pop-ups, and one-night-only programs.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-11-07'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: likely
+        source: Museum Night Amsterdam
+        evidence:
+          - kind: url
+            value: https://museumnacht.amsterdam/en
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - art
+      - museum
+      - culture
+    evidence:
+      - kind: url
+        value: https://museumnacht.amsterdam/en
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active
+  - id: public-domain-day-2027
+    title:
+      zh-CN: 公共领域日
+      en: Public Domain Day 2027
+    summary:
+      zh-CN: 一批作品进入公共领域，重新成为创作材料。
+      en: A new group of works enters the public domain and becomes creative material.
+    description:
+      zh-CN: 去看看今年有哪些书、音乐和影像可以自由再创作。
+      en: Discover which books, music, and films are newly free to reuse.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-01-01'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: Duke Center for the Study of the Public Domain
+        evidence:
+          - kind: url
+            value: https://web.law.duke.edu/cspd/publicdomainday/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - art
+      - culture
+      - free
+    evidence:
+      - kind: url
+        value: https://web.law.duke.edu/cspd/publicdomainday/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：CES 2025 LVCC, Xuthoria, CC BY-SA 4.0, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1280px-CES_2025_-_LVCC_01.jpg
+        kind: image
+        alt:
+          zh-CN: 聚光灯下的活动现场
+          en: A live event under bright lights
+    status: active

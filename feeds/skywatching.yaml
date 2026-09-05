@@ -1,0 +1,261 @@
+oefVersion: '0.1'
+kind: event-feed
+id: ahead-skywatching
+name:
+  zh-CN: 抬头看天
+  en: Look Up
+description:
+  zh-CN: 面向普通人的流星雨、月食与共同观测夜。
+  en: Meteor showers, eclipses, and shared observing nights for everyone.
+primaryLanguage: zh-CN
+tags:
+  - id: astronomy
+    label:
+      zh-CN: 天文
+      en: Astronomy
+  - id: outdoors
+    label:
+      zh-CN: 户外
+      en: Outdoors
+  - id: global
+    label:
+      zh-CN: 全球
+      en: Global
+events:
+  - id: moon-night-2026
+    title:
+      zh-CN: 国际赏月夜
+      en: International Observe the Moon Night 2026
+    summary:
+      zh-CN: 全世界一起观察月球的一晚。
+      en: A night for people around the world to observe the Moon together.
+    description:
+      zh-CN: 用肉眼就能参加；当地天气和月出时间会影响体验。
+      en: The naked eye is enough; local weather and moonrise affect viewing.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-09-19'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: NASA
+        evidence:
+          - kind: url
+            value: https://moon.nasa.gov/observe-the-moon-night/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    tags:
+      - astronomy
+      - outdoors
+      - global
+    evidence:
+      - kind: url
+        value: https://moon.nasa.gov/observe-the-moon-night/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+        kind: image
+        alt:
+          zh-CN: 夜空般的霓虹光影
+          en: Neon lights against a night sky
+    status: active
+  - id: orionids-2026
+    title:
+      zh-CN: 猎户座流星雨极大夜
+      en: Orionids Peak 2026
+    summary:
+      zh-CN: 哈雷彗星留下的尘埃划过夜空。
+      en: Dust from Halley’s Comet streaks across the sky.
+    description:
+      zh-CN: 10 月 21 日夜至 22 日清晨，找远离灯光且视野开阔处。
+      en: On Oct 21–22, find a dark place with a broad view of the sky.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-10-21'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: NASA
+        evidence:
+          - kind: url
+            value: https://science.nasa.gov/solar-system/meteors-meteorites/meteor-showers/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 2
+      unit: days
+    tags:
+      - astronomy
+      - outdoors
+      - global
+    evidence:
+      - kind: url
+        value: https://science.nasa.gov/solar-system/meteors-meteorites/meteor-showers/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+        kind: image
+        alt:
+          zh-CN: 夜空般的霓虹光影
+          en: Neon lights against a night sky
+    status: active
+  - id: leonids-2026
+    title:
+      zh-CN: 狮子座流星雨极大夜
+      en: Leonids Peak 2026
+    summary:
+      zh-CN: 十一月夜空的年度流星雨。
+      en: An annual meteor shower in the November sky.
+    description:
+      zh-CN: 观测效果取决于云量、月光和所在地。
+      en: Clouds, moonlight, and location determine what you can see.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-11-16'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: NASA
+        evidence:
+          - kind: url
+            value: https://science.nasa.gov/solar-system/meteors-meteorites/meteor-showers/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 2
+      unit: days
+    tags:
+      - astronomy
+      - outdoors
+      - global
+    evidence:
+      - kind: url
+        value: https://science.nasa.gov/solar-system/meteors-meteorites/meteor-showers/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+        kind: image
+        alt:
+          zh-CN: 夜空般的霓虹光影
+          en: Neon lights against a night sky
+    status: active
+  - id: geminids-2026
+    title:
+      zh-CN: 双子座流星雨极大夜
+      en: Geminids Peak 2026
+    summary:
+      zh-CN: 一年中最值得守候的流星雨之一。
+      en: One of the year’s most anticipated meteor showers.
+    description:
+      zh-CN: 12 月 13 日夜至 14 日清晨，给眼睛二十分钟适应黑暗。
+      en: On Dec 13–14, give your eyes twenty minutes to adapt to darkness.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2026-12-13'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: NASA
+        evidence:
+          - kind: url
+            value: https://science.nasa.gov/solar-system/meteors-meteorites/meteor-showers/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 2
+      unit: days
+    tags:
+      - astronomy
+      - outdoors
+      - global
+    evidence:
+      - kind: url
+        value: https://science.nasa.gov/solar-system/meteors-meteorites/meteor-showers/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+        kind: image
+        alt:
+          zh-CN: 夜空般的霓虹光影
+          en: Neon lights against a night sky
+    status: active
+  - id: lyrids-2027
+    title:
+      zh-CN: 天琴座流星雨极大夜
+      en: Lyrids Peak 2027
+    summary:
+      zh-CN: 春季夜空中的短暂高峰。
+      en: A brief peak in the spring night sky.
+    description:
+      zh-CN: 预计 4 月 22 日夜至 23 日清晨达到高峰。
+      en: Expected to peak overnight April 22–23.
+    schedule:
+      - id: published-date
+        value:
+          kind: exact
+          date: '2027-04-22'
+        recordedAt: '2026-09-05T00:00:00Z'
+        confidence: confirmed
+        source: NASA
+        evidence:
+          - kind: url
+            value: https://science.nasa.gov/solar-system/meteors-meteorites/meteor-showers/
+            label:
+              zh-CN: 活动或资料官网
+              en: Official event or reference page
+            fetchedAt: '2026-09-05T00:00:00Z'
+    duration:
+      amount: 2
+      unit: days
+    tags:
+      - astronomy
+      - outdoors
+      - global
+    evidence:
+      - kind: url
+        value: https://science.nasa.gov/solar-system/meteors-meteorites/meteor-showers/
+        label:
+          zh-CN: 核查来源
+          en: Reference
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: citation
+        value: 海报图片：The Carlyle neon sign, Radomianin, public domain, via Wikimedia Commons
+    media:
+      - path: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg/1280px-The_Carlyle_%28neon_sign%29%2C_Miami_Beach%2C_east_view_up%2C_2018-08-21.jpg
+        kind: image
+        alt:
+          zh-CN: 夜空般的霓虹光影
+          en: Neon lights against a night sky
+    status: active
