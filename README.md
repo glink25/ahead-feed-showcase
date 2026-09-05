@@ -52,7 +52,7 @@ manifest 均位于 `feeds/`，路径见上表。
 
 ## 海报与署名
 
-事件的 `media[].path` 分别使用 Picsum、LoremFlickr 与 Placehold.co。每个事件使用独立的 HTTPS 图片地址，来源与说明记录在对应事件的 `evidence` 中，图片均提供中英文替代文本。图片只用于营造主题氛围，不作为事件事实证据。
+事件的 `media[].path` 使用与具体事件语义匹配的公开图片：品牌与赛事优先主办方/官方页面主视觉，文化、自然、天文和公共领域主题优先采用 Wikimedia Commons、NASA 等可追溯素材。每个事件使用独立 HTTPS 图片地址，来源与许可说明记录在对应事件的 `evidence` 中，并提供中英文替代文本。图片用于事件卡片表达，但不替代日期、赛程等事实证据。
 
 客户端可以通过隐私设置禁用远程图片加载（`settings.privacyRemoteImages`）。
 

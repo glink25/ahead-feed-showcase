@@ -243,15 +243,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:OneOne_Matariki_2018.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/96af9a/ffffff.jpg?text=Matariki%202027
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/OneOne_Matariki_2018.jpg/1920px-OneOne_Matariki_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 毛利新年 Matariki的配图
@@ -294,15 +294,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/kzhbVDBDdlc
+        value: https://commons.wikimedia.org/wiki/File:Eiffel_Tower_fireworks_on_Bastille_Day_2017_(36303814471).jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 236，Chris Adams，via Lorem Picsum / Unsplash
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://picsum.photos/id/236/1280/720
+      - path: https://upload.wikimedia.org/wikipedia/commons/7/71/Eiffel_Tower_fireworks_on_Bastille_Day_2017_%2836303814471%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
         kind: image
         alt:
           zh-CN: 法国国庆日的配图
