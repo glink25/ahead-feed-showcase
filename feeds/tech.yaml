@@ -26,8 +26,8 @@ events:
       zh-CN: 已确认到具体时刻，含时区。
       en: Confirmed down to the minute, with timezone.
     description:
-      zh-CN: 官方邀请函已发出，主题演讲将在库比蒂诺当地时间上午十点开始。
-      en: Invitations are out; the keynote starts at 10am local time in Cupertino.
+      zh-CN: 邀请函落地以后，猜谜阶段差不多结束了：剩下的就是到点看直播，看看哪几个传闻真的走上舞台。
+      en: Once the invitation lands, guessing season is mostly over. The fun left is watching which rumors actually make it onstage.
     schedule:
       - id: rumored-window
         value:
@@ -63,15 +63,15 @@ events:
           zh-CN: 官方直播页
           en: Official stream page
       - kind: url
-        value: https://placehold.co/
+        value: https://www.apple.com/apple-events/
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：活动或机构官网公开主视觉；版权与使用条件见来源页
     media:
-      - path: https://placehold.co/1280x720/2c15e5/ffffff.jpg?text=Apple%20Fall%20Event
+      - path: https://www.apple.com/v/apple-events/home/ak/images/meta/apple_events__d0b4ek86reaa_og.png?202608260835
         kind: image
         alt:
           zh-CN: 苹果秋季发布会的配图
@@ -84,6 +84,9 @@ events:
     summary:
       zh-CN: 惯例在六月，尚未公布具体日期。
       en: Traditionally in June; exact dates not yet announced.
+    description:
+      zh-CN: 六月是经验，不是官宣。真正值得等的是 Apple 把日期写出来的那一天。
+      en: June is a pattern, not an announcement. The real moment to wait for is when Apple puts actual dates on the calendar.
     schedule:
       - id: historical-pattern
         value:
@@ -98,15 +101,15 @@ events:
       - keynote
     evidence:
       - kind: url
-        value: https://unsplash.com/photos/Qh6wsKk1HWg
+        value: https://commons.wikimedia.org/wiki/File:Oak_Glen_Harvest_Time_11-10-12_(8193487733).jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 232，Hide Obara，via Lorem Picsum / Unsplash
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://picsum.photos/id/232/1280/720
+      - path: https://upload.wikimedia.org/wikipedia/commons/c/c1/Oak_Glen_Harvest_Time_11-10-12_%288193487733%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
         kind: image
         alt:
           zh-CN: WWDC 2027的配图
@@ -119,6 +122,9 @@ events:
     summary:
       zh-CN: 拉斯维加斯，为期四天。
       en: Four days in Las Vegas.
+    description:
+      zh-CN: 四天里会冒出太多“未来感”产品；真正有趣的是半年后回头看，哪些东西真的走进了生活。
+      en: Four days will produce plenty of “future” products. The fun part is looking back six months later to see which ones actually reached everyday life.
     schedule:
       - id: official-dates
         value:
@@ -139,15 +145,15 @@ events:
           zh-CN: 官方网站
           en: Official site
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:CES_2025_-_LVCC_01.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/tech?lock=167
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/CES_2025_-_LVCC_01.jpg/1920px-CES_2025_-_LVCC_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: CES 2027 消费电子展的配图
@@ -160,6 +166,9 @@ events:
     summary:
       zh-CN: 传闻不断，官方从未给出时间。
       en: Persistent rumors, no official timing.
+    description:
+      zh-CN: 传闻可以很热闹，但没有官方窗口就没有倒计时。先等一个真正能引用的发布日期。
+      en: Rumors can be loud, but without an official window there is no countdown. Wait for a launch date that can actually be cited.
     schedule:
       - id: rumor-only
         value:
@@ -173,15 +182,15 @@ events:
       - tech
     evidence:
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:Hexagon_data_center_foil_back.webp
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/6bc530/ffffff.jpg?text=Next%20Frontier%20Model%20Launch
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Hexagon_data_center_foil_back.webp/1920px-Hexagon_data_center_foil_back.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 下一代前沿模型发布的配图

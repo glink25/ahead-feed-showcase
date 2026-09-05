@@ -75,15 +75,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/rFKUFzjPYiQ
+        value: https://www.nfl.com/super-bowl/
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 230，Wes Carr，via Lorem Picsum / Unsplash
+        value: 海报图片：活动或机构官网公开主视觉；版权与使用条件见来源页
     media:
-      - path: https://picsum.photos/id/230/1280/720
+      - path: https://static.www.nfl.com/image/upload/v1554321393/league/nvfr7ogywskqrfaiu38m.png
         kind: image
         alt:
           zh-CN: 第 61 届超级碗的配图
@@ -129,15 +129,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:Boland_Park_Cricket_Ground.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/sports%2Cmoments?lock=161
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Boland_Park_Cricket_Ground.jpg/1920px-Boland_Park_Cricket_Ground.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 男子板球世界杯的配图
@@ -183,15 +183,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:2015_Pan_Am_games_Canada_vs_Brazil_laslovarga_(56).jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/516f78/ffffff.jpg?text=FIFA%20Women%E2%80%99s%20World%20Cup%202027
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/2015_Pan_Am_games_Canada_vs_Brazil_laslovarga_%2856%29.jpg/1920px-2015_Pan_Am_games_Canada_vs_Brazil_laslovarga_%2856%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 女足世界杯的配图
@@ -237,15 +237,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/XeCvtUX-AE0
+        value: https://www.letour.fr/en/
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 231，Aleksandra Boguslawska，via Lorem Picsum / Unsplash
+        value: 海报图片：活动或机构官网公开主视觉；版权与使用条件见来源页
     media:
-      - path: https://picsum.photos/id/231/1280/720
+      - path: https://www.letour.fr/img/global/logo-og.png
         kind: image
         alt:
           zh-CN: 环法自行车赛的配图
@@ -291,15 +291,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://loremflickr.com/
+        value: https://www.rugbyworldcup.com/2027/en
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：活动或机构官网公开主视觉；版权与使用条件见来源页
     media:
-      - path: https://loremflickr.com/1280/720/sports%2Cmoments?lock=164
+      - path: https://resources.worldrugby-rims.pulselive.com/photo-resources/2024/12/11/e3f535e2-78b6-48de-a000-f17413a5f883/WebbEllisCup_RWC27_Australia.png?width=1200&height=630
         kind: image
         alt:
           zh-CN: 男子橄榄球世界杯的配图
