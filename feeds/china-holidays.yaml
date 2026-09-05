@@ -62,19 +62,19 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Chinesenewyearfireworkman.jpg
+        value: https://www.beijing.gov.cn/ywdt/yaowen/202601/t20260104_4395693.html
         label:
           zh-CN: 海报图片来源
           en: Poster image source
-        fetchedAt: '2026-09-05T00:00:00Z'
+        fetchedAt: '2026-09-05T12:22:00Z'
       - kind: citation
-        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
+        value: 海报图片：2026 北京新年倒计时现场，邓伟摄，首都之窗 / 北京日报
     media:
-      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Chinesenewyearfireworkman.jpg/1920px-Chinesenewyearfireworkman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      - path: https://www.beijing.gov.cn/ywdt/yaowen/202601/W020260104296421513769.jpg
         kind: image
         alt:
-          zh-CN: 2026 元旦假期的配图
-          en: Illustration for China New Year Holiday 2026
+          zh-CN: 居庸关长城跨年倒计时现场，人们共同迎接 2026 新年
+          en: New Year countdown at Juyongguan Great Wall welcoming 2026
     status: active
   - id: spring-festival-cn-2026
     title:
@@ -116,19 +116,19 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Happy_Spring_Festival_of_Chinese_New_Year_in_Dalian_(1st_Round_Photography)_-_Lanterns%27_Gate.jpg
+        value: https://www.beijing.gov.cn/tsbj/sxym/202602/t20260212_4510568.html
         label:
           zh-CN: 海报图片来源
           en: Poster image source
-        fetchedAt: '2026-09-05T00:00:00Z'
+        fetchedAt: '2026-09-05T12:22:00Z'
       - kind: citation
-        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
+        value: 海报图片：怀柔春节景观灯饰，首都之窗，2026-02-12
     media:
-      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Happy_Spring_Festival_of_Chinese_New_Year_in_Dalian_%281st_Round_Photography%29_-_Lanterns%27_Gate.jpg/1920px-Happy_Spring_Festival_of_Chinese_New_Year_in_Dalian_%281st_Round_Photography%29_-_Lanterns%27_Gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      - path: https://www.beijing.gov.cn/tsbj/sxym/202602/W020260212406787529964.jpg
         kind: image
         alt:
-          zh-CN: 2026 春节假期的配图
-          en: Illustration for China Spring Festival Holiday 2026
+          zh-CN: 红灯笼与福字彩灯组成的春节景观，年味浓郁
+          en: Spring Festival lantern display with red lanterns and a large Fu character
     status: active
   - id: qingming-cn-2026
     title:
@@ -170,19 +170,19 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Chonghe_Dong_Cemetery,_Qingming_Festival_1.jpg
+        value: https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202604/t20260401_4572433.html
         label:
           zh-CN: 海报图片来源
           en: Poster image source
-        fetchedAt: '2026-09-05T00:00:00Z'
+        fetchedAt: '2026-09-05T12:22:00Z'
       - kind: citation
-        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
+        value: 海报图片：清明前后的北京春日园路与繁花，首都之窗 / 北京日报
     media:
-      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Chonghe_Dong_Cemetery%2C_Qingming_Festival_1.jpg/1920px-Chonghe_Dong_Cemetery%2C_Qingming_Festival_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      - path: https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202604/W020260401598927146132.jpg
         kind: image
         alt:
-          zh-CN: 2026 清明节假期的配图
-          en: Illustration for China Qingming Holiday 2026
+          zh-CN: 清明时节北京公园春花盛开，适合踏青赏春
+          en: Spring blossoms in a Beijing park around the Qingming holiday
     status: active
   - id: labour-day-cn-2026
     title:
@@ -224,19 +224,19 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://commons.wikimedia.org/wiki/File:United_Fishers_and_Allied_Workers_May_Day_parade_(17081450471).jpg
+        value: https://www.beijing.gov.cn/renwen/zt/jhhszn/shts/202604/t20260423_4606377.html
         label:
           zh-CN: 海报图片来源
           en: Poster image source
-        fetchedAt: '2026-09-05T00:00:00Z'
+        fetchedAt: '2026-09-05T12:22:00Z'
       - kind: citation
-        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
+        value: 海报图片：五一假期花期内的北京高山杜鹃，北京市文化和旅游局 / 首都之窗
     media:
-      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/United_Fishers_and_Allied_Workers_May_Day_parade_%2817081450471%29.jpg/1920px-United_Fishers_and_Allied_Workers_May_Day_parade_%2817081450471%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      - path: https://www.beijing.gov.cn/renwen/zt/jhhszn/shts/202604/W020260423607673095478.jpg
         kind: image
         alt:
-          zh-CN: 2026 劳动节假期的配图
-          en: Illustration for China Labour Day Holiday 2026
+          zh-CN: 五一假期前后盛开的粉紫色杜鹃花，呈现春日出游氛围
+          en: Pink and purple azaleas in bloom for the May Day holiday season
     status: active
   - id: dragon-boat-cn-2026
     title:
@@ -278,19 +278,19 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Dragon_Boat_race,_China.jpg
+        value: https://www.beijing.gov.cn/tsbj/sxym/202606/t20260618_4706492.html
         label:
           zh-CN: 海报图片来源
           en: Poster image source
-        fetchedAt: '2026-09-05T00:00:00Z'
+        fetchedAt: '2026-09-05T12:22:00Z'
       - kind: citation
-        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
+        value: 海报图片：龙潭湖端午龙舟，樊荣禄摄，首都之窗
     media:
-      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Dragon_Boat_race%2C_China.jpg/1920px-Dragon_Boat_race%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      - path: https://www.beijing.gov.cn/tsbj/sxym/202606/W020260618568016276608.jpg
         kind: image
         alt:
-          zh-CN: 2026 端午节假期的配图
-          en: Illustration for China Dragon Boat Holiday 2026
+          zh-CN: 龙潭湖碧波上的彩色龙舟，呈现端午竞渡氛围
+          en: A colorful dragon boat on Longtan Lake during the Dragon Boat Festival season
     status: active
   - id: mid-autumn-cn-2026
     title:
@@ -332,19 +332,19 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Mid-Autumn_Festival-beijing.jpg
+        value: https://www.beijing.gov.cn/ywdt/yaowen/202510/t20251007_4215934.html
         label:
           zh-CN: 海报图片来源
           en: Poster image source
-        fetchedAt: '2026-09-05T00:00:00Z'
+        fetchedAt: '2026-09-05T12:22:00Z'
       - kind: citation
-        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
+        value: 海报图片：玉渊潭公园中秋文化体验活动，刘平摄，首都之窗 / 北京日报
     media:
-      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Mid-Autumn_Festival-beijing.jpg/1920px-Mid-Autumn_Festival-beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      - path: https://www.beijing.gov.cn/ywdt/yaowen/202510/W020251007343905053008.jpg
         kind: image
         alt:
-          zh-CN: 2026 中秋节假期的配图
-          en: Illustration for China Mid-Autumn Holiday 2026
+          zh-CN: 游客在玉渊潭公园参加中秋灯谜与花灯文化体验
+          en: Visitors enjoying lantern and riddle activities for Mid-Autumn Festival at Yuyuantan Park
     status: active
   - id: national-day-cn-2026
     title:
@@ -386,17 +386,17 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Tiananmen_Square_-_National_Day_2006.jpg
+        value: https://www.beijing.gov.cn/ywdt/gzdt/202510/t20251009_4216012.html
         label:
           zh-CN: 海报图片来源
           en: Poster image source
-        fetchedAt: '2026-09-05T00:00:00Z'
+        fetchedAt: '2026-09-05T12:22:00Z'
       - kind: citation
-        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
+        value: 海报图片：国庆中秋长假期间月坛公园游园场景，方非摄，首都之窗 / 北京日报
     media:
-      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Tiananmen_Square_-_National_Day_2006.jpg/1920px-Tiananmen_Square_-_National_Day_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      - path: https://www.beijing.gov.cn/ywdt/gzdt/202510/W020251009298067317290.jpg
         kind: image
         alt:
-          zh-CN: 2026 国庆节假期的配图
-          en: Illustration for China National Day Holiday 2026
+          zh-CN: 金秋假期里游客在月坛公园游园，突出休闲出游氛围
+          en: Visitors enjoying a Beijing park during the autumn National Day holiday period
     status: active
