@@ -49,12 +49,16 @@ source = source.replace(
 source = source.replace(
   "  const response = await fetch(api, { headers: { 'user-agent': 'ahead-feed-showcase-media-refresh/1.0' } })\n  if (!response.ok) throw new Error(`Commons search failed for ${query}: ${response.status}`)",
   `  let response
-  for (let attempt = 0; attempt < 6; attempt += 1) {
-    await new Promise((resolve) => setTimeout(resolve, attempt === 0 ? 650 : 1200 * (2 ** (attempt - 1))))
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    await new Promise((resolve) => setTimeout(resolve, attempt === 0 ? 850 : 5000))
     response = await fetch(api, { headers: { 'user-agent': 'ahead-feed-showcase-media-refresh/1.0' } })
     if (response.status !== 429 && response.status < 500) break
   }
   if (!response?.ok) throw new Error(\`Commons search failed for \${query}: \${response?.status ?? 'no response'}\`)`
+)
+source = source.replace(
+  "      const candidate = new URL(decodeHtml(match[1]), response.url).href\n      if (await imageLooksUsable(candidate)) return { path: candidate, source: pageUrl, kind: 'official' }",
+  "      let candidate = new URL(decodeHtml(match[1]), response.url).href\n      if (candidate.startsWith('http://')) candidate = `https://${candidate.slice('http://'.length)}`\n      if (await imageLooksUsable(candidate)) return { path: candidate, source: pageUrl, kind: 'official' }"
 )
 source = source.replace(
   '  if (!pages.length) throw new Error(`No Commons image found for: ${query}`)',
