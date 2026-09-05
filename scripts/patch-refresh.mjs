@@ -4,9 +4,12 @@ const path = new URL('./refresh-showcase-media.mjs', import.meta.url)
 let source = await readFile(path, 'utf8')
 
 const replacements = {
-  'New Year fireworks China city skyline': 'Shanghai fireworks',
+  'New Year fireworks China city skyline': 'Shanghai New Year fireworks',
   'Spring Festival Beijing lanterns Forbidden City': 'Spring Festival China lanterns',
-  'International Workers Day China May Day Beijing': 'May Day China',
+  'Qingming Festival tomb sweeping': 'Chonghe Dong Cemetery Qingming Festival',
+  'International Workers Day China May Day Beijing': 'May Day workers parade',
+  'Mid-Autumn Festival Beijing lanterns moon': 'Mid-Autumn Festival-beijing',
+  'China National Day Tiananmen Square October 1': 'Tiananmen Square National Day 2006',
   'asteroid telescope observation': 'asteroid telescope',
   'Unix terminal computer code': 'computer terminal code',
   'The Elder Scrolls VI logo': 'Elder Scrolls logo',
@@ -30,17 +33,28 @@ const replacements = {
   'people knitting in public park': 'knitting public',
   'external hard drive data backup computer': 'external hard drive',
   'Douglas Adams portrait towel': 'Douglas Adams',
-  'Chuseok Korea traditional celebration hanbok': 'Chuseok Korea',
+  'Chuseok Korea traditional celebration hanbok': 'Korea Chuseok Sketch',
   'King Sejong Hangul Korean alphabet monument': 'King Sejong Hangul',
   'opera stage theatre performance': 'opera stage',
   'independent record store vinyl records': 'record store vinyl',
-  'street musicians outdoor public performance': 'street musicians'
+  'street musicians outdoor public performance': 'street musicians',
+  "'silksong-expansion': 'https://www.teamcherry.com.au/',": "'silksong-expansion': 'https://www.teamcherry.com.au/blog/11xf7azcuebhybgossfhdc0mphiqbs',"
 }
 for (const [from, to] of Object.entries(replacements)) source = source.replaceAll(from, to)
 
 source = source.replace(
   'async function resolveCommons(query, used) {',
   'async function resolveCommons(query, used, allowFallback = true) {'
+)
+source = source.replace(
+  "  const response = await fetch(api, { headers: { 'user-agent': 'ahead-feed-showcase-media-refresh/1.0' } })\n  if (!response.ok) throw new Error(`Commons search failed for ${query}: ${response.status}`)",
+  `  let response
+  for (let attempt = 0; attempt < 6; attempt += 1) {
+    await new Promise((resolve) => setTimeout(resolve, attempt === 0 ? 650 : 1200 * (2 ** (attempt - 1))))
+    response = await fetch(api, { headers: { 'user-agent': 'ahead-feed-showcase-media-refresh/1.0' } })
+    if (response.status !== 429 && response.status < 500) break
+  }
+  if (!response?.ok) throw new Error(\`Commons search failed for \${query}: \${response?.status ?? 'no response'}\`)`
 )
 source = source.replace(
   '  if (!pages.length) throw new Error(`No Commons image found for: ${query}`)',
