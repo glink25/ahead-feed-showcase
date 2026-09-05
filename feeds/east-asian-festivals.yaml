@@ -42,8 +42,8 @@ events:
       zh-CN: 三天团聚与祭祖假期。
       en: A three-day holiday for family reunions and remembrance.
     description:
-      zh-CN: 若在韩国旅行，值得提前留意交通和开放时间。
-      en: Travelers in Korea should check transport and venue hours early.
+      zh-CN: 很多人会赶回家吃一顿团圆饭，也会去祭祖、做松饼。若这几天在韩国旅行，交通和营业时间值得提前多看一眼。
+      en: Many people head home for family meals, remembrance rituals, and songpyeon. If you are traveling in Korea, transport and opening hours deserve an early check.
     schedule:
       - id: published-date
         value:
@@ -96,8 +96,8 @@ events:
       zh-CN: 庆祝韩文字母创制。
       en: A celebration of the creation of the Korean alphabet.
     description:
-      zh-CN: 找一个喜欢的韩语词，看看它是怎样由字母拼成的。
-      en: Pick a favorite Korean word and see how its letters fit together.
+      zh-CN: 不妨挑一个你喜欢的韩语词，把它拆成几个字母看看——平时熟悉的方块字，会突然露出很巧妙的结构。
+      en: Pick a Korean word you like and break it into its letters; a familiar square block suddenly reveals a surprisingly elegant structure.
     schedule:
       - id: published-date
         value:
@@ -146,8 +146,8 @@ events:
       zh-CN: 日本每年 3 月 3 日的偶人节。
       en: Japan’s annual doll festival on March 3.
     description:
-      zh-CN: 留意阶梯式人偶陈列和桃花装饰。
-      en: Look out for tiered doll displays and peach-blossom decorations.
+      zh-CN: 红毯阶梯上，一层层摆好穿着宫廷服饰的人偶，旁边常点缀桃花。它更像一个安静、精致的春日仪式，而不是热闹的庙会。
+      en: Tiered dolls in court dress sit on bright red platforms, often beside peach blossoms. It feels more like a quiet, carefully arranged spring ritual than a noisy street festival.
     schedule:
       - id: published-date
         value:
@@ -175,19 +175,19 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:DollsHinaMatsuri.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：DollsHinaMatsuri，Jennie Kondo，Wikimedia Commons；许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/east%2Casian%2Cfestivals?lock=119
+      - path: https://commons.wikimedia.org/wiki/Special:FilePath/DollsHinaMatsuri.jpg?width=1600
         kind: image
         alt:
-          zh-CN: 女儿节的配图
-          en: Illustration for Hina Matsuri 2027
+          zh-CN: 日本女儿节使用的阶梯式雏人形陈列
+          en: Tiered Hina doll display for Japan’s Hina Matsuri
     status: active
   - id: tanabata-2027
     title:
@@ -197,8 +197,8 @@ events:
       zh-CN: 把愿望写在纸条上，挂到竹枝。
       en: Write a wish on a paper strip and hang it from bamboo.
     description:
-      zh-CN: 不同城市按公历七月或八月庆祝，条目采用常见的 7 月 7 日。
-      en: Cities celebrate in July or August; this entry uses the common July 7 date.
+      zh-CN: 找张小纸条，认真写一个愿望，再把它挂上竹枝。不同城市会在七月或八月庆祝，这里采用常见的 7 月 7 日。
+      en: Write down one wish you actually mean and hang it from bamboo. Different cities celebrate in July or August; this entry uses the common July 7 date.
     schedule:
       - id: published-date
         value:
@@ -247,8 +247,8 @@ events:
       zh-CN: 仙台在 8 月 6–8 日举行大型七夕装饰庆典。
       en: Sendai holds its large decorated Tanabata festival on August 6–8.
     description:
-      zh-CN: 抬头看商店街上方垂落的纸饰，体验另一种七夕。
-      en: Walk beneath enormous paper streamers for another kind of star festival.
+      zh-CN: 走进商店街后，头顶会被巨大的彩纸流苏占满，风一吹就像整条街在缓慢摆动。这个七夕，最适合一路仰着头走。
+      en: Step into the shopping streets and giant paper streamers fill the space overhead, swaying slowly whenever the wind moves through. This is a Tanabata best experienced looking up.
     schedule:
       - id: published-date
         value:
@@ -279,17 +279,17 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/04paG2PxKGs
+        value: https://commons.wikimedia.org/wiki/File:Vegalta_SENDAI_Tanabata,_the_decorations_of_Sendai_Star_Festival.JPG
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 215，Paula Borowska，via Lorem Picsum / Unsplash
+        value: 海报图片：Vegalta SENDAI Tanabata, the decorations of Sendai Star Festival，neuropower，Wikimedia Commons；许可见文件页
     media:
-      - path: https://picsum.photos/id/215/1280/720
+      - path: https://commons.wikimedia.org/wiki/Special:FilePath/Vegalta%20SENDAI%20Tanabata%2C%20the%20decorations%20of%20Sendai%20Star%20Festival.JPG?width=1600
         kind: image
         alt:
-          zh-CN: 仙台七夕祭的配图
-          en: Illustration for Sendai Tanabata Festival 2027
+          zh-CN: 仙台七夕祭商店街上方的大型彩纸装饰
+          en: Large paper decorations hanging over a Sendai Tanabata shopping street
     status: active
