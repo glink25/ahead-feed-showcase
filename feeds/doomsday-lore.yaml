@@ -69,6 +69,12 @@ events:
       - unverified
     evidence:
       - kind: url
+        value: https://test.messiahfoundation.com/the-end-times/is-the-end-near
+        label:
+          zh-CN: 预言发布方的原始说法（未经科学证实）
+          en: Claimant's original statement (not scientifically supported)
+        fetchedAt: '2026-09-05T00:00:00Z'
+      - kind: url
         value: https://cneos.jpl.nasa.gov/sentry/
         label:
           zh-CN: 核查来源
@@ -186,8 +192,9 @@ events:
     schedule:
       - id: published-date
         value:
-          kind: exact
-          date: '2038-01-19'
+          kind: datetime
+          dateTime: '2038-01-19T03:14:08Z'
+          timezone: UTC
         recordedAt: '2026-09-05T00:00:00Z'
         confidence: confirmed
         source: 软件工程背景资料
