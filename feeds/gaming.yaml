@@ -155,7 +155,7 @@ events:
       - kind: citation
         value: 海报图片：活动或机构官网公开主视觉；版权与使用条件见来源页
     media:
-      - path: http://static1.squarespace.com/static/606d4deb4db8c15ea53b3624/606d51e7b9917d54cb7b9581/606d631fe6b0df7efe3f4f93/1755614183104/banner-3.jpg?format=1500w
+      - path: https://static1.squarespace.com/static/606d4deb4db8c15ea53b3624/606d51e7b9917d54cb7b9581/606d631fe6b0df7efe3f4f93/1755614183104/banner-3.jpg?format=1500w
         kind: image
         alt:
           zh-CN: 《空洞骑士：丝之歌》资料片的配图
