@@ -27,7 +27,7 @@ events:
       en: The next mainline entry, delayed twice.
     description:
       zh-CN: 档期一改再改，反而更像真实的等待：先别替官方猜日期，等下一次 Newswire 把窗口再钉牢一点。
-      en: The shifting window is part of the wait: do not guess for Rockstar; let the next Newswire update make the date firmer.
+      en: "The shifting window is part of the wait: do not guess for Rockstar; let the next Newswire update make the date firmer."
     schedule:
       - id: initial-window
         value:
@@ -92,7 +92,7 @@ events:
       en: A long wait with only a year-level estimate.
     description:
       zh-CN: 这是那种可以先忘一阵、某天看到新预告又突然想起来“原来我还在等”的长线盼头。
-      en: This is the kind of long wait you can forget for a while—until a new teaser suddenly reminds you that you are still waiting.
+      en: A long wait you can forget for a while—until a new teaser suddenly reminds you that you are still waiting.
     schedule:
       - id: studio-estimate
         value:
