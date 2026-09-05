@@ -20,14 +20,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Use robust Commons search terms
+      - name: Harden event-specific Commons lookup
         run: |
           python3 - <<'PY'
           from pathlib import Path
           p = Path('scripts/refresh-showcase-media.mjs')
           s = p.read_text()
           replacements = {
-            'New Year fireworks China city skyline': 'China fireworks',
+            'New Year fireworks China city skyline': 'Shanghai fireworks',
+            'Spring Festival Beijing lanterns Forbidden City': 'Spring Festival China lanterns',
             'International Workers Day China May Day Beijing': 'May Day China',
             'asteroid telescope observation': 'asteroid telescope',
             'Unix terminal computer code': 'computer terminal code',
@@ -60,6 +61,29 @@ jobs:
           }
           for old, new in replacements.items():
               s = s.replace(old, new)
+          s = s.replace(
+              'async function resolveCommons(query, used) {',
+              'async function resolveCommons(query, used, allowFallback = true) {'
+          )
+          s = s.replace(
+              "  if (!pages.length) throw new Error(`No Commons image found for: ${query}`)",
+              """  if (!pages.length && allowFallback) {
+    const words = query.split(/\\s+/).filter((word) => word.length > 2)
+    const candidates = [
+      words.slice(0, 3).join(' '),
+      words.slice(-3).join(' '),
+      words.slice(0, 2).join(' '),
+      words.slice(-2).join(' '),
+      words[0],
+      words.at(-1)
+    ].filter(Boolean)
+    for (const fallback of [...new Set(candidates)]) {
+      if (fallback === query) continue
+      try { return await resolveCommons(fallback, used, false) } catch {}
+    }
+  }
+  if (!pages.length) throw new Error(`No Commons image found for: ${query}`)"""
+          )
           p.write_text(s)
           PY
       - name: Refresh event images and copy
