@@ -81,15 +81,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/eDDQRAYKo7k
+        value: https://commons.wikimedia.org/wiki/File:Discoveries_from_Asteroid_Bennu-_Media_Briefing_Graphics_(SVS14772_-_Bennu-Sample-Ammonia-NASA-GSFC).jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 212，Sylwia Bartyzel，via Lorem Picsum / Unsplash
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://picsum.photos/id/212/1280/720
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Discoveries_from_Asteroid_Bennu-_Media_Briefing_Graphics_%28SVS14772_-_Bennu-Sample-Ammonia-NASA-GSFC%29.jpg/1920px-Discoveries_from_Asteroid_Bennu-_Media_Briefing_Graphics_%28SVS14772_-_Bennu-Sample-Ammonia-NASA-GSFC%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: “2026 小行星末日”预言核销日的配图
@@ -132,15 +132,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:Doomsday_clock_(1.67_minutes).svg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/doomsday%2Clore?lock=113
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Doomsday_clock_%281.67_minutes%29.svg/1920px-Doomsday_clock_%281.67_minutes%29.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 2027 末日钟公布窗口的配图
@@ -183,15 +183,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:Asteroid_2024_YR4_observed_with_ESO%E2%80%99s_Very_Large_Telescope_(eso2505a).tiff
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/a708a7/ffffff.jpg?text=Asteroid%202024%20YR4%20Safe-Passage%20Day
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Asteroid_2024_YR4_observed_with_ESO%E2%80%99s_Very_Large_Telescope_%28eso2505a%29.tiff/lossy-page1-1920px-Asteroid_2024_YR4_observed_with_ESO%E2%80%99s_Very_Large_Telescope_%28eso2505a%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 小行星 2024 YR4 安全掠过日的配图
@@ -205,8 +205,8 @@ events:
       zh-CN: 部分旧式 32 位系统无法正确表示这一时刻之后的 Unix 时间。
       en: Some legacy 32-bit systems cannot represent Unix time after this moment.
     description:
-      zh-CN: 这是工程迁移期限，不是世界末日；现代系统应在此之前完成兼容处理。
-      en: This is an engineering migration deadline, not the end of the world; affected systems should be fixed beforehand.
+      zh-CN: 它更像一张给工程师的超长期 TODO，而不是末日预告：最好在那一秒到来前，相关系统早已没人需要担心。
+      en: It is a very long-term engineering TODO, not a doomsday prophecy. Ideally, by that second, affected systems will already be boringly fixed.
     schedule:
       - id: published-date
         value:
@@ -235,15 +235,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/X7dy114KWs4
+        value: https://commons.wikimedia.org/wiki/File:Fish-shell-logo-ascii-black.svg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 213，Kelly Sikkema，via Lorem Picsum / Unsplash
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://picsum.photos/id/213/1280/720
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Fish-shell-logo-ascii-black.svg/1920px-Fish-shell-logo-ascii-black.svg.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 2038 年时间溢出时刻的配图
@@ -286,15 +286,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton_(4670222).jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/doomsday%2Clore?lock=116
+      - path: https://upload.wikimedia.org/wikipedia/commons/2/2f/Portrait_of_Sir_Isaac_Newton_%284670222%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
         kind: image
         alt:
           zh-CN: 牛顿的“2060 之后”推算的配图

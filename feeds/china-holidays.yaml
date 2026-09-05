@@ -30,8 +30,8 @@ events:
       zh-CN: 放假三天，1 月 4 日补班。
       en: Three days off; Jan 4 is an adjusted workday.
     description:
-      zh-CN: 按国务院通知逐日核定，不延伸到其他年份。
-      en: Manually transcribed from the State Council notice; never projected to later years.
+      zh-CN: 三天不算长，但足够把闹钟关掉、见见人，也给新一年留一个不那么匆忙的开头。
+      en: Three days is not long, but it is enough to turn off the alarm, see someone you miss, and let the new year begin without rushing.
     schedule:
       - id: published-date
         value:
@@ -62,15 +62,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:Chinesenewyearfireworkman.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/171560/ffffff.jpg?text=China%20New%20Year%20Holiday%202026
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Chinesenewyearfireworkman.jpg/1920px-Chinesenewyearfireworkman.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 2026 元旦假期的配图
@@ -84,8 +84,8 @@ events:
       zh-CN: 九天假期；2 月 14 日、28 日补班。
       en: Nine days off; Feb 14 and 28 are adjusted workdays.
     description:
-      zh-CN: 从除夕前两天到正月初七的官方放假区间。
-      en: The officially announced period runs through the seventh lunar day.
+      zh-CN: 九天假期很适合回家，也很适合提前想清楚哪两天还要补班——团圆和日历都别落下。
+      en: Nine days leaves room to go home; just remember the two adjusted workdays too. Keep both the reunion and the calendar in view.
     schedule:
       - id: published-date
         value:
@@ -116,15 +116,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/sX4lxBWV0-A
+        value: https://commons.wikimedia.org/wiki/File:Happy_Spring_Festival_of_Chinese_New_Year_in_Dalian_(1st_Round_Photography)_-_Lanterns%27_Gate.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 210，Martin Wessely，via Lorem Picsum / Unsplash
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://picsum.photos/id/210/1280/720
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Happy_Spring_Festival_of_Chinese_New_Year_in_Dalian_%281st_Round_Photography%29_-_Lanterns%27_Gate.jpg/1920px-Happy_Spring_Festival_of_Chinese_New_Year_in_Dalian_%281st_Round_Photography%29_-_Lanterns%27_Gate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 2026 春节假期的配图
@@ -170,15 +170,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:Chonghe_Dong_Cemetery,_Qingming_Festival_1.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/china%2Cholidays?lock=107
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Chonghe_Dong_Cemetery%2C_Qingming_Festival_1.jpg/1920px-Chonghe_Dong_Cemetery%2C_Qingming_Festival_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 2026 清明节假期的配图
@@ -192,8 +192,8 @@ events:
       zh-CN: 放假五天，5 月 9 日补班。
       en: Five days off; May 9 is an adjusted workday.
     description:
-      zh-CN: 官方五天放假区间。
-      en: The official five-day holiday period.
+      zh-CN: 五天够安排一次小旅行，也够什么都不安排。唯一别忘的是 5 月 9 日还要补班。
+      en: Five days is enough for a small trip—or for no plan at all. Just remember the adjusted workday on May 9.
     schedule:
       - id: published-date
         value:
@@ -224,15 +224,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:United_Fishers_and_Allied_Workers_May_Day_parade_(17081450471).jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/f1bbcd/ffffff.jpg?text=China%20Labour%20Day%20Holiday%202026
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/United_Fishers_and_Allied_Workers_May_Day_parade_%2817081450471%29.jpg/1920px-United_Fishers_and_Allied_Workers_May_Day_parade_%2817081450471%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 2026 劳动节假期的配图
@@ -278,15 +278,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/GDvSktiPIQQ
+        value: https://commons.wikimedia.org/wiki/File:Dragon_Boat_race,_China.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 211，Martin Wessely，via Lorem Picsum / Unsplash
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://picsum.photos/id/211/1280/720
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Dragon_Boat_race%2C_China.jpg/1920px-Dragon_Boat_race%2C_China.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 2026 端午节假期的配图
@@ -300,8 +300,8 @@ events:
       zh-CN: 9 月 25 日起连休三天。
       en: Three days off from September 25.
     description:
-      zh-CN: 赏月和团聚的官方假期。
-      en: The official holiday for moon viewing and family reunions.
+      zh-CN: 把这一晚留给月亮、月饼，以及那些平时总说“改天再聊”的人。
+      en: Save one evening for the Moon, mooncakes, and the people you keep promising to catch up with.
     schedule:
       - id: published-date
         value:
@@ -332,15 +332,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:Mid-Autumn_Festival-beijing.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/china%2Cholidays?lock=110
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Mid-Autumn_Festival-beijing.jpg/1920px-Mid-Autumn_Festival-beijing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 2026 中秋节假期的配图
@@ -354,8 +354,8 @@ events:
       zh-CN: 七天假期；9 月 20 日、10 月 10 日补班。
       en: Seven days off; Sep 20 and Oct 10 are adjusted workdays.
     description:
-      zh-CN: 只代表 2026 年官方安排，不设置年度重复。
-      en: This represents only the official 2026 arrangement and does not recur.
+      zh-CN: 七天长假很诱人，但它只属于 2026 年这张日历；出发前也把两个补班日一起记上。
+      en: A seven-day break is tempting, but it belongs to the 2026 calendar only—mark the two adjusted workdays before making plans.
     schedule:
       - id: published-date
         value:
@@ -386,15 +386,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:Tiananmen_Square_-_National_Day_2006.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/cc623a/ffffff.jpg?text=China%20National%20Day%20Holiday%202026
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Tiananmen_Square_-_National_Day_2006.jpg/1920px-Tiananmen_Square_-_National_Day_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 2026 国庆节假期的配图

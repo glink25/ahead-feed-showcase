@@ -59,15 +59,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:The_Ottenby_Nature_Reserve,_a_birdwatcher%E2%80%99s_paradise_(Copernicus_2024-12-11).png
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/nature%2Cwatch?lock=140
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/The_Ottenby_Nature_Reserve%2C_a_birdwatcher%E2%80%99s_paradise_%28Copernicus_2024-12-11%29.png/1920px-The_Ottenby_Nature_Reserve%2C_a_birdwatcher%E2%80%99s_paradise_%28Copernicus_2024-12-11%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 十月观鸟大日的配图
@@ -113,15 +113,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://www.audubon.org/community-science/christmas-bird-count
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：活动或机构官网公开主视觉；版权与使用条件见来源页
     media:
-      - path: https://placehold.co/1280x720/56e27d/ffffff.jpg?text=Christmas%20Bird%20Count%202026
+      - path: https://media.audubon.org/2024-01/Web_Aud_CBC-Colombia_231220_39_Photo-Luis-Bernardo-Cano.jpg?width=1200&height=630&auto=webp&quality=90&fit=crop&enable=upscale
         kind: image
         alt:
           zh-CN: 圣诞鸟类统计季的配图
@@ -167,15 +167,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/CKl172V28wM
+        value: https://commons.wikimedia.org/wiki/File:Mourning_dove_bird_perched_on_a_bird_feeder_on_a_window_with_young_girl_watching_inside_(54182122110).jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 222，Todd Quackenbush，via Lorem Picsum / Unsplash
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://picsum.photos/id/222/1280/720
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Mourning_dove_bird_perched_on_a_bird_feeder_on_a_window_with_young_girl_watching_inside_%2854182122110%29.jpg/1920px-Mourning_dove_bird_perched_on_a_bird_feeder_on_a_window_with_young_girl_watching_inside_%2854182122110%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 全球庭院观鸟大赛的配图
@@ -221,15 +221,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:LVM_promo_web-110.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/nature%2Cwatch?lock=143
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/LVM_promo_web-110.jpg/1920px-LVM_promo_web-110.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 城市自然挑战赛的配图
@@ -272,15 +272,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:Snow_Geese_Feeding_(16833164651).jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/3188ea/ffffff.jpg?text=World%20Migratory%20Bird%20Day%202027
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Snow_Geese_Feeding_%2816833164651%29.jpg/1920px-Snow_Geese_Feeding_%2816833164651%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 世界候鸟日的配图

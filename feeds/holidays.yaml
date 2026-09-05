@@ -25,6 +25,9 @@ events:
     summary:
       zh-CN: 农历八月十五。
       en: The fifteenth day of the eighth lunar month.
+    description:
+      zh-CN: 月亮每年都会来，但一起抬头的人未必都在身边——这大概就是中秋最值得等的部分。
+      en: The Moon returns every year; the people looking up with you may not always be nearby. That is part of what makes Mid-Autumn worth waiting for.
     schedule:
       - id: official-date
         value:
@@ -37,15 +40,15 @@ events:
       - seasonal
     evidence:
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:Rabbit_-_Hong_Kong_-_20091004_6729.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/11a25b/ffffff.jpg?text=Mid-Autumn%20Festival%202026
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Rabbit_-_Hong_Kong_-_20091004_6729.jpg/1920px-Rabbit_-_Hong_Kong_-_20091004_6729.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 2026 年中秋节的配图
@@ -78,15 +81,15 @@ events:
           en: State Council 2026 holiday notice
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/YOQDokJipFg
+        value: https://commons.wikimedia.org/wiki/File:Tiananmen_Square,_Beijing,_China_1988_(1).jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 217，Tom Butler，via Lorem Picsum / Unsplash
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://picsum.photos/id/217/1280/720
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Tiananmen_Square%2C_Beijing%2C_China_1988_%281%29.jpg/1920px-Tiananmen_Square%2C_Beijing%2C_China_1988_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 国庆假期的配图
@@ -99,6 +102,9 @@ events:
     summary:
       zh-CN: 每年十二月二十五日。
       en: December 25th every year.
+    description:
+      zh-CN: 哪怕不过圣诞，也很难完全绕开街灯、树、歌单和年末那点“今年快结束了”的气氛。
+      en: Even if you do not celebrate Christmas, it is hard to miss the lights, trees, playlists, and the feeling that the year is nearly done.
     schedule:
       - id: fixed-date
         value:
@@ -116,15 +122,15 @@ events:
       - holiday
     evidence:
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:Michalovce_-_N%C3%A1mestie_oslobodite%C4%BEov_-_The_central_square,_with_Christmas_tree,_Christmas_market_stalls_and_Christmas_light_decorations,_winter_(December_2014)_01.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/holidays?lock=128
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Michalovce_-_N%C3%A1mestie_oslobodite%C4%BEov_-_The_central_square%2C_with_Christmas_tree%2C_Christmas_market_stalls_and_Christmas_light_decorations%2C_winter_%28December_2014%29_01.jpg/1920px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 圣诞节的配图
@@ -137,6 +143,9 @@ events:
     summary:
       zh-CN: 农历正月初一；官方放假和调休安排尚未公布。
       en: Lunar New Year's Day; official days off and adjusted workdays have not been announced.
+    description:
+      zh-CN: 先记住正月初一；至于放几天、怎么调休，等官方通知来了再把假期拼完整。
+      en: Mark Lunar New Year’s Day first. The days off and adjusted workdays can wait until the official notice completes the calendar.
     schedule:
       - id: official-date
         value:
@@ -149,15 +158,15 @@ events:
       - holiday
     evidence:
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:Red_lanterns,_Spring_Festival,_Ditan_Park_Beijing.JPG
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/ec48c9/ffffff.jpg?text=Spring%20Festival%202027
+      - path: https://upload.wikimedia.org/wikipedia/commons/5/55/Red_lanterns%2C_Spring_Festival%2C_Ditan_Park_Beijing.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
         kind: image
         alt:
           zh-CN: 2027 年春节的配图

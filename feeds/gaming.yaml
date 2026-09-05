@@ -26,8 +26,8 @@ events:
       zh-CN: 系列正统续作，档期两度调整。
       en: The next mainline entry, delayed twice.
     description:
-      zh-CN: 从最初的 2025 年窗口一路推到 2026 年下半年，是观察「日期如何逐渐确定」的最佳样本。
-      en: Slipped from a 2025 window into late 2026 - a good sample of how dates firm up over time.
+      zh-CN: 档期一改再改，反而更像真实的等待：先别替官方猜日期，等下一次 Newswire 把窗口再钉牢一点。
+      en: The shifting window is part of the wait: do not guess for Rockstar; let the next Newswire update make the date firmer.
     schedule:
       - id: initial-window
         value:
@@ -69,15 +69,15 @@ events:
       - kind: note
         value: 档期仍可能变动，以官方 Newswire 为准。
       - kind: url
-        value: https://loremflickr.com/
+        value: https://www.rockstargames.com/VI
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：活动或机构官网公开主视觉；版权与使用条件见来源页
     media:
-      - path: https://loremflickr.com/1280/720/gaming?lock=122
+      - path: https://www.rockstargames.com/VI/-/opengraph-image.jpg?opengraph-image.0t8ty~nlmxq2s.jpg
         kind: image
         alt:
           zh-CN: 《侠盗猎车手 VI》正式发售的配图
@@ -90,6 +90,9 @@ events:
     summary:
       zh-CN: 只给出年份区间的长线期待。
       en: A long wait with only a year-level estimate.
+    description:
+      zh-CN: 这是那种可以先忘一阵、某天看到新预告又突然想起来“原来我还在等”的长线盼头。
+      en: This is the kind of long wait you can forget for a while—until a new teaser suddenly reminds you that you are still waiting.
     schedule:
       - id: studio-estimate
         value:
@@ -107,15 +110,15 @@ events:
           zh-CN: 官方站点
           en: Official site
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:The_Elder_Scrolls_IV%EA%9E%89_Oblivion_logo.png
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/36fbee/ffffff.jpg?text=The%20Elder%20Scrolls%20VI%20Release
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/The_Elder_Scrolls_IV%EA%9E%89_Oblivion_logo.png/1920px-The_Elder_Scrolls_IV%EA%9E%89_Oblivion_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 《上古卷轴 VI》发售的配图
@@ -128,6 +131,9 @@ events:
     summary:
       zh-CN: 已确认在做，但没有任何档期。
       en: Confirmed in development with no date at all.
+    description:
+      zh-CN: 没有日期就不造日期。先把它放在“哪天官方终于说清楚”的清单里。
+      en: No date means no invented date. For now, it belongs on the list of things waiting for an official answer.
     schedule:
       - id: no-date
         value:
@@ -141,15 +147,15 @@ events:
       - games
     evidence:
       - kind: url
-        value: https://unsplash.com/photos/9702xTENR-M
+        value: https://www.teamcherry.com.au/blog/11xf7azcuebhybgossfhdc0mphiqbs
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 216，Paul Jarvis，via Lorem Picsum / Unsplash
+        value: 海报图片：活动或机构官网公开主视觉；版权与使用条件见来源页
     media:
-      - path: https://picsum.photos/id/216/1280/720
+      - path: https://static1.squarespace.com/static/606d4deb4db8c15ea53b3624/606d51e7b9917d54cb7b9581/606d631fe6b0df7efe3f4f93/1755614183104/banner-3.jpg?format=1500w
         kind: image
         alt:
           zh-CN: 《空洞骑士：丝之歌》资料片的配图
@@ -162,6 +168,9 @@ events:
     summary:
       zh-CN: 为期一周的折扣窗口。
       en: A week-long discount window.
+    description:
+      zh-CN: 愿望单可以先养肥一点，等折扣窗口真的打开再决定哪些游戏值得把周末交出去。
+      en: Let the wishlist grow a little; when the sale actually opens, decide which games deserve your weekend.
     schedule:
       - id: announced-window
         value:
@@ -180,15 +189,15 @@ events:
       - sale
     evidence:
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:Stanley_Steam_Car_1919_logo.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/gaming?lock=125
+      - path: https://upload.wikimedia.org/wikipedia/commons/8/85/Stanley_Steam_Car_1919_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
         kind: image
         alt:
           zh-CN: Steam 秋季特卖的配图

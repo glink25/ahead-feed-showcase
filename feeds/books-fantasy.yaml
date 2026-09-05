@@ -79,15 +79,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/NYxxuBSQzp4
+        value: https://commons.wikimedia.org/wiki/File:Bag_End_at_Hobbiton,_New_Zealand.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 208，Martin Wessely，via Lorem Picsum / Unsplash
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://picsum.photos/id/208/1280/720
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Bag_End_at_Hobbiton%2C_New_Zealand.jpg/1920px-Bag_End_at_Hobbiton%2C_New_Zealand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 霍比特日的配图
@@ -130,15 +130,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:J._R._R._Tolkien,_ca._1925.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/books%2Cfantasy?lock=101
+      - path: https://upload.wikimedia.org/wikipedia/commons/d/d4/J._R._R._Tolkien%2C_ca._1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
         kind: image
         alt:
           zh-CN: 托尔金阅读日的配图
@@ -184,15 +184,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:Pragati_Maidan_Book_Fair_4.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/3c6ef3/ffffff.jpg?text=New%20Delhi%20World%20Book%20Fair%202027
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Pragati_Maidan_Book_Fair_4.jpg/1920px-Pragati_Maidan_Book_Fair_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 新德里世界书展的配图
@@ -235,15 +235,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/-FgZlbzZ0R8
+        value: https://commons.wikimedia.org/wiki/File:Children_reading_c.1960_%27Celebrating_World_Book_Day%27_(15963758684).jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 209，Martin Wessely，via Lorem Picsum / Unsplash
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://picsum.photos/id/209/1280/720
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Children_reading_c.1960_%27Celebrating_World_Book_Day%27_%2815963758684%29.jpg/1920px-Children_reading_c.1960_%27Celebrating_World_Book_Day%27_%2815963758684%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 世界图书与版权日的配图
@@ -286,15 +286,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:The_James_Joyce_Tower_was_one_of_a_series_of_Martello_towers_built_to_withstand_an_invasion_by_Napoleon_(5839928373)_(5).jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/books%2Cfantasy?lock=104
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/The_James_Joyce_Tower_was_one_of_a_series_of_Martello_towers_built_to_withstand_an_invasion_by_Napoleon_%285839928373%29_%285%29.jpg/1920px-The_James_Joyce_Tower_was_one_of_a_series_of_Martello_towers_built_to_withstand_an_invasion_by_Napoleon_%285839928373%29_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 布鲁姆日的配图

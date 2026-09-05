@@ -5,6 +5,7 @@ const feedDirectory = new URL('../feeds/', import.meta.url)
 const files = (await readdir(feedDirectory)).filter((file) => file.endsWith('.yaml')).sort()
 const images = []
 const errors = []
+const bannedImageHosts = new Set(['picsum.photos', 'placehold.co', 'loremflickr.com'])
 
 for (const file of files) {
   const text = await readFile(join(feedDirectory.pathname, file), 'utf8')
@@ -19,6 +20,12 @@ for (const file of files) {
     if (!/^\s+alt:\n\s+zh-CN: .+\n\s+en: .+/m.test(block)) errors.push(`${file}:${id} lacks bilingual alt text`)
     for (const path of paths) {
       if (!path.startsWith('https://')) errors.push(`${file}:${id} image is not HTTPS`)
+      try {
+        const hostname = new URL(path).hostname
+        if (bannedImageHosts.has(hostname)) errors.push(`${file}:${id} uses banned placeholder/random image host ${hostname}`)
+      } catch {
+        errors.push(`${file}:${id} image URL is invalid`)
+      }
       images.push({ file, id, path })
     }
   }

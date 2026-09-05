@@ -70,15 +70,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://festival.sundance.org/
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：活动或机构官网公开主视觉；版权与使用条件见来源页
     media:
-      - path: https://placehold.co/1280x720/e6d5c4/ffffff.jpg?text=Sundance%E2%80%99s%20First%20Boulder%20Edition
+      - path: https://d2wsrejhnxatgp.cloudfront.net/assest/prod1/Reference-Image.png
         kind: image
         alt:
           zh-CN: 圣丹斯电影节首次落地博尔德的配图
@@ -121,15 +121,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/1iP1dozVO8I
+        value: https://commons.wikimedia.org/wiki/File:The_Sphere_Academy_Museum_2021.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 227，Andrea Boldizsar，via Lorem Picsum / Unsplash
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://picsum.photos/id/227/1280/720
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/The_Sphere_Academy_Museum_2021.jpg/1920px-The_Sphere_Academy_Museum_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 第 99 届奥斯卡提名公布的配图
@@ -172,15 +172,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://loremflickr.com/
+        value: https://www.oscars.org/oscars
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：活动或机构官网公开主视觉；版权与使用条件见来源页
     media:
-      - path: https://loremflickr.com/1280/720/screen%2Cand%2Cfilm?lock=152
+      - path: https://www.oscars.org/sites/oscars/files/2026-03/98_TLW_0009.JPG?VersionId=YR.cssT63zbAz82DVhpe2MRLQ8A_S28p
         kind: image
         alt:
           zh-CN: 第 99 届奥斯卡颁奖礼的配图
@@ -226,15 +226,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:Sudha_Reddy_-_Killers_Of_The_Flower_Moon_Red_Carpet_-_CANNES_FILM_FESTIVAL_2023_-_OV.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/c17c31/ffffff.jpg?text=80th%20Cannes%20Film%20Festival
+      - path: https://upload.wikimedia.org/wikipedia/commons/5/51/Sudha_Reddy_-_Killers_Of_The_Flower_Moon_Red_Carpet_-_CANNES_FILM_FESTIVAL_2023_-_OV.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
         kind: image
         alt:
           zh-CN: 第 80 届戛纳电影节的配图
@@ -280,15 +280,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/0AbVUUorULU
+        value: https://www.annecyfestival.com/
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 228，Michal Kubicek，via Lorem Picsum / Unsplash
+        value: 海报图片：活动或机构官网公开主视觉；版权与使用条件见来源页
     media:
-      - path: https://picsum.photos/id/228/1280/720
+      - path: https://www.annecyfestival.com/sites/default/files/2025-02/partage_2025.jpg
         kind: image
         alt:
           zh-CN: 安纳西国际动画电影节的配图

@@ -59,15 +59,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:Io_highest_resolution_true_color.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/skywatching?lock=155
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Io_highest_resolution_true_color.jpg/1920px-Io_highest_resolution_true_color.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 国际赏月夜的配图
@@ -113,15 +113,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:Orionid_Meteor_Shower_Composite_(50521737888).jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/9c229e/ffffff.jpg?text=Orionids%20Peak%202026
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Orionid_Meteor_Shower_Composite_%2850521737888%29.jpg/1920px-Orionid_Meteor_Shower_Composite_%2850521737888%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 猎户座流星雨极大夜的配图
@@ -167,15 +167,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://unsplash.com/photos/7FLh300YONc
+        value: https://commons.wikimedia.org/wiki/File:Leonid_Meteor_Storm_1833.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：Photo 229，Orlova Maria，via Lorem Picsum / Unsplash
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://picsum.photos/id/229/1280/720
+      - path: https://upload.wikimedia.org/wikipedia/commons/e/e2/Leonid_Meteor_Storm_1833.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
         kind: image
         alt:
           zh-CN: 狮子座流星雨极大夜的配图
@@ -221,15 +221,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://loremflickr.com/
+        value: https://commons.wikimedia.org/wiki/File:Geminids_over_Gemini_North_2020_(20201213_sworl-cc).tiff
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：按主题从 Flickr 提供，via LoremFlickr；原图作者与许可见服务返回信息
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://loremflickr.com/1280/720/skywatching?lock=158
+      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Geminids_over_Gemini_North_2020_%2820201213_sworl-cc%29.tiff/lossy-page1-1920px-Geminids_over_Gemini_North_2020_%2820201213_sworl-cc%29.tiff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
         kind: image
         alt:
           zh-CN: 双子座流星雨极大夜的配图
@@ -275,15 +275,15 @@ events:
           en: Reference
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: url
-        value: https://placehold.co/
+        value: https://commons.wikimedia.org/wiki/File:02-Lyrid_Meteor_Shower_2022-nX-6.jpg
         label:
           zh-CN: 海报图片来源
           en: Poster image source
         fetchedAt: '2026-09-05T00:00:00Z'
       - kind: citation
-        value: 海报图片：为本事件生成的独立文字海报，via Placehold.co
+        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
     media:
-      - path: https://placehold.co/1280x720/76c90b/ffffff.jpg?text=Lyrids%20Peak%202027
+      - path: https://upload.wikimedia.org/wikipedia/commons/3/3d/02-Lyrid_Meteor_Shower_2022-nX-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
         kind: image
         alt:
           zh-CN: 天琴座流星雨极大夜的配图
