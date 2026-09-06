@@ -1,5 +1,6 @@
 oefVersion: '0.1'
 kind: event-feed
+oefSearch: oef-search-v1
 id: ahead-global-holidays
 name:
   zh-CN: 节日与假期

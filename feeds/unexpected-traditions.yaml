@@ -1,5 +1,6 @@
 oefVersion: '0.1'
 kind: event-feed
+oefSearch: oef-search-v1
 id: ahead-unexpected-traditions
 name:
   zh-CN: 居然还有这种节

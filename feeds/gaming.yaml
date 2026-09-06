@@ -1,5 +1,6 @@
 oefVersion: '0.1'
 kind: event-feed
+oefSearch: oef-search-v1
 id: ahead-gaming-major-releases
 name:
   zh-CN: 值得等的游戏发售

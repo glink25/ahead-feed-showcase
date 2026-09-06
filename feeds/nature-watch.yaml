@@ -1,5 +1,6 @@
 oefVersion: '0.1'
 kind: event-feed
+oefSearch: oef-search-v1
 id: ahead-nature-watch
 name:
   zh-CN: 等自然发生

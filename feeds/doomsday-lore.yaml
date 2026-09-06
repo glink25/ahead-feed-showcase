@@ -1,5 +1,6 @@
 oefVersion: '0.1'
 kind: event-feed
+oefSearch: oef-search-v1
 id: ahead-doomsday-lore
 name:
   zh-CN: 末日预言观察站

@@ -1,5 +1,6 @@
 oefVersion: '0.1'
 kind: event-feed
+oefSearch: oef-search-v1
 id: ahead-east-asian-festivals
 name:
   zh-CN: 东亚节庆

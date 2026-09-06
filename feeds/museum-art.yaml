@@ -1,5 +1,6 @@
 oefVersion: '0.1'
 kind: event-feed
+oefSearch: oef-search-v1
 id: ahead-museum-art
 name:
   zh-CN: 博物馆开到很晚

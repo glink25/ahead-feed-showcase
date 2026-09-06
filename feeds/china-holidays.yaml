@@ -1,5 +1,6 @@
 oefVersion: '0.1'
 kind: event-feed
+oefSearch: oef-search-v1
 id: ahead-china-official-holidays
 name:
   zh-CN: 中国官方假期
