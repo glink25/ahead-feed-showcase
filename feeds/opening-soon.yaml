@@ -1,0 +1,55 @@
+oefVersion: '0.1'
+kind: event-feed
+oefSearch: oef-search-v1
+id: ahead-opening-soon
+name:
+  zh-CN: 终于要开了
+  en: Finally Opening
+description:
+  zh-CN: 新馆、新空间与重新开放的地方。那些围挡终有一天会拆掉。
+  en: New museums, public spaces and long-awaited reopenings worth counting down to.
+primaryLanguage: zh-CN
+tags:
+  - id: opening
+    label: { zh-CN: 开放, en: Opening }
+  - id: culture
+    label: { zh-CN: 文化, en: Culture }
+events:
+  - id: lucas-museum-opening-2026
+    title:
+      zh-CN: 卢卡斯叙事艺术博物馆开放
+      en: Lucas Museum of Narrative Art Opens
+    summary:
+      zh-CN: 洛杉矶这座筹备多年的叙事艺术博物馆终于开门。
+      en: The long-awaited Los Angeles museum finally opens its doors.
+    schedule:
+      - id: official-opening
+        value: { kind: exact, date: '2026-09-22' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Lucas Museum of Narrative Art
+    tags: [opening, culture]
+    evidence:
+      - kind: url
+        value: https://lucasmuseum.org/press/lucas-museum-of-narrative-art-opens-to-the-public-on-september-22-2026
+        label: { zh-CN: 官方开放公告, en: Official opening announcement }
+    status: active
+  - id: janm-reopening-2027
+    title:
+      zh-CN: 全美日裔博物馆重新开放
+      en: Japanese American National Museum Reopens
+    summary:
+      zh-CN: 闭馆翻修两年后，Pavilion 带着全新常设展重新迎客。
+      en: The renovated Pavilion reopens after a two-year closure.
+    schedule:
+      - id: official-reopening
+        value: { kind: exact, date: '2027-01-23' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Japanese American National Museum
+    tags: [opening, culture]
+    evidence:
+      - kind: url
+        value: https://www.janm.org/press/release/janm-sets-reopening-date-january-23-2027
+        label: { zh-CN: 官方重开公告, en: Official reopening announcement }
+    status: active
