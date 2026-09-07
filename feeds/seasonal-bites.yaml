@@ -1,0 +1,55 @@
+oefVersion: '0.1'
+kind: event-feed
+oefSearch: oef-search-v1
+id: ahead-seasonal-bites
+name:
+  zh-CN: 等这一口
+  en: Waiting for the First Bite
+description:
+  zh-CN: 真正与季节和产区节奏绑定的吃喝盼头，不收营销式“XX 日”。
+  en: Seasonal food-and-drink moments tied to real harvests, releases and traditions rather than marketing holidays.
+primaryLanguage: zh-CN
+tags:
+  - id: food
+    label: { zh-CN: 食物, en: Food }
+  - id: seasonal
+    label: { zh-CN: 季节限定, en: Seasonal }
+events:
+  - id: oktoberfest-first-tap-2026
+    title:
+      zh-CN: 慕尼黑啤酒节开桶
+      en: Oktoberfest First Tapping 2026
+    summary:
+      zh-CN: 不是“啤酒日”，而是慕尼黑一年一度真正开桶的那一刻。
+      en: Not a marketing holiday: the real annual first tapping that opens Oktoberfest.
+    schedule:
+      - id: opening-day
+        value: { kind: exact, date: '2026-09-19' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: City of Munich
+    tags: [food, seasonal]
+    evidence:
+      - kind: url
+        value: https://www.muenchen.de/en/events/oktoberfest
+        label: { zh-CN: 慕尼黑市官方活动页, en: City of Munich official page }
+    status: active
+  - id: beaujolais-nouveau-2026
+    title:
+      zh-CN: 博若莱新酒 2026 上市
+      en: Beaujolais Nouveau 2026 Release
+    summary:
+      zh-CN: 每年十一月第三个星期四，新年份的新酒正式与大家见面。
+      en: The new vintage is released worldwide on the third Thursday of November.
+    schedule:
+      - id: statutory-release
+        value: { kind: exact, date: '2026-11-19' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Beaujolais vineyard official site
+    tags: [food, seasonal]
+    evidence:
+      - kind: url
+        value: https://carnet.beaujolais.com/en/
+        label: { zh-CN: 博若莱官方资料, en: Official Beaujolais reference }
+    status: active
