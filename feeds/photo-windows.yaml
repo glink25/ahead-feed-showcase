@@ -1,0 +1,55 @@
+oefVersion: '0.1'
+kind: event-feed
+oefSearch: oef-search-v1
+id: ahead-photo-windows
+name:
+  zh-CN: 一年只出现几天的画面
+  en: A Few Days for the Shot
+description:
+  zh-CN: 光线、天气与地形共同制造的短暂摄影窗口；能等，但不能假装天气会配合。
+  en: Brief photography windows created by light, weather and landscape, without pretending nature is exact.
+primaryLanguage: zh-CN
+tags:
+  - id: photography
+    label: { zh-CN: 摄影, en: Photography }
+  - id: nature
+    label: { zh-CN: 自然, en: Nature }
+events:
+  - id: yosemite-horsetail-2027
+    title:
+      zh-CN: 优胜美地 Horsetail Fall “火瀑”窗口
+      en: Yosemite Horsetail Fall Firefall Window
+    summary:
+      zh-CN: 二月中下旬，只有瀑布有水、天空够晴、夕阳角度正确时才会亮起来。
+      en: In mid-to-late February, the waterfall glows only when water, clear skies and sunset geometry align.
+    schedule:
+      - id: annual-window
+        value: { kind: month, year: 2027, month: 2 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: likely
+        source: U.S. National Park Service
+    tags: [photography, nature]
+    evidence:
+      - kind: url
+        value: https://www.nps.gov/yose/planyourvisit/horsetailfall.htm
+        label: { zh-CN: NPS 观赏说明, en: NPS viewing guidance }
+    status: active
+  - id: manhattanhenge-spring-2027
+    title:
+      zh-CN: Manhattanhenge 春季窗口
+      en: Spring Manhattanhenge Window 2027
+    summary:
+      zh-CN: 五月末附近，落日再次与曼哈顿东西向街网对齐；具体时刻待天文馆年度更新。
+      en: Around late May, sunset aligns with Manhattan's street grid again; exact times await the annual update.
+    schedule:
+      - id: expected-month
+        value: { kind: month, year: 2027, month: 5 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: likely
+        source: American Museum of Natural History / Hayden Planetarium
+    tags: [photography]
+    evidence:
+      - kind: url
+        value: https://www.amnh.org/research/hayden-planetarium/manhattanhenge
+        label: { zh-CN: AMNH Manhattanhenge 资料, en: AMNH Manhattanhenge reference }
+    status: active
