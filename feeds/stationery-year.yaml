@@ -1,0 +1,61 @@
+oefVersion: '0.1'
+kind: event-feed
+oefSearch: oef-search-v1
+id: ahead-stationery-year
+name:
+  zh-CN: 文具人的一年
+  en: A Stationery Person's Year
+description:
+  zh-CN: 用“我是文具人”而不是内容分类来组织盼头：手帐发售、钢笔展与纸笔限定节点。
+  en: A people-first feed for stationery fans: planner drops, pen shows and paper-and-ink milestones.
+primaryLanguage: zh-CN
+tags:
+  - id: stationery
+    label: { zh-CN: 文具, en: Stationery }
+  - id: community
+    label: { zh-CN: 同好, en: Community }
+events:
+  - id: hobonichi-one-piece-2027-2026
+    title:
+      zh-CN: Hobonichi 2027 ONE PIECE 系列开售
+      en: Hobonichi Techo 2027 ONE PIECE Edition Goes on Sale
+    summary:
+      zh-CN: 2027 手帐主系列九月已开售，ONE PIECE 版本则要再等到十月。
+      en: The main 2027 lineup is already out; the ONE PIECE edition gets its own October release.
+    schedule:
+      - id: one-piece-release
+        value:
+          kind: datetime
+          datetime: '2026-10-01T11:00:00'
+          timezone: Asia/Tokyo
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Hobonichi Techo
+    tags: [stationery, community]
+    evidence:
+      - kind: url
+        value: https://www.1101.com/store/techo/en/magazine/hon/
+        label: { zh-CN: Hobonichi 官方产品页, en: Hobonichi official page }
+    status: active
+  - id: tokyo-pen-show-stationery-2026
+    title:
+      zh-CN: 东京国际钢笔展 2026
+      en: Tokyo International Pen Show 2026
+    summary:
+      zh-CN: “写、画”本身成为一场三天的节日，钢笔、墨水、纸张与同好都到场。
+      en: A three-day celebration of writing and drawing with pens, inks, paper and the community around them.
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2026-11-21' }
+          end: { kind: exact, date: '2026-11-23' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Tokyo International Pen Show
+    tags: [stationery, community]
+    evidence:
+      - kind: url
+        value: https://tokyo-international-penshow.com/
+        label: { zh-CN: 官方网站, en: Official site }
+    status: active
