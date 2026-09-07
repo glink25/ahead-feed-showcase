@@ -34,12 +34,8 @@ events:
         source: Milwaukee Public Museum
     tags: [farewell, closing, museum]
     evidence:
-      - kind: url
-        value: https://www.mpm.org/press/press-releases/milwaukee-public-museum-announces-current-building-will-be-open-all-2026-ahead
-        label: { zh-CN: 官方最后开放日公告, en: Official final-day announcement }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Milwaukee_Public_Museum_April_2023_101_(Streets_of_Old_Milwaukee--Schlitz_tied_house).jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://www.mpm.org/press/press-releases/milwaukee-public-museum-announces-current-building-will-be-open-all-2026-ahead', label: { zh-CN: 官方公告, en: Official announcement } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Milwaukee_Public_Museum_April_2023_101_(Streets_of_Old_Milwaukee--Schlitz_tied_house).jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Milwaukee_Public_Museum_April_2023_101_(Streets_of_Old_Milwaukee--Schlitz_tied_house).jpg?width=1920"
         kind: image
@@ -47,7 +43,6 @@ events:
           zh-CN: Milwaukee Public Museum 老馆 Streets of Old Milwaukee 展区
           en: Streets of Old Milwaukee exhibit in the current museum building
     status: active
-
   - id: euro-mir-farewell-2027
     title:
       zh-CN: Euro-Mir 告别活动
@@ -63,12 +58,8 @@ events:
         source: Europa-Park
     tags: [farewell, closing]
     evidence:
-      - kind: url
-        value: https://www.europapark.de/en/theme-park/goodbye-euro-mir
-        label: { zh-CN: 官方告别页面, en: Official farewell page }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Europa-Park_Euro-Mir.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://www.europapark.de/en/theme-park/goodbye-euro-mir', label: { zh-CN: 官方告别页面, en: Official farewell page } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Europa-Park_Euro-Mir.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Europa-Park_Euro-Mir.jpg?width=1920"
         kind: image
@@ -76,7 +67,6 @@ events:
           zh-CN: Europa-Park 的 Euro-Mir 过山车
           en: Euro-Mir roller coaster at Europa-Park
     status: active
-
   - id: de-kooning-rijksmuseum-last-day-2027
     title:
       zh-CN: Rijksmuseum《Willem de Kooning at Work》最后一天
@@ -92,12 +82,8 @@ events:
         source: Rijksmuseum
     tags: [farewell, museum, exhibition]
     evidence:
-      - kind: url
-        value: https://www.rijksmuseum.nl/en/press/press-releases/programme/story/programme-2026
-        label: { zh-CN: Rijksmuseum 官方展览日程, en: Rijksmuseum official exhibition schedule }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Willem_de_Kooning_in_his_studio.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://www.rijksmuseum.nl/en/press/press-releases/programme/story/programme-2026', label: { zh-CN: 官方展览日程, en: Official exhibition schedule } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Willem_de_Kooning_in_his_studio.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Willem_de_Kooning_in_his_studio.jpg?width=1920"
         kind: image
@@ -105,14 +91,13 @@ events:
           zh-CN: 1961 年工作室中的 Willem de Kooning
           en: Willem de Kooning in his studio in 1961
     status: active
-
   - id: surrealist-book-moma-last-day-2027
     title:
       zh-CN: MoMA《The Surrealist Book》最后一天
       en: Final Day of The Surrealist Book at MoMA
     summary:
       zh-CN: 达利、布勒东、恩斯特等超现实主义者把书变成艺术品的专题展于 1 月 23 日闭幕。
-      en: MoMA's exhibition on books as a Surrealist art form, featuring figures including Dalí, Breton and Ernst, closes Jan. 23.
+      en: MoMA's exhibition on books as a Surrealist art form closes on Jan. 23.
     schedule:
       - id: closing-day
         value: { kind: exact, date: '2027-01-23' }
@@ -121,12 +106,8 @@ events:
         source: Museum of Modern Art
     tags: [farewell, museum, exhibition]
     evidence:
-      - kind: url
-        value: https://press.moma.org/exhibition/the-surrealist-book/
-        label: { zh-CN: MoMA 官方展览页, en: MoMA official exhibition page }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:La_Revolution_Surrealiste_cover.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://press.moma.org/exhibition/the-surrealist-book/', label: { zh-CN: 官方展览页, en: Official exhibition page } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:La_Revolution_Surrealiste_cover.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/La_Revolution_Surrealiste_cover.jpg?width=1200"
         kind: image
@@ -134,7 +115,6 @@ events:
           zh-CN: 1924 年《La Révolution Surréaliste》创刊号封面
           en: Cover of the first issue of La Révolution Surréaliste from 1924
     status: active
-
   - id: taryn-simon-guggenheim-last-day-2027
     title:
       zh-CN: Guggenheim《Taryn Simon》最后一天
@@ -150,14 +130,8 @@ events:
         source: Solomon R. Guggenheim Museum
     tags: [farewell, museum, exhibition]
     evidence:
-      - kind: url
-        value: https://www.guggenheim.org/exhibition/taryn-simon
-        label: { zh-CN: Guggenheim 官方展览页, en: Guggenheim official exhibition page }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Rotunda,_Guggenheim_Museum.JPG
-        label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片为展览所在的 Guggenheim 圆形大厅实景，并非展览作品本身。
+      - { kind: url, value: 'https://www.guggenheim.org/exhibition/taryn-simon', label: { zh-CN: 官方展览页, en: Official exhibition page } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Rotunda,_Guggenheim_Museum.JPG', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rotunda,_Guggenheim_Museum.JPG?width=1920"
         kind: image
@@ -165,14 +139,13 @@ events:
           zh-CN: Solomon R. Guggenheim Museum 圆形大厅
           en: Rotunda of the Solomon R. Guggenheim Museum
     status: active
-
   - id: getty-center-temporary-close-2027
     title:
       zh-CN: Getty Center 长期翻修前最后开放日
       en: Getty Center's Last Day Before Year-Long Closure
     summary:
-      zh-CN: Getty Center 将从 2027 年 3 月 15 日起闭馆现代化改造约一年，想再看一次山顶建筑与藏品要赶在此前。
-      en: Getty Center closes for roughly a year of modernization beginning March 15, 2027, making the preceding day a real last-chance visit.
+      zh-CN: Getty Center 将从 2027 年 3 月 15 日起闭馆现代化改造约一年。
+      en: Getty Center closes for roughly a year of modernization beginning March 15, 2027.
     schedule:
       - id: closure-start
         value: { kind: exact, date: '2027-03-15' }
@@ -181,12 +154,8 @@ events:
         source: Getty
     tags: [farewell, closing, museum]
     evidence:
-      - kind: url
-        value: https://www.getty.edu/news/getty-announces-major-modernization-efforts/
-        label: { zh-CN: Getty 官方闭馆公告, en: Getty official closure announcement }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Getty_Center_Los_Angeles_by_Richard_Meier.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://www.getty.edu/news/getty-announces-major-modernization-efforts/', label: { zh-CN: 官方闭馆公告, en: Official closure announcement } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Getty_Center_Los_Angeles_by_Richard_Meier.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Getty_Center_Los_Angeles_by_Richard_Meier.jpg?width=1920"
         kind: image
@@ -194,7 +163,6 @@ events:
           zh-CN: Richard Meier 设计的 Getty Center 建筑群
           en: Getty Center architecture by Richard Meier
     status: active
-
   - id: full-disclosure-moma-last-day-2027
     title:
       zh-CN: MoMA《Full Disclosure》最后一天
@@ -210,14 +178,8 @@ events:
         source: Museum of Modern Art
     tags: [farewell, museum, exhibition]
     evidence:
-      - kind: url
-        value: https://press.moma.org/exhibition/fulldisclosure/
-        label: { zh-CN: MoMA 官方展览页, en: MoMA official exhibition page }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Data_visualization.png
-        label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片为信息可视化主题示意图，并非展览中的具体作品。
+      - { kind: url, value: 'https://press.moma.org/exhibition/fulldisclosure/', label: { zh-CN: 官方展览页, en: Official exhibition page } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Data_visualization.png', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Data_visualization.png?width=1600"
         kind: image
@@ -225,14 +187,13 @@ events:
           zh-CN: 信息可视化设计示意图
           en: Data visualization design illustration
     status: active
-
   - id: fast-furious-supercharged-orlando-close-2027
     title:
       zh-CN: 奥兰多 Fast & Furious – Supercharged 永久关闭
       en: Fast & Furious – Supercharged Orlando Closes
     summary:
       zh-CN: Universal 已确认这项设施将在 2027 年永久关闭，具体日期仍待公布。
-      en: Universal has confirmed a permanent 2027 closure, with the exact date still to come.
+      en: Universal has confirmed a permanent 2027 closure with the exact date still to come.
     schedule:
       - id: announced-year
         value: { kind: year, year: 2027 }
@@ -241,16 +202,12 @@ events:
         source: Universal Orlando Resort
     tags: [farewell, closing]
     evidence:
-      - kind: url
-        value: https://media.universalparksusa.com/press-releases/trade-universal-orlando-resort-reveals-its-next-blockbuster-attraction-fast-furious-hollywood-drift-a-high-speed-roller-coaster-coming-to-universal-studios-florida-in-2027/
-        label: { zh-CN: Universal 官方公告, en: Universal official announcement }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Fast_%26_Furious_Supercharged_(Universal_Studios_Florida)_1.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://media.universalparksusa.com/press-releases/trade-universal-orlando-resort-reveals-its-next-blockbuster-attraction-fast-furious-hollywood-drift-a-high-speed-roller-coaster-coming-to-universal-studios-florida-in-2027/', label: { zh-CN: 官方公告, en: Official announcement } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Fast_%26_Furious_Supercharged_(Universal_Studios_Florida)_1.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fast_%26_Furious_Supercharged_(Universal_Studios_Florida)_1.jpg?width=1920"
         kind: image
         alt:
-          zh-CN: Universal Studios Florida 的 Fast & Furious: Supercharged
-          en: Fast & Furious: Supercharged at Universal Studios Florida
+          zh-CN: "Universal Studios Florida 的 Fast & Furious: Supercharged"
+          en: "Fast & Furious: Supercharged at Universal Studios Florida"
     status: active
