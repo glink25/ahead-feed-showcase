@@ -106,6 +106,13 @@ events:
       - kind: url
         value: https://www.nps.gov/grsm/learn/nature/fireflies.htm
         label: { zh-CN: NPS 同步萤火虫说明, en: NPS synchronous fireflies guidance }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Synchronous_Fireflies,_June_2013--Warren_Bielenberg_(28337897949).jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
       - kind: citation
-        value: NPS 说明峰值受温度与土壤湿度影响，历史峰值从五月第三周到六月第三周，故不提前伪造具体日期。
+        value: 海报图片：Wikimedia Commons / Great Smoky Mountains National Park，同步萤火虫观赏季实景，5184×3456，Public Domain。NPS 说明峰值受温度与土壤湿度影响，故不提前伪造具体日期。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Synchronous_Fireflies,_June_2013--Warren_Bielenberg_(28337897949).jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 大烟山国家公园同步萤火虫夜间观赏实景, en: Synchronous fireflies viewing in Great Smoky Mountains National Park }
     status: active
