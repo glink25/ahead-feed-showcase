@@ -1,0 +1,55 @@
+oefVersion: '0.1'
+kind: event-feed
+oefSearch: oef-search-v1
+id: ahead-theme-park-watch
+name:
+  zh-CN: 这次真的开园了
+  en: Theme Park Openings
+description:
+  zh-CN: 新过山车、新园区、经典设施回归。主题乐园爱好者真正会倒数的那一天。
+  en: New coasters, lands and returning attractions theme park fans genuinely count down to.
+primaryLanguage: zh-CN
+tags:
+  - id: theme-park
+    label: { zh-CN: 主题乐园, en: Theme Park }
+  - id: attraction
+    label: { zh-CN: 新设施, en: Attraction }
+events:
+  - id: wreck-it-ralph-tokyo-2027
+    title:
+      zh-CN: 东京迪士尼《无敌破坏王》新设施开放
+      en: Tokyo Disney Wreck-It Ralph Attraction Opens
+    summary:
+      zh-CN: Sugar Rush 主题新设施计划于 2027 年春季开放。
+      en: A new Sugar Rush-themed family attraction is planned for spring 2027.
+    schedule:
+      - id: announced-window
+        value: { kind: quarter, year: 2027, quarter: 2 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: likely
+        source: Disney Experiences
+    tags: [theme-park, attraction]
+    evidence:
+      - kind: url
+        value: https://disneyexperiences.com/expansions/
+        label: { zh-CN: Disney 官方扩建页面, en: Disney official expansions page }
+    status: active
+  - id: hollywood-drift-orlando-2027
+    title:
+      zh-CN: 奥兰多 Fast & Furious: Hollywood Drift 开放
+      en: Fast & Furious: Hollywood Drift Opens in Orlando
+    summary:
+      zh-CN: Universal Studios Florida 的新户外高速过山车将在 2027 年登场。
+      en: Universal Studios Florida's new outdoor high-speed coaster arrives in 2027.
+    schedule:
+      - id: announced-year
+        value: { kind: year, year: 2027 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Universal Orlando Resort
+    tags: [theme-park, attraction]
+    evidence:
+      - kind: url
+        value: https://media.universalparksusa.com/press-releases/trade-universal-orlando-resort-reveals-its-next-blockbuster-attraction-fast-furious-hollywood-drift-a-high-speed-roller-coaster-coming-to-universal-studios-florida-in-2027/
+        label: { zh-CN: Universal 官方公告, en: Universal official announcement }
+    status: active
