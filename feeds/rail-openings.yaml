@@ -14,14 +14,12 @@ tags:
     label: { zh-CN: 铁路, en: Rail }
   - id: city
     label: { zh-CN: 城市, en: City }
+  - id: first-service
+    label: { zh-CN: 首班载客, en: First Service }
 events:
   - id: metro-green-line-extension-date-reveal-2026
-    title:
-      zh-CN: 明尼苏达绿线延伸段公布开通日
-      en: METRO Green Line Extension Opening Date Reveal
-    summary:
-      zh-CN: 先等一个日期：官方将在社区活动上公布 2027 年具体开通日。
-      en: First, wait for the date itself: the 2027 opening day will be announced publicly.
+    title: { zh-CN: 明尼苏达绿线延伸段公布开通日, en: METRO Green Line Extension Opening Date Reveal }
+    summary: { zh-CN: 先等一个日期：官方将在社区活动上公布 2027 年具体开通日。, en: First, wait for the date itself: the 2027 opening day will be announced publicly. }
     schedule:
       - id: announcement-event
         value: { kind: exact, date: '2026-09-26' }
@@ -35,12 +33,8 @@ events:
         label: { zh-CN: 项目官网, en: Project page }
     status: active
   - id: la-d-line-sections-2-3-2027
-    title:
-      zh-CN: 洛杉矶地铁 D 线继续向西延伸
-      en: LA Metro D Line Sections 2 and 3 Open
-    summary:
-      zh-CN: Beverly Hills、Century City、Westwood 与 UCLA 将接入新的地铁站。
-      en: New subway sections are set to reach Century City, Westwood and UCLA.
+    title: { zh-CN: 洛杉矶地铁 D 线继续向西延伸, en: LA Metro D Line Sections 2 and 3 Open }
+    summary: { zh-CN: Beverly Hills、Century City、Westwood 与 UCLA 将接入新的地铁站。, en: New subway sections are set to reach Century City, Westwood and UCLA. }
     schedule:
       - id: current-window
         value: { kind: year, year: 2027 }
@@ -50,6 +44,45 @@ events:
     tags: [rail, city]
     evidence:
       - kind: url
-        value: https://www.metro.net/projects/westside/
-        label: { zh-CN: LA Metro 项目页, en: LA Metro project page }
+        value: https://www.metro.net/about/media-relations/less-time-driving-more-time-living-where-discovery-diversity-delight-meet-on-metros-d-line/
+        label: { zh-CN: LA Metro 官方更新, en: LA Metro official update }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:HR4000_D_Line_Union_Station.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，2026 年 D 线 HR4000 实车，CC0。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/HR4000_D_Line_Union_Station.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 洛杉矶地铁 D 线 HR4000 列车, en: LA Metro D Line HR4000 train }
+    status: active
+  - id: etihad-rail-dubai-al-dhaid-2026
+    title: { zh-CN: 阿联酋国家铁路 Dubai 与 Al Dhaid 站启用, en: Etihad Rail Dubai and Al Dhaid Stations Open }
+    summary: { zh-CN: 阿联酋国家客运铁路继续分阶段铺开，迪拜与 Al Dhaid 加入网络。, en: The UAE national passenger rail rollout reaches Dubai and Al Dhaid. }
+    schedule:
+      - id: passenger-opening
+        value: { kind: exact, date: '2026-09-30' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Etihad Rail
+    tags: [rail, city, first-service]
+    evidence:
+      - kind: url
+        value: https://corporate.etihadrail.ae/en/our-business/passenger
+        label: { zh-CN: Etihad Rail 客运官网, en: Etihad Rail passenger page }
+    status: active
+  - id: etihad-rail-sharjah-2027
+    title: { zh-CN: Etihad Rail 客运抵达 Sharjah, en: Etihad Rail Passenger Service Reaches Sharjah }
+    summary: { zh-CN: Sharjah Station 加入阿联酋国家客运铁路，是网络分阶段启用的重要一站。, en: Sharjah joins the UAE national passenger railway as the phased rollout continues. }
+    schedule:
+      - id: station-opening
+        value: { kind: exact, date: '2027-03-30' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Etihad Rail
+    tags: [rail, city, first-service]
+    evidence:
+      - kind: url
+        value: https://corporate.etihadrail.ae/en/our-business/passenger
+        label: { zh-CN: Etihad Rail 客运官网, en: Etihad Rail passenger page }
     status: active
