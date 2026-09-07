@@ -14,14 +14,14 @@ tags:
     label: { zh-CN: 兴趣圈, en: Hobby }
   - id: gathering
     label: { zh-CN: 聚会, en: Gathering }
+  - id: maker
+    label: { zh-CN: Maker, en: Maker }
+  - id: stationery
+    label: { zh-CN: 文具, en: Stationery }
 events:
   - id: bay-area-maker-faire-2026
-    title:
-      zh-CN: Bay Area Maker Faire 2026
-      en: Bay Area Maker Faire 2026
-    summary:
-      zh-CN: 发明者、修补者、机器人和手工玩家的大型线下集合。
-      en: A major meetup for inventors, tinkerers, robots and hands-on making.
+    title: { zh-CN: Bay Area Maker Faire 2026, en: Bay Area Maker Faire 2026 }
+    summary: { zh-CN: 发明者、修补者、机器人和手工玩家的大型线下集合。, en: A major meetup for inventors, tinkerers, robots and hands-on making. }
     schedule:
       - id: published-range
         value:
@@ -31,19 +31,22 @@ events:
         recordedAt: '2026-09-07T00:00:00Z'
         confidence: confirmed
         source: Maker Faire
-    tags: [hobby, gathering]
+    tags: [hobby, gathering, maker]
     evidence:
       - kind: url
-        value: https://makerfaire.com/upcoming-faires/
-        label: { zh-CN: 官方活动日历, en: Official event calendar }
+        value: https://makerfaire.com/bay-area/faq/
+        label: { zh-CN: 官方活动页, en: Official event page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Maker_Faire_(27348793867).jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Maker_Faire_(27348793867).jpg?width=1920"
+        kind: image
+        alt: { zh-CN: Maker Faire 现场创客展品, en: Maker Faire exhibits and makers }
     status: active
   - id: tokyo-pen-show-2026
-    title:
-      zh-CN: 东京国际钢笔展 2026
-      en: Tokyo International Pen Show 2026
-    summary:
-      zh-CN: 钢笔、墨水与纸张爱好者三天线下朝圣。
-      en: Three days for pen, ink and paper enthusiasts.
+    title: { zh-CN: 东京国际钢笔展 2026, en: Tokyo International Pen Show 2026 }
+    summary: { zh-CN: 钢笔、墨水与纸张爱好者三天线下朝圣。, en: Three days for pen, ink and paper enthusiasts. }
     schedule:
       - id: official-range
         value:
@@ -53,9 +56,66 @@ events:
         recordedAt: '2026-09-07T00:00:00Z'
         confidence: confirmed
         source: Tokyo International Pen Show
-    tags: [hobby, gathering]
+    tags: [hobby, gathering, stationery]
     evidence:
       - kind: url
         value: https://tokyo-international-penshow.com/
         label: { zh-CN: 官方网站, en: Official site }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Fountain_pen_and_ink.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fountain_pen_and_ink.jpg?width=1600"
+        kind: image
+        alt: { zh-CN: 钢笔、墨水与墨胆, en: Fountain pens, ink and cartridges }
+    status: active
+  - id: california-pen-show-2027
+    title: { zh-CN: California Pen Show 2027, en: California Pen Show 2027 }
+    summary: { zh-CN: 洛杉矶地区钢笔与文具玩家四天的大型聚会。, en: Four days of pens, inks, paper and collectors in the Los Angeles area. }
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2027-02-18' }
+          end: { kind: exact, date: '2027-02-21' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: California Pen Show
+    tags: [hobby, gathering, stationery]
+    evidence:
+      - kind: url
+        value: https://www.capenshow.com/
+        label: { zh-CN: 官方网站, en: Official site }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Green_Ink_Bottle_-_02.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Green_Ink_Bottle_-_02.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 高分辨率钢笔墨水瓶静物, en: High-resolution fountain pen ink bottle }
+    status: active
+  - id: maker-faire-miami-2027
+    title: { zh-CN: Maker Faire Miami 2027, en: Maker Faire Miami 2027 }
+    summary: { zh-CN: 机器人、cosplay、手作和教育项目在迈阿密再次集合。, en: Robotics, cosplay, hands-on builds and education projects gather again in Miami. }
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2027-04-17' }
+          end: { kind: exact, date: '2027-04-18' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Maker Faire Miami
+    tags: [hobby, gathering, maker]
+    evidence:
+      - kind: url
+        value: https://miami.makerfaire.com/
+        label: { zh-CN: 官方网站, en: Official site }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Lawn-chair_vehicle_at_Maker_Faire,_San_Mateo_2016.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lawn-chair_vehicle_at_Maker_Faire,_San_Mateo_2016.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: Maker Faire 上的自制移动装置, en: A home-built vehicle at Maker Faire }
     status: active
