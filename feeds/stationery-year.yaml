@@ -35,12 +35,8 @@ events:
         source: Dallas Pen Show
     tags: [stationery, community]
     evidence:
-      - kind: url
-        value: https://dallaspenshow.com/pages/schedule-vendors
-        label: { zh-CN: 官方日程, en: Official schedule }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Lamy_Fountain_Pens.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://dallaspenshow.com/pages/schedule-vendors', label: { zh-CN: 官方日程, en: Official schedule } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Lamy_Fountain_Pens.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lamy_Fountain_Pens.jpg?width=1920"
         kind: image
@@ -48,7 +44,6 @@ events:
           zh-CN: 多支 Lamy 钢笔收藏
           en: Collection of Lamy fountain pens
     status: active
-
   - id: hobonichi-one-piece-2027-2026
     title:
       zh-CN: Hobonichi 2027 ONE PIECE 系列开售
@@ -60,19 +55,15 @@ events:
       - id: one-piece-release
         value:
           kind: datetime
-          datetime: '2026-10-01T11:00:00'
+          dateTime: '2026-10-01T11:00:00+09:00'
           timezone: Asia/Tokyo
         recordedAt: '2026-09-07T00:00:00Z'
         confidence: confirmed
         source: Hobonichi Techo
     tags: [stationery, community, planner]
     evidence:
-      - kind: url
-        value: https://www.1101.com/store/techo/en/magazine/hon/
-        label: { zh-CN: Hobonichi 官方产品页, en: Hobonichi official page }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Working_on_a_planning_session_with_stationery_items,_notebook,_and_colorful_pencils_on_a_wooden_desk.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://www.1101.com/store/techo/en/magazine/hon/', label: { zh-CN: Hobonichi 官方产品页, en: Hobonichi official page } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Working_on_a_planning_session_with_stationery_items,_notebook,_and_colorful_pencils_on_a_wooden_desk.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Working_on_a_planning_session_with_stationery_items,_notebook,_and_colorful_pencils_on_a_wooden_desk.jpg?width=1920"
         kind: image
@@ -80,7 +71,6 @@ events:
           zh-CN: 打开的周计划手帐与彩色文具
           en: Open weekly planner with colorful stationery
     status: active
-
   - id: detroit-pen-show-2026
     title:
       zh-CN: Detroit Pen Show 2026
@@ -99,12 +89,8 @@ events:
         source: Detroit Pen Show
     tags: [stationery, community]
     evidence:
-      - kind: url
-        value: https://detroitpenshow.com/
-        label: { zh-CN: 官方网站, en: Official site }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Sheaffer-ink-bottle.gif
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://detroitpenshow.com/', label: { zh-CN: 官方网站, en: Official site } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Sheaffer-ink-bottle.gif', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sheaffer-ink-bottle.gif"
         kind: image
@@ -112,7 +98,6 @@ events:
           zh-CN: Sheaffer 钢笔墨水瓶
           en: Sheaffer fountain pen ink bottles
     status: active
-
   - id: scriptus-toronto-2026
     title:
       zh-CN: Scriptus Toronto 2026
@@ -128,12 +113,8 @@ events:
         source: Scriptus
     tags: [stationery, community]
     evidence:
-      - kind: url
-        value: https://www.scriptusinc.com/about-1
-        label: { zh-CN: 官方活动信息, en: Official event information }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Different_fountain_pens.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://www.scriptusinc.com/about-1', label: { zh-CN: 官方活动信息, en: Official event information } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Different_fountain_pens.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Different_fountain_pens.jpg?width=1920"
         kind: image
@@ -141,7 +122,6 @@ events:
           zh-CN: 不同品牌与年代的钢笔收藏
           en: Collection of different fountain pens
     status: active
-
   - id: empire-state-pen-show-2026
     title:
       zh-CN: Empire State Pen Show 2026
@@ -160,12 +140,8 @@ events:
         source: Empire State Pen Show
     tags: [stationery, community]
     evidence:
-      - kind: url
-        value: https://espenshow.com/ticket/
-        label: { zh-CN: 官方日程, en: Official schedule }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Wancher_Premium_Japanese_Fountain_Pens_heritage_collection.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://espenshow.com/ticket/', label: { zh-CN: 官方日程, en: Official schedule } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Wancher_Premium_Japanese_Fountain_Pens_heritage_collection.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wancher_Premium_Japanese_Fountain_Pens_heritage_collection.jpg?width=1920"
         kind: image
@@ -173,7 +149,6 @@ events:
           zh-CN: 高端日系钢笔陈列
           en: Premium Japanese fountain pen display
     status: active
-
   - id: tokyo-pen-show-stationery-2026
     title:
       zh-CN: 东京国际钢笔展 2026
@@ -192,12 +167,8 @@ events:
         source: Tokyo International Pen Show
     tags: [stationery, community]
     evidence:
-      - kind: url
-        value: https://tokyo-international-penshow.com/
-        label: { zh-CN: 官方网站, en: Official site }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Produced_by_PILOT_(49376731737).jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://tokyo-international-penshow.com/', label: { zh-CN: 官方网站, en: Official site } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Produced_by_PILOT_(49376731737).jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Produced_by_PILOT_(49376731737).jpg?width=1920"
         kind: image
@@ -205,7 +176,6 @@ events:
           zh-CN: 东京文具店里的 PILOT 钢笔墨水陈列
           en: Pilot fountain pen inks displayed in a Tokyo stationery store
     status: active
-
   - id: florida-stationery-fest-2027
     title:
       zh-CN: Florida Stationery Fest 2027
@@ -224,12 +194,8 @@ events:
         source: Florida Stationery Fest
     tags: [stationery, community, planner]
     evidence:
-      - kind: url
-        value: https://www.floridastationeryfest.com/
-        label: { zh-CN: 官方网站, en: Official site }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Inkwell_and_pen.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://www.floridastationeryfest.com/', label: { zh-CN: 官方网站, en: Official site } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Inkwell_and_pen.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Inkwell_and_pen.jpg?width=1920"
         kind: image
@@ -237,7 +203,6 @@ events:
           zh-CN: 墨水瓶与钢笔静物
           en: Inkwell and fountain pen
     status: active
-
   - id: california-pen-show-stationery-2027
     title:
       zh-CN: California Pen Show 2027
@@ -256,12 +221,8 @@ events:
         source: California Pen Show
     tags: [stationery, community]
     evidence:
-      - kind: url
-        value: https://www.capenshow.com/
-        label: { zh-CN: 官方网站, en: Official site }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Parker_Quink_Bottle.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://www.capenshow.com/', label: { zh-CN: 官方网站, en: Official site } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Parker_Quink_Bottle.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Parker_Quink_Bottle.jpg?width=1600"
         kind: image
@@ -269,7 +230,6 @@ events:
           zh-CN: Parker Quink 钢笔墨水瓶
           en: Parker Quink fountain pen ink bottle
     status: active
-
   - id: sf-stationery-fest-2027
     title:
       zh-CN: San Francisco Stationery Fest 2027
@@ -288,12 +248,8 @@ events:
         source: San Francisco Stationery Fest
     tags: [stationery, community, planner]
     evidence:
-      - kind: url
-        value: https://sfstationeryfest.com/
-        label: { zh-CN: 官方网站, en: Official site }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Gamme_Washi_Tape.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://sfstationeryfest.com/', label: { zh-CN: 官方网站, en: Official site } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Gamme_Washi_Tape.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gamme_Washi_Tape.jpg?width=1920"
         kind: image
@@ -301,7 +257,6 @@ events:
           zh-CN: 多种颜色与图案的和纸胶带
           en: Assorted colorful washi tapes
     status: active
-
   - id: chicago-stationery-fest-2027
     title:
       zh-CN: Chicago Stationery Fest 2027
@@ -320,12 +275,8 @@ events:
         source: Chicago Stationery Fest
     tags: [stationery, community]
     evidence:
-      - kind: url
-        value: https://www.chicagostationeryfest.com/
-        label: { zh-CN: 官方网站, en: Official site }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Basildon_Bond_stationery.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - { kind: url, value: 'https://www.chicagostationeryfest.com/', label: { zh-CN: 官方网站, en: Official site } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Basildon_Bond_stationery.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Basildon_Bond_stationery.jpg?width=1920"
         kind: image
