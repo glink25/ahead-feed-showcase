@@ -1,0 +1,61 @@
+oefVersion: '0.1'
+kind: event-feed
+oefSearch: oef-search-v1
+id: ahead-hobby-gatherings
+name:
+  zh-CN: 同好们要集合了
+  en: The Hobbyists Are Gathering
+description:
+  zh-CN: Maker、钢笔、模型与其他兴趣圈真正会专程赴约的年度聚会。
+  en: Real-world gatherings that makers, collectors and niche communities plan around.
+primaryLanguage: zh-CN
+tags:
+  - id: hobby
+    label: { zh-CN: 兴趣圈, en: Hobby }
+  - id: gathering
+    label: { zh-CN: 聚会, en: Gathering }
+events:
+  - id: bay-area-maker-faire-2026
+    title:
+      zh-CN: Bay Area Maker Faire 2026
+      en: Bay Area Maker Faire 2026
+    summary:
+      zh-CN: 发明者、修补者、机器人和手工玩家的大型线下集合。
+      en: A major meetup for inventors, tinkerers, robots and hands-on making.
+    schedule:
+      - id: published-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2026-09-25' }
+          end: { kind: exact, date: '2026-09-27' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Maker Faire
+    tags: [hobby, gathering]
+    evidence:
+      - kind: url
+        value: https://makerfaire.com/upcoming-faires/
+        label: { zh-CN: 官方活动日历, en: Official event calendar }
+    status: active
+  - id: tokyo-pen-show-2026
+    title:
+      zh-CN: 东京国际钢笔展 2026
+      en: Tokyo International Pen Show 2026
+    summary:
+      zh-CN: 钢笔、墨水与纸张爱好者三天线下朝圣。
+      en: Three days for pen, ink and paper enthusiasts.
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2026-11-21' }
+          end: { kind: exact, date: '2026-11-23' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Tokyo International Pen Show
+    tags: [hobby, gathering]
+    evidence:
+      - kind: url
+        value: https://tokyo-international-penshow.com/
+        label: { zh-CN: 官方网站, en: Official site }
+    status: active
