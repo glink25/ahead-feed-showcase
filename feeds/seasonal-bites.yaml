@@ -6,22 +6,20 @@ name:
   zh-CN: 等这一口
   en: Waiting for the First Bite
 description:
-  zh-CN: 真正与季节和产区节奏绑定的吃喝盼头，不收营销式“XX 日”。
-  en: Seasonal food-and-drink moments tied to real harvests, releases and traditions rather than marketing holidays.
+  zh-CN: 真正与季节、产区与年度上市节奏绑定的吃喝盼头，不收营销式“XX 日”。
+  en: Food-and-drink moments tied to real harvests, regional seasons and annual releases rather than marketing holidays.
 primaryLanguage: zh-CN
 tags:
   - id: food
     label: { zh-CN: 食物, en: Food }
   - id: seasonal
     label: { zh-CN: 季节限定, en: Seasonal }
+  - id: harvest
+    label: { zh-CN: 产季, en: Harvest }
 events:
   - id: oktoberfest-first-tap-2026
-    title:
-      zh-CN: 慕尼黑啤酒节开桶
-      en: Oktoberfest First Tapping 2026
-    summary:
-      zh-CN: 不是“啤酒日”，而是慕尼黑一年一度真正开桶的那一刻。
-      en: Not a marketing holiday: the real annual first tapping that opens Oktoberfest.
+    title: { zh-CN: 慕尼黑啤酒节开桶, en: Oktoberfest First Tapping 2026 }
+    summary: { zh-CN: 不是“啤酒日”，而是慕尼黑一年一度真正开桶的那一刻。, en: Not a marketing holiday: the real annual first tapping that opens Oktoberfest. }
     schedule:
       - id: opening-day
         value: { kind: exact, date: '2026-09-19' }
@@ -33,23 +31,91 @@ events:
       - kind: url
         value: https://www.muenchen.de/en/events/oktoberfest
         label: { zh-CN: 慕尼黑市官方活动页, en: City of Munich official page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Beer_tents_under_construction_14.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，慕尼黑 Oktoberfest 啤酒帐篷搭建实景，2024；作者与许可见文件页。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Beer_tents_under_construction_14.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 慕尼黑啤酒节大型啤酒帐篷搭建现场, en: Oktoberfest beer tents under construction in Munich }
+    status: active
+  - id: alba-white-truffle-fair-2026
+    title: { zh-CN: 阿尔巴白松露季世界市场开市, en: Alba White Truffle World Market Opens 2026 }
+    summary: { zh-CN: 白松露产季进入最让吃货期待的阶段，阿尔巴世界市场连续多个周末开放。, en: Alba's white-truffle season reaches its public-market stretch across autumn weekends. }
+    schedule:
+      - id: official-season
+        value:
+          kind: range
+          start: { kind: exact, date: '2026-10-10' }
+          end: { kind: exact, date: '2026-12-06' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: International Alba White Truffle Fair
+    tags: [food, seasonal, harvest]
+    evidence:
+      - kind: url
+        value: https://www.fieradeltartufo.org/en/
+        label: { zh-CN: 阿尔巴白松露国际博览会官网, en: International Alba White Truffle Fair official site }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Tuber_magnatum.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，阿尔巴白松露 Tuber magnatum，3072×2304；作者与许可见文件页。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tuber_magnatum.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 新鲜阿尔巴白松露, en: Fresh Alba white truffle }
     status: active
   - id: beaujolais-nouveau-2026
-    title:
-      zh-CN: 博若莱新酒 2026 上市
-      en: Beaujolais Nouveau 2026 Release
-    summary:
-      zh-CN: 每年十一月第三个星期四，新年份的新酒正式与大家见面。
-      en: The new vintage is released worldwide on the third Thursday of November.
+    title: { zh-CN: 博若莱新酒 2026 上市, en: Beaujolais Nouveau 2026 Release }
+    summary: { zh-CN: 每年十一月第三个星期四，新年份的新酒正式与大家见面。, en: The new vintage is released worldwide on the third Thursday of November. }
     schedule:
       - id: statutory-release
         value: { kind: exact, date: '2026-11-19' }
         recordedAt: '2026-09-07T00:00:00Z'
         confidence: confirmed
         source: Beaujolais vineyard official site
-    tags: [food, seasonal]
+    tags: [food, seasonal, harvest]
     evidence:
       - kind: url
         value: https://carnet.beaujolais.com/en/
         label: { zh-CN: 博若莱官方资料, en: Official Beaujolais reference }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Vineyard_in_Autumn2,_UNESCO_Global_Geopark_Beaujolais.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，秋季博若莱葡萄园，4032×3024；作者与许可见文件页。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Vineyard_in_Autumn2,_UNESCO_Global_Geopark_Beaujolais.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 秋季博若莱葡萄园, en: Beaujolais vineyard in autumn }
+    status: active
+  - id: southwest-chocolate-coffee-fest-2027
+    title: { zh-CN: Southwest Chocolate & Coffee Fest 2027, en: Southwest Chocolate & Coffee Fest 2027 }
+    summary: { zh-CN: 咖啡烘焙、巧克力和甜点爱好者在新墨西哥州用一个周末集中尝鲜。, en: Coffee roasters, chocolatiers and dessert makers gather for a full tasting weekend in New Mexico. }
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2027-04-03' }
+          end: { kind: exact, date: '2027-04-04' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Southwest Chocolate & Coffee Fest
+    tags: [food, seasonal]
+    evidence:
+      - kind: url
+        value: https://chocolateandcoffeefest.com/
+        label: { zh-CN: 活动官网, en: Official festival site }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Multi_textures_Chocolate_with_Coffee.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，咖啡与巧克力主题甜点，5664×2752，CC BY-SA；详情见文件页。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Multi_textures_Chocolate_with_Coffee.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 咖啡与巧克力主题甜点, en: Chocolate and coffee dessert }
     status: active
