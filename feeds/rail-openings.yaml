@@ -1,0 +1,55 @@
+oefVersion: '0.1'
+kind: event-feed
+oefSearch: oef-search-v1
+id: ahead-rail-openings
+name:
+  zh-CN: 等一列还没开来的车
+  en: Waiting for the Next Train
+description:
+  zh-CN: 地铁新线、延伸段与新服务。下一站，终于通车。
+  en: New rail lines, extensions and services worth waiting to ride.
+primaryLanguage: zh-CN
+tags:
+  - id: rail
+    label: { zh-CN: 铁路, en: Rail }
+  - id: city
+    label: { zh-CN: 城市, en: City }
+events:
+  - id: metro-green-line-extension-date-reveal-2026
+    title:
+      zh-CN: 明尼苏达绿线延伸段公布开通日
+      en: METRO Green Line Extension Opening Date Reveal
+    summary:
+      zh-CN: 先等一个日期：官方将在社区活动上公布 2027 年具体开通日。
+      en: First, wait for the date itself: the 2027 opening day will be announced publicly.
+    schedule:
+      - id: announcement-event
+        value: { kind: exact, date: '2026-09-26' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Metropolitan Council / Metro Transit
+    tags: [rail, city]
+    evidence:
+      - kind: url
+        value: https://metrocouncil.org/transportation/Projects/Light-Rail-Projects/METRO-Green-Line-Extension.aspx
+        label: { zh-CN: 项目官网, en: Project page }
+    status: active
+  - id: la-d-line-sections-2-3-2027
+    title:
+      zh-CN: 洛杉矶地铁 D 线继续向西延伸
+      en: LA Metro D Line Sections 2 and 3 Open
+    summary:
+      zh-CN: Beverly Hills、Century City、Westwood 与 UCLA 将接入新的地铁站。
+      en: New subway sections are set to reach Century City, Westwood and UCLA.
+    schedule:
+      - id: current-window
+        value: { kind: year, year: 2027 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: likely
+        source: LA Metro
+    tags: [rail, city]
+    evidence:
+      - kind: url
+        value: https://www.metro.net/projects/westside/
+        label: { zh-CN: LA Metro 项目页, en: LA Metro project page }
+    status: active
