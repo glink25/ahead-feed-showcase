@@ -17,9 +17,42 @@ tags:
   - id: flyby
     label: { zh-CN: 飞掠, en: Flyby }
 events:
+  - id: roman-l2-arrival-2026
+    title:
+      zh-CN: Roman 太空望远镜抵达日地 L2
+      en: Roman Space Telescope Reaches Sun-Earth L2
+    summary:
+      zh-CN: Roman 已于 2026 年 8 月 30 日发射，NASA 表示它将经历约三个月、约一百万英里的旅程前往最终轨道。
+      en: Roman launched on Aug. 30, 2026 and is on an approximately three-month, million-mile journey to its final orbit.
+    schedule:
+      - id: expected-arrival-month
+        value: { kind: month, year: 2026, month: 11 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: likely
+        source: NASA
+    tags: [space, science]
+    evidence:
+      - kind: url
+        value: https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/
+        label: { zh-CN: NASA 发射后任务说明, en: NASA post-launch mission update }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Nancy_Grace_Roman_Space_Telescope_Prelaunch_(NHQ202608290004).jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nancy_Grace_Roman_Space_Telescope_Prelaunch_(NHQ202608290004).jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: 发射前安装在 Falcon Heavy 顶部的 Roman 太空望远镜
+          en: Roman Space Telescope atop Falcon Heavy before launch
+    status: active
+
   - id: bepicolombo-mercury-orbit-2026
-    title: { zh-CN: BepiColombo 进入水星轨道, en: BepiColombo Enters Mercury Orbit }
-    summary: { zh-CN: 八年旅程抵达关键节点，组合探测器被水星引力捕获。, en: After an eight-year journey, the spacecraft enters orbit around Mercury. }
+    title:
+      zh-CN: BepiColombo 进入水星轨道
+      en: BepiColombo Enters Mercury Orbit
+    summary:
+      zh-CN: 八年旅程抵达关键节点，组合探测器被水星引力捕获。
+      en: After an eight-year journey, the spacecraft enters orbit around Mercury.
     schedule:
       - id: mercury-orbit-insertion
         value: { kind: exact, date: '2026-11-21' }
@@ -37,11 +70,18 @@ events:
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/BepiColombo_MTM_ESTEC.jpg?width=1920"
         kind: image
-        alt: { zh-CN: BepiColombo 水星转移模块, en: BepiColombo Mercury Transfer Module }
+        alt:
+          zh-CN: BepiColombo 水星转移模块
+          en: BepiColombo Mercury Transfer Module
     status: active
+
   - id: bepicolombo-science-phase-2027
-    title: { zh-CN: BepiColombo 开始水星科学观测, en: BepiColombo Science Phase Begins }
-    summary: { zh-CN: 两艘轨道器完成部署和调试后，正式开始联合科学阶段。, en: The two orbiters begin their nominal science phase after commissioning. }
+    title:
+      zh-CN: BepiColombo 开始水星科学观测
+      en: BepiColombo Science Phase Begins
+    summary:
+      zh-CN: 两艘轨道器完成部署和调试后，正式开始联合科学阶段。
+      en: The two orbiters begin their nominal science phase after commissioning.
     schedule:
       - id: science-month
         value: { kind: month, year: 2027, month: 4 }
@@ -56,16 +96,79 @@ events:
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:BepiColombo_spacecraft_model.png
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons / NASA，BepiColombo 两艘科学轨道器艺术图，1750×1750，Public Domain。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/BepiColombo_spacecraft_model.png?width=1750"
         kind: image
-        alt: { zh-CN: BepiColombo 两艘水星科学轨道器艺术图, en: BepiColombo spacecraft model illustration }
+        alt:
+          zh-CN: BepiColombo 两艘水星科学轨道器艺术图
+          en: BepiColombo spacecraft model illustration
     status: active
+
+  - id: artemis-iii-2027
+    title:
+      zh-CN: Artemis III 载人测试飞行
+      en: Artemis III Crewed Demonstration Flight
+    summary:
+      zh-CN: 四名宇航员将在近地轨道验证 Orion 与商业载人登月器会合、对接等未来登月关键能力。
+      en: Four astronauts will demonstrate rendezvous and docking between Orion and commercial human landing systems in low Earth orbit.
+    schedule:
+      - id: official-year
+        value: { kind: year, year: 2027 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: NASA
+    tags: [space, science]
+    evidence:
+      - kind: url
+        value: https://www.nasa.gov/mission/artemis-iii/
+        label: { zh-CN: NASA Artemis III 任务页, en: NASA Artemis III mission page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:MAF_20210209_Orion_ArtIII_TtoFB_017_orig_(857355148993).jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/MAF_20210209_Orion_ArtIII_TtoFB_017_orig_(857355148993).jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: NASA Artemis III Orion 舱体制造现场
+          en: Orion spacecraft hardware for NASA's Artemis III mission
+    status: active
+
+  - id: cosi-launch-2027
+    title:
+      zh-CN: COSI 伽马射线望远镜发射
+      en: COSI Gamma-Ray Telescope Launches
+    summary:
+      zh-CN: NASA 的 COSI 将用全天巡天研究反物质湮灭、核合成和高能天体，当前目标是 2027 年 8 月发射。
+      en: NASA's COSI will survey gamma rays from antimatter annihilation, nucleosynthesis and energetic sources, targeting an August 2027 launch.
+    schedule:
+      - id: targeted-month
+        value: { kind: month, year: 2027, month: 8 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: NASA
+    tags: [space, science]
+    evidence:
+      - kind: url
+        value: https://www.nasa.gov/news-release/nasa-awards-launch-services-contract-for-space-telescope-mission/
+        label: { zh-CN: NASA 发射服务公告, en: NASA launch services announcement }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:UC_Berkeley_Assembles_Upcoming_COSI_Mission_(SVS15088_-_COSI_2026July_19).jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/UC_Berkeley_Assembles_Upcoming_COSI_Mission_(SVS15088_-_COSI_2026July_19).jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: 2026 年组装中的 COSI 探测器组件
+          en: COSI detector assembly under construction in 2026
+    status: active
+
   - id: lucy-eurybates-2027
-    title: { zh-CN: Lucy 首次飞掠木星特洛伊小行星, en: Lucy's First Trojan Asteroid Flyby }
-    summary: { zh-CN: Lucy 将飞掠 Eurybates 及其卫星 Queta，第一次真正进入特洛伊小行星群。, en: Lucy flies by Eurybates and its moon Queta, beginning its Trojan asteroid encounters. }
+    title:
+      zh-CN: Lucy 首次飞掠木星特洛伊小行星
+      en: Lucy's First Trojan Asteroid Flyby
+    summary:
+      zh-CN: Lucy 将飞掠 Eurybates 及其卫星 Queta，第一次真正进入特洛伊小行星群。
+      en: Lucy flies by Eurybates and its moon Queta, beginning its Trojan asteroid encounters.
     schedule:
       - id: flyby-date
         value: { kind: exact, date: '2027-08-11' }
@@ -83,11 +186,47 @@ events:
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Illustration_of_the_deployed_Lucy_spacecraft.jpg?width=1920"
         kind: image
-        alt: { zh-CN: 展开太阳能阵列的 Lucy 探测器艺术图, en: Illustration of deployed Lucy spacecraft }
+        alt:
+          zh-CN: 展开太阳能阵列的 Lucy 探测器艺术图
+          en: Illustration of deployed Lucy spacecraft
     status: active
+
+  - id: neo-surveyor-launch-2027
+    title:
+      zh-CN: NEO Surveyor 行星防御望远镜发射
+      en: NEO Surveyor Planetary Defense Telescope Launches
+    summary:
+      zh-CN: NASA 首个专门为寻找潜在危险小行星和彗星设计的太空望远镜计划不早于 2027 年 9 月发射。
+      en: NASA's first space telescope purpose-built to find potentially hazardous asteroids and comets is scheduled no earlier than September 2027.
+    schedule:
+      - id: launch-window
+        value: { kind: month, year: 2027, month: 9 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: NASA JPL
+    tags: [space, science]
+    evidence:
+      - kind: url
+        value: https://www.jpl.nasa.gov/missions/near-earth-object-surveyor/
+        label: { zh-CN: JPL NEO Surveyor 任务页, en: JPL NEO Surveyor mission page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:NEO_Surveyor_spacecraft_scheme.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/NEO_Surveyor_spacecraft_scheme.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: NEO Surveyor 航天器结构示意图
+          en: NEO Surveyor spacecraft scheme
+    status: active
+
   - id: lucy-polymele-2027
-    title: { zh-CN: Lucy 飞掠 Polymele, en: Lucy Flies by Polymele }
-    summary: { zh-CN: 首次特洛伊小行星相遇后仅一个月，Lucy 继续飞向 Polymele 及其卫星。, en: Just a month after its first Trojan encounter, Lucy continues to Polymele and its satellite. }
+    title:
+      zh-CN: Lucy 飞掠 Polymele
+      en: Lucy Flies by Polymele
+    summary:
+      zh-CN: 首次特洛伊小行星相遇后仅一个月，Lucy 继续飞向 Polymele 及其卫星。
+      en: Just a month after its first Trojan encounter, Lucy continues to Polymele and its satellite.
     schedule:
       - id: flyby-date
         value: { kind: exact, date: '2027-09-14' }
@@ -97,13 +236,15 @@ events:
     tags: [space, science, flyby]
     evidence:
       - kind: url
-        value: https://science.nasa.gov/mission/lucy/frequently-asked-questions/
-        label: { zh-CN: NASA 飞掠时间表, en: NASA flyby schedule }
+        value: https://science.nasa.gov/mission/lucy/
+        label: { zh-CN: NASA Lucy 飞掠时间表, en: NASA Lucy flyby schedule }
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:Lucy_spacecraft_trajectory.png
         label: { zh-CN: 海报图片来源, en: Poster image source }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lucy_spacecraft_trajectory.png?width=1920"
         kind: image
-        alt: { zh-CN: Lucy 穿行木星特洛伊小行星群的任务轨迹, en: Lucy mission trajectory through the Trojan asteroids }
+        alt:
+          zh-CN: Lucy 穿行木星特洛伊小行星群的任务轨迹
+          en: Lucy mission trajectory through the Trojan asteroids
     status: active
