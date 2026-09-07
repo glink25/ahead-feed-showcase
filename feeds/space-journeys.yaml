@@ -14,14 +14,12 @@ tags:
     label: { zh-CN: 航天, en: Space }
   - id: science
     label: { zh-CN: 科学, en: Science }
+  - id: flyby
+    label: { zh-CN: 飞掠, en: Flyby }
 events:
   - id: bepicolombo-mercury-orbit-2026
-    title:
-      zh-CN: BepiColombo 进入水星轨道
-      en: BepiColombo Enters Mercury Orbit
-    summary:
-      zh-CN: 八年旅程抵达关键节点，组合探测器被水星引力捕获。
-      en: After an eight-year journey, the spacecraft enters orbit around Mercury.
+    title: { zh-CN: BepiColombo 进入水星轨道, en: BepiColombo Enters Mercury Orbit }
+    summary: { zh-CN: 八年旅程抵达关键节点，组合探测器被水星引力捕获。, en: After an eight-year journey, the spacecraft enters orbit around Mercury. }
     schedule:
       - id: mercury-orbit-insertion
         value: { kind: exact, date: '2026-11-21' }
@@ -33,14 +31,17 @@ events:
       - kind: url
         value: https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury
         label: { zh-CN: ESA 抵达时间线, en: ESA arrival timeline }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:BepiColombo_MTM_ESTEC.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/BepiColombo_MTM_ESTEC.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: BepiColombo 水星转移模块, en: BepiColombo Mercury Transfer Module }
     status: active
   - id: bepicolombo-science-phase-2027
-    title:
-      zh-CN: BepiColombo 开始水星科学观测
-      en: BepiColombo Science Phase Begins
-    summary:
-      zh-CN: 两艘轨道器完成部署和调试后，正式开始联合科学阶段。
-      en: The two orbiters begin their nominal science phase after commissioning.
+    title: { zh-CN: BepiColombo 开始水星科学观测, en: BepiColombo Science Phase Begins }
+    summary: { zh-CN: 两艘轨道器完成部署和调试后，正式开始联合科学阶段。, en: The two orbiters begin their nominal science phase after commissioning. }
     schedule:
       - id: science-month
         value: { kind: month, year: 2027, month: 4 }
@@ -52,4 +53,55 @@ events:
       - kind: url
         value: https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/BepiColombo_factsheet
         label: { zh-CN: ESA 任务资料, en: ESA mission factsheet }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/Category:BepiColombo
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/BepiColombo-spacecraft-model.png?width=1920"
+        kind: image
+        alt: { zh-CN: BepiColombo 探测器示意图, en: BepiColombo spacecraft illustration }
+    status: active
+  - id: lucy-eurybates-2027
+    title: { zh-CN: Lucy 首次飞掠木星特洛伊小行星, en: Lucy's First Trojan Asteroid Flyby }
+    summary: { zh-CN: Lucy 将飞掠 Eurybates 及其卫星 Queta，第一次真正进入特洛伊小行星群。, en: Lucy flies by Eurybates and its moon Queta, beginning its Trojan asteroid encounters. }
+    schedule:
+      - id: flyby-date
+        value: { kind: exact, date: '2027-08-11' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: NASA
+    tags: [space, science, flyby]
+    evidence:
+      - kind: url
+        value: https://science.nasa.gov/mission/lucy/
+        label: { zh-CN: NASA Lucy 任务页, en: NASA Lucy mission page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Illustration_of_the_deployed_Lucy_spacecraft.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Illustration_of_the_deployed_Lucy_spacecraft.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 展开太阳能阵列的 Lucy 探测器艺术图, en: Illustration of deployed Lucy spacecraft }
+    status: active
+  - id: lucy-polymele-2027
+    title: { zh-CN: Lucy 飞掠 Polymele, en: Lucy Flies by Polymele }
+    summary: { zh-CN: 首次特洛伊小行星相遇后仅一个月，Lucy 继续飞向 Polymele 及其卫星。, en: Just a month after its first Trojan encounter, Lucy continues to Polymele and its satellite. }
+    schedule:
+      - id: flyby-date
+        value: { kind: exact, date: '2027-09-14' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: NASA
+    tags: [space, science, flyby]
+    evidence:
+      - kind: url
+        value: https://science.nasa.gov/mission/lucy/frequently-asked-questions/
+        label: { zh-CN: NASA 飞掠时间表, en: NASA flyby schedule }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Lucy_spacecraft_trajectory.png
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lucy_spacecraft_trajectory.png?width=1920"
+        kind: image
+        alt: { zh-CN: Lucy 穿行木星特洛伊小行星群的任务轨迹, en: Lucy mission trajectory through the Trojan asteroids }
     status: active
