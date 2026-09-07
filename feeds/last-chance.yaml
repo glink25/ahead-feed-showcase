@@ -7,7 +7,7 @@ name:
   en: While It Is Still Here
 description:
   zh-CN: 最后运营、搬迁、长期闭馆与告别活动。不是等它来，而是提醒自己别错过最后一次。
-  en: Final rides, relocations, long closures and farewell events: not waiting for arrival, but making time before something disappears.
+  en: "Final rides, relocations, long closures and farewell events: not waiting for arrival, but making time before something disappears."
 primaryLanguage: zh-CN
 tags:
   - id: farewell
@@ -90,7 +90,9 @@ events:
         alt: { zh-CN: Richard Meier 设计的 Getty Center 建筑群, en: Getty Center architecture by Richard Meier }
     status: active
   - id: fast-furious-supercharged-orlando-close-2027
-    title: { zh-CN: 奥兰多 Fast & Furious – Supercharged 永久关闭, en: Fast & Furious – Supercharged Orlando Closes }
+    title:
+      zh-CN: "奥兰多 Fast & Furious – Supercharged 永久关闭"
+      en: "Fast & Furious – Supercharged Orlando Closes"
     summary: { zh-CN: Universal 已确认这项设施将在 2027 年永久关闭，具体日期仍待公布。, en: Universal has confirmed a permanent 2027 closure, with the exact date still to come. }
     schedule:
       - id: announced-year
@@ -107,9 +109,11 @@ events:
         value: https://commons.wikimedia.org/wiki/File:Fast_%26_Furious_Supercharged_(Universal_Studios_Florida)_1.jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
       - kind: citation
-        value: 海报图片：Wikimedia Commons，Fast & Furious: Supercharged 设施外观实景，6000×4000，CC BY 2.0。
+        value: "海报图片：Wikimedia Commons，Fast & Furious: Supercharged 设施外观实景，6000×4000，CC BY 2.0。"
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fast_%26_Furious_Supercharged_(Universal_Studios_Florida)_1.jpg?width=1920"
         kind: image
-        alt: { zh-CN: Universal Studios Florida 的 Fast & Furious: Supercharged, en: Fast & Furious: Supercharged at Universal Studios Florida }
+        alt:
+          zh-CN: "Universal Studios Florida 的 Fast & Furious: Supercharged"
+          en: "Fast & Furious: Supercharged at Universal Studios Florida"
     status: active
