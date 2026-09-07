@@ -6,22 +6,20 @@ name:
   zh-CN: 那天以后就不是未来了
   en: The Day the Future Becomes History
 description:
-  zh-CN: 只收真正可验证的“第一次”：首次开放、首次抵达、首次投入使用。
-  en: Verifiable firsts only: first openings, arrivals and public operations that turn the future into history.
+  zh-CN: 只收真正可验证的“第一次”：首次开放、首次抵达、首次投入使用或首次完成某种体验。
+  en: Verifiable firsts only: first openings, arrivals, operations and experiences that turn the future into history.
 primaryLanguage: zh-CN
 tags:
   - id: first
     label: { zh-CN: 第一次, en: First }
   - id: milestone
     label: { zh-CN: 里程碑, en: Milestone }
+  - id: space
+    label: { zh-CN: 航天, en: Space }
 events:
   - id: lucas-museum-first-opening-2026
-    title:
-      zh-CN: 卢卡斯叙事艺术博物馆首次向公众开放
-      en: Lucas Museum Opens to the Public for the First Time
-    summary:
-      zh-CN: 这座自称首创叙事艺术机构的博物馆迎来第一个公众开放日。
-      en: The first public day for a first-of-its-kind institution devoted to narrative art.
+    title: { zh-CN: 卢卡斯叙事艺术博物馆首次向公众开放, en: Lucas Museum Opens to the Public for the First Time }
+    summary: { zh-CN: 这座以叙事艺术为核心的新机构迎来第一个公众开放日。, en: The new institution devoted to narrative art welcomes the public for the first time. }
     schedule:
       - id: first-public-day
         value: { kind: exact, date: '2026-09-22' }
@@ -33,23 +31,85 @@ events:
       - kind: url
         value: https://lucasmuseum.org/press/lucas-museum-of-narrative-art-opens-to-the-public-on-september-22-2026
         label: { zh-CN: 官方开放公告, en: Official opening announcement }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Lucas_Museum_of_Narrative_Art_-_Los_Angeles_aug_2022.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，Lucas Museum 建设实景，3104×2217；作者与许可见文件页。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lucas_Museum_of_Narrative_Art_-_Los_Angeles_aug_2022.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 建设中的卢卡斯叙事艺术博物馆, en: Lucas Museum of Narrative Art under construction }
     status: active
   - id: bepicolombo-dual-mercury-orbit-2026
-    title:
-      zh-CN: 首次两艘探测器同时环绕水星
-      en: First Dual-Spacecraft Mercury Orbital Mission
-    summary:
-      zh-CN: BepiColombo 将成为首个让两艘科学探测器同时环绕水星运行的任务。
-      en: BepiColombo becomes the first mission with two science spacecraft orbiting Mercury at the same time.
+    title: { zh-CN: 首次两艘探测器同时环绕水星, en: First Dual-Spacecraft Mercury Orbital Mission }
+    summary: { zh-CN: BepiColombo 将把 ESA 与 JAXA 的两艘科学轨道器同时送入水星周围开展互补观测。, en: BepiColombo places ESA and JAXA science orbiters around Mercury for complementary observations. }
     schedule:
       - id: mercury-arrival
         value: { kind: exact, date: '2026-11-21' }
         recordedAt: '2026-09-07T00:00:00Z'
         confidence: confirmed
         source: European Space Agency
-    tags: [first, milestone]
+    tags: [first, milestone, space]
     evidence:
       - kind: url
         value: https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury
         label: { zh-CN: ESA 抵达说明, en: ESA arrival update }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:BepiColombo_spacecraft_stack_ESA380846.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons / ESA，BepiColombo 完整探测器组合，4102×2969；许可见文件页。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/BepiColombo_spacecraft_stack_ESA380846.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: BepiColombo 组合探测器, en: BepiColombo spacecraft stack }
+    status: active
+  - id: minecraft-world-first-2027
+    title: { zh-CN: 全球首个完整沉浸式 Minecraft 主题乐园园区开放, en: World's First Fully Immersive Minecraft Theme Park Land Opens }
+    summary: { zh-CN: Chessington 把 Minecraft 从屏幕搬进现实，并包含官方所称的“world first coaster”。, en: Chessington brings Minecraft into a real-world immersive land, including what it calls a world-first coaster. }
+    schedule:
+      - id: announced-year
+        value: { kind: year, year: 2027 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Chessington World of Adventures
+    tags: [first, milestone]
+    evidence:
+      - kind: url
+        value: https://www.chessington.com/minecraft/
+        label: { zh-CN: 官方项目页, en: Official project page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Dragon_Falls,_Chessington_World_of_Adventures_-_geograph.org.uk_-_7615514.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，Chessington 现有园区设施实景；用于表现目的地而非 Minecraft World 成品，3066×1840。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dragon_Falls,_Chessington_World_of_Adventures_-_geograph.org.uk_-_7615514.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: Chessington World of Adventures 园区设施实景, en: Attraction at Chessington World of Adventures }
+    status: active
+  - id: lucy-first-trojan-encounter-2027
+    title: { zh-CN: 人类首次近距离探测木星特洛伊小行星, en: Humanity's First Close-Up Exploration of a Jupiter Trojan Asteroid }
+    summary: { zh-CN: Lucy 飞掠 Eurybates，成为首个真正抵达并近距离研究木星特洛伊小行星的航天器。, en: Lucy's Eurybates flyby begins the first spacecraft exploration of Jupiter's Trojan asteroids. }
+    schedule:
+      - id: first-trojan-flyby
+        value: { kind: exact, date: '2027-08-11' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: NASA
+    tags: [first, milestone, space]
+    evidence:
+      - kind: url
+        value: https://science.nasa.gov/mission/lucy/
+        label: { zh-CN: NASA Lucy 任务页, en: NASA Lucy mission page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Lucy_Spacecraft_Rotation_(KSC-20210901-PH-GEB01_0012).jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons / NASA，Lucy 探测器发射前实物照，4480×6720，Public Domain。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lucy_Spacecraft_Rotation_(KSC-20210901-PH-GEB01_0012).jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 发射前装配中的 NASA Lucy 探测器, en: NASA Lucy spacecraft during prelaunch processing }
     status: active
