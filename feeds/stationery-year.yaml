@@ -6,22 +6,20 @@ name:
   zh-CN: 文具人的一年
   en: A Stationery Person's Year
 description:
-  zh-CN: 用“我是文具人”而不是内容分类来组织盼头：手帐发售、钢笔展与纸笔限定节点。
-  en: A people-first feed for stationery fans: planner drops, pen shows and paper-and-ink milestones.
+  zh-CN: 用“我是文具人”而不是内容分类来组织盼头：手帐发售、钢笔展、纸品市集与同好聚会。
+  en: A people-first feed for stationery fans: planner drops, pen shows, paper markets and community gatherings.
 primaryLanguage: zh-CN
 tags:
   - id: stationery
     label: { zh-CN: 文具, en: Stationery }
   - id: community
     label: { zh-CN: 同好, en: Community }
+  - id: planner
+    label: { zh-CN: 手帐, en: Planner }
 events:
   - id: hobonichi-one-piece-2027-2026
-    title:
-      zh-CN: Hobonichi 2027 ONE PIECE 系列开售
-      en: Hobonichi Techo 2027 ONE PIECE Edition Goes on Sale
-    summary:
-      zh-CN: 2027 手帐主系列九月已开售，ONE PIECE 版本则要再等到十月。
-      en: The main 2027 lineup is already out; the ONE PIECE edition gets its own October release.
+    title: { zh-CN: Hobonichi 2027 ONE PIECE 系列开售, en: Hobonichi Techo 2027 ONE PIECE Edition Goes on Sale }
+    summary: { zh-CN: 2027 手帐主系列九月已开售，ONE PIECE 版本则要再等到十月。, en: The main 2027 lineup is already out; the ONE PIECE edition gets its own October release. }
     schedule:
       - id: one-piece-release
         value:
@@ -31,19 +29,24 @@ events:
         recordedAt: '2026-09-07T00:00:00Z'
         confidence: confirmed
         source: Hobonichi Techo
-    tags: [stationery, community]
+    tags: [stationery, community, planner]
     evidence:
       - kind: url
         value: https://www.1101.com/store/techo/en/magazine/hon/
         label: { zh-CN: Hobonichi 官方产品页, en: Hobonichi official page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Working_on_a_planning_session_with_stationery_items,_notebook,_and_colorful_pencils_on_a_wooden_desk.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，高分辨率手帐与文具桌面，6016×4016，CC BY 2.0；用于表现手帐使用场景，并非 Hobonichi 商品照。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Working_on_a_planning_session_with_stationery_items,_notebook,_and_colorful_pencils_on_a_wooden_desk.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 打开的周计划手帐与彩色文具, en: Open weekly planner with colorful stationery }
     status: active
   - id: tokyo-pen-show-stationery-2026
-    title:
-      zh-CN: 东京国际钢笔展 2026
-      en: Tokyo International Pen Show 2026
-    summary:
-      zh-CN: “写、画”本身成为一场三天的节日，钢笔、墨水、纸张与同好都到场。
-      en: A three-day celebration of writing and drawing with pens, inks, paper and the community around them.
+    title: { zh-CN: 东京国际钢笔展 2026, en: Tokyo International Pen Show 2026 }
+    summary: { zh-CN: “写、画”本身成为一场三天的节日，钢笔、墨水、纸张与同好都到场。, en: A three-day celebration of writing and drawing with pens, inks, paper and the community around them. }
     schedule:
       - id: official-range
         value:
@@ -58,4 +61,94 @@ events:
       - kind: url
         value: https://tokyo-international-penshow.com/
         label: { zh-CN: 官方网站, en: Official site }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Produced_by_PILOT_(49376731737).jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，东京文具店内 PILOT 彩墨陈列实景，CC BY 2.0；与钢笔墨水主题直接相关。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Produced_by_PILOT_(49376731737).jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 东京文具店里的 PILOT 钢笔墨水陈列, en: Pilot fountain pen inks displayed in a Tokyo stationery store }
+    status: active
+  - id: california-pen-show-stationery-2027
+    title: { zh-CN: California Pen Show 2027, en: California Pen Show 2027 }
+    summary: { zh-CN: 洛杉矶地区钢笔、墨水、纸张和限定品玩家的四天聚会。, en: Four days of pens, inks, paper, show exclusives and community in the Los Angeles area. }
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2027-02-18' }
+          end: { kind: exact, date: '2027-02-21' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: California Pen Show
+    tags: [stationery, community]
+    evidence:
+      - kind: url
+        value: https://www.capenshow.com/
+        label: { zh-CN: 官方网站, en: Official site }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Parker_Quink_Bottle.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，经典钢笔墨水瓶静物；作者与许可见文件页。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Parker_Quink_Bottle.jpg?width=1600"
+        kind: image
+        alt: { zh-CN: Parker Quink 钢笔墨水瓶, en: Parker Quink fountain pen ink bottle }
+    status: active
+  - id: sf-stationery-fest-2027
+    title: { zh-CN: San Francisco Stationery Fest 2027, en: San Francisco Stationery Fest 2027 }
+    summary: { zh-CN: 纸品、手帐、贴纸、课程和同好 meetup 比钢笔本身更靠前的一场文具节。, en: A paper-first stationery festival with planners, stickers, workshops and community meetups beyond fountain pens alone. }
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2027-03-18' }
+          end: { kind: exact, date: '2027-03-21' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: San Francisco Stationery Fest
+    tags: [stationery, community, planner]
+    evidence:
+      - kind: url
+        value: https://sfstationeryfest.com/
+        label: { zh-CN: 官方网站, en: Official site }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Gamme_Washi_Tape.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，多色和纸胶带静物，4672×3104；适合作为纸品与装饰文具主题图。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gamme_Washi_Tape.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 多种颜色与图案的和纸胶带, en: Assorted colorful washi tapes }
+    status: active
+  - id: chicago-stationery-fest-2027
+    title: { zh-CN: Chicago Stationery Fest 2027, en: Chicago Stationery Fest 2027 }
+    summary: { zh-CN: 芝加哥把纸笔、创作者和文具品牌集中到五月的一个周末。, en: Chicago gathers stationery makers, paper goods and creative communities for a May weekend. }
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2027-05-14' }
+          end: { kind: exact, date: '2027-05-16' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Chicago Stationery Fest
+    tags: [stationery, community]
+    evidence:
+      - kind: url
+        value: https://www.chicagostationeryfest.com/
+        label: { zh-CN: 官方网站, en: Official site }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Basildon_Bond_stationery.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，纸张与书写文具桌面静物，2592×3538；作者与许可见文件页。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Basildon_Bond_stationery.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 书写纸与传统桌面文具, en: Writing paper and traditional desk stationery }
     status: active
