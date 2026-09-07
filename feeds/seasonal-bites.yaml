@@ -19,7 +19,9 @@ tags:
 events:
   - id: oktoberfest-first-tap-2026
     title: { zh-CN: 慕尼黑啤酒节开桶, en: Oktoberfest First Tapping 2026 }
-    summary: { zh-CN: 不是“啤酒日”，而是慕尼黑一年一度真正开桶的那一刻。, en: Not a marketing holiday: the real annual first tapping that opens Oktoberfest. }
+    summary:
+      zh-CN: 不是“啤酒日”，而是慕尼黑一年一度真正开桶的那一刻。
+      en: "Not a marketing holiday: the real annual first tapping that opens Oktoberfest."
     schedule:
       - id: opening-day
         value: { kind: exact, date: '2026-09-19' }
