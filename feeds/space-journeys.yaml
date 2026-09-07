@@ -54,12 +54,14 @@ events:
         value: https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/BepiColombo_factsheet
         label: { zh-CN: ESA 任务资料, en: ESA mission factsheet }
       - kind: url
-        value: https://commons.wikimedia.org/wiki/Category:BepiColombo
+        value: https://commons.wikimedia.org/wiki/File:BepiColombo_spacecraft_model.png
         label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons / NASA，BepiColombo 两艘科学轨道器艺术图，1750×1750，Public Domain。
     media:
-      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/BepiColombo-spacecraft-model.png?width=1920"
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/BepiColombo_spacecraft_model.png?width=1750"
         kind: image
-        alt: { zh-CN: BepiColombo 探测器示意图, en: BepiColombo spacecraft illustration }
+        alt: { zh-CN: BepiColombo 两艘水星科学轨道器艺术图, en: BepiColombo spacecraft model illustration }
     status: active
   - id: lucy-eurybates-2027
     title: { zh-CN: Lucy 首次飞掠木星特洛伊小行星, en: Lucy's First Trojan Asteroid Flyby }
