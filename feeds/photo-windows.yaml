@@ -17,33 +17,45 @@ tags:
   - id: weather-dependent
     label: { zh-CN: 看天气, en: Weather-dependent }
 events:
-  - id: yosemite-horsetail-2027
-    title: { zh-CN: 优胜美地 Horsetail Fall “火瀑”窗口, en: Yosemite Horsetail Fall Firefall Window }
-    summary: { zh-CN: 二月中下旬，只有瀑布有水、天空够晴、夕阳角度正确时才会亮起来。, en: In mid-to-late February, the waterfall glows only when water, clear skies and sunset geometry align. }
+  - id: jigokudani-snow-monkeys-2027
+    title:
+      zh-CN: 地狱谷雪猴泡温泉窗口
+      en: Jigokudani Snow Monkey Hot-Spring Season
+    summary:
+      zh-CN: 十二月至三月通常最容易拍到日本猕猴在雪地温泉中取暖，是否下水仍由猴子自己决定。
+      en: December through March is usually the best time to photograph Japanese macaques bathing in the hot springs, although the monkeys choose when to enter.
     schedule:
-      - id: annual-window
-        value: { kind: month, year: 2027, month: 2 }
+      - id: winter-window
+        value:
+          kind: range
+          start: { kind: exact, date: '2026-12-01' }
+          end: { kind: exact, date: '2027-03-31' }
         recordedAt: '2026-09-07T00:00:00Z'
         confidence: likely
-        source: U.S. National Park Service
+        source: Japan National Tourism Organization
     tags: [photography, nature, weather-dependent]
     evidence:
       - kind: url
-        value: https://www.nps.gov/yose/planyourvisit/horsetailfall.htm
-        label: { zh-CN: NPS 观赏说明, en: NPS viewing guidance }
+        value: https://www.japan.travel/en/spot/1344/
+        label: { zh-CN: JNTO 官方雪猴观赏说明, en: JNTO official snow monkey guidance }
       - kind: url
-        value: https://commons.wikimedia.org/wiki/File:2007-02-16_-_Horsetail_Fall_(Yosemite).jpg
+        value: https://commons.wikimedia.org/wiki/File:Snow_Monkey_at_Jigokudani_Monkey_Park.jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons，Horsetail Fall 火瀑实景，1520×2288；作者与许可见文件页。
     media:
-      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/2007-02-16_-_Horsetail_Fall_(Yosemite).jpg?width=1920"
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Snow_Monkey_at_Jigokudani_Monkey_Park.jpg?width=1920"
         kind: image
-        alt: { zh-CN: 夕阳照亮的优胜美地 Horsetail Fall 火瀑, en: Yosemite Horsetail Fall illuminated at sunset }
+        alt:
+          zh-CN: 地狱谷野猿公苑温泉旁的雪猴
+          en: Snow monkey beside the hot spring at Jigokudani Monkey Park
     status: active
+
   - id: salar-uyuni-mirror-2027
-    title: { zh-CN: 乌尤尼盐湖“天空之镜”高概率窗口, en: Salar de Uyuni Mirror Season 2027 }
-    summary: { zh-CN: 一二月通常是薄水覆盖盐壳、天空与地面连成一片的最佳机会；镜面依然取决于雨量与风。, en: January and February usually offer the best chance for a thin sheet of water to turn the salt flat into a mirror, still dependent on rain and wind. }
+    title:
+      zh-CN: 乌尤尼盐湖“天空之镜”高概率窗口
+      en: Salar de Uyuni Mirror Season 2027
+    summary:
+      zh-CN: 一二月通常是薄水覆盖盐壳、天空与地面连成一片的最佳机会；镜面依然取决于雨量与风。
+      en: January and February usually offer the best chance for a thin sheet of water to turn the salt flat into a mirror, still dependent on rain and wind.
     schedule:
       - id: peak-window
         value:
@@ -61,16 +73,143 @@ events:
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:SAL_-_Reflections_in_shallow_water_at_Salar_de_Uyuni,_Bolivia,_2013.jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons，乌尤尼盐湖浅水镜面实景，4288×2848，CC BY-SA 4.0。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/SAL_-_Reflections_in_shallow_water_at_Salar_de_Uyuni,_Bolivia,_2013.jpg?width=1920"
         kind: image
-        alt: { zh-CN: 乌尤尼盐湖雨季的天空镜面, en: Mirror reflections on Salar de Uyuni }
+        alt:
+          zh-CN: 乌尤尼盐湖雨季的天空镜面
+          en: Mirror reflections on Salar de Uyuni
     status: active
+
+  - id: hokkaido-crane-dance-2027
+    title:
+      zh-CN: 北海道丹顶鹤求偶舞窗口
+      en: Hokkaido Red-Crowned Crane Courtship Window
+    summary:
+      zh-CN: 鹤居村冬季能看到大批丹顶鹤聚集，而二月中旬开始的求偶舞尤其适合长焦摄影。
+      en: Large groups of red-crowned cranes gather in Tsurui through winter, with courtship dances becoming a highlight from mid-February.
+    schedule:
+      - id: courtship-month
+        value: { kind: month, year: 2027, month: 2 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: likely
+        source: Hokkaido Official Tourism Site
+    tags: [photography, nature, weather-dependent]
+    evidence:
+      - kind: url
+        value: https://www.visit-hokkaido.jp/en/spot/detail_10183.html
+        label: { zh-CN: 北海道官方旅游网站, en: Hokkaido official tourism site }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Grus_japonensis_Tsurui_Tsurumidai.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Grus_japonensis_Tsurui_Tsurumidai.jpg?width=1280"
+        kind: image
+        alt:
+          zh-CN: 北海道鹤居村雪地中的丹顶鹤
+          en: Red-crowned cranes in snow at Tsurui, Hokkaido
+    status: active
+
+  - id: yosemite-horsetail-2027
+    title:
+      zh-CN: 优胜美地 Horsetail Fall “火瀑”窗口
+      en: Yosemite Horsetail Fall Firefall Window
+    summary:
+      zh-CN: 二月中下旬，只有瀑布有水、天空够晴、夕阳角度正确时才会亮起来。
+      en: In mid-to-late February, the waterfall glows only when water, clear skies and sunset geometry align.
+    schedule:
+      - id: annual-window
+        value: { kind: month, year: 2027, month: 2 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: likely
+        source: U.S. National Park Service
+    tags: [photography, nature, weather-dependent]
+    evidence:
+      - kind: url
+        value: https://www.nps.gov/yose/planyourvisit/horsetailfall.htm
+        label: { zh-CN: NPS 观赏说明, en: NPS viewing guidance }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:2007-02-16_-_Horsetail_Fall_(Yosemite).jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/2007-02-16_-_Horsetail_Fall_(Yosemite).jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: 夕阳照亮的优胜美地 Horsetail Fall 火瀑
+          en: Yosemite Horsetail Fall illuminated at sunset
+    status: active
+
+  - id: monarch-mexico-2027
+    title:
+      zh-CN: 墨西哥帝王蝶越冬森林窗口
+      en: Monarch Butterfly Sanctuary Season in Mexico
+    summary:
+      zh-CN: 每年十一月至次年三月，帝王蝶在米却肯与墨西哥州山林越冬，晴暖白天更容易拍到群蝶飞起。
+      en: From November through March, monarchs overwinter in the forests of Michoacán and the State of Mexico, with warmer sunny days offering more flight activity.
+    schedule:
+      - id: sanctuary-season
+        value:
+          kind: range
+          start: { kind: exact, date: '2026-11-01' }
+          end: { kind: exact, date: '2027-03-31' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: likely
+        source: Mexico SEMARNAT
+    tags: [photography, nature, weather-dependent]
+    evidence:
+      - kind: url
+        value: https://www.gob.mx/semarnat/acciones-y-programas/acerca-de-los-santuarios-de-la-mariposa-monarca
+        label: { zh-CN: 墨西哥环境部保护区说明, en: Mexico environmental ministry sanctuary guidance }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Mariposa_Monarca_Santuario.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mariposa_Monarca_Santuario.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: 米却肯帝王蝶保护区植被上的帝王蝶
+          en: Monarch butterfly in a Michoacán sanctuary
+    status: active
+
+  - id: keukenhof-2027
+    title:
+      zh-CN: Keukenhof 2027 春花摄影季
+      en: Keukenhof 2027 Spring Flower Season
+    summary:
+      zh-CN: 公园 3 月 18 日至 5 月 9 日开放，花期随天气推进；官方特别建议利用早晚光线拍摄。
+      en: The park opens March 18 through May 9, while bloom timing follows the weather; Keukenhof specifically recommends morning and evening light for photography.
+    schedule:
+      - id: official-season
+        value:
+          kind: range
+          start: { kind: exact, date: '2027-03-18' }
+          end: { kind: exact, date: '2027-05-09' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Keukenhof
+    tags: [photography, nature, weather-dependent]
+    evidence:
+      - kind: url
+        value: https://keukenhof.nl/en/frequently-asked-questions/
+        label: { zh-CN: Keukenhof 官方 2027 开放日期, en: Keukenhof official 2027 dates }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Keukenhof_April_2024.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Keukenhof_April_2024.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: 2024 年四月盛花期的 Keukenhof 郁金香
+          en: Keukenhof tulips at peak bloom in April 2024
+    status: active
+
   - id: manhattanhenge-spring-2027
-    title: { zh-CN: Manhattanhenge 春季窗口, en: Spring Manhattanhenge Window 2027 }
-    summary: { zh-CN: 五月末附近，落日再次与曼哈顿东西向街网对齐；具体时刻待天文馆年度更新。, en: Around late May, sunset aligns with Manhattan's street grid again; exact times await the annual update. }
+    title:
+      zh-CN: Manhattanhenge 春季窗口
+      en: Spring Manhattanhenge Window 2027
+    summary:
+      zh-CN: 五月末附近，落日再次与曼哈顿东西向街网对齐；具体时刻待天文馆年度更新。
+      en: Around late May, sunset aligns with Manhattan's street grid again; exact times await the annual update.
     schedule:
       - id: expected-month
         value: { kind: month, year: 2027, month: 5 }
@@ -85,16 +224,21 @@ events:
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:Manhattanhenge_on_Times_Square.jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons，Times Square Manhattanhenge 实景，5924×3950；作者与许可见文件页。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Manhattanhenge_on_Times_Square.jpg?width=1920"
         kind: image
-        alt: { zh-CN: 落日沿曼哈顿街道对齐的 Manhattanhenge, en: Manhattanhenge sunset aligned with the street grid }
+        alt:
+          zh-CN: 落日沿曼哈顿街道对齐的 Manhattanhenge
+          en: Manhattanhenge sunset aligned with the street grid
     status: active
+
   - id: smoky-mountains-fireflies-2027
-    title: { zh-CN: 大烟山同步萤火虫季, en: Great Smoky Mountains Synchronous Fireflies 2027 }
-    summary: { zh-CN: Photinus carolinus 每年只有约两三周求偶期，峰值可能落在五月下旬至六月中旬，官方会到春季才公布观赏日。, en: Photinus carolinus has only a two-to-three-week mating season, with peak activity shifting between late May and mid-June; official viewing dates come later. }
+    title:
+      zh-CN: 大烟山同步萤火虫季
+      en: Great Smoky Mountains Synchronous Fireflies 2027
+    summary:
+      zh-CN: Photinus carolinus 每年只有约两三周求偶期，峰值可能落在五月下旬至六月中旬，官方会到春季才公布观赏日。
+      en: Photinus carolinus has only a two-to-three-week mating season, with peak activity shifting between late May and mid-June; official viewing dates come later.
     schedule:
       - id: expected-month
         value: { kind: month, year: 2027, month: 6 }
@@ -109,10 +253,10 @@ events:
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:Synchronous_Fireflies,_June_2013--Warren_Bielenberg_(28337897949).jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons / Great Smoky Mountains National Park，同步萤火虫观赏季实景，5184×3456，Public Domain。NPS 说明峰值受温度与土壤湿度影响，故不提前伪造具体日期。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Synchronous_Fireflies,_June_2013--Warren_Bielenberg_(28337897949).jpg?width=1920"
         kind: image
-        alt: { zh-CN: 大烟山国家公园同步萤火虫夜间观赏实景, en: Synchronous fireflies viewing in Great Smoky Mountains National Park }
+        alt:
+          zh-CN: 大烟山国家公园同步萤火虫夜间观赏实景
+          en: Synchronous fireflies viewing in Great Smoky Mountains National Park
     status: active
