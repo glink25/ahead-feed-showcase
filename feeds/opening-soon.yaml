@@ -18,8 +18,12 @@ tags:
     label: { zh-CN: 旅行, en: Travel }
 events:
   - id: lucas-museum-opening-2026
-    title: { zh-CN: 卢卡斯叙事艺术博物馆开放, en: Lucas Museum of Narrative Art Opens }
-    summary: { zh-CN: 洛杉矶这座筹备多年的叙事艺术博物馆终于开门。, en: The long-awaited Los Angeles museum finally opens its doors. }
+    title:
+      zh-CN: "卢卡斯叙事艺术博物馆开放"
+      en: "Lucas Museum of Narrative Art Opens"
+    summary:
+      zh-CN: "洛杉矶这座筹备多年的叙事艺术博物馆终于开门。"
+      en: "The long-awaited Los Angeles museum finally opens its doors."
     schedule:
       - id: official-opening
         value: { kind: exact, date: '2026-09-22' }
@@ -39,11 +43,17 @@ events:
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lucas_Museum_of_Narrative_Art_aug_2023.jpg?width=1920"
         kind: image
-        alt: { zh-CN: 洛杉矶卢卡斯叙事艺术博物馆建筑, en: Lucas Museum of Narrative Art building in Los Angeles }
+        alt:
+          zh-CN: "洛杉矶卢卡斯叙事艺术博物馆建筑"
+          en: "Lucas Museum of Narrative Art building in Los Angeles"
     status: active
   - id: janm-reopening-2027
-    title: { zh-CN: 全美日裔博物馆重新开放, en: Japanese American National Museum Reopens }
-    summary: { zh-CN: 闭馆翻修两年后，Pavilion 带着全新常设展重新迎客。, en: The renovated Pavilion reopens after a two-year closure. }
+    title:
+      zh-CN: "全美日裔博物馆重新开放"
+      en: "Japanese American National Museum Reopens"
+    summary:
+      zh-CN: "闭馆翻修两年后，Pavilion 带着全新常设展重新迎客。"
+      en: "The renovated Pavilion reopens after a two-year closure."
     schedule:
       - id: official-reopening
         value: { kind: exact, date: '2027-01-23' }
@@ -63,11 +73,17 @@ events:
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Japanese_American_National_Museum_(Los_Angeles)_August_2024.JPG?width=1920"
         kind: image
-        alt: { zh-CN: 洛杉矶全美日裔博物馆外观, en: Japanese American National Museum exterior in Los Angeles }
+        alt:
+          zh-CN: "洛杉矶全美日裔博物馆外观"
+          en: "Japanese American National Museum exterior in Los Angeles"
     status: active
   - id: miraikan-reopening-2027
-    title: { zh-CN: 日本科学未来馆翻新后重开, en: Miraikan Reopens After Refurbishment }
-    summary: { zh-CN: 东京日本科学未来馆在近七个月翻修闭馆后重新开放。, en: Tokyo's Miraikan reopens after a nearly seven-month refurbishment closure. }
+    title:
+      zh-CN: "日本科学未来馆翻新后重开"
+      en: "Miraikan Reopens After Refurbishment"
+    summary:
+      zh-CN: "东京日本科学未来馆在近七个月翻修闭馆后重新开放。"
+      en: "Tokyo's Miraikan reopens after a nearly seven-month refurbishment closure."
     schedule:
       - id: reopening-day
         value: { kind: exact, date: '2027-04-23' }
@@ -87,11 +103,17 @@ events:
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Miraikan.jpg?width=1920"
         kind: image
-        alt: { zh-CN: 东京日本科学未来馆建筑, en: Miraikan science museum in Tokyo }
+        alt:
+          zh-CN: "东京日本科学未来馆建筑"
+          en: "Miraikan science museum in Tokyo"
     status: active
   - id: disney-lakeshore-lodge-opening-2027
-    title: { zh-CN: Disney's Lakeshore Lodge 开业, en: Disney's Lakeshore Lodge Opens }
-    summary: { zh-CN: 华特迪士尼世界 Bay Lake 湖畔的新度假酒店迎来首批住客。, en: Walt Disney World's new nature-inspired Bay Lake resort welcomes its first guests. }
+    title:
+      zh-CN: "Disney's Lakeshore Lodge 开业"
+      en: "Disney's Lakeshore Lodge Opens"
+    summary:
+      zh-CN: "华特迪士尼世界 Bay Lake 湖畔的新度假酒店迎来首批住客。"
+      en: "Walt Disney World's new nature-inspired Bay Lake resort welcomes its first guests."
     schedule:
       - id: official-opening
         value: { kind: exact, date: '2027-07-01' }
@@ -111,5 +133,7 @@ events:
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Disney%27s_Wilderness_Lodge_at_dusk.jpg?width=1920"
         kind: image
-        alt: { zh-CN: 华特迪士尼世界湖畔自然风格度假酒店氛围图, en: Nature-inspired lakeside resort atmosphere at Walt Disney World }
+        alt:
+          zh-CN: "华特迪士尼世界湖畔自然风格度假酒店氛围图"
+          en: "Nature-inspired lakeside resort atmosphere at Walt Disney World"
     status: active
