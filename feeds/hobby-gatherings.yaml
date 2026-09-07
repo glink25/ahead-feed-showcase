@@ -19,9 +19,45 @@ tags:
   - id: stationery
     label: { zh-CN: 文具, en: Stationery }
 events:
+  - id: seoul-maker-faire-2026
+    title:
+      zh-CN: Seoul Maker Faire 2026
+      en: Seoul Maker Faire 2026
+    summary:
+      zh-CN: 韩国创客、机器人、电子制作和手作项目在首尔聚集两天。
+      en: Makers, robotics, electronics and hands-on projects gather in Seoul for two days.
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2026-09-19' }
+          end: { kind: exact, date: '2026-09-20' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Maker Faire
+    tags: [hobby, gathering, maker]
+    evidence:
+      - kind: url
+        value: https://makerfaire.com/upcoming-faires/
+        label: { zh-CN: Maker Faire 官方日历, en: Maker Faire official calendar }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Wearable_electronics_Maker_Faire_2011.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wearable_electronics_Maker_Faire_2011.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: Maker Faire 上的可穿戴电子作品
+          en: Wearable electronics project at Maker Faire
+    status: active
+
   - id: bay-area-maker-faire-2026
-    title: { zh-CN: Bay Area Maker Faire 2026, en: Bay Area Maker Faire 2026 }
-    summary: { zh-CN: 发明者、修补者、机器人和手工玩家的大型线下集合。, en: A major meetup for inventors, tinkerers, robots and hands-on making. }
+    title:
+      zh-CN: Bay Area Maker Faire 2026
+      en: Bay Area Maker Faire 2026
+    summary:
+      zh-CN: 发明者、修补者、机器人和手工玩家的大型线下集合。
+      en: A major meetup for inventors, tinkerers, robots and hands-on making.
     schedule:
       - id: published-range
         value:
@@ -34,19 +70,122 @@ events:
     tags: [hobby, gathering, maker]
     evidence:
       - kind: url
-        value: https://makerfaire.com/bay-area/faq/
-        label: { zh-CN: 官方活动页, en: Official event page }
+        value: https://makerfaire.com/upcoming-faires/
+        label: { zh-CN: 官方活动日历, en: Official event calendar }
       - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Maker_Faire_(27348793867).jpg
+        value: https://commons.wikimedia.org/wiki/File:Maker_Faire_2016_San_Mateo_Robot.jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
     media:
-      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Maker_Faire_(27348793867).jpg?width=1920"
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Maker_Faire_2016_San_Mateo_Robot.jpg?width=1920"
         kind: image
-        alt: { zh-CN: Maker Faire 现场创客展品, en: Maker Faire exhibits and makers }
+        alt:
+          zh-CN: Bay Area Maker Faire 机器人作品
+          en: Robot at Bay Area Maker Faire
     status: active
+
+  - id: maker-faire-malta-2026
+    title:
+      zh-CN: Maker Faire Malta 2026
+      en: Maker Faire Malta 2026
+    summary:
+      zh-CN: 地中海地区的创客、教育项目和手作社区用三天展示自己的作品。
+      en: Makers, educators and hands-on communities across the Mediterranean showcase their work for three days.
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2026-10-02' }
+          end: { kind: exact, date: '2026-10-04' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Maker Faire
+    tags: [hobby, gathering, maker]
+    evidence:
+      - kind: url
+        value: https://makerfaire.com/upcoming-faires/
+        label: { zh-CN: Maker Faire 官方日历, en: Maker Faire official calendar }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:3D_Printing_(12414116723).jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/3D_Printing_(12414116723).jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: Maker Faire 现场的 3D 打印展示
+          en: 3D printing display at Maker Faire
+    status: active
+
+  - id: maker-faire-rome-2026
+    title:
+      zh-CN: Maker Faire Rome 2026
+      en: Maker Faire Rome 2026
+    summary:
+      zh-CN: 欧洲大型创客聚会之一，硬件、机器人、制造与开放创新集中三天展示。
+      en: One of Europe's major maker gatherings, bringing hardware, robotics, fabrication and open innovation together for three days.
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2026-10-23' }
+          end: { kind: exact, date: '2026-10-25' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Maker Faire
+    tags: [hobby, gathering, maker]
+    evidence:
+      - kind: url
+        value: https://makerfaire.com/upcoming-faires/
+        label: { zh-CN: Maker Faire 官方日历, en: Maker Faire official calendar }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:2_people_using_Framework_Laptop_13_with_DC-ROMA_RISC-V_Mainboard_inside,_at_Maker_Faire_Rome_2025.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/2_people_using_Framework_Laptop_13_with_DC-ROMA_RISC-V_Mainboard_inside,_at_Maker_Faire_Rome_2025.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: Maker Faire Rome 2025 上的 RISC-V 硬件展示
+          en: RISC-V hardware demo at Maker Faire Rome 2025
+    status: active
+
+  - id: maker-faire-taipei-2026
+    title:
+      zh-CN: Maker Faire Taipei 2026
+      en: Maker Faire Taipei 2026
+    summary:
+      zh-CN: 台湾创客、电子制作与教育项目在十月末集中展示。
+      en: Taiwan's maker, electronics and education communities gather for a late-October showcase.
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2026-10-24' }
+          end: { kind: exact, date: '2026-10-25' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Maker Faire
+    tags: [hobby, gathering, maker]
+    evidence:
+      - kind: url
+        value: https://makerfaire.com/upcoming-faires/
+        label: { zh-CN: Maker Faire 官方日历, en: Maker Faire official calendar }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Maker_Faire_2007_-_FIRST_LEGO_League_(508219768).jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Maker_Faire_2007_-_FIRST_LEGO_League_(508219768).jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: Maker Faire 上的 FIRST LEGO League 机器人挑战
+          en: FIRST LEGO League robotics challenge at Maker Faire
+    status: active
+
   - id: tokyo-pen-show-2026
-    title: { zh-CN: 东京国际钢笔展 2026, en: Tokyo International Pen Show 2026 }
-    summary: { zh-CN: 钢笔、墨水与纸张爱好者三天线下朝圣。, en: Three days for pen, ink and paper enthusiasts. }
+    title:
+      zh-CN: 东京国际钢笔展 2026
+      en: Tokyo International Pen Show 2026
+    summary:
+      zh-CN: 钢笔、墨水与纸张爱好者三天线下朝圣。
+      en: Three days for pen, ink and paper enthusiasts.
     schedule:
       - id: official-range
         value:
@@ -67,11 +206,82 @@ events:
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fountain_pen_and_ink.jpg?width=1600"
         kind: image
-        alt: { zh-CN: 钢笔、墨水与墨胆, en: Fountain pens, ink and cartridges }
+        alt:
+          zh-CN: 钢笔、墨水与墨胆
+          en: Fountain pens, ink and cartridges
     status: active
+
+  - id: maker-faire-shenzhen-2026
+    title:
+      zh-CN: Maker Faire Shenzhen 2026
+      en: Maker Faire Shenzhen 2026
+    summary:
+      zh-CN: 深圳硬件生态、创客社区和开放制造项目在年末聚集。
+      en: Shenzhen's hardware ecosystem, maker community and open-manufacturing projects gather at year end.
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2026-12-12' }
+          end: { kind: exact, date: '2026-12-13' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Maker Faire
+    tags: [hobby, gathering, maker]
+    evidence:
+      - kind: url
+        value: https://makerfaire.com/upcoming-faires/
+        label: { zh-CN: Maker Faire 官方日历, en: Maker Faire official calendar }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Maker_Faire_2008_San_Mateo_225.JPG
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Maker_Faire_2008_San_Mateo_225.JPG?width=1920"
+        kind: image
+        alt:
+          zh-CN: Maker Faire 上的大型 3D 混凝土打印设备
+          en: Large-format concrete 3D printer at Maker Faire
+    status: active
+
+  - id: maker-faire-kochi-2027
+    title:
+      zh-CN: Maker Faire Kochi 2027
+      en: Maker Faire Kochi 2027
+    summary:
+      zh-CN: 印度 Kochi 创客社区用两天集中展示硬件、教育和手作项目。
+      en: Kochi's maker community gathers for two days of hardware, education and hands-on projects.
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2027-01-23' }
+          end: { kind: exact, date: '2027-01-24' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Maker Faire
+    tags: [hobby, gathering, maker]
+    evidence:
+      - kind: url
+        value: https://makerfaire.com/upcoming-faires/
+        label: { zh-CN: Maker Faire 官方日历, en: Maker Faire official calendar }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:3D_Printing_(12414122273).jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/3D_Printing_(12414122273).jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: Maker Faire 现场 3D 打印设备
+          en: 3D printer at Maker Faire
+    status: active
+
   - id: california-pen-show-2027
-    title: { zh-CN: California Pen Show 2027, en: California Pen Show 2027 }
-    summary: { zh-CN: 洛杉矶地区钢笔与文具玩家四天的大型聚会。, en: Four days of pens, inks, paper and collectors in the Los Angeles area. }
+    title:
+      zh-CN: California Pen Show 2027
+      en: California Pen Show 2027
+    summary:
+      zh-CN: 洛杉矶地区钢笔与文具玩家四天的大型聚会。
+      en: Four days of pens, inks, paper and collectors in the Los Angeles area.
     schedule:
       - id: official-range
         value:
@@ -92,11 +302,18 @@ events:
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Green_Ink_Bottle_-_02.jpg?width=1920"
         kind: image
-        alt: { zh-CN: 高分辨率钢笔墨水瓶静物, en: High-resolution fountain pen ink bottle }
+        alt:
+          zh-CN: 高分辨率钢笔墨水瓶静物
+          en: High-resolution fountain pen ink bottle
     status: active
+
   - id: maker-faire-miami-2027
-    title: { zh-CN: Maker Faire Miami 2027, en: Maker Faire Miami 2027 }
-    summary: { zh-CN: 机器人、cosplay、手作和教育项目在迈阿密再次集合。, en: Robotics, cosplay, hands-on builds and education projects gather again in Miami. }
+    title:
+      zh-CN: Maker Faire Miami 2027
+      en: Maker Faire Miami 2027
+    summary:
+      zh-CN: 机器人、cosplay、手作和教育项目在迈阿密再次集合。
+      en: Robotics, cosplay, hands-on builds and education projects gather again in Miami.
     schedule:
       - id: official-range
         value:
@@ -117,5 +334,7 @@ events:
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lawn-chair_vehicle_at_Maker_Faire,_San_Mateo_2016.jpg?width=1920"
         kind: image
-        alt: { zh-CN: Maker Faire 上的自制移动装置, en: A home-built vehicle at Maker Faire }
+        alt:
+          zh-CN: Maker Faire 上的自制移动装置
+          en: A home-built vehicle at Maker Faire
     status: active
