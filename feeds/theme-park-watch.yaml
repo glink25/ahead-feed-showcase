@@ -14,14 +14,12 @@ tags:
     label: { zh-CN: 主题乐园, en: Theme Park }
   - id: attraction
     label: { zh-CN: 新设施, en: Attraction }
+  - id: coaster
+    label: { zh-CN: 过山车, en: Coaster }
 events:
   - id: wreck-it-ralph-tokyo-2027
-    title:
-      zh-CN: 东京迪士尼《无敌破坏王》新设施开放
-      en: Tokyo Disney Wreck-It Ralph Attraction Opens
-    summary:
-      zh-CN: Sugar Rush 主题新设施计划于 2027 年春季开放。
-      en: A new Sugar Rush-themed family attraction is planned for spring 2027.
+    title: { zh-CN: 东京迪士尼《无敌破坏王》新设施开放, en: Tokyo Disney Wreck-It Ralph Attraction Opens }
+    summary: { zh-CN: Sugar Rush 主题新设施计划于 2027 年春季开放。, en: A new Sugar Rush-themed family attraction is planned for spring 2027. }
     schedule:
       - id: announced-window
         value: { kind: quarter, year: 2027, quarter: 2 }
@@ -33,23 +31,85 @@ events:
       - kind: url
         value: https://disneyexperiences.com/expansions/
         label: { zh-CN: Disney 官方扩建页面, en: Disney official expansions page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:A8_Tokyo_Disneyland.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，东京迪士尼乐园实景；并非尚未建成的新设施，作者与许可见文件页。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/A8_Tokyo_Disneyland.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 东京迪士尼乐园园区实景, en: Tokyo Disneyland park scene }
     status: active
   - id: hollywood-drift-orlando-2027
-    title:
-      zh-CN: 奥兰多 Fast & Furious: Hollywood Drift 开放
-      en: Fast & Furious: Hollywood Drift Opens in Orlando
-    summary:
-      zh-CN: Universal Studios Florida 的新户外高速过山车将在 2027 年登场。
-      en: Universal Studios Florida's new outdoor high-speed coaster arrives in 2027.
+    title: { zh-CN: 奥兰多 Fast & Furious: Hollywood Drift 开放, en: Fast & Furious: Hollywood Drift Opens in Orlando }
+    summary: { zh-CN: Universal Studios Florida 的新户外高速过山车将在 2027 年登场。, en: Universal Studios Florida's new outdoor high-speed coaster arrives in 2027. }
     schedule:
       - id: announced-year
         value: { kind: year, year: 2027 }
         recordedAt: '2026-09-07T00:00:00Z'
         confidence: confirmed
         source: Universal Orlando Resort
-    tags: [theme-park, attraction]
+    tags: [theme-park, attraction, coaster]
     evidence:
       - kind: url
         value: https://media.universalparksusa.com/press-releases/trade-universal-orlando-resort-reveals-its-next-blockbuster-attraction-fast-furious-hollywood-drift-a-high-speed-roller-coaster-coming-to-universal-studios-florida-in-2027/
         label: { zh-CN: Universal 官方公告, en: Universal official announcement }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Minion_Land_(Universal_Studios_Florida)_1.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，Universal Studios Florida 2026 年园区实景；用于表现目的地而非新设施成品，CC BY 4.0。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Minion_Land_(Universal_Studios_Florida)_1.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: Universal Studios Florida 园区实景, en: Universal Studios Florida park scene }
+    status: active
+  - id: minecraft-world-chessington-2027
+    title: { zh-CN: Chessington Minecraft World 开放, en: Minecraft World Opens at Chessington }
+    summary: { zh-CN: 全球首个完整沉浸式 Minecraft 主题乐园园区将在英国 Chessington 登场。, en: A world-first fully immersive Minecraft-inspired theme park land opens at Chessington. }
+    schedule:
+      - id: announced-year
+        value: { kind: year, year: 2027 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Chessington World of Adventures
+    tags: [theme-park, attraction, coaster]
+    evidence:
+      - kind: url
+        value: https://www.chessington.com/minecraft/
+        label: { zh-CN: Chessington 官方项目页, en: Chessington official project page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Chessington_World_of_Adventures_067.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，Chessington World of Adventures 园区实景；Minecraft World 尚未开放，许可见文件页。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chessington_World_of_Adventures_067.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 英国 Chessington World of Adventures 园区实景, en: Chessington World of Adventures park scene }
+    status: active
+  - id: bakunawa-six-flags-2027
+    title: { zh-CN: Six Flags Great Adventure BAKUNAWA 开放, en: BAKUNAWA Opens at Six Flags Great Adventure }
+    summary: { zh-CN: 这座旋转发射过山车计划刷新多项世界纪录，包括最高、最快旋转过山车。, en: The spinning launch coaster is planned to set multiple world records, including tallest and fastest spinning coaster. }
+    schedule:
+      - id: announced-year
+        value: { kind: year, year: 2027 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Six Flags Great Adventure
+    tags: [theme-park, attraction, coaster]
+    evidence:
+      - kind: url
+        value: https://www.sixflags.com/greatadventure/new-in-2027
+        label: { zh-CN: Six Flags 官方 2027 页面, en: Six Flags official 2027 page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Nitro_(Six_Flags_Great_Adventure)_1.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，Six Flags Great Adventure 现有过山车实景；用于表现公园与过山车氛围，并非 BAKUNAWA 成品。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nitro_(Six_Flags_Great_Adventure)_1.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: Six Flags Great Adventure 过山车实景, en: Roller coaster at Six Flags Great Adventure }
     status: active
