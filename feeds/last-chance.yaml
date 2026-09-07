@@ -1,0 +1,55 @@
+oefVersion: '0.1'
+kind: event-feed
+oefSearch: oef-search-v1
+id: ahead-last-chance
+name:
+  zh-CN: 趁它还在
+  en: While It Is Still Here
+description:
+  zh-CN: 最后运营、永久关闭与告别活动。不是等它来，而是提醒自己别错过最后一次。
+  en: Final rides, permanent closures and farewell events: not waiting for arrival, but making time before something disappears.
+primaryLanguage: zh-CN
+tags:
+  - id: farewell
+    label: { zh-CN: 告别, en: Farewell }
+  - id: closing
+    label: { zh-CN: 关闭, en: Closing }
+events:
+  - id: euro-mir-farewell-2027
+    title:
+      zh-CN: Euro-Mir 告别活动
+      en: Euro-Mir Farewell Event
+    summary:
+      zh-CN: Europa-Park 将为运营近三十年的经典过山车举行正式告别活动。
+      en: Europa-Park gives its nearly 30-year-old coaster a formal farewell before dismantling.
+    schedule:
+      - id: farewell-day
+        value: { kind: exact, date: '2027-01-09' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Europa-Park
+    tags: [farewell, closing]
+    evidence:
+      - kind: url
+        value: https://www.europapark.de/en/theme-park/goodbye-euro-mir
+        label: { zh-CN: 官方告别页面, en: Official farewell page }
+    status: active
+  - id: fast-furious-supercharged-orlando-close-2027
+    title:
+      zh-CN: 奥兰多 Fast & Furious – Supercharged 永久关闭
+      en: Fast & Furious – Supercharged Orlando Closes
+    summary:
+      zh-CN: Universal 已确认这项设施将在 2027 年永久关闭，具体日期仍待公布。
+      en: Universal has confirmed a permanent 2027 closure, with the exact date still to come.
+    schedule:
+      - id: announced-year
+        value: { kind: year, year: 2027 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Universal Orlando Resort
+    tags: [farewell, closing]
+    evidence:
+      - kind: url
+        value: https://media.universalparksusa.com/press-releases/trade-universal-orlando-resort-reveals-its-next-blockbuster-attraction-fast-furious-hollywood-drift-a-high-speed-roller-coaster-coming-to-universal-studios-florida-in-2027/
+        label: { zh-CN: Universal 官方公告, en: Universal official announcement }
+    status: active
