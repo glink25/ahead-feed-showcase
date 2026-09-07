@@ -1,0 +1,55 @@
+oefVersion: '0.1'
+kind: event-feed
+oefSearch: oef-search-v1
+id: ahead-human-firsts
+name:
+  zh-CN: 那天以后就不是未来了
+  en: The Day the Future Becomes History
+description:
+  zh-CN: 只收真正可验证的“第一次”：首次开放、首次抵达、首次投入使用。
+  en: Verifiable firsts only: first openings, arrivals and public operations that turn the future into history.
+primaryLanguage: zh-CN
+tags:
+  - id: first
+    label: { zh-CN: 第一次, en: First }
+  - id: milestone
+    label: { zh-CN: 里程碑, en: Milestone }
+events:
+  - id: lucas-museum-first-opening-2026
+    title:
+      zh-CN: 卢卡斯叙事艺术博物馆首次向公众开放
+      en: Lucas Museum Opens to the Public for the First Time
+    summary:
+      zh-CN: 这座自称首创叙事艺术机构的博物馆迎来第一个公众开放日。
+      en: The first public day for a first-of-its-kind institution devoted to narrative art.
+    schedule:
+      - id: first-public-day
+        value: { kind: exact, date: '2026-09-22' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Lucas Museum of Narrative Art
+    tags: [first, milestone]
+    evidence:
+      - kind: url
+        value: https://lucasmuseum.org/press/lucas-museum-of-narrative-art-opens-to-the-public-on-september-22-2026
+        label: { zh-CN: 官方开放公告, en: Official opening announcement }
+    status: active
+  - id: bepicolombo-dual-mercury-orbit-2026
+    title:
+      zh-CN: 首次两艘探测器同时环绕水星
+      en: First Dual-Spacecraft Mercury Orbital Mission
+    summary:
+      zh-CN: BepiColombo 将成为首个让两艘科学探测器同时环绕水星运行的任务。
+      en: BepiColombo becomes the first mission with two science spacecraft orbiting Mercury at the same time.
+    schedule:
+      - id: mercury-arrival
+        value: { kind: exact, date: '2026-11-21' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: European Space Agency
+    tags: [first, milestone]
+    evidence:
+      - kind: url
+        value: https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury
+        label: { zh-CN: ESA 抵达说明, en: ESA arrival update }
+    status: active
