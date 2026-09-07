@@ -1,0 +1,55 @@
+oefVersion: '0.1'
+kind: event-feed
+oefSearch: oef-search-v1
+id: ahead-space-journeys
+name:
+  zh-CN: 等它抵达另一颗星球
+  en: Waiting Across the Solar System
+description:
+  zh-CN: 发射之外，更关注抵达、入轨、分离与科学阶段这些真正值得等的旅途节点。
+  en: Spaceflight milestones beyond launch day: arrivals, orbit insertions, separations and science operations.
+primaryLanguage: zh-CN
+tags:
+  - id: space
+    label: { zh-CN: 航天, en: Space }
+  - id: science
+    label: { zh-CN: 科学, en: Science }
+events:
+  - id: bepicolombo-mercury-orbit-2026
+    title:
+      zh-CN: BepiColombo 进入水星轨道
+      en: BepiColombo Enters Mercury Orbit
+    summary:
+      zh-CN: 八年旅程抵达关键节点，组合探测器被水星引力捕获。
+      en: After an eight-year journey, the spacecraft enters orbit around Mercury.
+    schedule:
+      - id: mercury-orbit-insertion
+        value: { kind: exact, date: '2026-11-21' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: European Space Agency
+    tags: [space, science]
+    evidence:
+      - kind: url
+        value: https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/Latest_updates_BepiColombo_s_arrival_at_Mercury
+        label: { zh-CN: ESA 抵达时间线, en: ESA arrival timeline }
+    status: active
+  - id: bepicolombo-science-phase-2027
+    title:
+      zh-CN: BepiColombo 开始水星科学观测
+      en: BepiColombo Science Phase Begins
+    summary:
+      zh-CN: 两艘轨道器完成部署和调试后，正式开始联合科学阶段。
+      en: The two orbiters begin their nominal science phase after commissioning.
+    schedule:
+      - id: science-month
+        value: { kind: month, year: 2027, month: 4 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: European Space Agency
+    tags: [space, science]
+    evidence:
+      - kind: url
+        value: https://www.esa.int/Science_Exploration/Space_Science/BepiColombo/BepiColombo_factsheet
+        label: { zh-CN: ESA 任务资料, en: ESA mission factsheet }
+    status: active
