@@ -7,6 +7,17 @@ const images = []
 const errors = []
 const bannedImageHosts = new Set(['picsum.photos', 'placehold.co', 'loremflickr.com'])
 
+function mediaPaths(block) {
+  return [...block.matchAll(/^\s+- path:\s+(?:"([^"]+)"|'([^']+)'|(\S+))$/gm)]
+    .map((match) => match[1] ?? match[2] ?? match[3])
+}
+
+function hasBilingualAlt(block) {
+  const multiline = /^\s+alt:\n\s+zh-CN: .+\n\s+en: .+/m.test(block)
+  const inline = /^\s+alt:\s*\{\s*zh-CN:\s*[^,}]+,\s*en:\s*[^}]+\}/m.test(block)
+  return multiline || inline
+}
+
 for (const file of files) {
   const text = await readFile(join(feedDirectory.pathname, file), 'utf8')
   const eventsText = text.split('\nevents:\n')[1] ?? ''
@@ -14,10 +25,12 @@ for (const file of files) {
   for (let index = 0; index < starts.length; index += 1) {
     const id = starts[index][1]
     const block = eventsText.slice(starts[index].index, starts[index + 1]?.index)
-    const paths = [...block.matchAll(/^\s+- path: (\S+)$/gm)].map((match) => match[1])
+    const paths = mediaPaths(block)
     if (paths.length !== 1) errors.push(`${file}:${id} has ${paths.length} media paths`)
-    if (!block.includes('en: Poster image source')) errors.push(`${file}:${id} lacks image source evidence`)
-    if (!/^\s+alt:\n\s+zh-CN: .+\n\s+en: .+/m.test(block)) errors.push(`${file}:${id} lacks bilingual alt text`)
+    if (!block.includes('en: Poster image source') && !block.includes('en: Official press image') && !block.includes('en: Official station image')) {
+      errors.push(`${file}:${id} lacks image source evidence`)
+    }
+    if (!hasBilingualAlt(block)) errors.push(`${file}:${id} lacks bilingual alt text`)
     for (const path of paths) {
       if (!path.startsWith('https://')) errors.push(`${file}:${id} image is not HTTPS`)
       try {
