@@ -19,10 +19,10 @@ tags:
 events:
   - id: metro-green-line-extension-date-reveal-2026
     title:
-      zh-CN: "明尼苏达绿线延伸段公布开通日"
-      en: "METRO Green Line Extension Opening Date Reveal"
+      zh-CN: 明尼苏达绿线延伸段公布开通日
+      en: METRO Green Line Extension Opening Date Reveal
     summary:
-      zh-CN: "先等一个日期：官方将在社区活动上公布 2027 年具体开通日。"
+      zh-CN: 先等一个日期：官方将在社区活动上公布 2027 年具体开通日。
       en: "First, wait for the date itself: the 2027 opening day will be announced publicly."
     schedule:
       - id: announcement-event
@@ -38,22 +38,21 @@ events:
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:METRO_Green_Line_Metro_Transit_Light_Rail_Train_(LRT)_(30078519388).jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons，Metro Transit Green Line 实车，6967×4523；作者与许可见文件页。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/METRO_Green_Line_Metro_Transit_Light_Rail_Train_(LRT)_(30078519388).jpg?width=1920"
         kind: image
         alt:
-          zh-CN: "明尼苏达 Metro Transit Green Line 轻轨列车"
-          en: "Metro Transit Green Line light rail train in Minnesota"
+          zh-CN: 明尼苏达 Metro Transit Green Line 轻轨列车
+          en: Metro Transit Green Line light rail train in Minnesota
     status: active
+
   - id: la-d-line-sections-2-3-2027
     title:
-      zh-CN: "洛杉矶地铁 D 线继续向西延伸"
-      en: "LA Metro D Line Sections 2 and 3 Open"
+      zh-CN: 洛杉矶地铁 D 线继续向西延伸
+      en: LA Metro D Line Sections 2 and 3 Open
     summary:
-      zh-CN: "Beverly Hills、Century City、Westwood 与 UCLA 将接入新的地铁站。"
-      en: "New subway sections are set to reach Century City, Westwood and UCLA."
+      zh-CN: Beverly Hills、Century City、Westwood 与 UCLA 将接入新的地铁站。
+      en: New subway sections are set to reach Century City, Westwood and UCLA.
     schedule:
       - id: current-window
         value: { kind: year, year: 2027 }
@@ -63,27 +62,26 @@ events:
     tags: [rail, city]
     evidence:
       - kind: url
-        value: https://www.metro.net/about/media-relations/less-time-driving-more-time-living-where-discovery-diversity-delight-meet-on-metros-d-line/
-        label: { zh-CN: LA Metro 官方更新, en: LA Metro official update }
+        value: https://www.metro.net/projects/westside/
+        label: { zh-CN: LA Metro 项目页, en: LA Metro project page }
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:HR4000_D_Line_Union_Station.jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons，2026 年 D 线 HR4000 实车，CC0。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/HR4000_D_Line_Union_Station.jpg?width=1920"
         kind: image
         alt:
-          zh-CN: "洛杉矶地铁 D 线 HR4000 列车"
-          en: "LA Metro D Line HR4000 train"
+          zh-CN: 洛杉矶地铁 D 线 HR4000 列车
+          en: LA Metro D Line HR4000 train
     status: active
+
   - id: etihad-rail-dubai-al-dhaid-2026
     title:
-      zh-CN: "阿联酋国家铁路 Dubai 与 Al Dhaid 站启用"
-      en: "Etihad Rail Dubai and Al Dhaid Stations Open"
+      zh-CN: 阿联酋国家铁路 Dubai 与 Al Dhaid 站启用
+      en: Etihad Rail Dubai and Al Dhaid Stations Open
     summary:
-      zh-CN: "阿联酋国家客运铁路继续分阶段铺开，迪拜与 Al Dhaid 加入网络。"
-      en: "The UAE national passenger rail rollout reaches Dubai and Al Dhaid."
+      zh-CN: 阿联酋国家客运铁路继续分阶段铺开，迪拜与 Al Dhaid 加入网络。
+      en: The UAE national passenger rail rollout reaches Dubai and Al Dhaid.
     schedule:
       - id: passenger-opening
         value: { kind: exact, date: '2026-09-30' }
@@ -98,22 +96,21 @@ events:
       - kind: url
         value: https://corporate-cdn.etihadrail.ae/uploads/ec058c969affc58e75795b91dc585d85.jpg
         label: { zh-CN: Etihad Rail 官方新闻图片, en: Official press image }
-      - kind: citation
-        value: 海报图片：Etihad Rail 官方 CDN，国家客运铁路站内启用场景；版权与使用条件以官方新闻中心为准。
     media:
       - path: https://corporate-cdn.etihadrail.ae/uploads/ec058c969affc58e75795b91dc585d85.jpg
         kind: image
         alt:
-          zh-CN: "Etihad Rail 国家客运铁路车站启用现场"
-          en: "Etihad Rail national passenger station opening scene"
+          zh-CN: Etihad Rail 国家客运铁路车站启用现场
+          en: Etihad Rail national passenger station opening scene
     status: active
+
   - id: etihad-rail-sharjah-2027
     title:
-      zh-CN: "Etihad Rail 客运抵达 Sharjah"
-      en: "Etihad Rail Passenger Service Reaches Sharjah"
+      zh-CN: Etihad Rail 客运抵达 Sharjah
+      en: Etihad Rail Passenger Service Reaches Sharjah
     summary:
-      zh-CN: "Sharjah Station 加入阿联酋国家客运铁路，是网络分阶段启用的重要一站。"
-      en: "Sharjah joins the UAE national passenger railway as the phased rollout continues."
+      zh-CN: Sharjah Station 加入阿联酋国家客运铁路，是网络分阶段启用的重要一站。
+      en: Sharjah joins the UAE national passenger railway as the phased rollout continues.
     schedule:
       - id: station-opening
         value: { kind: exact, date: '2027-03-30' }
@@ -128,12 +125,155 @@ events:
       - kind: url
         value: https://corporate-cdn.etihadrail.ae/uploads/be6cccbf3298e1d9d45b2a8d0fc45e60.jpg
         label: { zh-CN: Etihad Rail 官方车站图片, en: Official station image }
-      - kind: citation
-        value: Sharjah 站尚未启用，暂使用 Etihad Rail 官方客运车站视觉；后续发布 Sharjah 站实景后应替换为站点专属图片。
     media:
       - path: https://corporate-cdn.etihadrail.ae/uploads/be6cccbf3298e1d9d45b2a8d0fc45e60.jpg
         kind: image
         alt:
-          zh-CN: "Etihad Rail 国家客运铁路车站官方实景"
-          en: "Official Etihad Rail passenger station scene"
+          zh-CN: Etihad Rail 国家客运铁路车站官方实景
+          en: Official Etihad Rail passenger station scene
+    status: active
+
+  - id: grand-paris-line-15-south-2027
+    title:
+      zh-CN: 巴黎地铁 15 号线南段开通
+      en: Grand Paris Express Line 15 South Opens
+    summary:
+      zh-CN: Pont de Sèvres 至 Noisy–Champs 的自动地铁主干线计划于 2027 年投入运营。
+      en: The automated Line 15 South between Pont de Sèvres and Noisy–Champs is planned to enter service in 2027.
+    schedule:
+      - id: official-year
+        value: { kind: year, year: 2027 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Grand Paris Express
+    tags: [rail, city, first-service]
+    evidence:
+      - kind: url
+        value: https://www.grandparisexpress.fr/gpe-avance
+        label: { zh-CN: Grand Paris Express 官方进度页, en: Grand Paris Express official progress page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:CE_Champigny_du_Grand_Paris_Express_MR6V.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/CE_Champigny_du_Grand_Paris_Express_MR6V.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: 巴黎地铁 15 号线 MR6V 列车
+          en: MR6V train for Grand Paris Express Line 15
+    status: active
+
+  - id: grand-paris-line-16-2027
+    title:
+      zh-CN: 巴黎地铁 16 号线首段开通
+      en: Grand Paris Express Line 16 Opens
+    summary:
+      zh-CN: Saint-Denis–Pleyel 至 Clichy–Montfermeil 的首段计划于 2027 年投入运营。
+      en: The first section from Saint-Denis–Pleyel to Clichy–Montfermeil is planned to enter service in 2027.
+    schedule:
+      - id: official-year
+        value: { kind: year, year: 2027 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Grand Paris Express
+    tags: [rail, city, first-service]
+    evidence:
+      - kind: url
+        value: https://www.grandparisexpress.fr/gpe-avance
+        label: { zh-CN: Grand Paris Express 官方进度页, en: Grand Paris Express official progress page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Chelles_-_Grand_Paris_Express_-_03.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chelles_-_Grand_Paris_Express_-_03.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: 巴黎地铁 16 号线 Chelles 前期工程现场
+          en: Preparatory works for Grand Paris Express Line 16 in Chelles
+    status: active
+
+  - id: grand-paris-line-17-2027
+    title:
+      zh-CN: 巴黎地铁 17 号线抵达 Le Bourget Airport
+      en: Grand Paris Express Line 17 Reaches Le Bourget Airport
+    summary:
+      zh-CN: Saint-Denis–Pleyel 至 Le Bourget–Aéroport 段计划于 2027 年投入运营。
+      en: The section from Saint-Denis–Pleyel to Le Bourget–Aéroport is planned to enter service in 2027.
+    schedule:
+      - id: official-year
+        value: { kind: year, year: 2027 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Grand Paris Express
+    tags: [rail, city, first-service]
+    evidence:
+      - kind: url
+        value: https://www.grandparisexpress.fr/gpe-avance
+        label: { zh-CN: Grand Paris Express 官方进度页, en: Grand Paris Express official progress page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Grand_Paris_Express_2025.svg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Grand_Paris_Express_2025.svg?width=1920"
+        kind: image
+        alt:
+          zh-CN: Grand Paris Express 全网线路图
+          en: Grand Paris Express network map
+    status: active
+
+  - id: grand-paris-line-18-orly-2027
+    title:
+      zh-CN: 巴黎地铁 18 号线延伸至 Orly Airport
+      en: Grand Paris Express Line 18 Reaches Orly Airport
+    summary:
+      zh-CN: Massy–Palaiseau 至 Orly Airport 的第二阶段计划在 2027 年投入运营。
+      en: The second phase from Massy–Palaiseau to Orly Airport is planned to enter service in 2027.
+    schedule:
+      - id: official-year
+        value: { kind: year, year: 2027 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Île-de-France Mobilités
+    tags: [rail, city, first-service]
+    evidence:
+      - kind: url
+        value: https://www.iledefrance-mobilites.fr/en/le-reseau/projets/metro18
+        label: { zh-CN: Île-de-France Mobilités 项目页, en: Île-de-France Mobilités project page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Viaduc-18.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Viaduc-18.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: Grand Paris Express 18 号线高架段
+          en: Viaduct of Grand Paris Express Line 18
+    status: active
+
+  - id: montreal-rem-airport-2027
+    title:
+      zh-CN: 蒙特利尔 REM 机场支线开通
+      en: Montreal REM Airport Branch Opens
+    summary:
+      zh-CN: YUL Montréal-Trudeau Airport 支线计划于 2027 年投入运营，届时 REM 网络将进一步补全。
+      en: The YUL Montréal-Trudeau Airport branch is scheduled to enter service in 2027, extending the REM network to the airport.
+    schedule:
+      - id: official-year
+        value: { kind: year, year: 2027 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Réseau express métropolitain
+    tags: [rail, city, first-service]
+    evidence:
+      - kind: url
+        value: https://rem.info/en/deux-montagnes-line
+        label: { zh-CN: REM 官方工程进度, en: REM official work schedule }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:REM_-_2026-07-15_-_12.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/REM_-_2026-07-15_-_12.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: 2026 年蒙特利尔 REM 列车实景
+          en: Montreal REM train in 2026
     status: active
