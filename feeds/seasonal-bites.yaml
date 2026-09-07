@@ -18,7 +18,9 @@ tags:
     label: { zh-CN: 产季, en: Harvest }
 events:
   - id: oktoberfest-first-tap-2026
-    title: { zh-CN: 慕尼黑啤酒节开桶, en: Oktoberfest First Tapping 2026 }
+    title:
+      zh-CN: 慕尼黑啤酒节开桶
+      en: Oktoberfest First Tapping 2026
     summary:
       zh-CN: 不是“啤酒日”，而是慕尼黑一年一度真正开桶的那一刻。
       en: "Not a marketing holiday: the real annual first tapping that opens Oktoberfest."
@@ -36,16 +38,21 @@ events:
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:Beer_tents_under_construction_14.jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons，慕尼黑 Oktoberfest 啤酒帐篷搭建实景，2024；作者与许可见文件页。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Beer_tents_under_construction_14.jpg?width=1920"
         kind: image
-        alt: { zh-CN: 慕尼黑啤酒节大型啤酒帐篷搭建现场, en: Oktoberfest beer tents under construction in Munich }
+        alt:
+          zh-CN: 慕尼黑啤酒节大型啤酒帐篷搭建现场
+          en: Oktoberfest beer tents under construction in Munich
     status: active
+
   - id: alba-white-truffle-fair-2026
-    title: { zh-CN: 阿尔巴白松露季世界市场开市, en: Alba White Truffle World Market Opens 2026 }
-    summary: { zh-CN: 白松露产季进入最让吃货期待的阶段，阿尔巴世界市场连续多个周末开放。, en: Alba's white-truffle season reaches its public-market stretch across autumn weekends. }
+    title:
+      zh-CN: 阿尔巴白松露季世界市场开市
+      en: Alba White Truffle World Market Opens 2026
+    summary:
+      zh-CN: 白松露产季进入最让吃货期待的阶段，阿尔巴世界市场连续多个周末开放。
+      en: Alba's white-truffle season reaches its public-market stretch across autumn weekends.
     schedule:
       - id: official-season
         value:
@@ -63,16 +70,87 @@ events:
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:Tuber_magnatum.jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons，阿尔巴白松露 Tuber magnatum，3072×2304；作者与许可见文件页。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tuber_magnatum.jpg?width=1920"
         kind: image
-        alt: { zh-CN: 新鲜阿尔巴白松露, en: Fresh Alba white truffle }
+        alt:
+          zh-CN: 新鲜阿尔巴白松露
+          en: Fresh Alba white truffle
     status: active
+
+  - id: hawaii-food-wine-festival-2026
+    title:
+      zh-CN: Hawaii Food & Wine Festival 2026
+      en: Hawaii Food & Wine Festival 2026
+    summary:
+      zh-CN: 三个岛、三个周末，参展厨师必须至少使用一种夏威夷本地种植、养殖或捕捞食材。
+      en: Across three islands and three weekends, participating chefs must feature at least one ingredient grown, raised or caught in Hawaii.
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2026-10-16' }
+          end: { kind: exact, date: '2026-11-08' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Hawaii Food & Wine Festival
+    tags: [food, seasonal, harvest]
+    evidence:
+      - kind: url
+        value: https://hawaiifoodandwinefestival.com/
+        label: { zh-CN: 活动官网, en: Official festival site }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Poke_bowl_Maui_Hawaii_(45689701672).jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片为 Maui 的夏威夷 poke 实景，用于表现本地食材主题，并非官方活动摄影。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Poke_bowl_Maui_Hawaii_(45689701672).jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: Maui 的夏威夷 poke bowl
+          en: Poke bowl in Maui, Hawaii
+    status: active
+
+  - id: lapaulee-mexico-prelude-2026
+    title:
+      zh-CN: La Paulée Mexico Prélude 2026
+      en: La Paulée Mexico Prélude 2026
+    summary:
+      zh-CN: 两天勃艮第酒农、珍稀酒午宴与传统 BYO 午宴，为次年正式节庆提前开瓶。
+      en: Two days of Burgundy growers, rare-wine lunches and the traditional BYO lunch preview the full festival to come.
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2026-10-20' }
+          end: { kind: exact, date: '2026-10-21' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: La Paulée
+    tags: [food, seasonal, harvest]
+    evidence:
+      - kind: url
+        value: https://www.lapaulee.com/mexico
+        label: { zh-CN: La Paulée Mexico 官方页面, en: La Paulée Mexico official page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Burgundy_vineyards.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Burgundy_vineyards.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: 法国勃艮第葡萄园
+          en: Vineyards in Burgundy, France
+    status: active
+
   - id: beaujolais-nouveau-2026
-    title: { zh-CN: 博若莱新酒 2026 上市, en: Beaujolais Nouveau 2026 Release }
-    summary: { zh-CN: 每年十一月第三个星期四，新年份的新酒正式与大家见面。, en: The new vintage is released worldwide on the third Thursday of November. }
+    title:
+      zh-CN: 博若莱新酒 2026 上市
+      en: Beaujolais Nouveau 2026 Release
+    summary:
+      zh-CN: 每年十一月第三个星期四，新年份的新酒正式与大家见面。
+      en: The new vintage is released worldwide on the third Thursday of November.
     schedule:
       - id: statutory-release
         value: { kind: exact, date: '2026-11-19' }
@@ -87,16 +165,85 @@ events:
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:Vineyard_in_Autumn2,_UNESCO_Global_Geopark_Beaujolais.jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons，秋季博若莱葡萄园，4032×3024；作者与许可见文件页。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Vineyard_in_Autumn2,_UNESCO_Global_Geopark_Beaujolais.jpg?width=1920"
         kind: image
-        alt: { zh-CN: 秋季博若莱葡萄园, en: Beaujolais vineyard in autumn }
+        alt:
+          zh-CN: 秋季博若莱葡萄园
+          en: Beaujolais vineyard in autumn
     status: active
+
+  - id: lapaulee-mexico-2027
+    title:
+      zh-CN: La Paulée Mexico 2027
+      en: La Paulée Mexico 2027
+    summary:
+      zh-CN: 墨西哥城正式迎来三天勃艮第葡萄酒节，酒农、侍酒师与收藏者集中开瓶。
+      en: Mexico City hosts the full three-day Burgundy wine festival with growers, sommeliers and collectors.
+    schedule:
+      - id: official-range
+        value:
+          kind: range
+          start: { kind: exact, date: '2027-03-11' }
+          end: { kind: exact, date: '2027-03-13' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: La Paulée
+    tags: [food, seasonal, harvest]
+    evidence:
+      - kind: url
+        value: https://www.lapaulee.com/
+        label: { zh-CN: La Paulée 官方 2027 日历, en: La Paulée official 2027 calendar }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Vineyard_in_Burgundy,_France.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Vineyard_in_Burgundy,_France.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: Côte de Beaune 的勃艮第葡萄园
+          en: Burgundy vineyard in the Côte de Beaune
+    status: active
+
+  - id: new-york-maple-weekend-2027
+    title:
+      zh-CN: New York Maple Weekend 2027
+      en: New York Maple Weekend 2027
+    summary:
+      zh-CN: 枫树液开始流动的季节，纽约州糖屋连续两个周末开放，让人直接看熬糖浆、尝新糖浆。
+      en: As maple sap starts flowing, sugarhouses across New York open for two weekends of tapping, boiling and fresh syrup tasting.
+    schedule:
+      - id: official-weekends
+        value:
+          kind: range
+          start: { kind: exact, date: '2027-03-13' }
+          end: { kind: exact, date: '2027-03-21' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: New York State Maple Producers Association
+    tags: [food, seasonal, harvest]
+    evidence:
+      - kind: url
+        value: https://www.mapleweekend.com/
+        label: { zh-CN: New York Maple Weekend 官方网站, en: New York Maple Weekend official site }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Maple_syrup_taps.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Maple_syrup_taps.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: 枫树上的糖浆采集管线
+          en: Maple syrup tapping lines running between trees
+    status: active
+
   - id: southwest-chocolate-coffee-fest-2027
-    title: { zh-CN: Southwest Chocolate & Coffee Fest 2027, en: Southwest Chocolate & Coffee Fest 2027 }
-    summary: { zh-CN: 咖啡烘焙、巧克力和甜点爱好者在新墨西哥州用一个周末集中尝鲜。, en: Coffee roasters, chocolatiers and dessert makers gather for a full tasting weekend in New Mexico. }
+    title:
+      zh-CN: Southwest Chocolate & Coffee Fest 2027
+      en: Southwest Chocolate & Coffee Fest 2027
+    summary:
+      zh-CN: 咖啡烘焙、巧克力和甜点爱好者在新墨西哥州用一个周末集中尝鲜。
+      en: Coffee roasters, chocolatiers and dessert makers gather for a full tasting weekend in New Mexico.
     schedule:
       - id: official-range
         value:
@@ -114,10 +261,10 @@ events:
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:Multi_textures_Chocolate_with_Coffee.jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons，咖啡与巧克力主题甜点，5664×2752，CC BY-SA；详情见文件页。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Multi_textures_Chocolate_with_Coffee.jpg?width=1920"
         kind: image
-        alt: { zh-CN: 咖啡与巧克力主题甜点, en: Chocolate and coffee dessert }
+        alt:
+          zh-CN: 咖啡与巧克力主题甜点
+          en: Chocolate and coffee dessert
     status: active
