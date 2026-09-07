@@ -42,7 +42,9 @@ events:
         alt: { zh-CN: 东京迪士尼乐园园区实景, en: Tokyo Disneyland park scene }
     status: active
   - id: hollywood-drift-orlando-2027
-    title: { zh-CN: 奥兰多 Fast & Furious: Hollywood Drift 开放, en: Fast & Furious: Hollywood Drift Opens in Orlando }
+    title:
+      zh-CN: "奥兰多 Fast & Furious: Hollywood Drift 开放"
+      en: "Fast & Furious: Hollywood Drift Opens in Orlando"
     summary: { zh-CN: Universal Studios Florida 的新户外高速过山车将在 2027 年登场。, en: Universal Studios Florida's new outdoor high-speed coaster arrives in 2027. }
     schedule:
       - id: announced-year
