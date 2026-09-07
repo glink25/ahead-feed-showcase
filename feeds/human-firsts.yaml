@@ -16,17 +16,25 @@ tags:
     label: { zh-CN: 里程碑, en: Milestone }
   - id: space
     label: { zh-CN: 航天, en: Space }
+  - id: culture
+    label: { zh-CN: 文化, en: Culture }
+  - id: adventure
+    label: { zh-CN: 极限与冒险, en: Adventure }
 events:
   - id: lucas-museum-first-opening-2026
-    title: { zh-CN: 卢卡斯叙事艺术博物馆首次向公众开放, en: Lucas Museum Opens to the Public for the First Time }
-    summary: { zh-CN: 这座以叙事艺术为核心的新机构迎来第一个公众开放日。, en: The new institution devoted to narrative art welcomes the public for the first time. }
+    title:
+      zh-CN: 卢卡斯叙事艺术博物馆首次向公众开放
+      en: Lucas Museum Opens to the Public for the First Time
+    summary:
+      zh-CN: 这座以叙事艺术为核心的新机构迎来第一个公众开放日。
+      en: The new institution devoted to narrative art welcomes the public for the first time.
     schedule:
       - id: first-public-day
         value: { kind: exact, date: '2026-09-22' }
         recordedAt: '2026-09-07T00:00:00Z'
         confidence: confirmed
         source: Lucas Museum of Narrative Art
-    tags: [first, milestone]
+    tags: [first, milestone, culture]
     evidence:
       - kind: url
         value: https://lucasmuseum.org/press/lucas-museum-of-narrative-art-opens-to-the-public-on-september-22-2026
@@ -34,16 +42,21 @@ events:
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:Lucas_Museum_of_Narrative_Art_-_Los_Angeles_aug_2022.jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons，Lucas Museum 建设实景，3104×2217；作者与许可见文件页。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lucas_Museum_of_Narrative_Art_-_Los_Angeles_aug_2022.jpg?width=1920"
         kind: image
-        alt: { zh-CN: 建设中的卢卡斯叙事艺术博物馆, en: Lucas Museum of Narrative Art under construction }
+        alt:
+          zh-CN: 建设中的卢卡斯叙事艺术博物馆
+          en: Lucas Museum of Narrative Art under construction
     status: active
+
   - id: bepicolombo-dual-mercury-orbit-2026
-    title: { zh-CN: 首次两艘探测器同时环绕水星, en: First Dual-Spacecraft Mercury Orbital Mission }
-    summary: { zh-CN: BepiColombo 将把 ESA 与 JAXA 的两艘科学轨道器同时送入水星周围开展互补观测。, en: BepiColombo places ESA and JAXA science orbiters around Mercury for complementary observations. }
+    title:
+      zh-CN: 首次两艘探测器同时环绕水星
+      en: First Dual-Spacecraft Mercury Orbital Mission
+    summary:
+      zh-CN: BepiColombo 将把 ESA 与 JAXA 的两艘科学轨道器同时送入水星周围开展互补观测。
+      en: BepiColombo places ESA and JAXA science orbiters around Mercury for complementary observations.
     schedule:
       - id: mercury-arrival
         value: { kind: exact, date: '2026-11-21' }
@@ -58,16 +71,55 @@ events:
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:BepiColombo_spacecraft_stack_ESA380846.jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons / ESA，BepiColombo 完整探测器组合，4102×2969；许可见文件页。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/BepiColombo_spacecraft_stack_ESA380846.jpg?width=1920"
         kind: image
-        alt: { zh-CN: BepiColombo 组合探测器, en: BepiColombo spacecraft stack }
+        alt:
+          zh-CN: BepiColombo 组合探测器
+          en: BepiColombo spacecraft stack
     status: active
+
+  - id: antarctic100-first-triathlon-2027
+    title:
+      zh-CN: Antarctic100 举办首场南极洲铁人三项赛事
+      en: Antarctic100 Stages the First Triathlon Competition in Antarctica
+    summary:
+      zh-CN: 主办方将这场 2027 年赛事定位为世界首个在南极洲举行的铁人三项竞赛。
+      en: The organizers describe the 2027 event as the world's first triathlon competition staged in Antarctica.
+    schedule:
+      - id: expedition-window
+        value:
+          kind: range
+          start: { kind: exact, date: '2027-02-26' }
+          end: { kind: exact, date: '2027-03-08' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Antarctic100
+    tags: [first, milestone, adventure]
+    evidence:
+      - kind: url
+        value: https://antarctic100.com/
+        label: { zh-CN: Antarctic100 官方网站, en: Antarctic100 official site }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Antarctica_Landscape.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片为南极洲冰雪地貌实景，用于表现赛事环境，并非尚未举行的 2027 比赛现场。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Antarctica_Landscape.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: 南极洲冰雪与山地景观
+          en: Antarctic ice and mountain landscape
+    status: active
+
   - id: minecraft-world-first-2027
-    title: { zh-CN: 全球首个完整沉浸式 Minecraft 主题乐园园区开放, en: World's First Fully Immersive Minecraft Theme Park Land Opens }
-    summary: { zh-CN: Chessington 把 Minecraft 从屏幕搬进现实，并包含官方所称的“world first coaster”。, en: Chessington brings Minecraft into a real-world immersive land, including what it calls a world-first coaster. }
+    title:
+      zh-CN: 全球首个完整沉浸式 Minecraft 主题乐园园区开放
+      en: World's First Fully Immersive Minecraft Theme Park Land Opens
+    summary:
+      zh-CN: Chessington 把 Minecraft 从屏幕搬进现实，并包含官方所称的 world-first coaster。
+      en: Chessington brings Minecraft into a real-world immersive land, including what it calls a world-first coaster.
     schedule:
       - id: announced-year
         value: { kind: year, year: 2027 }
@@ -83,15 +135,82 @@ events:
         value: https://commons.wikimedia.org/wiki/File:Dragon_Falls,_Chessington_World_of_Adventures_-_geograph.org.uk_-_7615514.jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
       - kind: citation
-        value: 海报图片：Wikimedia Commons，Chessington 现有园区设施实景；用于表现目的地而非 Minecraft World 成品，3066×1840。
+        value: 海报图片为 Chessington 现有园区设施实景，用于表现目的地而非 Minecraft World 成品。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dragon_Falls,_Chessington_World_of_Adventures_-_geograph.org.uk_-_7615514.jpg?width=1920"
         kind: image
-        alt: { zh-CN: Chessington World of Adventures 园区设施实景, en: Attraction at Chessington World of Adventures }
+        alt:
+          zh-CN: Chessington World of Adventures 园区设施实景
+          en: Attraction at Chessington World of Adventures
     status: active
+
+  - id: bakunawa-first-floorless-spinning-2027
+    title:
+      zh-CN: BAKUNAWA 成为全球首个无地板旋转过山车
+      en: BAKUNAWA Becomes the World's First Floorless Spinning Coaster
+    summary:
+      zh-CN: Six Flags Great Adventure 宣布这座 2027 新过山车还将实现全球首个倒挂发射，并挑战另外四项世界纪录。
+      en: Six Flags Great Adventure says its 2027 coaster will also feature the world's first upside-down launch and challenge four additional world records.
+    schedule:
+      - id: announced-year
+        value: { kind: year, year: 2027 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Six Flags Great Adventure
+    tags: [first, milestone, adventure]
+    evidence:
+      - kind: url
+        value: https://www.sixflags.com/greatadventure/new-in-2027
+        label: { zh-CN: Six Flags 官方 2027 页面, en: Six Flags official 2027 page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Jersey_Devil_Coaster_1.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片为同一公园现有 Jersey Devil Coaster 实景，用于表现 Six Flags Great Adventure 过山车环境，并非 BAKUNAWA 成品。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Jersey_Devil_Coaster_1.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: Six Flags Great Adventure 的 Jersey Devil Coaster
+          en: Jersey Devil Coaster at Six Flags Great Adventure
+    status: active
+
+  - id: national-coast-guard-museum-first-2027
+    title:
+      zh-CN: 美国首座国家海岸警卫队博物馆正式开放
+      en: America's First National Coast Guard Museum Opens
+    summary:
+      zh-CN: New London 的 8 万平方英尺新馆将成为美国首座专门保存和讲述 Coast Guard 历史与使命的国家级博物馆。
+      en: The 80,000-square-foot New London museum becomes the nation's first national museum dedicated to Coast Guard history, heritage and missions.
+    schedule:
+      - id: official-opening
+        value: { kind: exact, date: '2027-08-04' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: U.S. Coast Guard
+    tags: [first, milestone, culture]
+    evidence:
+      - kind: url
+        value: https://www.news.uscg.mil/Press-Releases/Article/4563950/us-coast-guard-announces-one-year-countdown-to-opening-the-nations-first-nation/
+        label: { zh-CN: U.S. Coast Guard 官方公告, en: U.S. Coast Guard official announcement }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Foundation_construction_for_National_Coast_Guard_Museum_(1),_May_2025.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Foundation_construction_for_National_Coast_Guard_Museum_(1),_May_2025.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: 2025 年建设中的美国国家海岸警卫队博物馆地基
+          en: Foundation construction for the National Coast Guard Museum in 2025
+    status: active
+
   - id: lucy-first-trojan-encounter-2027
-    title: { zh-CN: 人类首次近距离探测木星特洛伊小行星, en: Humanity's First Close-Up Exploration of a Jupiter Trojan Asteroid }
-    summary: { zh-CN: Lucy 飞掠 Eurybates，成为首个真正抵达并近距离研究木星特洛伊小行星的航天器。, en: Lucy's Eurybates flyby begins the first spacecraft exploration of Jupiter's Trojan asteroids. }
+    title:
+      zh-CN: 人类首次近距离探测木星特洛伊小行星
+      en: Humanity's First Close-Up Exploration of a Jupiter Trojan Asteroid
+    summary:
+      zh-CN: Lucy 飞掠 Eurybates，成为首个真正抵达并近距离研究木星特洛伊小行星的航天器。
+      en: Lucy's Eurybates flyby begins the first spacecraft exploration of Jupiter's Trojan asteroids.
     schedule:
       - id: first-trojan-flyby
         value: { kind: exact, date: '2027-08-11' }
@@ -106,10 +225,41 @@ events:
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:Lucy_Spacecraft_Rotation_(KSC-20210901-PH-GEB01_0012).jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons / NASA，Lucy 探测器发射前实物照，4480×6720，Public Domain。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lucy_Spacecraft_Rotation_(KSC-20210901-PH-GEB01_0012).jpg?width=1920"
         kind: image
-        alt: { zh-CN: 发射前装配中的 NASA Lucy 探测器, en: NASA Lucy spacecraft during prelaunch processing }
+        alt:
+          zh-CN: 发射前装配中的 NASA Lucy 探测器
+          en: NASA Lucy spacecraft during prelaunch processing
+    status: active
+
+  - id: neo-surveyor-first-purpose-built-2027
+    title:
+      zh-CN: NEO Surveyor 成为首个专为行星防御设计的太空望远镜
+      en: NEO Surveyor Becomes the First Space Telescope Built Specifically for Planetary Defense
+    summary:
+      zh-CN: NASA 将用红外线寻找可能威胁地球的小行星与彗星，任务计划不早于 2027 年 9 月发射。
+      en: NASA's infrared mission is purpose-built to find potentially hazardous asteroids and comets and is scheduled no earlier than September 2027.
+    schedule:
+      - id: launch-window
+        value: { kind: month, year: 2027, month: 9 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: NASA
+    tags: [first, milestone, space]
+    evidence:
+      - kind: url
+        value: https://science.nasa.gov/mission/neo-surveyor/
+        label: { zh-CN: NASA NEO Surveyor 任务页, en: NASA NEO Surveyor mission page }
+      - kind: url
+        value: https://assets.science.nasa.gov/dynamicimage/assets/science/psd/planetary-defense/2025/NEO-Surveyor-Blog.png?crop=faces%2Cfocalpoint&fit=crop&h=1125&w=2000
+        label: { zh-CN: NASA 官方海报图片, en: NASA official poster image }
+      - kind: citation
+        value: 海报图片来自 NASA Science 行星防御页面，展示 NEO Surveyor 在近地小行星环境中的官方任务艺术图。
+    media:
+      - path: "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/planetary-defense/2025/NEO-Surveyor-Blog.png?crop=faces%2Cfocalpoint&fit=crop&h=1125&w=2000"
+        kind: image
+        alt:
+          zh-CN: NASA NEO Surveyor 在小行星间工作的官方艺术图
+          en: NASA illustration of NEO Surveyor operating among near-Earth asteroids
     status: active
