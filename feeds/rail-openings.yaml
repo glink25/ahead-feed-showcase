@@ -18,9 +18,11 @@ tags:
     label: { zh-CN: 首班载客, en: First Service }
 events:
   - id: metro-green-line-extension-date-reveal-2026
-    title: { zh-CN: 明尼苏达绿线延伸段公布开通日, en: METRO Green Line Extension Opening Date Reveal }
+    title:
+      zh-CN: "明尼苏达绿线延伸段公布开通日"
+      en: "METRO Green Line Extension Opening Date Reveal"
     summary:
-      zh-CN: 先等一个日期：官方将在社区活动上公布 2027 年具体开通日。
+      zh-CN: "先等一个日期：官方将在社区活动上公布 2027 年具体开通日。"
       en: "First, wait for the date itself: the 2027 opening day will be announced publicly."
     schedule:
       - id: announcement-event
@@ -41,11 +43,17 @@ events:
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/METRO_Green_Line_Metro_Transit_Light_Rail_Train_(LRT)_(30078519388).jpg?width=1920"
         kind: image
-        alt: { zh-CN: 明尼苏达 Metro Transit Green Line 轻轨列车, en: Metro Transit Green Line light rail train in Minnesota }
+        alt:
+          zh-CN: "明尼苏达 Metro Transit Green Line 轻轨列车"
+          en: "Metro Transit Green Line light rail train in Minnesota"
     status: active
   - id: la-d-line-sections-2-3-2027
-    title: { zh-CN: 洛杉矶地铁 D 线继续向西延伸, en: LA Metro D Line Sections 2 and 3 Open }
-    summary: { zh-CN: Beverly Hills、Century City、Westwood 与 UCLA 将接入新的地铁站。, en: New subway sections are set to reach Century City, Westwood and UCLA. }
+    title:
+      zh-CN: "洛杉矶地铁 D 线继续向西延伸"
+      en: "LA Metro D Line Sections 2 and 3 Open"
+    summary:
+      zh-CN: "Beverly Hills、Century City、Westwood 与 UCLA 将接入新的地铁站。"
+      en: "New subway sections are set to reach Century City, Westwood and UCLA."
     schedule:
       - id: current-window
         value: { kind: year, year: 2027 }
@@ -65,11 +73,17 @@ events:
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/HR4000_D_Line_Union_Station.jpg?width=1920"
         kind: image
-        alt: { zh-CN: 洛杉矶地铁 D 线 HR4000 列车, en: LA Metro D Line HR4000 train }
+        alt:
+          zh-CN: "洛杉矶地铁 D 线 HR4000 列车"
+          en: "LA Metro D Line HR4000 train"
     status: active
   - id: etihad-rail-dubai-al-dhaid-2026
-    title: { zh-CN: 阿联酋国家铁路 Dubai 与 Al Dhaid 站启用, en: Etihad Rail Dubai and Al Dhaid Stations Open }
-    summary: { zh-CN: 阿联酋国家客运铁路继续分阶段铺开，迪拜与 Al Dhaid 加入网络。, en: The UAE national passenger rail rollout reaches Dubai and Al Dhaid. }
+    title:
+      zh-CN: "阿联酋国家铁路 Dubai 与 Al Dhaid 站启用"
+      en: "Etihad Rail Dubai and Al Dhaid Stations Open"
+    summary:
+      zh-CN: "阿联酋国家客运铁路继续分阶段铺开，迪拜与 Al Dhaid 加入网络。"
+      en: "The UAE national passenger rail rollout reaches Dubai and Al Dhaid."
     schedule:
       - id: passenger-opening
         value: { kind: exact, date: '2026-09-30' }
@@ -83,17 +97,23 @@ events:
         label: { zh-CN: Etihad Rail 客运官网, en: Etihad Rail passenger page }
       - kind: url
         value: https://corporate-cdn.etihadrail.ae/uploads/ec058c969affc58e75795b91dc585d85.jpg
-        label: { zh-CN: Etihad Rail 官方新闻图片, en: Etihad Rail official press image }
+        label: { zh-CN: Etihad Rail 官方新闻图片, en: Official press image }
       - kind: citation
         value: 海报图片：Etihad Rail 官方 CDN，国家客运铁路站内启用场景；版权与使用条件以官方新闻中心为准。
     media:
       - path: https://corporate-cdn.etihadrail.ae/uploads/ec058c969affc58e75795b91dc585d85.jpg
         kind: image
-        alt: { zh-CN: Etihad Rail 国家客运铁路车站启用现场, en: Etihad Rail national passenger station opening scene }
+        alt:
+          zh-CN: "Etihad Rail 国家客运铁路车站启用现场"
+          en: "Etihad Rail national passenger station opening scene"
     status: active
   - id: etihad-rail-sharjah-2027
-    title: { zh-CN: Etihad Rail 客运抵达 Sharjah, en: Etihad Rail Passenger Service Reaches Sharjah }
-    summary: { zh-CN: Sharjah Station 加入阿联酋国家客运铁路，是网络分阶段启用的重要一站。, en: Sharjah joins the UAE national passenger railway as the phased rollout continues. }
+    title:
+      zh-CN: "Etihad Rail 客运抵达 Sharjah"
+      en: "Etihad Rail Passenger Service Reaches Sharjah"
+    summary:
+      zh-CN: "Sharjah Station 加入阿联酋国家客运铁路，是网络分阶段启用的重要一站。"
+      en: "Sharjah joins the UAE national passenger railway as the phased rollout continues."
     schedule:
       - id: station-opening
         value: { kind: exact, date: '2027-03-30' }
@@ -107,11 +127,13 @@ events:
         label: { zh-CN: Etihad Rail 官方网络启用公告, en: Etihad Rail official network launch announcement }
       - kind: url
         value: https://corporate-cdn.etihadrail.ae/uploads/be6cccbf3298e1d9d45b2a8d0fc45e60.jpg
-        label: { zh-CN: Etihad Rail 官方车站图片, en: Etihad Rail official station image }
+        label: { zh-CN: Etihad Rail 官方车站图片, en: Official station image }
       - kind: citation
         value: Sharjah 站尚未启用，暂使用 Etihad Rail 官方客运车站视觉；后续发布 Sharjah 站实景后应替换为站点专属图片。
     media:
       - path: https://corporate-cdn.etihadrail.ae/uploads/be6cccbf3298e1d9d45b2a8d0fc45e60.jpg
         kind: image
-        alt: { zh-CN: Etihad Rail 国家客运铁路车站官方实景, en: Official Etihad Rail passenger station scene }
+        alt:
+          zh-CN: "Etihad Rail 国家客运铁路车站官方实景"
+          en: "Official Etihad Rail passenger station scene"
     status: active
