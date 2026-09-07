@@ -6,41 +6,71 @@ name:
   zh-CN: 一年只出现几天的画面
   en: A Few Days for the Shot
 description:
-  zh-CN: 光线、天气与地形共同制造的短暂摄影窗口；能等，但不能假装天气会配合。
-  en: Brief photography windows created by light, weather and landscape, without pretending nature is exact.
+  zh-CN: 光线、天气、动物与地形共同制造的短暂摄影窗口；能等，但不能假装自然会配合。
+  en: Brief photography windows created by light, weather, wildlife and landscape, without pretending nature is exact.
 primaryLanguage: zh-CN
 tags:
   - id: photography
     label: { zh-CN: 摄影, en: Photography }
   - id: nature
     label: { zh-CN: 自然, en: Nature }
+  - id: weather-dependent
+    label: { zh-CN: 看天气, en: Weather-dependent }
 events:
   - id: yosemite-horsetail-2027
-    title:
-      zh-CN: 优胜美地 Horsetail Fall “火瀑”窗口
-      en: Yosemite Horsetail Fall Firefall Window
-    summary:
-      zh-CN: 二月中下旬，只有瀑布有水、天空够晴、夕阳角度正确时才会亮起来。
-      en: In mid-to-late February, the waterfall glows only when water, clear skies and sunset geometry align.
+    title: { zh-CN: 优胜美地 Horsetail Fall “火瀑”窗口, en: Yosemite Horsetail Fall Firefall Window }
+    summary: { zh-CN: 二月中下旬，只有瀑布有水、天空够晴、夕阳角度正确时才会亮起来。, en: In mid-to-late February, the waterfall glows only when water, clear skies and sunset geometry align. }
     schedule:
       - id: annual-window
         value: { kind: month, year: 2027, month: 2 }
         recordedAt: '2026-09-07T00:00:00Z'
         confidence: likely
         source: U.S. National Park Service
-    tags: [photography, nature]
+    tags: [photography, nature, weather-dependent]
     evidence:
       - kind: url
         value: https://www.nps.gov/yose/planyourvisit/horsetailfall.htm
         label: { zh-CN: NPS 观赏说明, en: NPS viewing guidance }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:2007-02-16_-_Horsetail_Fall_(Yosemite).jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，Horsetail Fall 火瀑实景，1520×2288；作者与许可见文件页。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/2007-02-16_-_Horsetail_Fall_(Yosemite).jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 夕阳照亮的优胜美地 Horsetail Fall 火瀑, en: Yosemite Horsetail Fall illuminated at sunset }
+    status: active
+  - id: salar-uyuni-mirror-2027
+    title: { zh-CN: 乌尤尼盐湖“天空之镜”高概率窗口, en: Salar de Uyuni Mirror Season 2027 }
+    summary: { zh-CN: 一二月通常是薄水覆盖盐壳、天空与地面连成一片的最佳机会；镜面依然取决于雨量与风。, en: January and February usually offer the best chance for a thin sheet of water to turn the salt flat into a mirror, still dependent on rain and wind. }
+    schedule:
+      - id: peak-window
+        value:
+          kind: range
+          start: { kind: exact, date: '2027-01-01' }
+          end: { kind: exact, date: '2027-02-28' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: likely
+        source: Salar de Uyuni seasonal travel guidance
+    tags: [photography, nature, weather-dependent]
+    evidence:
+      - kind: url
+        value: https://www.salardeuyuni.com/best-time-to-visit-the-uyuni-salt-flats/
+        label: { zh-CN: 乌尤尼盐湖季节说明, en: Salar de Uyuni seasonal guidance }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:SAL_-_Reflections_in_shallow_water_at_Salar_de_Uyuni,_Bolivia,_2013.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，乌尤尼盐湖浅水镜面实景，4288×2848，CC BY-SA 4.0。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/SAL_-_Reflections_in_shallow_water_at_Salar_de_Uyuni,_Bolivia,_2013.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 乌尤尼盐湖雨季的天空镜面, en: Mirror reflections on Salar de Uyuni }
     status: active
   - id: manhattanhenge-spring-2027
-    title:
-      zh-CN: Manhattanhenge 春季窗口
-      en: Spring Manhattanhenge Window 2027
-    summary:
-      zh-CN: 五月末附近，落日再次与曼哈顿东西向街网对齐；具体时刻待天文馆年度更新。
-      en: Around late May, sunset aligns with Manhattan's street grid again; exact times await the annual update.
+    title: { zh-CN: Manhattanhenge 春季窗口, en: Spring Manhattanhenge Window 2027 }
+    summary: { zh-CN: 五月末附近，落日再次与曼哈顿东西向街网对齐；具体时刻待天文馆年度更新。, en: Around late May, sunset aligns with Manhattan's street grid again; exact times await the annual update. }
     schedule:
       - id: expected-month
         value: { kind: month, year: 2027, month: 5 }
@@ -52,4 +82,30 @@ events:
       - kind: url
         value: https://www.amnh.org/research/hayden-planetarium/manhattanhenge
         label: { zh-CN: AMNH Manhattanhenge 资料, en: AMNH Manhattanhenge reference }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Manhattanhenge_on_Times_Square.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片：Wikimedia Commons，Times Square Manhattanhenge 实景，5924×3950；作者与许可见文件页。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Manhattanhenge_on_Times_Square.jpg?width=1920"
+        kind: image
+        alt: { zh-CN: 落日沿曼哈顿街道对齐的 Manhattanhenge, en: Manhattanhenge sunset aligned with the street grid }
+    status: active
+  - id: smoky-mountains-fireflies-2027
+    title: { zh-CN: 大烟山同步萤火虫季, en: Great Smoky Mountains Synchronous Fireflies 2027 }
+    summary: { zh-CN: Photinus carolinus 每年只有约两三周求偶期，峰值可能落在五月下旬至六月中旬，官方会到春季才公布观赏日。, en: Photinus carolinus has only a two-to-three-week mating season, with peak activity shifting between late May and mid-June; official viewing dates come later. }
+    schedule:
+      - id: expected-month
+        value: { kind: month, year: 2027, month: 6 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: likely
+        source: U.S. National Park Service
+    tags: [photography, nature, weather-dependent]
+    evidence:
+      - kind: url
+        value: https://www.nps.gov/grsm/learn/nature/fireflies.htm
+        label: { zh-CN: NPS 同步萤火虫说明, en: NPS synchronous fireflies guidance }
+      - kind: citation
+        value: NPS 说明峰值受温度与土壤湿度影响，历史峰值从五月第三周到六月第三周，故不提前伪造具体日期。
     status: active
