@@ -16,14 +16,16 @@ tags:
     label: { zh-CN: 文化, en: Culture }
   - id: travel
     label: { zh-CN: 旅行, en: Travel }
+  - id: wildlife
+    label: { zh-CN: 动物与自然, en: Wildlife }
 events:
   - id: lucas-museum-opening-2026
     title:
-      zh-CN: "卢卡斯叙事艺术博物馆开放"
-      en: "Lucas Museum of Narrative Art Opens"
+      zh-CN: 卢卡斯叙事艺术博物馆开放
+      en: Lucas Museum of Narrative Art Opens
     summary:
-      zh-CN: "洛杉矶这座筹备多年的叙事艺术博物馆终于开门。"
-      en: "The long-awaited Los Angeles museum finally opens its doors."
+      zh-CN: 洛杉矶这座筹备多年的叙事艺术博物馆终于开门。
+      en: The long-awaited Los Angeles museum finally opens its doors.
     schedule:
       - id: official-opening
         value: { kind: exact, date: '2026-09-22' }
@@ -38,22 +40,21 @@ events:
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:Lucas_Museum_of_Narrative_Art_aug_2023.jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons，Lucas Museum 施工期实景；许可与作者见文件页。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lucas_Museum_of_Narrative_Art_aug_2023.jpg?width=1920"
         kind: image
         alt:
-          zh-CN: "洛杉矶卢卡斯叙事艺术博物馆建筑"
-          en: "Lucas Museum of Narrative Art building in Los Angeles"
+          zh-CN: 洛杉矶卢卡斯叙事艺术博物馆建筑
+          en: Lucas Museum of Narrative Art building in Los Angeles
     status: active
+
   - id: janm-reopening-2027
     title:
-      zh-CN: "全美日裔博物馆重新开放"
-      en: "Japanese American National Museum Reopens"
+      zh-CN: 全美日裔博物馆重新开放
+      en: Japanese American National Museum Reopens
     summary:
-      zh-CN: "闭馆翻修两年后，Pavilion 带着全新常设展重新迎客。"
-      en: "The renovated Pavilion reopens after a two-year closure."
+      zh-CN: 闭馆翻修两年后，Pavilion 带着全新常设展重新迎客。
+      en: The renovated Pavilion reopens after a two-year closure.
     schedule:
       - id: official-reopening
         value: { kind: exact, date: '2027-01-23' }
@@ -68,22 +69,52 @@ events:
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:Japanese_American_National_Museum_(Los_Angeles)_August_2024.JPG
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons，JANM 2024 年建筑实景，CC0；详情见文件页。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Japanese_American_National_Museum_(Los_Angeles)_August_2024.JPG?width=1920"
         kind: image
         alt:
-          zh-CN: "洛杉矶全美日裔博物馆外观"
-          en: "Japanese American National Museum exterior in Los Angeles"
+          zh-CN: 洛杉矶全美日裔博物馆外观
+          en: Japanese American National Museum exterior in Los Angeles
     status: active
+
+  - id: pittsburgh-giraffe-care-center-2027
+    title:
+      zh-CN: Pittsburgh Zoo Giraffe Care Center 开放
+      en: Pittsburgh Zoo Giraffe Care Center Opens
+    summary:
+      zh-CN: 新长颈鹿护理中心计划在 2027 年春季开放，全年都能近距离观察长颈鹿。
+      en: The new Giraffe Care Center is anticipated to open in spring 2027 with expanded year-round giraffe viewing.
+    schedule:
+      - id: anticipated-window
+        value: { kind: quarter, year: 2027, quarter: 2 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: likely
+        source: Pittsburgh Zoo & Aquarium
+    tags: [opening, wildlife]
+    evidence:
+      - kind: url
+        value: https://www.pittsburghzoo.org/pittsburgh-zoo-and-aquarium-breaks-ground-on-giraffe-care-center/
+        label: { zh-CN: Pittsburgh Zoo 官方公告, en: Pittsburgh Zoo official announcement }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Giraffes_-_Pittsburgh_Zoo_-_DSC02615.JPG
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片为 Pittsburgh Zoo 长颈鹿实景，CC0；新护理中心尚未建成。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Giraffes_-_Pittsburgh_Zoo_-_DSC02615.JPG?width=1920"
+        kind: image
+        alt:
+          zh-CN: Pittsburgh Zoo 的长颈鹿
+          en: Giraffes at Pittsburgh Zoo
+    status: active
+
   - id: miraikan-reopening-2027
     title:
-      zh-CN: "日本科学未来馆翻新后重开"
-      en: "Miraikan Reopens After Refurbishment"
+      zh-CN: 日本科学未来馆翻新后重开
+      en: Miraikan Reopens After Refurbishment
     summary:
-      zh-CN: "东京日本科学未来馆在近七个月翻修闭馆后重新开放。"
-      en: "Tokyo's Miraikan reopens after a nearly seven-month refurbishment closure."
+      zh-CN: 东京日本科学未来馆在近七个月翻修闭馆后重新开放。
+      en: Tokyo's Miraikan reopens after a nearly seven-month refurbishment closure.
     schedule:
       - id: reopening-day
         value: { kind: exact, date: '2027-04-23' }
@@ -98,22 +129,52 @@ events:
       - kind: url
         value: https://commons.wikimedia.org/wiki/File:Miraikan.jpg
         label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片：Wikimedia Commons，日本科学未来馆建筑，Public Domain；详情见文件页。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Miraikan.jpg?width=1920"
         kind: image
         alt:
-          zh-CN: "东京日本科学未来馆建筑"
-          en: "Miraikan science museum in Tokyo"
+          zh-CN: 东京日本科学未来馆建筑
+          en: Miraikan science museum in Tokyo
     status: active
+
+  - id: memphis-stingrays-mangrove-cove-2027
+    title:
+      zh-CN: Memphis Zoo Stingrays at Mangrove Cove 开放
+      en: Stingrays at Mangrove Cove Opens at Memphis Zoo
+    summary:
+      zh-CN: 季节性人气项目升级为永久沉浸式展区，游客可接触魟鱼并观察鲨鱼等海洋生物。
+      en: A former seasonal favorite returns as a permanent immersive habitat with stingrays, sharks and other marine life.
+    schedule:
+      - id: announced-year
+        value: { kind: year, year: 2027 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Memphis Zoo
+    tags: [opening, wildlife]
+    evidence:
+      - kind: url
+        value: https://www.memphiszoo.org/stingrays-at-mangrove-cove
+        label: { zh-CN: Memphis Zoo 官方项目页, en: Memphis Zoo official project page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Dasyatis_matsubarai.JPG
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片为水族馆中的魟鱼主题实景，并非 Memphis Zoo 新展区成品。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dasyatis_matsubarai.JPG?width=1920"
+        kind: image
+        alt:
+          zh-CN: 水族馆中游动的魟鱼
+          en: Stingrays swimming in an aquarium
+    status: active
+
   - id: disney-lakeshore-lodge-opening-2027
     title:
-      zh-CN: "Disney's Lakeshore Lodge 开业"
-      en: "Disney's Lakeshore Lodge Opens"
+      zh-CN: Disney's Lakeshore Lodge 开业
+      en: Disney's Lakeshore Lodge Opens
     summary:
-      zh-CN: "华特迪士尼世界 Bay Lake 湖畔的新度假酒店迎来首批住客。"
-      en: "Walt Disney World's new nature-inspired Bay Lake resort welcomes its first guests."
+      zh-CN: 华特迪士尼世界 Bay Lake 湖畔的新度假酒店迎来首批住客。
+      en: Walt Disney World's new nature-inspired Bay Lake resort welcomes its first guests.
     schedule:
       - id: official-opening
         value: { kind: exact, date: '2027-07-01' }
@@ -129,11 +190,74 @@ events:
         value: https://commons.wikimedia.org/wiki/File:Disney%27s_Wilderness_Lodge_at_dusk.jpg
         label: { zh-CN: Bay Lake 度假区氛围参考图片, en: Bay Lake resort-area reference image }
       - kind: citation
-        value: 海报图片：Wikimedia Commons，Walt Disney World 湖畔自然度假酒店氛围参考；并非 Lakeshore Lodge 建成实景，作者与许可见文件页。
+        value: 海报图片为 Walt Disney World 湖畔自然度假酒店氛围参考，并非 Lakeshore Lodge 建成实景。
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Disney%27s_Wilderness_Lodge_at_dusk.jpg?width=1920"
         kind: image
         alt:
-          zh-CN: "华特迪士尼世界湖畔自然风格度假酒店氛围图"
-          en: "Nature-inspired lakeside resort atmosphere at Walt Disney World"
+          zh-CN: 华特迪士尼世界湖畔自然风格度假酒店氛围图
+          en: Nature-inspired lakeside resort atmosphere at Walt Disney World
+    status: active
+
+  - id: national-coast-guard-museum-2027
+    title:
+      zh-CN: 美国国家海岸警卫队博物馆开放
+      en: National Coast Guard Museum Opens
+    summary:
+      zh-CN: 美国首座国家级海岸警卫队博物馆将在 New London 海滨于 2027 年 8 月 2 日当周向公众开放。
+      en: The nation's first National Coast Guard Museum opens to the public in New London during the week of Aug. 2, 2027.
+    schedule:
+      - id: official-opening-week
+        value:
+          kind: range
+          start: { kind: exact, date: '2027-08-02' }
+          end: { kind: exact, date: '2027-08-08' }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: U.S. Coast Guard
+    tags: [opening, culture]
+    evidence:
+      - kind: url
+        value: https://www.news.uscg.mil/Press-Releases/Article/4563950/us-coast-guard-announces-one-year-countdown-to-opening-the-nations-first-nation/
+        label: { zh-CN: U.S. Coast Guard 官方开放公告, en: U.S. Coast Guard official opening announcement }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Coast_Guard_Overview_Gallery.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Coast_Guard_Overview_Gallery.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: 国家海岸警卫队博物馆展厅设计效果图
+          en: National Coast Guard Museum gallery rendering
+    status: active
+
+  - id: taronga-sky-safari-2027
+    title:
+      zh-CN: Taronga Zoo Sky Safari 重新开放
+      en: Taronga Zoo Sky Safari Reopens
+    summary:
+      zh-CN: 退役四年后，升级后的无障碍缆车将在 2027 年末重新飞越悉尼动物园与海港景观。
+      en: Four years after retirement, the rebuilt accessible cable car is scheduled to return above Taronga Zoo in late 2027.
+    schedule:
+      - id: official-window
+        value: { kind: quarter, year: 2027, quarter: 4 }
+        recordedAt: '2026-09-07T00:00:00Z'
+        confidence: confirmed
+        source: Taronga Zoo
+    tags: [opening, wildlife, travel]
+    evidence:
+      - kind: url
+        value: https://www.taronga.org.au/about/building-a-zoo-for-the-future/sky-safari/upgrade
+        label: { zh-CN: Taronga Zoo 官方升级页, en: Taronga Zoo official upgrade page }
+      - kind: url
+        value: https://commons.wikimedia.org/wiki/File:Taronga_Zoo_cable_car,_2019-01-30.jpg
+        label: { zh-CN: 海报图片来源, en: Poster image source }
+      - kind: citation
+        value: 海报图片为旧版 Sky Safari 2019 年实景，用于表现即将回归的体验。
+    media:
+      - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Taronga_Zoo_cable_car,_2019-01-30.jpg?width=1920"
+        kind: image
+        alt:
+          zh-CN: 2019 年 Taronga Zoo Sky Safari 缆车
+          en: Taronga Zoo Sky Safari cable car in 2019
     status: active
