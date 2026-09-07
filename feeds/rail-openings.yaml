@@ -101,15 +101,15 @@ events:
     tags: [rail, city, first-service]
     evidence:
       - kind: url
-        value: https://corporate.etihadrail.ae/en/our-business/passenger
-        label: { zh-CN: Etihad Rail 客运官网, en: Etihad Rail passenger page }
+        value: https://corporate.etihadrail.ae/en/newsroom/press/khaled-bin-mohamed-bin-zayed-inaugurates-mbz-city-passenger-train-station-and-witnesses-unveiling-of-uae-passenger-rail-network
+        label: { zh-CN: Etihad Rail 官方网络启用公告, en: Etihad Rail official network launch announcement }
       - kind: url
-        value: https://corporate.etihadrail.ae/en/newsroom/press/etihad-rail-reveals-details-of-the-uaes-full-passenger-railway-network
-        label: { zh-CN: Etihad Rail 客运网络官方发布, en: Etihad Rail passenger-network announcement }
+        value: https://corporate-cdn.etihadrail.ae/uploads/be6cccbf3298e1d9d45b2a8d0fc45e60.jpg
+        label: { zh-CN: Etihad Rail 官方车站图片, en: Etihad Rail official station image }
       - kind: citation
-        value: Sharjah 站尚未启用，暂使用 Etihad Rail 官方客运网络视觉作为主题依据；后续官方发布 Sharjah 站实景后应替换为站点专属图片。
+        value: Sharjah 站尚未启用，暂使用 Etihad Rail 官方客运车站视觉；后续发布 Sharjah 站实景后应替换为站点专属图片。
     media:
-      - path: https://corporate-cdn.etihadrail.ae/uploads/ec058c969affc58e75795b91dc585d85.jpg
+      - path: https://corporate-cdn.etihadrail.ae/uploads/be6cccbf3298e1d9d45b2a8d0fc45e60.jpg
         kind: image
-        alt: { zh-CN: Etihad Rail 国家客运铁路车站实景, en: Etihad Rail national passenger railway station scene }
+        alt: { zh-CN: Etihad Rail 国家客运铁路车站官方实景, en: Official Etihad Rail passenger station scene }
     status: active
