@@ -19,7 +19,9 @@ tags:
 events:
   - id: metro-green-line-extension-date-reveal-2026
     title: { zh-CN: 明尼苏达绿线延伸段公布开通日, en: METRO Green Line Extension Opening Date Reveal }
-    summary: { zh-CN: 先等一个日期：官方将在社区活动上公布 2027 年具体开通日。, en: First, wait for the date itself: the 2027 opening day will be announced publicly. }
+    summary:
+      zh-CN: 先等一个日期：官方将在社区活动上公布 2027 年具体开通日。
+      en: "First, wait for the date itself: the 2027 opening day will be announced publicly."
     schedule:
       - id: announcement-event
         value: { kind: exact, date: '2026-09-26' }
