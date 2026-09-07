@@ -24,6 +24,22 @@ Ahead / 盼头 的官方示例事件源，用真实内容压测 [Open Event Feed
 | `feeds/science-geek.yaml` | 科学家的节日 | 数学、科学与开源活动 |
 | `feeds/unexpected-traditions.yaml` | 居然还有这种节 | 有出处的冷门趣味传统 |
 | `feeds/doomsday-lore.yaml` | 末日预言观察站 | 末日说法、科学澄清与技术期限 |
+| `feeds/opening-soon.yaml` | 终于要开了 | 新馆、新空间与重新开放 |
+| `feeds/rail-openings.yaml` | 等一列还没开来的车 | 地铁新线、延伸段与新服务 |
+| `feeds/space-journeys.yaml` | 等它抵达另一颗星球 | 航天抵达、入轨与科学阶段 |
+| `feeds/hobby-gatherings.yaml` | 同好们要集合了 | Maker、钢笔等兴趣圈线下聚会 |
+| `feeds/theme-park-watch.yaml` | 这次真的开园了 | 新过山车、新园区与经典设施回归 |
+| `feeds/seasonal-bites.yaml` | 等这一口 | 真实产季、上市与季节饮食节点 |
+| `feeds/photo-windows.yaml` | 一年只出现几天的画面 | 光线、天气与地形形成的摄影窗口 |
+| `feeds/last-chance.yaml` | 趁它还在 | 最后运营、永久关闭与告别活动 |
+| `feeds/human-firsts.yaml` | 那天以后就不是未来了 | 可验证的首次开放、抵达与投入使用 |
+| `feeds/stationery-year.yaml` | 文具人的一年 | 用人群身份组织手帐、钢笔与纸笔盼头 |
+
+## 选题原则
+
+新增 feed 不以“大众”或“小众”作为唯一判断标准，而看是否存在真实的等待行为：有人会主动记住日期、安排时间、为它倒数。优先选择有稳定来源、能持续更新、并且时间会从模糊窗口逐步变得确定的事件。
+
+对于受天气、自然条件或施工进度影响的内容，使用 `month` / `quarter` / `year` 与 `likely` 表达真实的不确定性；只有官方明确日期时才使用 `exact`。
 
 ## 协议覆盖
 
@@ -31,12 +47,12 @@ Ahead / 盼头 的官方示例事件源，用真实内容压测 [Open Event Feed
 
 | 能力 | 样例事件 |
 | --- | --- |
-| `exact` | 中秋节、圣诞节、CES |
-| `datetime` + `timezone` | 苹果秋季发布会 |
-| `month` | WWDC 2027 |
-| `quarter` | GTA VI |
-| `year` | 上古卷轴 VI |
-| `range` | Steam 秋季特卖 |
+| `exact` | 中秋节、圣诞节、CES、博物馆开放日 |
+| `datetime` + `timezone` | 苹果秋季发布会、Hobonichi 限定版本开售 |
+| `month` | WWDC 2027、Horsetail Fall 摄影窗口 |
+| `quarter` | GTA VI、主题乐园春季新设施 |
+| `year` | 上古卷轴 VI、尚未公布具体日期的线路开通 |
+| `range` | Steam 秋季特卖、Maker Faire、钢笔展 |
 | `unknown` | 丝之歌资料片、下一代前沿模型 |
 | `recurrence` | 国庆假期、圣诞节 |
 | `duration` | 国庆假期（7 天）、春节（8 天）、发布会（90 分钟） |
@@ -54,6 +70,8 @@ manifest 均位于 `feeds/`，路径见上表。
 
 事件的 `media[].path` 使用与具体事件语义匹配的公开图片：品牌与赛事优先主办方/官方页面主视觉，文化、自然、天文和公共领域主题优先采用 Wikimedia Commons、NASA 等可追溯素材。每个事件使用独立 HTTPS 图片地址，来源与许可说明记录在对应事件的 `evidence` 中，并提供中英文替代文本。图片用于事件卡片表达，但不替代日期、赛程等事实证据。
 
+新增的种子 feed 可以先不附远程海报；补充海报时仍遵循上述来源与署名规则。
+
 客户端可以通过隐私设置禁用远程图片加载（`settings.privacyRemoteImages`）。
 
 修改海报后运行唯一性审计：
@@ -64,9 +82,9 @@ node scripts/audit-images.mjs
 
 ## 数据准确性
 
-日期以官方公告为准，未定档的条目使用 `unknown` 而不是猜测的日期。`confidence` 字段区分 `confirmed` / `likely` / `rumored`，`source` 与 `evidence` 记录依据。发现错误欢迎提 Issue。
+日期以官方公告为准，未定档的条目使用 `unknown` 或较粗时间粒度，而不是猜测具体日期。`confidence` 字段区分 `confirmed` / `likely` / `rumored`，`source` 与 `evidence` 记录依据。发现错误欢迎提 Issue。
 
-中国放假安排只按国务院每年发布的通知人工录入。农历节日本身与官方假期分开表达；未来年份尚未发布通知时，不推算连休天数或调休日期。天象条目给出适合关注的极大夜，实际可见性取决于所在地、月光和天气。
+中国放假安排只按国务院每年发布的通知人工录入。农历节日本身与官方假期分开表达；未来年份尚未发布通知时，不推算连休天数或调休日期。天象与摄影窗口给出适合关注的时间范围，实际可见性取决于所在地、月光、天气、水量等自然条件。
 
 “末日预言观察站”用于考据和科学素养，不认可其中的超自然预言。风险事实优先引用 NASA 等监测机构；末日钟明确视为风险警示符号，而不是准确预言。
 
@@ -77,9 +95,10 @@ node scripts/audit-images.mjs
 ## 年度维护清单
 
 1. 国务院发布下一年度通知后，逐项抄录放假起止日和补班日并双人核对，不复制上一年规则。
-2. 逐年核查天象极大期、活动主办方日历和赛事赛程；日期未确认时降低 `confidence`，不伪造精度。
-3. 检查引用和图片仍可访问、来源说明完整、中英文案齐全、事件标签均已定义，并运行图片唯一性审计。
-4. 运行 Ahead schema 校验和客户端构建，再更新 Market 条目。
+2. 逐年核查天象极大期、摄影窗口、活动主办方日历、线路工程节点和赛事赛程；日期未确认时降低 `confidence`，不伪造精度。
+3. 对“开业 / 通车 / 新设施 / 告别”类事件持续记录时间窗口收窄过程，让 schedule history 保留等待从模糊到确定的变化。
+4. 检查引用和图片仍可访问、来源说明完整、中英文案齐全、事件标签均已定义，并运行图片唯一性审计。
+5. 运行 Ahead schema 校验和客户端构建，再更新 Market 条目。
 
 ## 许可
 
