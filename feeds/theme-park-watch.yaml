@@ -32,14 +32,8 @@ events:
         source: Disney Experiences
     tags: [theme-park, attraction]
     evidence:
-      - kind: url
-        value: https://disneyexperiences.com/expansions/
-        label: { zh-CN: Disney 官方扩建页面, en: Disney official expansions page }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:A8_Tokyo_Disneyland.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片为东京迪士尼乐园实景，并非尚未建成的新设施；作者与许可见 Wikimedia Commons 文件页。
+      - { kind: url, value: 'https://disneyexperiences.com/expansions/', label: { zh-CN: 官方项目页, en: Official project page } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:A8_Tokyo_Disneyland.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/A8_Tokyo_Disneyland.jpg?width=1920"
         kind: image
@@ -47,11 +41,10 @@ events:
           zh-CN: 东京迪士尼乐园园区实景
           en: Tokyo Disneyland park scene
     status: active
-
   - id: hollywood-drift-orlando-2027
     title:
-      zh-CN: 奥兰多 Fast & Furious: Hollywood Drift 开放
-      en: Fast & Furious: Hollywood Drift Opens in Orlando
+      zh-CN: "奥兰多 Fast & Furious: Hollywood Drift 开放"
+      en: "Fast & Furious: Hollywood Drift Opens in Orlando"
     summary:
       zh-CN: Universal Studios Florida 的新户外高速过山车将在 2027 年登场。
       en: Universal Studios Florida's new outdoor high-speed coaster arrives in 2027.
@@ -63,14 +56,8 @@ events:
         source: Universal Orlando Resort
     tags: [theme-park, attraction, coaster]
     evidence:
-      - kind: url
-        value: https://media.universalparksusa.com/press-releases/trade-universal-orlando-resort-reveals-its-next-blockbuster-attraction-fast-furious-hollywood-drift-a-high-speed-roller-coaster-coming-to-universal-studios-florida-in-2027/
-        label: { zh-CN: Universal 官方公告, en: Universal official announcement }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Minion_Land_(Universal_Studios_Florida)_1.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片为 Universal Studios Florida 园区实景，用于表现目的地，并非新过山车成品。
+      - { kind: url, value: 'https://media.universalparksusa.com/press-releases/trade-universal-orlando-resort-reveals-its-next-blockbuster-attraction-fast-furious-hollywood-drift-a-high-speed-roller-coaster-coming-to-universal-studios-florida-in-2027/', label: { zh-CN: 官方公告, en: Official announcement } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Minion_Land_(Universal_Studios_Florida)_1.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Minion_Land_(Universal_Studios_Florida)_1.jpg?width=1920"
         kind: image
@@ -78,7 +65,6 @@ events:
           zh-CN: Universal Studios Florida 园区实景
           en: Universal Studios Florida park scene
     status: active
-
   - id: minecraft-world-chessington-2027
     title:
       zh-CN: Chessington Minecraft World 开放
@@ -94,14 +80,8 @@ events:
         source: Chessington World of Adventures
     tags: [theme-park, attraction, coaster]
     evidence:
-      - kind: url
-        value: https://www.chessington.com/minecraft/
-        label: { zh-CN: Chessington 官方项目页, en: Chessington official project page }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Chessington_World_of_Adventures_067.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片为 Chessington World of Adventures 园区实景；Minecraft World 尚未开放。
+      - { kind: url, value: 'https://www.chessington.com/minecraft/', label: { zh-CN: 官方项目页, en: Official project page } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Chessington_World_of_Adventures_067.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chessington_World_of_Adventures_067.jpg?width=1920"
         kind: image
@@ -109,14 +89,13 @@ events:
           zh-CN: 英国 Chessington World of Adventures 园区实景
           en: Chessington World of Adventures park scene
     status: active
-
   - id: bakunawa-six-flags-2027
     title:
       zh-CN: Six Flags Great Adventure BAKUNAWA 开放
       en: BAKUNAWA Opens at Six Flags Great Adventure
     summary:
-      zh-CN: 这座旋转发射过山车计划刷新多项世界纪录，包括最高、最快旋转过山车。
-      en: The spinning launch coaster is planned to set multiple world records, including tallest and fastest spinning coaster.
+      zh-CN: 这座旋转发射过山车计划刷新多项世界纪录，包括最高与最快旋转过山车。
+      en: The spinning launch coaster is planned to set multiple world records including tallest and fastest spinning coaster.
     schedule:
       - id: announced-year
         value: { kind: year, year: 2027 }
@@ -125,14 +104,8 @@ events:
         source: Six Flags Great Adventure
     tags: [theme-park, attraction, coaster]
     evidence:
-      - kind: url
-        value: https://www.sixflags.com/greatadventure/new-in-2027
-        label: { zh-CN: Six Flags 官方 2027 页面, en: Six Flags official 2027 page }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Nitro_(Six_Flags_Great_Adventure)_1.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片为 Six Flags Great Adventure 现有过山车实景，并非 BAKUNAWA 成品。
+      - { kind: url, value: 'https://www.sixflags.com/greatadventure/new-in-2027', label: { zh-CN: 官方 2027 页面, en: Official 2027 page } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Nitro_(Six_Flags_Great_Adventure)_1.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nitro_(Six_Flags_Great_Adventure)_1.jpg?width=1920"
         kind: image
@@ -140,7 +113,6 @@ events:
           zh-CN: Six Flags Great Adventure 过山车实景
           en: Roller coaster at Six Flags Great Adventure
     status: active
-
   - id: carousel-progress-refresh-2027
     title:
       zh-CN: Carousel of Progress 翻新版本开放
@@ -156,14 +128,8 @@ events:
         source: Walt Disney World
     tags: [theme-park, attraction]
     evidence:
-      - kind: url
-        value: https://disneyexperiences.com/disneyworld-press/release/walt-disney-world-builds-on-unprecedented-growth-with-new-experiences-taking-shape/
-        label: { zh-CN: Disney 官方 2027 公告, en: Disney official 2027 announcement }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:CarouselofProgressWDW.JPG
-        label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片为 Magic Kingdom Carousel of Progress 实景，2592×1944；许可见文件页。
+      - { kind: url, value: 'https://disneyexperiences.com/disneyworld-press/release/walt-disney-world-builds-on-unprecedented-growth-with-new-experiences-taking-shape/', label: { zh-CN: 官方公告, en: Official announcement } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:CarouselofProgressWDW.JPG', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/CarouselofProgressWDW.JPG?width=1920"
         kind: image
@@ -171,7 +137,6 @@ events:
           zh-CN: Magic Kingdom 的 Carousel of Progress 外观
           en: Carousel of Progress at Magic Kingdom
     status: active
-
   - id: monstropolis-partial-opening-2027
     title:
       zh-CN: Disney's Hollywood Studios Monstropolis 首批区域开放
@@ -187,14 +152,8 @@ events:
         source: Walt Disney World
     tags: [theme-park, attraction]
     evidence:
-      - kind: url
-        value: https://disneyparksblog.com/wdw/monsters-inc-land-monstropolis-walt-disney-world/
-        label: { zh-CN: Disney Parks Blog 官方公告, en: Official Disney Parks Blog announcement }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Hollywood_Boulevard,_Disney%27s_Hollywood_Studios_(2024).jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片为 Disney's Hollywood Studios 2024 年园区实景，并非 Monstropolis 成品。
+      - { kind: url, value: 'https://disneyparksblog.com/wdw/monsters-inc-land-monstropolis-walt-disney-world/', label: { zh-CN: 官方公告, en: Official announcement } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Hollywood_Boulevard,_Disney%27s_Hollywood_Studios_(2024).jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hollywood_Boulevard,_Disney%27s_Hollywood_Studios_(2024).jpg?width=1920"
         kind: image
@@ -202,7 +161,6 @@ events:
           zh-CN: Disney's Hollywood Studios Hollywood Boulevard 实景
           en: Hollywood Boulevard at Disney's Hollywood Studios
     status: active
-
   - id: tropical-americas-animal-kingdom-2027
     title:
       zh-CN: Disney's Animal Kingdom Tropical Americas 开放
@@ -218,14 +176,8 @@ events:
         source: Walt Disney World
     tags: [theme-park, attraction]
     evidence:
-      - kind: url
-        value: https://disneyexperiences.com/disneyworld-press/release/walt-disney-world-builds-on-unprecedented-growth-with-new-experiences-taking-shape/
-        label: { zh-CN: Disney 官方扩建公告, en: Disney official expansion announcement }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Tree_of_Life,_Disney%27s_Animal_Kingdom.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片为 Disney's Animal Kingdom Tree of Life 实景，用于表现目的地，并非 Tropical Americas 成品。
+      - { kind: url, value: 'https://disneyexperiences.com/disneyworld-press/release/walt-disney-world-builds-on-unprecedented-growth-with-new-experiences-taking-shape/', label: { zh-CN: 官方公告, en: Official announcement } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Tree_of_Life,_Disney%27s_Animal_Kingdom.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tree_of_Life,_Disney%27s_Animal_Kingdom.jpg?width=1920"
         kind: image
@@ -233,7 +185,6 @@ events:
           zh-CN: Disney's Animal Kingdom Tree of Life
           en: Tree of Life at Disney's Animal Kingdom
     status: active
-
   - id: expedition-everest-yeti-return-2027
     title:
       zh-CN: Expedition Everest 雪人机械人偶恢复动作
@@ -249,14 +200,8 @@ events:
         source: Walt Disney World
     tags: [theme-park, attraction]
     evidence:
-      - kind: url
-        value: https://disneyexperiences.com/disneyworld-press/release/walt-disney-world-builds-on-unprecedented-growth-with-new-experiences-taking-shape/
-        label: { zh-CN: Disney 官方公告, en: Disney official announcement }
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Walt_Disney_World_-_Animal_Kingdom_-_Expedition_Everest_-_full.jpg
-        label: { zh-CN: 海报图片来源, en: Poster image source }
-      - kind: citation
-        value: 海报图片为 Expedition Everest 全景实拍，2304×1728；作者与许可见 Wikimedia Commons 文件页。
+      - { kind: url, value: 'https://disneyexperiences.com/disneyworld-press/release/walt-disney-world-builds-on-unprecedented-growth-with-new-experiences-taking-shape/', label: { zh-CN: 官方公告, en: Official announcement } }
+      - { kind: url, value: 'https://commons.wikimedia.org/wiki/File:Walt_Disney_World_-_Animal_Kingdom_-_Expedition_Everest_-_full.jpg', label: { zh-CN: 海报图片来源, en: Poster image source } }
     media:
       - path: "https://commons.wikimedia.org/wiki/Special:Redirect/file/Walt_Disney_World_-_Animal_Kingdom_-_Expedition_Everest_-_full.jpg?width=1920"
         kind: image
