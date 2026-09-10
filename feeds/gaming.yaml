@@ -18,10 +18,6 @@ tags:
     label:
       zh-CN: 发售
       en: Release
-  - id: anniversary
-    label:
-      zh-CN: 周年
-      en: Anniversary
   - id: sale
     label:
       zh-CN: 折扣
@@ -197,62 +193,63 @@ events:
           en: Grand Theft Auto VI official key art
     status: active
 
-  - id: ghost-town-psvr2-first-anniversary
+  - id: stage-fright-spring-2027
     title:
-      zh-CN: 《Ghost Town 怪镇奇旅》PS VR2 发售一周年
-      en: Ghost Town PS VR2 First Anniversary
+      zh-CN: 《Stage Fright 怪镇奇旅》预计发售
+      en: Stage Fright Expected Release
     summary:
-      zh-CN: Fireproof Games 的超自然 VR 解谜冒险于 2025 年 12 月 1 日登陆 PS VR2；一周年落在 2026 年 12 月 1 日。
-      en: Fireproof Games' supernatural VR puzzle adventure launched on PS VR2 on December 1, 2025; its first anniversary falls on December 1, 2026.
+      zh-CN: 《胡闹厨房》开发团队 Ghost Town Games 的双人合作解谜冒险，计划于 2027 年春季推出。
+      en: The two-player co-op puzzle adventure from Overcooked developer Ghost Town Games is scheduled for Spring 2027.
     description:
-      zh-CN: 这是依据 PlayStation 官方商店发售日生成的周年纪念节点，并非 Fireproof 宣布的线上活动。适合作为重返 1983 年伦敦、补完奖杯或推荐给朋友的日历盼头。
-      en: This anniversary is derived from the official PlayStation launch date, not an announced Fireproof event. It is a useful calendar marker for revisiting 1983 London, finishing trophies or recommending the game.
+      zh-CN: Ghost Town Games 在官方 Steam 社区开发动态中写明《Stage Fright》计划于 2027 年春季发售。游戏由 Ghost Town Games 开发、Hello Games 发行，主打双人合作、密室式解谜与带有成长故事色彩的神秘小镇冒险。具体日期尚未公布，因此这里保留季节级精度。
+      en: Ghost Town Games states in its official Steam Community development update that Stage Fright is scheduled for Spring 2027. Developed by Ghost Town Games and published by Hello Games, it is a two-player cooperative puzzle adventure. No exact date has been announced, so this entry intentionally keeps season-level precision.
     schedule:
-      - id: derived-first-anniversary
+      - id: spring-2027-window
         value:
-          kind: exact
-          date: '2026-12-01'
-        recordedAt: '2026-09-10T02:30:00Z'
-        confidence: likely
-        source: 基于 PlayStation 官方 2025-12-01 发售日推算；非官方活动公告
+          kind: season
+          year: 2027
+          season: spring
+        recordedAt: '2026-09-09T00:00:00Z'
+        confidence: confirmed
+        source: Ghost Town Games 官方 Steam 社区开发动态
         evidence:
           - kind: url
-            value: https://store.playstation.com/en-us/concept/10010082
+            value: https://steamcommunity.com/app/3260750/allnews/
             label:
-              zh-CN: PlayStation 官方商店页（发售日 2025-12-01）
-              en: PlayStation Store page (released 2025-12-01)
+              zh-CN: Ghost Town Games 官方 Steam 社区动态
+              en: Official Ghost Town Games Steam Community updates
           - kind: note
-            value: 2026-12-01 为发售一周年的日历推算日期，不代表开发商已宣布纪念活动。
+            value: 官方动态给出 Spring 2027 窗口，但尚未公布具体日期。
     tags:
       - games
-      - anniversary
+      - release
     evidence:
       - kind: url
-        value: https://www.fireproofgames.com/games/ghost-town
+        value: https://ghosttowngames.com/game/stage-fright/
         label:
-          zh-CN: Fireproof Games 官方游戏页
-          en: Fireproof Games official game page
-        fetchedAt: '2026-09-10T02:30:00Z'
+          zh-CN: Ghost Town Games 官方《Stage Fright》页面
+          en: Official Stage Fright page by Ghost Town Games
+        fetchedAt: '2026-09-10T02:45:00Z'
       - kind: url
-        value: https://store.steampowered.com/app/2496180/Ghost_Town/
+        value: https://store.steampowered.com/app/3260750/Stage_Fright/
         label:
-          zh-CN: Steam 官方商店页（PC VR 于 2025-07-15 发售）
-          en: Steam store page (PC VR released 2025-07-15)
-        fetchedAt: '2026-09-10T02:30:00Z'
+          zh-CN: Steam 商店页（开发商 Ghost Town Games；发行商 Hello Games）
+          en: Steam store page (Ghost Town Games / Hello Games)
+        fetchedAt: '2026-09-10T02:45:00Z'
       - kind: url
-        value: https://www.ozvrpulse.com/pulse-blog/ghost-town-review
+        value: https://ghosttowngames.com/wp-content/uploads/2024/12/Small_Shack.png.webp
         label:
-          zh-CN: 高分辨率主视觉配图来源页
-          en: High-resolution key art source page
-        fetchedAt: '2026-09-10T02:30:00Z'
+          zh-CN: Ghost Town Games 官方高分辨率截图
+          en: Official high-resolution screenshot from Ghost Town Games
+        fetchedAt: '2026-09-10T02:45:00Z'
       - kind: citation
-        value: Ghost Town 发售事实以 Fireproof Games、Steam 与 PlayStation 官方页面为准；周年日期为基于官方发售日的明确推算。
+        value: 发售窗口来自 Ghost Town Games 官方 Steam 社区更新；配图来自开发商官网公开截图。
     media:
-      - path: https://images.squarespace-cdn.com/content/v1/6823064646c6d82da0456fa4/5b6dc810-12a1-4197-8546-66af52108a5d/GhostTown_KeyArt_Logo_1440x1440.png
+      - path: https://ghosttowngames.com/wp-content/uploads/2024/12/Small_Shack.png.webp
         kind: image
         alt:
-          zh-CN: 《Ghost Town 怪镇奇旅》主视觉
-          en: Ghost Town key art
+          zh-CN: 《Stage Fright 怪镇奇旅》官方游戏截图
+          en: Official Stage Fright screenshot
     status: active
 
   - id: steam-autumn-sale-2026
