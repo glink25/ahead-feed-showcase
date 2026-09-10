@@ -201,14 +201,20 @@ events:
       zh-CN: 《胡闹厨房》开发团队 Ghost Town Games 的双人合作解谜冒险，计划于 2027 年春季推出。
       en: The two-player co-op puzzle adventure from Overcooked developer Ghost Town Games is scheduled for Spring 2027.
     description:
-      zh-CN: Ghost Town Games 在官方 Steam 社区开发动态中写明《Stage Fright》计划于 2027 年春季发售。游戏由 Ghost Town Games 开发、Hello Games 发行，主打双人合作、密室式解谜与带有成长故事色彩的神秘小镇冒险。具体日期尚未公布，因此这里保留季节级精度。
-      en: Ghost Town Games states in its official Steam Community development update that Stage Fright is scheduled for Spring 2027. Developed by Ghost Town Games and published by Hello Games, it is a two-player cooperative puzzle adventure. No exact date has been announced, so this entry intentionally keeps season-level precision.
+      zh-CN: Ghost Town Games 在官方 Steam 社区开发动态中写明《Stage Fright》计划于 2027 年春季发售。游戏由 Ghost Town Games 开发、Hello Games 发行，主打双人合作、密室式解谜与带有成长故事色彩的神秘小镇冒险。具体日期尚未公布，因此按 OEF v0.1 用 3 月至 5 月的模糊时间范围表达春季窗口。
+      en: Ghost Town Games states in its official Steam Community development update that Stage Fright is scheduled for Spring 2027. Developed by Ghost Town Games and published by Hello Games, it is a two-player cooperative puzzle adventure. No exact date has been announced, so OEF v0.1 represents the spring window as a March-to-May range.
     schedule:
       - id: spring-2027-window
         value:
-          kind: season
-          year: 2027
-          season: spring
+          kind: range
+          start:
+            kind: month
+            year: 2027
+            month: 3
+          end:
+            kind: month
+            year: 2027
+            month: 5
         recordedAt: '2026-09-09T00:00:00Z'
         confidence: confirmed
         source: Ghost Town Games 官方 Steam 社区开发动态
@@ -219,7 +225,7 @@ events:
               zh-CN: Ghost Town Games 官方 Steam 社区动态
               en: Official Ghost Town Games Steam Community updates
           - kind: note
-            value: 官方动态给出 Spring 2027 窗口，但尚未公布具体日期。
+            value: 官方动态明确给出 Spring 2027 发售窗口，但尚未公布具体日期；3 月至 5 月仅用于在 OEF v0.1 中表达“春季”的模糊范围。
     tags:
       - games
       - release
