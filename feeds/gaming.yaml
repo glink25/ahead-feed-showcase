@@ -6,201 +6,330 @@ name:
   zh-CN: 值得等的游戏发售
   en: Major Game Releases
 description:
-  zh-CN: 大作发售、延期与折扣季。日期以官方公告为准，未定档的条目不假精确。
-  en: Major releases, delays and sale seasons. Dates follow official announcements only.
+  zh-CN: 大作发售、重要版本节点与折扣季。日期以官方公告为准；没有精确日期时不虚构精度。
+  en: Major releases, notable game milestones and sale seasons. Dates follow official announcements; uncertain dates stay uncertain.
 primaryLanguage: zh-CN
 tags:
   - id: games
     label:
       zh-CN: 游戏
       en: Games
+  - id: release
+    label:
+      zh-CN: 发售
+      en: Release
   - id: sale
     label:
       zh-CN: 折扣
       en: Sale
 events:
+  - id: zelda-ocarina-of-time-switch2
+    title:
+      zh-CN: 《塞尔达传说：时之笛》Nintendo Switch 2 版发售
+      en: The Legend of Zelda: Ocarina of Time for Nintendo Switch 2
+    summary:
+      zh-CN: 经典《时之笛》面向 Nintendo Switch 2 的重制版本，2026 年 11 月 5 日发售。
+      en: A rebuilt Nintendo Switch 2 version of the classic, releasing November 5, 2026.
+    description:
+      zh-CN: 任天堂确认本作于 2026 年 11 月 5 日登陆 Nintendo Switch 2；新版采用重制视觉、重新录制的音乐、现代化操作与全语音过场。
+      en: Nintendo confirms a November 5, 2026 release on Nintendo Switch 2, with reimagined visuals, refreshed music, modernized controls and fully voiced cutscenes.
+    schedule:
+      - id: official-release-date
+        value:
+          kind: exact
+          date: '2026-11-05'
+        recordedAt: '2026-09-08T00:00:00Z'
+        confidence: confirmed
+        source: Nintendo 官方产品页
+        evidence:
+          - kind: url
+            value: https://www.nintendo.com/jp/games/switch2/aa9ja/products/soft.html
+            label:
+              zh-CN: 任天堂日本官方产品页
+              en: Nintendo Japan official product page
+          - kind: url
+            value: https://www.nintendo.com/us/store/products/the-legend-of-zelda-ocarina-of-time-125697/
+            label:
+              zh-CN: 任天堂美国官方商店页
+              en: Nintendo US official store page
+    tags:
+      - games
+      - release
+    evidence:
+      - kind: url
+        value: https://www.nintendo.com/tw/topics/article/2OMbHnXXwcwQAJCviAj8Hl
+        label:
+          zh-CN: 任天堂台湾官方专题
+          en: Nintendo Taiwan official announcement
+        fetchedAt: '2026-09-10T02:30:00Z'
+      - kind: url
+        value: https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/The-Legend-of-Zelda-Ocarina-of-Time-3115664.html
+        label:
+          zh-CN: 任天堂英国官方介绍页
+          en: Nintendo UK official game page
+        fetchedAt: '2026-09-10T02:30:00Z'
+      - kind: url
+        value: https://vgmdb.net/product/187
+        label:
+          zh-CN: 配图来源页（经典版 Logo）
+          en: Image source page (classic logo)
+        fetchedAt: '2026-09-10T02:30:00Z'
+      - kind: citation
+        value: 配图使用可公开访问的经典《时之笛》高分辨率 Logo；新版发售事实以任天堂官方页面为准。
+    media:
+      - path: https://media.vgm.io/products/78/187/187-1595215006.png
+        kind: image
+        alt:
+          zh-CN: 《塞尔达传说：时之笛》经典标题 Logo
+          en: Classic The Legend of Zelda: Ocarina of Time logo
+    status: active
+
   - id: gta-vi
     title:
       zh-CN: 《侠盗猎车手 VI》正式发售
       en: Grand Theft Auto VI Release
     summary:
-      zh-CN: 系列正统续作，档期两度调整。
-      en: The next mainline entry, delayed twice.
+      zh-CN: Rockstar 确认 2026 年 11 月 19 日登陆 PlayStation 5 与 Xbox Series X|S。
+      en: Rockstar confirms a November 19, 2026 launch on PlayStation 5 and Xbox Series X|S.
     description:
-      zh-CN: 档期一改再改，反而更像真实的等待：先别替官方猜日期，等下一次 Newswire 把窗口再钉牢一点。
-      en: "The shifting window is part of the wait: do not guess for Rockstar; let the next Newswire update make the date firmer."
+      zh-CN: Jason 与 Lucia 的 Leonida 之旅将在 11 月 19 日正式开始。Rockstar 已开放预购，并确认数字版可自 11 月 12 日起预载。
+      en: Jason and Lucia's Leonida story begins November 19. Rockstar has opened pre-orders and confirmed digital pre-loading from November 12.
     schedule:
-      - id: initial-window
+      - id: initial-2025-window
         value:
           kind: year
           year: 2025
-        recordedAt: '2024-05-17T00:00:00Z'
-        confidence: rumored
-        source: 发行商财报电话会议
-      - id: narrowed-to-q2
+        recordedAt: '2024-05-16T00:00:00Z'
+        confidence: likely
+        source: Take-Two 财报给出的发售窗口
+      - id: delayed-to-may-2026
         value:
-          kind: quarter
-          year: 2026
-          quarter: 2
+          kind: exact
+          date: '2026-05-26'
         recordedAt: '2025-05-02T00:00:00Z'
-        confidence: likely
-        source: 官方公告
-      - id: delayed-to-q4
+        confidence: confirmed
+        source: Rockstar Games Newswire
+      - id: delayed-to-november-2026
         value:
-          kind: quarter
-          year: 2026
-          quarter: 4
-        recordedAt: '2026-05-06T00:00:00Z'
-        confidence: likely
-        source: 官方公告
+          kind: exact
+          date: '2026-11-19'
+        recordedAt: '2025-11-06T00:00:00Z'
+        confidence: confirmed
+        source: Rockstar Games Newswire
         evidence:
           - kind: url
-            value: https://www.rockstargames.com/newswire
+            value: https://www.rockstargames.com/newswire/article/9k2kaa1o3297k9/grand-theft-auto-vi-an-extended-look
             label:
-              zh-CN: 官方 Newswire 延期说明
-              en: Official newswire delay note
+              zh-CN: Rockstar 官方 Newswire（确认 11 月 19 日）
+              en: Rockstar Newswire confirming November 19
     tags:
       - games
+      - release
     evidence:
-      - kind: url
-        value: https://www.rockstargames.com
-        label:
-          zh-CN: 官方网站
-          en: Official site
-      - kind: note
-        value: 档期仍可能变动，以官方 Newswire 为准。
       - kind: url
         value: https://www.rockstargames.com/VI
         label:
-          zh-CN: 海报图片来源
-          en: Poster image source
-        fetchedAt: '2026-09-05T00:00:00Z'
+          zh-CN: GTA VI 官方站
+          en: GTA VI official site
+        fetchedAt: '2026-09-10T02:30:00Z'
+      - kind: url
+        value: https://www.rockstargames.com/newswire/article/5171972o3ak5oa/pre-order-grand-theft-auto-vi-on-june-25
+        label:
+          zh-CN: Rockstar 官方预购与预载公告
+          en: Rockstar official pre-order and pre-load announcement
+        fetchedAt: '2026-09-10T02:30:00Z'
+      - kind: url
+        value: https://www.rockstargames.com/VI/media
+        label:
+          zh-CN: Rockstar 官方媒体素材库
+          en: Rockstar official media library
+        fetchedAt: '2026-09-10T02:30:00Z'
       - kind: citation
-        value: 海报图片：活动或机构官网公开主视觉；版权与使用条件见来源页
+        value: 配图来自 Rockstar Games 官方 GTA VI 页面公开主视觉；版权与使用条件见来源页。
     media:
       - path: https://www.rockstargames.com/VI/-/opengraph-image.jpg?opengraph-image.0t8ty~nlmxq2s.jpg
         kind: image
         alt:
-          zh-CN: 《侠盗猎车手 VI》正式发售的配图
-          en: Illustration for Grand Theft Auto VI Release
+          zh-CN: 《侠盗猎车手 VI》官方主视觉
+          en: Grand Theft Auto VI official key art
     status: active
-  - id: elder-scrolls-vi
+
+  - id: gta-vi-preload
     title:
-      zh-CN: 《上古卷轴 VI》发售
-      en: The Elder Scrolls VI Release
+      zh-CN: 《侠盗猎车手 VI》数字版开放预载
+      en: Grand Theft Auto VI Digital Pre-load Opens
     summary:
-      zh-CN: 只给出年份区间的长线期待。
-      en: A long wait with only a year-level estimate.
-    description:
-      zh-CN: 这是那种可以先忘一阵、某天看到新预告又突然想起来“原来我还在等”的长线盼头。
-      en: A long wait you can forget for a while—until a new teaser suddenly reminds you that you are still waiting.
+      zh-CN: 已预购数字版的玩家可从 2026 年 11 月 12 日开始预载。
+      en: Digital pre-orders can begin pre-loading on November 12, 2026.
     schedule:
-      - id: studio-estimate
+      - id: official-preload-date
         value:
-          kind: year
-          year: 2027
-        recordedAt: '2026-06-11T00:00:00Z'
-        confidence: rumored
-        source: 工作室访谈
+          kind: exact
+          date: '2026-11-12'
+        recordedAt: '2026-06-24T00:00:00Z'
+        confidence: confirmed
+        source: Rockstar Games Newswire
+        evidence:
+          - kind: url
+            value: https://www.rockstargames.com/newswire/article/5171972o3ak5oa/pre-order-grand-theft-auto-vi-on-june-25
+            label:
+              zh-CN: Rockstar 官方预购公告
+              en: Rockstar official pre-order announcement
     tags:
       - games
+      - release
     evidence:
       - kind: url
-        value: https://elderscrolls.bethesda.net
+        value: https://www.rockstargames.com/VI
         label:
-          zh-CN: 官方站点
-          en: Official site
-      - kind: url
-        value: https://commons.wikimedia.org/wiki/File:The_Elder_Scrolls_IV%EA%9E%89_Oblivion_logo.png
-        label:
-          zh-CN: 海报图片来源
-          en: Poster image source
-        fetchedAt: '2026-09-05T00:00:00Z'
-      - kind: citation
-        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
+          zh-CN: GTA VI 官方站
+          en: GTA VI official site
+        fetchedAt: '2026-09-10T02:30:00Z'
     media:
-      - path: https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/The_Elder_Scrolls_IV%EA%9E%89_Oblivion_logo.png/1920px-The_Elder_Scrolls_IV%EA%9E%89_Oblivion_logo.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+      - path: https://www.rockstargames.com/VI/-/opengraph-image.jpg?opengraph-image.0t8ty~nlmxq2s.jpg
         kind: image
         alt:
-          zh-CN: 《上古卷轴 VI》发售的配图
-          en: Illustration for The Elder Scrolls VI Release
+          zh-CN: 《侠盗猎车手 VI》官方主视觉
+          en: Grand Theft Auto VI official key art
     status: active
-  - id: silksong-expansion
+
+  - id: stage-fright-spring-2027
     title:
-      zh-CN: 《空洞骑士：丝之歌》资料片
-      en: Hollow Knight Silksong Expansion
+      zh-CN: 《Stage Fright 怪镇奇旅》预计发售
+      en: Stage Fright Expected Release
     summary:
-      zh-CN: 已确认在做，但没有任何档期。
-      en: Confirmed in development with no date at all.
+      zh-CN: 《胡闹厨房》开发团队 Ghost Town Games 的双人合作解谜冒险，计划于 2027 年春季推出。
+      en: The two-player co-op puzzle adventure from Overcooked developer Ghost Town Games is scheduled for Spring 2027.
     description:
-      zh-CN: 没有日期就不造日期。先把它放在“哪天官方终于说清楚”的清单里。
-      en: No date means no invented date. For now, it belongs on the list of things waiting for an official answer.
+      zh-CN: Ghost Town Games 在官方 Steam 社区开发动态中写明《Stage Fright》计划于 2027 年春季发售。游戏由 Ghost Town Games 开发、Hello Games 发行，主打双人合作、密室式解谜与带有成长故事色彩的神秘小镇冒险。具体日期尚未公布，因此按 OEF v0.1 用 3 月至 5 月的模糊时间范围表达春季窗口。
+      en: Ghost Town Games states in its official Steam Community development update that Stage Fright is scheduled for Spring 2027. Developed by Ghost Town Games and published by Hello Games, it is a two-player cooperative puzzle adventure. No exact date has been announced, so OEF v0.1 represents the spring window as a March-to-May range.
     schedule:
-      - id: no-date
+      - id: spring-2027-window
         value:
-          kind: unknown
-          note:
-            zh-CN: 官方仅确认开发中，未给出任何时间窗口。
-            en: Confirmed in development, no window announced.
-        recordedAt: '2026-08-20T00:00:00Z'
-        confidence: rumored
+          kind: range
+          start:
+            kind: month
+            year: 2027
+            month: 3
+          end:
+            kind: month
+            year: 2027
+            month: 5
+        recordedAt: '2026-09-09T00:00:00Z'
+        confidence: confirmed
+        source: Ghost Town Games 官方 Steam 社区开发动态
+        evidence:
+          - kind: url
+            value: https://steamcommunity.com/app/3260750/allnews/
+            label:
+              zh-CN: Ghost Town Games 官方 Steam 社区动态
+              en: Official Ghost Town Games Steam Community updates
+          - kind: note
+            value: 官方动态明确给出 Spring 2027 发售窗口，但尚未公布具体日期；3 月至 5 月仅用于在 OEF v0.1 中表达“春季”的模糊范围。
     tags:
       - games
+      - release
     evidence:
       - kind: url
-        value: https://www.teamcherry.com.au/blog/11xf7azcuebhybgossfhdc0mphiqbs
+        value: https://ghosttowngames.com/game/stage-fright/
         label:
-          zh-CN: 海报图片来源
-          en: Poster image source
-        fetchedAt: '2026-09-05T00:00:00Z'
+          zh-CN: Ghost Town Games 官方《Stage Fright》页面
+          en: Official Stage Fright page by Ghost Town Games
+        fetchedAt: '2026-09-10T02:45:00Z'
+      - kind: url
+        value: https://store.steampowered.com/app/3260750/Stage_Fright/
+        label:
+          zh-CN: Steam 商店页（开发商 Ghost Town Games；发行商 Hello Games）
+          en: Steam store page (Ghost Town Games / Hello Games)
+        fetchedAt: '2026-09-10T02:45:00Z'
+      - kind: url
+        value: https://ghosttowngames.com/wp-content/uploads/2024/12/Small_Shack.png.webp
+        label:
+          zh-CN: Ghost Town Games 官方高分辨率截图
+          en: Official high-resolution screenshot from Ghost Town Games
+        fetchedAt: '2026-09-10T02:45:00Z'
       - kind: citation
-        value: 海报图片：活动或机构官网公开主视觉；版权与使用条件见来源页
+        value: 发售窗口来自 Ghost Town Games 官方 Steam 社区更新；配图来自开发商官网公开截图。
     media:
-      - path: https://static1.squarespace.com/static/606d4deb4db8c15ea53b3624/606d51e7b9917d54cb7b9581/606d631fe6b0df7efe3f4f93/1755614183104/banner-3.jpg?format=1500w
+      - path: https://ghosttowngames.com/wp-content/uploads/2024/12/Small_Shack.png.webp
         kind: image
         alt:
-          zh-CN: 《空洞骑士：丝之歌》资料片的配图
-          en: Illustration for Hollow Knight Silksong Expansion
+          zh-CN: 《Stage Fright 怪镇奇旅》官方游戏截图
+          en: Official Stage Fright screenshot
     status: active
+
   - id: steam-autumn-sale-2026
     title:
-      zh-CN: Steam 秋季特卖
-      en: Steam Autumn Sale
+      zh-CN: Steam 2026 秋季特卖
+      en: Steam Autumn Sale 2026
     summary:
-      zh-CN: 为期一周的折扣窗口。
-      en: A week-long discount window.
-    description:
-      zh-CN: 愿望单可以先养肥一点，等折扣窗口真的打开再决定哪些游戏值得把周末交出去。
-      en: Let the wishlist grow a little; when the sale actually opens, decide which games deserve your weekend.
+      zh-CN: Valve 官方公布的 2026 秋季季节性特卖，10 月 1 日至 10 月 8 日。
+      en: Valve's official 2026 Autumn seasonal sale, October 1 through October 8.
     schedule:
-      - id: announced-window
+      - id: official-window
         value:
           kind: range
           start:
             kind: exact
-            date: '2026-11-24'
+            date: '2026-10-01'
           end:
             kind: exact
-            date: '2026-12-01'
-        recordedAt: '2026-08-01T00:00:00Z'
-        confidence: likely
-        source: 平台活动日历
+            date: '2026-10-08'
+        recordedAt: '2026-09-10T02:30:00Z'
+        confidence: confirmed
+        source: Steamworks 官方季节性特卖日历
+        evidence:
+          - kind: url
+            value: https://partner.steamgames.com/doc/marketing/discounts/seasonalsales
+            label:
+              zh-CN: Steamworks Seasonal Sales 官方文档
+              en: Steamworks Seasonal Sales documentation
     tags:
       - games
       - sale
     evidence:
       - kind: url
-        value: https://commons.wikimedia.org/wiki/File:Stanley_Steam_Car_1919_logo.jpg
+        value: https://partner.steamgames.com/doc/marketing/upcoming_events
         label:
-          zh-CN: 海报图片来源
-          en: Poster image source
-        fetchedAt: '2026-09-05T00:00:00Z'
-      - kind: citation
-        value: 海报图片：Wikimedia Commons 公开图片；作者与许可见文件页
-    media:
-      - path: https://upload.wikimedia.org/wikipedia/commons/8/85/Stanley_Steam_Car_1919_logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled
-        kind: image
-        alt:
-          zh-CN: Steam 秋季特卖的配图
-          en: Illustration for Steam Autumn Sale
+          zh-CN: Steamworks Upcoming Events 官方日历
+          en: Steamworks Upcoming Events calendar
+        fetchedAt: '2026-09-10T02:30:00Z'
+    status: active
+
+  - id: steam-winter-sale-2026
+    title:
+      zh-CN: Steam 2026 冬季特卖
+      en: Steam Winter Sale 2026
+    summary:
+      zh-CN: Valve 官方公布的跨年季节性特卖，2026 年 12 月 17 日至 2027 年 1 月 4 日。
+      en: Valve's official year-end seasonal sale, December 17, 2026 through January 4, 2027.
+    schedule:
+      - id: official-window
+        value:
+          kind: range
+          start:
+            kind: exact
+            date: '2026-12-17'
+          end:
+            kind: exact
+            date: '2027-01-04'
+        recordedAt: '2026-09-10T02:30:00Z'
+        confidence: confirmed
+        source: Steamworks 官方季节性特卖日历
+        evidence:
+          - kind: url
+            value: https://partner.steamgames.com/doc/marketing/discounts/seasonalsales
+            label:
+              zh-CN: Steamworks Seasonal Sales 官方文档
+              en: Steamworks Seasonal Sales documentation
+    tags:
+      - games
+      - sale
+    evidence:
+      - kind: url
+        value: https://partner.steamgames.com/doc/marketing/upcoming_events
+        label:
+          zh-CN: Steamworks Upcoming Events 官方日历
+          en: Steamworks Upcoming Events calendar
+        fetchedAt: '2026-09-10T02:30:00Z'
     status: active
